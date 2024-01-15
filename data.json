@@ -1,0 +1,46 @@
+{
+    "recipes": [
+        {
+            "title": "Receta de prueba",
+            "category": "ensalada",
+            "time": "90min",
+            "difficulty": "medio",
+            "image": "test.jpg"
+        },
+        {
+            "title": "Lentejas",
+            "category": "guiso",
+            "time": "30min",
+            "difficulty": "facil",
+            "image": "test.jpg"
+        },
+        {
+            "title": "Filete",
+            "category": "carne",
+            "time": "15min",
+            "difficulty": "facil",
+            "image": "test.jpg"
+        },
+        {
+            "title": "Receta de prueba",
+            "category": "ensalada",
+            "time": "90min",
+            "difficulty": "medio",
+            "image": "test.jpg"
+        },
+        {
+            "title": "Lentejas",
+            "category": "guiso",
+            "time": "30min",
+            "difficulty": "facil",
+            "image": "test.jpg"
+        },
+        {
+            "title": "Filete",
+            "category": "carne",
+            "time": "15min",
+            "difficulty": "facil",
+            "image": "test.jpg"
+        }
+    ]
+}
