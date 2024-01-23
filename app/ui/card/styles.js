@@ -12,6 +12,7 @@ const CardWrapper = styled.div`
 const CardImage = styled.div`
     background-image: url(test.jpg);
     background-size: cover;
+    background-color: blue;
     border-radius: 4px 4px 0px 0px;
     width: 100%;
     height: 229px;

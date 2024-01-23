@@ -1,3 +1,4 @@
+"use client";
 import { string } from 'prop-types';
 
 import { CardWrapper, CardContent, CardImage, CardTitle, CardInfo, CardTimer } from "./styles"
