@@ -56,11 +56,6 @@ const ListedSteps = styled.div`
     flex-direction: column;
     gap: 16px;
 `
-const ListedStepsTitle = styled.div`
-    display: flex;
-    gap: 8px;
-    margin-bottom: 16px;
-`
 const IconAndLabelWrapper = styled.div`
     display: flex;
     align-items: center;
@@ -78,5 +73,5 @@ const RecipeContentTextHeaders = styled.div`
 
 
 
-export { RecipeWrapper, RecipeActions, RecipeTitle, RecipeContent, ListedSteps, ListedStepsTitle,
+export { RecipeWrapper, RecipeActions, RecipeTitle, RecipeContent, ListedSteps,
     RecipeContentContainer, RecipeContentText, RecipeContentImage, IconAndLabelWrapper, RecipeContentTextHeaders }
