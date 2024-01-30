@@ -8,7 +8,7 @@ import { Tag } from "../Tag";
 
 const Card = ({title, time, difficulty, category}) => {
     return (
-        <CardWrapper  >
+        <CardWrapper>
             <CardImage><Tag text = {category}/></CardImage>
             <CardContent>
                 <div >{title}</div>
