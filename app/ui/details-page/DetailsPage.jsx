@@ -36,7 +36,7 @@ const headers = [
     {icon: 'difficulty', label: 'easy'}
 ]
 
-const Icons = ({icon}: any) => {
+const Icons = ({icon}) => {
     switch (icon) {
         case 'hat':
             return <CookHat/>;
@@ -53,15 +53,15 @@ const Icons = ({icon}: any) => {
     }
 }
 
-const IconAndLabel = ({icon, label}: any) => (
+const IconAndLabel = ({icon, label}) => (
     <IconAndLabelWrapper> <Icons icon={icon} /> {label}</IconAndLabelWrapper>
 )
 
-const ListedItems = ({icon, title, items}: any) => {
+const ListedItems = ({icon, title, items}) => {
     return ( 
     <ListedSteps> 
         <IconAndLabel label={title} icon={icon} />
-        <div style={{marginLeft:'8px'}}>{items.map((item: any)=> <li key={item}>{item}</li>)}</div>
+        <div style={{marginLeft:'8px'}}>{items.map((item)=> <li key={item}>{item}</li>)}</div>
     </ListedSteps>)
 }
 
