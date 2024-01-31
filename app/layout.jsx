@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import {NavBar} from './ui/navBar'
+import { NavBar } from './ui/NavBar'
 import { TopLevelWrapper } from './ui/TopLevelWrapper';
 import { lato } from './ui/fonts';
 

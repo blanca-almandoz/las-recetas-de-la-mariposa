@@ -1,4 +1,4 @@
-import { DetailsPage } from '../../ui/details-page/detailsPage';
+import { DetailsPage } from '../../ui/details-page/DetailsPage';
 
 export default function Starters () {
     return (

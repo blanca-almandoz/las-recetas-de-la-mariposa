@@ -60,16 +60,16 @@ const NavBar = () => {
    {/*  <!-- Mobile menu, show/hide based on menu state. --> */}
     <div class="sm:hidden" id="mobile-menu">
       <div class="space-y-1 px-2 pb-3 pt-2">
-        <Link href="/starters" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
+        <Link href="/recipes/starters" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                               {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/starters'},
                                         )}>Tapas y aperitivos</Link>
-        <Link href="/principals" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
+        <Link href="/recipes/principals" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                                             {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/principals'},
                                                       )}>Principales</Link>
-        <Link href="/desserts" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
+        <Link href="/recipes/desserts" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                                             {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/desserts'},
                                                       )}>Postres</Link>
-        <Link href="/siders" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
+        <Link href="/recipes/siders" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                                             {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/siders'},
                                                       )}>Salsas y guarniciones</Link>
       </div>
