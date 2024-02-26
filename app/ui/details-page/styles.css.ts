@@ -30,11 +30,22 @@ export const recipeContentContainer = style({
     justifyContent: 'space-between',
     marginBottom: 40,
     gap: 8,
+    '@media': {
+        'screen and (max-width: 639px)': {
+          flexDirection: 'column-reverse',
+          marginBottom: 24
+        }
+    }
 })
 
 export const recipeContentText = style({
     flexBasis: '50%',
-    paddingRight: 8
+    paddingRight: 8,
+    '@media': {
+        'screen and (max-width: 639px)': {
+          paddingRight: 0
+        }
+    }
 })
 
 export const recipeContentImage = style({
@@ -43,7 +54,14 @@ export const recipeContentImage = style({
     borderRadius: 4,
    // backgroundImage: 'todo',
     backgroundSize: 'cover',
-    backgroundColor: 'yellow'
+    backgroundColor: 'yellow',
+    '@media': {
+        'screen and (max-width: 887px)': {
+          width: '100%',
+          borderRadius: 0,
+          height: 229
+        }
+    }
 })
 
 export const listedSteps = style({
@@ -61,35 +79,11 @@ export const iconAndLabelWrapper = style({
 export const recipeContentTextHeaders = style({
     display: 'flex',
     gap: 64,
-    marginBottom: 40
+    marginBottom: 40,
+    '@media': {
+        'screen and (max-width: 887px)': {
+          gap: 32,
+          marginTop: 16
+        }
+    }
 })
-
-
-
-
-/* 
-const RecipeContentContainer = styled.div`
-    @media (max-width: 639px) {
-        flex-direction: column-reverse;
-        margin-bottom: 24px;
-    }
-`
-const RecipeContentText = styled.div`
-    @media (max-width: 639px) {
-        padding-right: 0px;
-    }
-`
-const RecipeContentImage = styled.div`
-    @media (max-width: 887px) {
-        width:100%;
-        border-radius: 0px;
-        height: 229px;
-    }
-`
-const RecipeContentTextHeaders = styled.div`
-    @media (max-width: 887px) {
-        gap: 32px;
-        margin-top: 16px;
-    }
-`
-*/

@@ -3,7 +3,7 @@ import Link from "next/link"
 import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer} from './styles.css'
 
 import { Timer } from "../SVG.jsx";
-import { Tag } from "../Tag.jsx";
+import { Tag } from "../tag/Tag";
 
 
 const Card = ({title, time, difficulty, category}) => {
