@@ -1,16 +1,16 @@
-"use client"
 import { ArrowBack, CookHat, Basket, Portions, Timer, Difficulty} from '../SVG'
-import { RecipeWrapper, 
-         RecipeTitle, 
-         RecipeActions, 
-         RecipeContent, 
-         ListedSteps, 
-         RecipeContentContainer,
-         RecipeContentText,
-         RecipeContentImage,
-         IconAndLabelWrapper,
-         RecipeContentTextHeaders
-        } from './styles'
+import { recipeWrapper, 
+         recipeActions, 
+         recipeTitle, 
+         recipeContent, 
+         recipeContentContainer,
+         recipeContentText,
+         recipeContentImage,
+         recipeContentTextHeaders,
+         listedSteps,
+         iconAndLabelWrapper
+        } from './styles.css'
+
 
 const steps = ['Picar la cebolla y los pimientos ', 'A rehogar en una sartén',
 'Mientras se hace, hervir los 2 huevos duros', 'Cuando el sofrito esté hecho, añadir en la sartén los 2 huecos bien picados, las 3 latas de atún (escurrir aceite) y tomate frito. Remover.',
@@ -54,40 +54,40 @@ const Icons = ({icon}) => {
 }
 
 const IconAndLabel = ({icon, label}) => (
-    <IconAndLabelWrapper> <Icons icon={icon} /> {label}</IconAndLabelWrapper>
+    <div className={iconAndLabelWrapper}> <Icons icon={icon} /> {label}</div>
 )
 
 const ListedItems = ({icon, title, items}) => {
     return ( 
-    <ListedSteps> 
+    <div className={listedSteps}> 
         <IconAndLabel label={title} icon={icon} />
         <div style={{marginLeft:'8px'}}>{items.map((item)=> <li key={item}>{item}</li>)}</div>
-    </ListedSteps>)
+    </div>)
 }
 
 const DetailsPage = () => { 
     return (
-        <RecipeWrapper>
-        <RecipeActions>
+        <div className={recipeWrapper}>
+        <div className={recipeActions}>
             <div><ArrowBack /></div>
-            <RecipeTitle>Atrás</RecipeTitle>
-        </RecipeActions>
-        <RecipeContent>
+            <div className={recipeTitle}>Atrás</div>
+        </div>
+        <div className={recipeContent}>
             <div style={{fontSize:'28px'}}>Empanada de atún</div>
-            <RecipeContentContainer> 
-                <RecipeContentText>
-                    <RecipeContentTextHeaders>
+            <div className={recipeContentContainer}> 
+                <div className={recipeContentText}>
+                    <div className={recipeContentTextHeaders}>
                         {headers.map((item)=>(
                             <IconAndLabel key={item.label} label={item.label} icon={item.icon}/>
                         ))}
-                    </RecipeContentTextHeaders>
+                    </div>
                     <ListedItems title='Ingredientes:' items={ingredientes} icon='basket' />
-                </RecipeContentText>
-                <RecipeContentImage/>
-            </RecipeContentContainer>
+                </div>
+                <div className={recipeContentImage}/>
+            </div>
             <ListedItems title='Preparación:' items={steps} icon='hat' />
-        </RecipeContent>
-        </RecipeWrapper>
+        </div>
+        </div>
     )
 }
 
