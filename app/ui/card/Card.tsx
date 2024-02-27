@@ -14,9 +14,8 @@ interface Card {
 
 const Card = ({title, time, difficulty, category}: Card) => {
     return (
-     <>
      <Link href={{pathname:'/principales/title'}}>
-        <div className={cardWrapper} onClick={()=>console.log('hola')}>
+        <div className={cardWrapper}>
             <div className={cardImage}><Tag text = {category}/></div>
             <div className={cardContent}>
                 <div >{title}</div>
@@ -27,7 +26,6 @@ const Card = ({title, time, difficulty, category}: Card) => {
             </div>
         </div>
      </Link>
-     </>
     )
 }
 
