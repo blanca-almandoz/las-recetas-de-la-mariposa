@@ -44,7 +44,7 @@ interface ListedItems extends Icon {
     items: Array<string>
 }
 
-interface DetailsPage extends ListedItems {
+interface DetailsPage {
     recipe: any
 }
 
