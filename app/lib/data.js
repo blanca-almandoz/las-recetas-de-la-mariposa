@@ -1,5 +1,4 @@
-{
-    "recipes": [
+export const data= [
 {
             "title": "Fingers de pollo",
             "category": "entrante",
@@ -130,4 +129,3 @@
             ]
         }
     ]
-}
