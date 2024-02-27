@@ -1,9 +1,11 @@
-import Image from "next/image"
-import { string, oneOf, shape } from 'prop-types';
+import { string } from 'prop-types';
 import { tagWrapper } from './styles.css'
 
+interface Tag {
+    text: string
+}
 
-const Tag = ({text}) => {
+const Tag = ({text}: Tag) => {
     return (
         <div className={tagWrapper} >
             {text}

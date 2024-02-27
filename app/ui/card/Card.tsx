@@ -5,8 +5,14 @@ import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer} from './style
 import { Timer } from "../SVG.jsx";
 import { Tag } from "../tag/Tag";
 
+interface Card {
+    title: string,
+    time: string,
+    difficulty: string,
+    category: string
+}
 
-const Card = ({title, time, difficulty, category}) => {
+const Card = ({title, time, difficulty, category}: Card) => {
     return (
      <>
      <Link href={{pathname:'/principales/title'}}>

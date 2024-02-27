@@ -1,6 +1,11 @@
+import { ReactNode } from 'react';
 import { wrapperStyled, wrapperContent } from './styles.css'
 
-const TopLevelWrapper = ({children}) => {
+interface TopLevelWrapper {
+    children: ReactNode;
+}
+
+const TopLevelWrapper = ({children}: TopLevelWrapper) => {
     return (
         <div className={wrapperStyled} >
             <div className={wrapperContent}>

@@ -36,7 +36,20 @@ const headers = [
     {icon: 'difficulty', label: 'easy'}
 ]
 
-const Icons = ({icon}) => {
+interface Icon {
+    icon: string
+}
+
+interface IconAndLabel extends Icon {
+    label: string
+}
+
+interface ListedItems extends Icon {
+    title: string,
+    items: Array<string>
+}
+
+const Icons = ({icon}: Icon) => {
     switch (icon) {
         case 'hat':
             return <CookHat/>;
@@ -53,11 +66,11 @@ const Icons = ({icon}) => {
     }
 }
 
-const IconAndLabel = ({icon, label}) => (
+const IconAndLabel = ({icon, label}: IconAndLabel) => (
     <div className={iconAndLabelWrapper}> <Icons icon={icon} /> {label}</div>
 )
 
-const ListedItems = ({icon, title, items}) => {
+const ListedItems = ({icon, title, items}: ListedItems) => {
     return ( 
     <div className={listedSteps}> 
         <IconAndLabel label={title} icon={icon} />
