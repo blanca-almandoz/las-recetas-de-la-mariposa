@@ -1,11 +1,11 @@
 
 import { Card } from '../../ui/card/Card'
-import * as data from '../../lib/data.json'
+import { data } from '../../lib/data'
 
 export default function Principals() {
     return (
         <>
-            {data.recipes.map((recipe)=>{
+            {data.map((recipe)=>{
                 return( 
                     <Card key={recipe.title} 
                         title={recipe.title} 
