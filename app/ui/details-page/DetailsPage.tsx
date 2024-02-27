@@ -1,3 +1,4 @@
+"use client"
 import { ArrowBack, CookHat, Basket, Portions, Timer, Difficulty} from '../SVG'
 import { recipeWrapper, 
          recipeActions, 
@@ -12,7 +13,7 @@ import { recipeWrapper,
         } from './styles.css'
 
 
-const steps = ['Picar la cebolla y los pimientos ', 'A rehogar en una sartén',
+/* const steps = ['Picar la cebolla y los pimientos ', 'A rehogar en una sartén',
 'Mientras se hace, hervir los 2 huevos duros', 'Cuando el sofrito esté hecho, añadir en la sartén los 2 huecos bien picados, las 3 latas de atún (escurrir aceite) y tomate frito. Remover.',
 'Probarlo.', 'Todo lo de la sartén ponerlo en un colador para escurrir el líquido',
 'Papel mirando abajo de la masa de abajo y extender. Poner la Segunda masa encima y quitar papel. Cerrar hacia arriba los bordes y pinchar con un tenedor varías veces por el centro',
@@ -28,25 +29,23 @@ const ingredientes = [
     '2 huevos para cocerlos',
     '3 latas de atún',
     'Tomate frito'
-];
-
-const headers = [
-    {icon: 'timer', label: '1h'},
-    {icon: 'portions', label: '4'},
-    {icon: 'difficulty', label: 'easy'}
-]
+]; */
 
 interface Icon {
     icon: string
 }
 
 interface IconAndLabel extends Icon {
-    label: string
+    label: any
 }
 
 interface ListedItems extends Icon {
     title: string,
     items: Array<string>
+}
+
+interface DetailsPage extends ListedItems {
+    recipe: any
 }
 
 const Icons = ({icon}: Icon) => {
@@ -78,7 +77,13 @@ const ListedItems = ({icon, title, items}: ListedItems) => {
     </div>)
 }
 
-const DetailsPage = () => { 
+const DetailsPage = ({recipe}: DetailsPage) => { 
+    const { title, ingredients, steps, time, difficulty } = recipe[0]
+    const headers = [
+        {icon: 'timer', label: time},
+        {icon: 'portions', label: '4'},
+        {icon: 'difficulty', label: difficulty}
+    ]
     return (
         <div className={recipeWrapper}>
         <div className={recipeActions}>
@@ -86,15 +91,15 @@ const DetailsPage = () => {
             <div className={recipeTitle}>Atrás</div>
         </div>
         <div className={recipeContent}>
-            <div style={{fontSize:'28px'}}>Empanada de atún</div>
+            <div style={{fontSize:'28px'}}>{title}</div>
             <div className={recipeContentContainer}> 
                 <div className={recipeContentText}>
                     <div className={recipeContentTextHeaders}>
                         {headers.map((item)=>(
-                            <IconAndLabel key={item.label} label={item.label} icon={item.icon}/>
+                            <IconAndLabel key={item.icon} label={item.label} icon={item.icon}/>
                         ))}
                     </div>
-                    <ListedItems title='Ingredientes:' items={ingredientes} icon='basket' />
+                    <ListedItems title='Ingredientes:' items={ingredients} icon='basket' />
                 </div>
                 <div className={recipeContentImage}/>
             </div>

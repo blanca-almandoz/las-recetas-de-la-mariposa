@@ -1,3 +1,4 @@
+"use client"
 import { string } from 'prop-types';
 import Link from "next/link"
 import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer} from './styles.css'
@@ -6,15 +7,17 @@ import { Timer } from "../SVG.jsx";
 import { Tag } from "../tag/Tag";
 
 interface Card {
+    id: string,
     title: string,
     time: string,
     difficulty: string,
     category: string
 }
 
-const Card = ({title, time, difficulty, category}: Card) => {
+const Card = ({id, title, time, difficulty, category}: Card) => {
+
     return (
-     <Link href={{pathname:'/principales/title'}}>
+     <Link href={{pathname: `main/${id}`}}>
         <div className={cardWrapper}>
             <div className={cardImage}><Tag text = {category}/></div>
             <div className={cardContent}>

@@ -41,8 +41,8 @@ const NavBar = () => {
               <Link href="/recipes/starters" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                                             {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/starters'},
                                                       )}>Tapas y aperitivos</Link>
-              <Link href="/recipes/principals" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
-                                                            {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/principals'},
+              <Link href="/recipes/main" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
+                                                            {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/main'},
                                                       )}>Principales</Link>
               <Link href="/recipes/desserts" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                                             {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/desserts'},
@@ -63,8 +63,8 @@ const NavBar = () => {
         <Link href="/recipes/starters" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                               {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/starters'},
                                         )}>Tapas y aperitivos</Link>
-        <Link href="/recipes/principals" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
-                                                            {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/principals'},
+        <Link href="/recipes/main" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
+                                                            {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/main'},
                                                       )}>Principales</Link>
         <Link href="/recipes/desserts" className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                                             {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/desserts'},

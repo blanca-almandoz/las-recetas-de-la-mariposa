@@ -1,40 +1,43 @@
 export const data= [
-{
-            "title": "Fingers de pollo",
-            "category": "entrante",
-            "time": "20 min",
-            "difficulty": "fácil",
-            "image": "fingers-pollo.jpg",
-            "ingredients": ["Una pechuga de pollo en filetes", "Dos huevos", "Pan rallado"],
-            "steps": ["Cortar las pechugas en tiras. Pasarlas por el huevo batido y luego por el pan rallado.",
-                    "Freir en una sartén con abundante aceite. Cuando se empiecen a dorar por una cara, se les da la vuelta.",
-                    "Sacar escurriendo el aceite y colocar en una fuente con papel de cocina para que eliminemos todo el aceite posible",
-                    "Servirlo en una fuente en la que colocamos en el centro un pequeño bol de salsa barbacoa, o mayonesa o ketchup"
-                    ]
-        },
-        {
-            "title": "Lentejas",
-            "type": "guiso",
-            "category": "principal",
-            "time": "30 min",
-            "difficulty": "fácil",
-            "image": "test.jpg",
-            "ingredients": ["1 vaso grande de lentejas", "2 vasos de agua (doble que de lentejas)",
-                            "2 zanahorias",
-                            "1 cebolla entera",
-                            "4 dientes de ajo",
-                            "4 trocitos de chorizo",
-                            "1 cucharada de pimentón",
-                            "Sal"
-                         ],
-            "steps": ["Pelar las zanahorias, cebolla y ajos. Poner todos los ingredientes en una olla rápida. Cuando sale el segundo arito, 12 minutos.",
-                    "Apagar el fuego. Abrir la olla y remover. Si están muy espesas, echar un poco más de agua.",
-                    "Cuando ya estén en su punto, sacar de la cazuela y poner en un un vaso de la los dientes de ajo, la cebolla, una de las zanahorias y un poco de caldo. Echar la mezcla en la olla con las lentejas y remover.",
-                    "Asi de fácil y así de bueno."
-                    ]
-        },
-        {
-            "title": "Salmón ahumado",
+    {
+    "id": "1",        
+    "title": "Fingers de pollo",
+    "category": "entrante",
+    "time": "20 min",
+    "difficulty": "fácil",
+    "image": "fingers-pollo.jpg",
+    "ingredients": ["Una pechuga de pollo en filetes", "Dos huevos", "Pan rallado"],
+    "steps": ["Cortar las pechugas en tiras. Pasarlas por el huevo batido y luego por el pan rallado.",
+            "Freir en una sartén con abundante aceite. Cuando se empiecen a dorar por una cara, se les da la vuelta.",
+            "Sacar escurriendo el aceite y colocar en una fuente con papel de cocina para que eliminemos todo el aceite posible",
+            "Servirlo en una fuente en la que colocamos en el centro un pequeño bol de salsa barbacoa, o mayonesa o ketchup"
+            ]
+    },
+    {
+    "id": "2",
+    "title": "Lentejas",
+    "type": "guiso",
+    "category": "principal",
+    "time": "30 min",
+    "difficulty": "fácil",
+    "image": "test.jpg",
+    "ingredients": ["1 vaso grande de lentejas", "2 vasos de agua (doble que de lentejas)",
+                    "2 zanahorias",
+                    "1 cebolla entera",
+                    "4 dientes de ajo",
+                    "4 trocitos de chorizo",
+                    "1 cucharada de pimentón",
+                    "Sal"
+                    ],
+    "steps": ["Pelar las zanahorias, cebolla y ajos. Poner todos los ingredientes en una olla rápida. Cuando sale el segundo arito, 12 minutos.",
+            "Apagar el fuego. Abrir la olla y remover. Si están muy espesas, echar un poco más de agua.",
+            "Cuando ya estén en su punto, sacar de la cazuela y poner en un un vaso de la los dientes de ajo, la cebolla, una de las zanahorias y un poco de caldo. Echar la mezcla en la olla con las lentejas y remover.",
+            "Asi de fácil y así de bueno."
+            ]
+    },
+    {
+        "id": "3",    
+        "title": "Salmón ahumado",
             "category": "entrante",
             "time": "36 h",
             "difficulty": "medio",
@@ -48,6 +51,7 @@ export const data= [
                     ]
         },
         {
+            "id": "4",
             "title": "Pizza",
             "type": "italiano",
             "category": "principal",
@@ -64,6 +68,7 @@ export const data= [
                     ]
         }, 
         {
+            "id": "5",
             "title": "Tortitas",
             "category": "postre",
             "time": "30 min",
@@ -75,6 +80,7 @@ export const data= [
 
 
         {
+            "id": "6",
             "title": "Tarta de limón",
             "category": "postre",
             "time": "45 min",
@@ -89,6 +95,7 @@ export const data= [
         },
 
         {
+            "id": "7",
             "title": "Bechamel",
             "category": "salsa",
             "time": "20 min",
@@ -105,6 +112,7 @@ export const data= [
                     ]
         },
         {
+            "id": "8",
             "title": "Salmorejo",
             "category": "entrante",
             "time": "15 min",
@@ -114,6 +122,7 @@ export const data= [
             "steps": ["Limpiar y triturar los tomates. Colar para quitar la piel y las pepitas.", "Volver a triturar añadiéndole el pan, el aceite, los ajos y la sal.", "Decorar con huevo duro picado y trocitos de jamón ibérico"]
         },
         {
+            "id": "9",
             "title": "Cordero",
             "type": "carne",
             "category": "principal",
@@ -127,5 +136,5 @@ export const data= [
                     "Temperatura: 200º: Se da otra vuelta, se riega de nuevo, y se hace 20min por un lado. Se vuelve a regar, y se hace otros 20min por el otro.",
                     "Temperatura: 250º (o máxima temperatura): Colocar la parte exterior del cordero hacia arriba y se deja solo 10min para lograr que quede bien crujiente. Hay que estar muy atento a esta fase, el cordero debe quedar tostadito pero no quemarse. En cuanto esté listo debemos sacar la fuente del horno."
             ]
-        }
-    ]
+    }
+]
