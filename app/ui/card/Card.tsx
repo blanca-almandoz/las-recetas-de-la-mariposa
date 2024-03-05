@@ -1,4 +1,4 @@
-"use client"
+
 import { string } from 'prop-types';
 import Link from "next/link"
 import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer} from './styles.css'
@@ -17,7 +17,7 @@ interface Card {
 const Card = ({id, title, time, difficulty, category}: Card) => {
 
     return (
-     <Link href={{pathname: `main/${id}`}}>
+     <Link href={{pathname: `${category}/${id}`}}>
         <div className={cardWrapper}>
             <div className={cardImage}><Tag text = {category}/></div>
             <div className={cardContent}>

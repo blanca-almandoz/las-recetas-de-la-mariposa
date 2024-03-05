@@ -8,7 +8,6 @@ import clsx from 'clsx';
 
 const NavBar = () => {
   const pathname = usePathname();
-  console.log('blanca pathname', pathname)
 
     return (<nav class="bg-gray-800">
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

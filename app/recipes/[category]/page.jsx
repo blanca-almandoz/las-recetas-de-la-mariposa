@@ -1,11 +1,17 @@
-
+'use client'
 import { Card } from '../../ui/card/Card'
-import { data } from '../../lib/data'
+import { usePathname } from 'next/navigation';
+import { fetchFilteredRecipes } from '../../lib/utils'
 
 export default function Page() {
+const pathname = usePathname()
+const categoryName = pathname.slice(9)
+
+const result = fetchFilteredRecipes('category', categoryName);
+    
     return (
         <>
-            {data.map((recipe)=>{
+            {result.map((recipe)=>{
                 return( 
                     <Card 
                         key={recipe.id}
