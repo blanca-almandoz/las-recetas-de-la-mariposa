@@ -11,16 +11,14 @@ export const cardWrapper = style({
 })
 
 export const cardImage = style({
-    //backgroundImage: 'url(test.jpg)',
-    backgroundSize: 'cover',
-    backgroundColor: 'pink',
+    position:'relative',
     borderRadius: '4px 4px 0px 0px',
+    backgroundColor: 'pink',
     width: '100%',
     height: 229,
     display: 'flex',
     alignItems: 'flex-end',
     justifyContent: 'flex-end',
-    padding: '8px 16px'
 })
 
 export const cardContent = style({
@@ -40,5 +38,11 @@ export const cardTimer = style({
     display: 'flex',
     alignItems: 'center',
     gap: 8
+})
+
+export const cardTag = style({
+    position: 'absolute',
+    bottom: 8,
+    right: 16
 })
 

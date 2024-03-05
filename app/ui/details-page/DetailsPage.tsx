@@ -1,5 +1,7 @@
 "use client"
 import { ArrowBack, CookHat, Basket, Portions, Timer, Difficulty} from '../SVG'
+import Image from 'next/image';
+
 import { recipeWrapper, 
          recipeActions, 
          recipeTitle, 
@@ -11,7 +13,6 @@ import { recipeWrapper,
          listedSteps,
          iconAndLabelWrapper
         } from './styles.css'
-
 
 interface Icon {
     icon: string
@@ -60,7 +61,7 @@ const ListedItems = ({icon, title, items}: ListedItems) => {
 }
 
 const DetailsPage = ({recipe}: DetailsPage) => { 
-    const { title, ingredients, steps, time, difficulty } = recipe[0]
+    const { title, ingredients, steps, time, difficulty, image } = recipe[0]
     const headers = [
         {icon: 'timer', label: time},
         {icon: 'portions', label: '4'},
@@ -83,7 +84,15 @@ const DetailsPage = ({recipe}: DetailsPage) => {
                     </div>
                     <ListedItems title='Ingredientes:' items={ingredients} icon='basket' />
                 </div>
-                <div className={recipeContentImage}/>
+                <div className={recipeContentImage}> 
+                <Image 
+                    src={image} 
+                    width={0}
+                    height={0}
+                    sizes='100vm'
+                    style={{width: '100%', height:'100%', borderRadius: 4, objectFit: "cover"}}
+                    alt={title}/>
+                </div>
             </div>
             <ListedItems title='Preparación:' items={steps} icon='hat' />
         </div>

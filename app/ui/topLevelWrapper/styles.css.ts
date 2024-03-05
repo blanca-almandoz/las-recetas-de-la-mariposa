@@ -1,15 +1,13 @@
 import { style } from '@vanilla-extract/css';
 
 export const wrapperStyled = style({
-    display: 'flex',
-    width: '100%',
-    justifyContent: 'center'
+    maxWidth: 1290,
+    margin: '0 auto'
 })
 
 export const wrapperContent = style({
     display: 'flex',
-    justifyContent: 'center',
-    width: 1280,
+    width: '100%',
     flexWrap: 'wrap'
 })
 

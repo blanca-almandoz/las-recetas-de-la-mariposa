@@ -51,10 +51,6 @@ export const recipeContentText = style({
 export const recipeContentImage = style({
     width: 590,
     height: 349,
-    borderRadius: 4,
-   // backgroundImage: 'todo',
-    backgroundSize: 'cover',
-    backgroundColor: 'yellow',
     '@media': {
         'screen and (max-width: 887px)': {
           width: '100%',

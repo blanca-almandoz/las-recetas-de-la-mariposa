@@ -18,6 +18,7 @@ const result = fetchFilteredRecipes('category', categoryName);
                         id={recipe.id} 
                         title={recipe.title} 
                         time ={recipe.time} 
+                        image={recipe.image}
                         category={recipe.category} 
                         difficulty={recipe.difficulty} 
                     />)

@@ -1,7 +1,8 @@
 
 import { string } from 'prop-types';
 import Link from "next/link"
-import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer} from './styles.css'
+import Image from 'next/image';
+import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer, cardTag} from './styles.css'
 
 import { Timer } from "../SVG.jsx";
 import { Tag } from "../tag/Tag";
@@ -10,16 +11,27 @@ interface Card {
     id: string,
     title: string,
     time: string,
+    image: string,
     difficulty: string,
     category: string
 }
 
-const Card = ({id, title, time, difficulty, category}: Card) => {
+const Card = ({id, title, time, image, difficulty, category}: Card) => {
+    console.log('blanca inave', image)
 
     return (
      <Link href={{pathname: `${category}/${id}`}}>
         <div className={cardWrapper}>
-            <div className={cardImage}><Tag text = {category}/></div>
+            <div className={cardImage}>
+                <div className={cardTag}><Tag text = {category}/></div>
+                <Image 
+                    src={image} 
+                    width={0}
+                    height={0}
+                    sizes='100vm'
+                    style={{width: '100%', height:'100%', borderRadius: '4px 4px 0px 0px', objectFit: "cover"}}
+                    alt={title}/>
+            </div>
             <div className={cardContent}>
                 <div >{title}</div>
                 <div className={cardInfo}>
