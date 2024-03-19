@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { recipeWrapper, 
          recipeActions, 
+         recipeGoBackAction,
          recipeTitle, 
          recipeContent, 
          recipeContentContainer,
@@ -69,12 +70,12 @@ const DetailsPage = ({recipe}: DetailsPage) => {
     ]
     return (
         <div className={recipeWrapper}>
-        <div className={recipeActions}>
+       {/*  <div className={recipeActions}>
             <div><ArrowBack /></div>
-            <div className={recipeTitle}>Atrás</div>
-        </div>
+            <div className={recipeGoBackAction}>Atrás</div>
+        </div> */}
         <div className={recipeContent}>
-            <div style={{fontSize:'28px'}}>{title}</div>
+            <div className={recipeTitle}>{title}</div>
             <div className={recipeContentContainer}> 
                 <div className={recipeContentText}>
                     <div className={recipeContentTextHeaders}>
