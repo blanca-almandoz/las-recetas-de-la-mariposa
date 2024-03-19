@@ -1,8 +1,22 @@
+import { Card } from '../app/ui/card/Card'
+import { getRecipesList } from '../app/lib/sheet';
 
-export default function Home() {
+
+export default async function Home() {
+  const recipes = await getRecipesList();
+  console.log('recupes', recipes)
   return (
-    <div> 
-        <h1 style={{display:'flex', alignItems:'center', color:'purple', justifyContent:'center', height:'200px'}}>home de layout</h1>
-     </div>
+    <> 
+      {recipes.map((recipe)=> { return( 
+        <Card 
+          key={recipe.id}
+          id={recipe.id} 
+          title={recipe.title} 
+          time ={recipe.time} 
+          category={recipe.category} 
+          difficulty={recipe.difficulty} 
+        />)})}
+     </>
   )
 }
+
