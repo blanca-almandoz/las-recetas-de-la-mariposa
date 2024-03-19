@@ -16,8 +16,7 @@ interface Card {
     category: string
 }
 
-const Card = ({id, title, time, image, difficulty, category}: Card) => {
-    console.log('blanca inave', image)
+const Card = ({id, title, time, image, difficulty='medio', category}: Card) => {
 
     return (
      <Link href={{pathname: `${category}/${id}`}}>
@@ -52,8 +51,3 @@ Card.propTypes = {
     category:string.isRequired,
     difficulty: string,
 }
-
-Card.defaultProps = {
-    difficulty: 'medio'
-}
-
