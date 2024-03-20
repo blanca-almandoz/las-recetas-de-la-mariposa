@@ -16,6 +16,7 @@ const Pathname = ({recipes}) => {
                     id={recipe.id} 
                     title={recipe.title} 
                     time ={recipe.time} 
+                    image ={recipe.image}
                     category={recipe.category} 
                     difficulty={recipe.difficulty} 
                 />)

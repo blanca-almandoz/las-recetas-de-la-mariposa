@@ -89,13 +89,13 @@ const DetailsPage = ({recipe}: DetailsPage) => {
                     <ListedItems title='Ingredientes:' items={arrayIngredients} icon='basket' />
                 </div>
                 <div className={recipeContentImage}> 
-                {/* <Image 
+                <Image 
                     src={image} 
                     width={0}
                     height={0}
                     sizes='100vm'
                     style={{width: '100%', height:'100%', borderRadius: 4, objectFit: "cover"}}
-                    alt={title}/> */}
+                    alt={title}/>
                 </div>
             </div>
             <ListedItems title='Preparación:' items={arraySteps} icon='hat' />
