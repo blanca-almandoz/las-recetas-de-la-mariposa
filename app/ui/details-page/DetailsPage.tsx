@@ -1,4 +1,3 @@
-"use client"
 import { ArrowBack, CookHat, Basket, Portions, Timer, Difficulty} from '../SVG'
 import Image from 'next/image';
 
@@ -68,6 +67,10 @@ const DetailsPage = ({recipe}: DetailsPage) => {
         {icon: 'portions', label: '4'},
         {icon: 'difficulty', label: difficulty}
     ]
+
+    const arraySteps = steps.split('\n').filter((item: any) => item.trim() !== '');
+    const arrayIngredients = ingredients.split('\n').filter((item: any) => item.trim() !== '');
+
     return (
         <div className={recipeWrapper}>
        {/*  <div className={recipeActions}>
@@ -83,19 +86,19 @@ const DetailsPage = ({recipe}: DetailsPage) => {
                             <IconAndLabel key={item.icon} label={item.label} icon={item.icon}/>
                         ))}
                     </div>
-                    <ListedItems title='Ingredientes:' items={ingredients} icon='basket' />
+                    <ListedItems title='Ingredientes:' items={arrayIngredients} icon='basket' />
                 </div>
                 <div className={recipeContentImage}> 
-                <Image 
+                {/* <Image 
                     src={image} 
                     width={0}
                     height={0}
                     sizes='100vm'
                     style={{width: '100%', height:'100%', borderRadius: 4, objectFit: "cover"}}
-                    alt={title}/>
+                    alt={title}/> */}
                 </div>
             </div>
-            <ListedItems title='Preparación:' items={steps} icon='hat' />
+            <ListedItems title='Preparación:' items={arraySteps} icon='hat' />
         </div>
         </div>
     )

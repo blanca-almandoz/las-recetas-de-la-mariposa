@@ -1,6 +1,4 @@
-import { data } from './data'
 
-
-export function fetchFilteredRecipes (type, item) {
-    return (data.filter((recipe)=> recipe[type] === item))
+export function fetchFilteredRecipes (type, item, data) {
+    return (data?.filter((recipe)=> recipe[type] === item))
 }

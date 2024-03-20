@@ -1,28 +1,8 @@
-'use client'
-import { Card } from '../../ui/card/Card'
-import { usePathname } from 'next/navigation';
-import { fetchFilteredRecipes } from '../../lib/utils'
+import { Pathname } from '../../ui/Pathname'
+import { getRecipesList } from '../../lib/sheet'
 
-export default function Page() {
-const pathname = usePathname()
-const categoryName = pathname.slice(9)
-
-const result = fetchFilteredRecipes('category', categoryName);
+export default async function Page() {
+const recipes = await getRecipesList();
     
-    return (
-        <>
-            {result.map((recipe)=>{
-                return( 
-                    <Card 
-                        key={recipe.id}
-                        id={recipe.id} 
-                        title={recipe.title} 
-                        time ={recipe.time} 
-                        image={recipe.image}
-                        category={recipe.category} 
-                        difficulty={recipe.difficulty} 
-                    />)
-            })} 
-        </>
-        )
+    return (<Pathname recipes={recipes}/>)
   }

@@ -4,7 +4,6 @@ import { getRecipesList } from '../app/lib/sheet';
 
 export default async function Home() {
   const recipes = await getRecipesList();
-  console.log('recupes', recipes)
   return (
     <> 
       {recipes.map((recipe)=> { return( 

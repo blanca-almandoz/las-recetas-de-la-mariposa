@@ -20,14 +20,15 @@ export async function getRecipesList() {
     const rows = response.data.values;
     if (rows.length) {
       return rows.map((row) => ({
-        title: row[0],
-        steps: row[1],
-        ingredients: row[2],
-        difficulty: row[3],
-        category: row[4],
-        time: row[5],
-        portions: row[6],
-        image: row[9]
+        id: row[0],
+        title: row[1],
+        steps: row[2],
+        ingredients: row[3],
+        difficulty: row[4],
+        category: row[5],
+        time: row[6],
+        portions: row[7],
+        image: row[10]
       }));
     }
   } catch (err) {
