@@ -1,12 +1,12 @@
 'use client'
 import { Card } from '../ui/card/Card'
 import { usePathname } from 'next/navigation';
-import { fetchFilteredRecipes } from '../lib/utils';
+import { fetchRecipesByCategory } from '../lib/utils';
 
 const Pathname = ({recipes}) => {
     const pathname = usePathname()
     const categoryName = pathname.slice(9)
-    const result = recipes.filter((recipe)=> recipe.category === categoryName)
+    const result = fetchRecipesByCategory(recipes, categoryName);
 
     return (
         <>{result.map((recipe)=>{
@@ -21,7 +21,7 @@ const Pathname = ({recipes}) => {
                     difficulty={recipe.difficulty} 
                 />)
         })} </>
-        )
+    )
 }
 
 export { Pathname }

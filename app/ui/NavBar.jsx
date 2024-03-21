@@ -62,7 +62,7 @@ const NavBar = () => {
       <div className="space-y-1 px-2 pb-3 pt-2">
         <Link href="/recipes/starters" onClick={handleClick} className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                               {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/starters'},
-                                        )}>Tapas y aperitivos blanca</Link>
+                                        )}>Tapas y aperitivos</Link>
         <Link href="/recipes/main" onClick={handleClick} className={clsx("text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium",
                                                             {'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium' : pathname === '/recipes/main'},
                                                       )}>Principales</Link>
