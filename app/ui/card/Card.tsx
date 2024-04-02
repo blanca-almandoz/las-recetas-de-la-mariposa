@@ -22,7 +22,7 @@ const Card = ({id, title, time, image, difficulty='medio', category}: Card) => {
      <Link href={{pathname: `${category}/${id}`}}>
         <div className={cardWrapper}>
             <div className={cardImage}>
-                <div className={cardTag}><Tag text = {category}/></div>
+               {/*  <div className={cardTag}><Tag text = {category}/></div> */}
                 <Image 
                     src={image} 
                     width={0}

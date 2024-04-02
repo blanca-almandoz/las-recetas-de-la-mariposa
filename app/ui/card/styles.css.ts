@@ -2,7 +2,7 @@ import { style } from '@vanilla-extract/css';
 
 
 export const cardWrapper = style({
-    minWidth: 387,
+    width: 387,
     minHeight: 330,
     backgroundColor: '#EFEAE6',
     borderRadius: 4,
