@@ -1,9 +1,7 @@
 import { string } from 'prop-types';
 import { tagWrapper } from './styles.css'
+import { Tag } from '@/app/lib/types';
 
-interface Tag {
-    text: string
-}
 
 const Tag = ({text}: Tag) => {
     return (

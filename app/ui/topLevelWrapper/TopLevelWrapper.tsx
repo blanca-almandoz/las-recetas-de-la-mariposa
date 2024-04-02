@@ -1,9 +1,7 @@
-import { ReactNode } from 'react';
+
+import { TopLevelWrapper } from '@/app/lib/types'
 import { wrapperStyled, wrapperContent } from './styles.css'
 
-interface TopLevelWrapper {
-    children: ReactNode;
-}
 
 const TopLevelWrapper = ({children}: TopLevelWrapper) => {
     return (

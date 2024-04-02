@@ -6,15 +6,9 @@ import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer, cardTag} from
 
 import { Timer } from "../SVG.jsx";
 import { Tag } from "../tag/Tag";
+import { timeConvert } from '@/app/lib/utils';
+import { Card } from '@/app/lib/types';
 
-interface Card {
-    id: string,
-    title: string,
-    time: string,
-    image: string,
-    difficulty: string,
-    category: string
-}
 
 const Card = ({id, title, time, image, difficulty='medio', category}: Card) => {
 
@@ -34,7 +28,7 @@ const Card = ({id, title, time, image, difficulty='medio', category}: Card) => {
             <div className={cardContent}>
                 <div >{title}</div>
                 <div className={cardInfo}>
-                    <div className={cardTimer}><Timer/>{time}</div>
+                    <div className={cardTimer}><Timer/>{timeConvert(time)}</div>
                     <Tag text={difficulty} />
                 </div>
             </div>
@@ -44,10 +38,3 @@ const Card = ({id, title, time, image, difficulty='medio', category}: Card) => {
 }
 
 export { Card }
-
-Card.propTypes = {
-    title: string.isRequired,
-    time: string.isRequired,
-    category:string.isRequired,
-    difficulty: string,
-}

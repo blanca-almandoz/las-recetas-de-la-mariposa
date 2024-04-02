@@ -15,3 +15,19 @@ export function fetchRecipesByCategory(recipes, category) {
   });
   return res;
 }
+
+export function timeConvert(n) {
+  const num = n;
+  const hours = num / 60;
+  const rhours = Math.floor(hours);
+  const minutes = (hours - rhours) * 60;
+  const rminutes = Math.round(minutes);
+  if (rhours === 0) {
+    return rminutes + "min";
+  }
+  if (minutes === 0) {
+    return rhours + "h";
+  } else {
+    return rhours + "h " + rminutes + "min";
+  }
+}
