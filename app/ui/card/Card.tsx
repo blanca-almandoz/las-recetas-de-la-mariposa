@@ -2,9 +2,9 @@
 import { string } from 'prop-types';
 import Link from "next/link"
 import Image from 'next/image';
-import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer, cardTag} from './styles.css'
+import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer, cardTag, cardTitle} from './styles.css'
 
-import { Timer } from "../SVG.jsx";
+import { Difficulty, Timer } from "../SVG.jsx";
 import { Tag } from "../tag/Tag";
 import { timeConvert } from '@/app/lib/utils';
 import { Card } from '@/app/lib/types';
@@ -26,10 +26,10 @@ const Card = ({id, title, time, image, difficulty='medio', category}: Card) => {
                     alt={title}/>
             </div>
             <div className={cardContent}>
-                <div >{title}</div>
+                <div className={cardTitle} >{title.toUpperCase()}</div>
                 <div className={cardInfo}>
                     <div className={cardTimer}><Timer/>{timeConvert(time)}</div>
-                    <Tag text={difficulty} />
+                    <Difficulty level={difficulty} />
                 </div>
             </div>
         </div>

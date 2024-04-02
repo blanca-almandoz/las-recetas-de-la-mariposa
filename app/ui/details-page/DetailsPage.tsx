@@ -13,25 +13,11 @@ import { recipeWrapper,
          listedSteps,
          iconAndLabelWrapper
         } from './styles.css'
+import { timeConvert } from '@/app/lib/utils';
+import { DetailsPage, Icon, IconAndLabel, ListedItems } from '@/app/lib/types';
 
-interface Icon {
-    icon: string
-}
 
-interface IconAndLabel extends Icon {
-    label: any
-}
-
-interface ListedItems extends Icon {
-    title: string,
-    items: Array<string>
-}
-
-interface DetailsPage {
-    recipe: any
-}
-
-const Icons = ({icon}: Icon) => {
+const Icons = ({icon, level}: Icon) => {
     switch (icon) {
         case 'hat':
             return <CookHat/>;
@@ -40,7 +26,7 @@ const Icons = ({icon}: Icon) => {
         case 'timer': 
             return <Timer />;
         case 'difficulty':
-            return <Difficulty />;
+            return <Difficulty level={level} />;
         case 'portions':
             return <Portions />
         default:
@@ -48,8 +34,8 @@ const Icons = ({icon}: Icon) => {
     }
 }
 
-const IconAndLabel = ({icon, label}: IconAndLabel) => (
-    <div className={iconAndLabelWrapper}> <Icons icon={icon} /> {label}</div>
+const IconAndLabel = ({icon, label, level}: IconAndLabel) => (
+    <div className={iconAndLabelWrapper}> <Icons icon={icon} level={level} /> {label}</div>
 )
 
 const ListedItems = ({icon, title, items}: ListedItems) => {
@@ -62,8 +48,9 @@ const ListedItems = ({icon, title, items}: ListedItems) => {
 
 const DetailsPage = ({recipe}: DetailsPage) => { 
     const { title, ingredients, steps, time, difficulty, image } = recipe[0]
+    const formatedTime = timeConvert(time)
     const headers = [
-        {icon: 'timer', label: time},
+        {icon: 'timer', label: formatedTime},
         {icon: 'portions', label: '4'},
         {icon: 'difficulty', label: difficulty}
     ]
@@ -78,12 +65,12 @@ const DetailsPage = ({recipe}: DetailsPage) => {
             <div className={recipeGoBackAction}>Atrás</div>
         </div> */}
         <div className={recipeContent}>
-            <div className={recipeTitle}>{title}</div>
+            <div className={recipeTitle}>{title.toUpperCase()}</div>
             <div className={recipeContentContainer}> 
                 <div className={recipeContentText}>
                     <div className={recipeContentTextHeaders}>
                         {headers.map((item)=>(
-                            <IconAndLabel key={item.icon} label={item.label} icon={item.icon}/>
+                            <div key={item.icon}><IconAndLabel label={item.label} icon={item.icon} level={difficulty} /></div>
                         ))}
                     </div>
                     <ListedItems title='Ingredientes:' items={arrayIngredients} icon='basket' />

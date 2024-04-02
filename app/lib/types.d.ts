@@ -23,15 +23,18 @@ export interface Card {
 
 export interface Icon {
     icon: string
+    level?: string
 }
 
 export interface IconAndLabel extends Icon {
-    label: any
+    label: any,
+    level?: string
 }
 
 export interface ListedItems extends Icon {
     title: string,
     items: Array<string>
+    level?: string
 }
 
 export interface DetailsPage {

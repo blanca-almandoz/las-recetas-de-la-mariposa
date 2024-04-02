@@ -26,7 +26,10 @@ export const recipeGoBackAction = style({
 
 export const recipeTitle = style({
     marginTop: 16,
-    fontSize: 28,
+    fontSize: 40,
+    fontWeight: 700,
+    color: '#292D44',
+    letterSpacing: 3,
     '@media': {
         'screen and (max-width: 887px)': {
             margin: '24px 16px 0px' 

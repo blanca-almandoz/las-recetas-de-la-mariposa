@@ -1,4 +1,3 @@
-import { string } from 'prop-types';
 import { tagWrapper } from './styles.css'
 import { Tag } from '@/app/lib/types';
 
@@ -12,8 +11,4 @@ const Tag = ({text}: Tag) => {
 }
 
 export { Tag }
-
-Tag.propTypes = {
-    text: string.isRequired,
-}
 

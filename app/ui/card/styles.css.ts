@@ -18,7 +18,7 @@ export const cardImage = style({
     height: 229,
     display: 'flex',
     alignItems: 'flex-end',
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-end'
 })
 
 export const cardContent = style({
@@ -29,6 +29,14 @@ export const cardContent = style({
     minHeight: 101
 })
 
+export const cardTitle = style({
+    fontWeight: 700,
+    color: '#292D44',
+    letterSpacing: 2,
+    minHeight: 48,
+    marginBottom: 8
+})
+
 export const cardInfo = style({
     display: 'flex',
     justifyContent: 'space-between',
@@ -37,7 +45,8 @@ export const cardInfo = style({
 export const cardTimer = style({
     display: 'flex',
     alignItems: 'center',
-    gap: 8
+    gap: 8,
+    fontWeight: 500,
 })
 
 export const cardTag = style({
