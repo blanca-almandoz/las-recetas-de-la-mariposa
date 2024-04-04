@@ -42,7 +42,9 @@ const ListedItems = ({icon, title, items}: ListedItems) => {
     return ( 
     <div className={listedSteps}> 
         <IconAndLabel label={title} icon={icon} />
-        <div style={{marginLeft:'8px'}}>{items.map((item)=> <li key={item}>{item}</li>)}</div>
+        <div style={{marginLeft:'8px'}}>
+            {items.map((item)=> <li key={item}>{item}</li>)}
+        </div>
     </div>)
 }
 

@@ -46,7 +46,6 @@ export const recipeContent = style({
 export const recipeContentContainer = style({
     display: 'flex',
     justifyContent: 'space-between',
-    marginBottom: 40,
     gap: 8,
     '@media': {
         'screen and (max-width: 639px)': {
@@ -81,7 +80,9 @@ export const recipeContentImage = style({
 export const listedSteps = style({
     display: 'flex',
     flexDirection: 'column',
+    justifyContent: 'center',
     gap: 16,
+    marginTop: 48,
     '@media': {
         'screen and (max-width: 887px)': {
           margin: '0px 16px 24px' 
