@@ -1,4 +1,5 @@
 import '@/app/ui/global.css';
+import { Analytics } from '@vercel/analytics/react';
 import { NavBar } from './ui/NavBar';
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper';
 import { montserrat } from './ui/fonts';
@@ -10,6 +11,7 @@ export default function RootLayout({children}) {
         <div><NavBar /></div> 
         <TopLevelWrapper>
           {children}
+          <Analytics />
         </TopLevelWrapper> 
         </body>
     </html>
