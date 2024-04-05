@@ -1,9 +1,9 @@
 
-import { TopLevelWrapper } from '@/app/lib/types'
+import { TopLevelWrapperType } from '@/app/lib/types'
 import { wrapperStyled, wrapperContent } from './styles.css'
 
 
-const TopLevelWrapper = ({children}: TopLevelWrapper) => {
+const TopLevelWrapper = ({children}: TopLevelWrapperType) => {
     return (
         <div className={wrapperStyled} >
             <div className={wrapperContent}>

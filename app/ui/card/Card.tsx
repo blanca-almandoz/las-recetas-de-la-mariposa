@@ -7,10 +7,10 @@ import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer, cardTag, card
 import { Difficulty, Timer } from "../SVG.jsx";
 import { Tag } from "../tag/Tag";
 import { timeConvert } from '@/app/lib/utils';
-import { Card } from '@/app/lib/types';
+import { CardType } from '@/app/lib/types';
 
 
-const Card = ({id, title, time, image, difficulty='medio', category}: Card) => {
+const Card = ({id, title, time, image, difficulty='medio', category}: CardType) => {
 
     return (
      <Link href={{pathname: `${category}/${id}`}}>

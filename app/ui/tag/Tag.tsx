@@ -1,8 +1,8 @@
 import { tagWrapper } from './styles.css'
-import { Tag } from '@/app/lib/types';
+import { TagType } from '@/app/lib/types';
 
 
-const Tag = ({text}: Tag) => {
+const Tag = ({text}: TagType) => {
     return (
         <div className={tagWrapper} >
             {text}

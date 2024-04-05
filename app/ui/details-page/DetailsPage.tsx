@@ -14,10 +14,10 @@ import { recipeWrapper,
          iconAndLabelWrapper
         } from './styles.css'
 import { timeConvert } from '@/app/lib/utils';
-import { DetailsPage, Icon, IconAndLabel, ListedItems } from '@/app/lib/types';
+import { DetailsPageType, IconType, IconAndLabelType, ListedItemsType } from '@/app/lib/types';
 
 
-const Icons = ({icon, level}: Icon) => {
+const Icons = ({icon, level}: IconType) => {
     switch (icon) {
         case 'hat':
             return <CookHat/>;
@@ -34,11 +34,11 @@ const Icons = ({icon, level}: Icon) => {
     }
 }
 
-const IconAndLabel = ({icon, label, level}: IconAndLabel) => (
+const IconAndLabel = ({icon, label, level}: IconAndLabelType) => (
     <div className={iconAndLabelWrapper}> <Icons icon={icon} level={level} /> {label}</div>
 )
 
-const ListedItems = ({icon, title, items}: ListedItems) => {
+const ListedItems = ({icon, title, items}: ListedItemsType) => {
     return ( 
     <div className={listedSteps}> 
         <IconAndLabel label={title} icon={icon} />
@@ -48,7 +48,7 @@ const ListedItems = ({icon, title, items}: ListedItems) => {
     </div>)
 }
 
-const DetailsPage = ({recipe}: DetailsPage) => { 
+const DetailsPage = ({recipe}: DetailsPageType) => { 
     const { title, ingredients, steps, time, difficulty, image } = recipe[0]
     const formatedTime = timeConvert(time)
     const headers = [

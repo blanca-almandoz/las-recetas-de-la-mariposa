@@ -8,11 +8,11 @@ declare global {
   }
 }
 
-export interface TopLevelWrapper {
+export interface TopLevelWrapperType {
     children: ReactNode;
 }
 
-export interface Card {
+export interface CardType {
     id: string,
     title: string,
     time: string,
@@ -21,26 +21,24 @@ export interface Card {
     category: string
 }
 
-export interface Icon {
+export interface IconType {
     icon: string
     level?: string
 }
 
-export interface IconAndLabel extends Icon {
+export interface IconAndLabelType extends IconType {
     label: any,
-    level?: string
 }
 
-export interface ListedItems extends Icon {
+export interface ListedItemsType extends IconType {
     title: string,
     items: Array<string>
-    level?: string
 }
 
-export interface DetailsPage {
+export interface DetailsPageType {
     recipe: any
 }
 
-export interface Tag {
+export interface TagType {
     text: string
 }
