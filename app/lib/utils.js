@@ -2,6 +2,10 @@ export function fetchRecipesById(recipes, id) {
   return recipes.filter((recipe) => recipe.id === id);
 }
 
+export function fetchRecipesByName(recipes, name) {
+  return recipes.filter((recipe) => recipe.title === name);
+}
+
 export function fetchRecipesByCategory(recipes, category) {
   const json = recipes.filter((recipe) => recipe.category === category);
   const res = json.sort((a, b) => {
