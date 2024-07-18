@@ -19,6 +19,7 @@ const Pathname = ({recipes}) => {
                     image ={recipe.image}
                     category={recipe.category} 
                     difficulty={recipe.difficulty} 
+                    pathname={`${recipe.category}/${recipe.id}`} 
                 />)
         })} </>
     )

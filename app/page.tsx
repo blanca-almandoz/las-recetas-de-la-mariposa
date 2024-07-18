@@ -1,8 +1,5 @@
-import Image from "next/image"
 import { Search } from './ui/Search'
 import { Card } from './ui/card/Card'
-import { container } from "./styles.css"
-import { fetchRecipesByName } from "./lib/utils";
 import { getRecipesList } from './lib/sheet'
 
 export default async function Home({
@@ -15,15 +12,15 @@ export default async function Home({
 }) {
   const recipes = await getRecipesList();
   const query = searchParams?.query || '';
-  //const test = fetchRecipesByName(recipes, query)
-  const test = recipes.filter((recipe)=>recipe.title?.toLowerCase().includes(query)) 
-  console.log('test', test)
+  const searchedRecipes = recipes.filter((recipe)=>recipe.title?.toLowerCase().includes(query)) 
+
   return (
-    <div > 
+    <div style={{width:'100%'}}> 
       <Search />
-       <>{test.map((recipe)=>{
+       <div style={{width:'100%', display:'flex', flexWrap: 'wrap', justifyContent:'space-between'}}> {searchedRecipes.map((recipe)=>{
             return( 
-                <Card 
+              <div>
+              <Card 
                     key={recipe.id}
                     id={recipe.id} 
                     title={recipe.title} 
@@ -31,8 +28,11 @@ export default async function Home({
                     
                     category={recipe.category} 
                     difficulty={recipe.difficulty} 
-                />)
-        })} </>
+                    pathname={`recipes/${recipe.category}/${recipe.id}`} 
+                />
+                </div>
+                )
+        })}</div>
     </div>
   )
 }
