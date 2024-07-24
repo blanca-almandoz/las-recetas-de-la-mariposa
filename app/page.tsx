@@ -20,7 +20,7 @@ export default async function Home({
       <Search />
        <div style={{width:'100%', display:'flex', flexWrap: 'wrap', justifyContent:'space-between'}}> {searchedRecipes.map((recipe)=>{
             return( 
-              <div>
+              <div key={recipe.id}>
               <Card 
                     key={recipe.id}
                     id={recipe.id} 
