@@ -19,6 +19,7 @@ export interface CardType {
     image: string,
     difficulty: string,
     category: string
+    pathname:string
 }
 
 export interface IconType {

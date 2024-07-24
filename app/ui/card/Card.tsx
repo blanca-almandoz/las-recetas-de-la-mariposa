@@ -1,5 +1,4 @@
 
-import { string } from 'prop-types';
 import Link from "next/link"
 import Image from 'next/image';
 import { cardWrapper, cardContent, cardImage, cardInfo, cardTimer, cardTag, cardTitle} from './styles.css'
@@ -10,10 +9,10 @@ import { timeConvert } from '@/app/lib/utils';
 import { CardType } from '@/app/lib/types';
 
 
-const Card = ({id, title, time, image, difficulty='medio', category}: CardType) => {
+const Card = ({id, title, time, image, difficulty='medio', category, pathname}: CardType) => {
 
     return (
-     <Link href={{pathname: `${category}/${id}`}}>
+     <Link href={{pathname: pathname}}>
         <div className={cardWrapper}>
             <div className={cardImage}>
                {/*  <div className={cardTag}><Tag text = {category}/></div> */}
