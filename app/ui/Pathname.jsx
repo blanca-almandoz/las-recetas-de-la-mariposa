@@ -23,7 +23,7 @@ const Pathname = ({ recipes }) => {
             pathname={`${recipe.category}/${recipe.id}`}
           />
         )
-      })}{' '}
+      })}
     </>
   )
 }

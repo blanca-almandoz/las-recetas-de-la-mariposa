@@ -39,7 +39,6 @@ const Card = ({
               height: '100%',
               borderRadius: '4px 4px 0px 0px',
               objectFit: 'cover',
-              backgroundColor: 'red',
             }}
             alt={title}
           />

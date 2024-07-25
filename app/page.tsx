@@ -1,6 +1,7 @@
 import { Search } from './ui/search/Search'
 import { Card } from './ui/card/Card'
 import { getRecipesList } from './lib/sheet'
+import { Suspense } from 'react'
 
 export default async function Home({
   searchParams,
@@ -35,7 +36,6 @@ export default async function Home({
           justifyContent: 'space-between',
         }}
       >
-        {' '}
         {searchedRecipes.map((recipe) => {
           return (
             <div key={recipe.id}>
