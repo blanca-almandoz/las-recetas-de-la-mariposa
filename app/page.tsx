@@ -11,9 +11,12 @@ export default async function Home({
   };
 }) {
   const recipes = await getRecipesList();
-  const cleanRecipes = recipes.filter((item)=>item.title !== 'Nombre')
   const query = searchParams?.query || '';
-  const searchedRecipes = cleanRecipes.filter((recipe)=>recipe.title?.toLowerCase().includes(query)) 
+  const searchedRecipes = recipes.filter((recipe)=>{
+    const recipesList = recipe.title?.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const recipeSearched = query.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    return(recipesList.includes(recipeSearched))
+  }) 
 
   return (
     <div style={{width:'100%'}}> 

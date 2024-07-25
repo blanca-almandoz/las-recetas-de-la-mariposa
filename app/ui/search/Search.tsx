@@ -9,7 +9,6 @@ const Search = () => {
 
     const handleSearch = (term: string) => {
         const params = new URLSearchParams(searchParams);
-        console.log('blanca', term)
         if (term) {
         params.set('query', term);
         } else {

@@ -29,7 +29,9 @@ export async function getRecipesList() {
         time: row[6],
         portions: row[7],
         image: row[10]
-      }));
+      }))
+      .filter((item) => item.title !== 'Nombre')
+      .filter((item) => item.image !== undefined)
     }
   } catch (err) {
     console.log(err);
