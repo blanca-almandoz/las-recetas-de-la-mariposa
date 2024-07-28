@@ -12,7 +12,6 @@ export const cardWrapper = style({
 export const cardImage = style({
   position: 'relative',
   borderRadius: '4px 4px 0px 0px',
-  backgroundColor: 'pink',
   width: '100%',
   height: 229,
   display: 'flex',
