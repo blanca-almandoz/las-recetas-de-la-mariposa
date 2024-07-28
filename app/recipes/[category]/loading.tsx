@@ -2,27 +2,10 @@ import { cardWrapper } from '@/app/ui/card/styles.css'
 import { TopLevelWrapper } from '@/app/ui/topLevelWrapper/TopLevelWrapper'
 
 export default function Loading() {
-  return (
-    <div
-      style={{
-        width: '100%',
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-      }}
-    >
-      <SkeletonCard />
-      <SkeletonCard />
-      <SkeletonCard />
-      <SkeletonCard />
-      <SkeletonCard />
-      <SkeletonCard />
-    </div>
-  )
+  return <LoadingSkeleton />
 }
 
-const SkeletonCard = () => {
+export const SkeletonCard = () => {
   return (
     <div
       role="status"
@@ -42,6 +25,27 @@ const SkeletonCard = () => {
       <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
       <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
       <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+    </div>
+  )
+}
+
+export const LoadingSkeleton = () => {
+  return (
+    <div
+      style={{
+        width: '100%',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+      }}
+    >
+      <SkeletonCard />
+      <SkeletonCard />
+      <SkeletonCard />
+      <SkeletonCard />
+      <SkeletonCard />
+      <SkeletonCard />
     </div>
   )
 }

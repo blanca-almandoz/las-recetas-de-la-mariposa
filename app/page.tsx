@@ -1,7 +1,6 @@
 import { Search } from './ui/search/Search'
 import { Card } from './ui/card/Card'
 import { getRecipesList } from './lib/sheet'
-import { Suspense } from 'react'
 
 export default async function Home({
   searchParams,
@@ -28,6 +27,7 @@ export default async function Home({
   return (
     <div style={{ width: '100%' }}>
       <Search />
+
       <div
         style={{
           width: '100%',
