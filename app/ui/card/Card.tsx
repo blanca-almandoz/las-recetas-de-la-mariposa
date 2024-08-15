@@ -24,11 +24,12 @@ const Card = ({
   category,
   pathname,
 }: CardType) => {
+  const displayTag = pathname.includes('recipes')
   return (
     <Link href={{ pathname: pathname }}>
       <div className={cardWrapper}>
         <div className={cardImage}>
-          {/*  <div className={cardTag}><Tag text = {category}/></div> */}
+          <div className={cardTag}>{displayTag && <Tag text={category} />}</div>
           <Image
             src={image}
             width={0}

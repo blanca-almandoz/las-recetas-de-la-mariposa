@@ -5,6 +5,9 @@ export const recipeWrapper = style({
   flexDirection: 'column',
   width: '100%',
   gap: 24,
+  padding: 24,
+  boxShadow: 'rgba(17, 12, 46, 0.15) 0px 48px 100px 0px',
+  borderRadius: '0px 0px 4px 4px',
 })
 
 export const recipeActions = style({
@@ -68,6 +71,7 @@ export const recipeContentText = style({
 export const recipeContentImage = style({
   width: 590,
   height: 349,
+
   '@media': {
     'screen and (max-width: 639px)': {
       width: '100%',

@@ -19,7 +19,6 @@ import {
   IconType,
   IconAndLabelType,
   ListedItemsType,
-  CategoryType,
 } from '@/app/lib/types'
 import { vars } from '@/theme.css'
 
