@@ -41,8 +41,8 @@ export default async function Home({
             const [dayA, monthA, yearA] = a.date.split('/').map(Number)
             const [dayB, monthB, yearB] = b.date.split('/').map(Number)
 
-            const dateA = new Date(yearA, monthA - 1, dayA)
-            const dateB = new Date(yearB, monthB - 1, dayB)
+            const dateA = new Date(yearA, monthA - 1, dayA) as any
+            const dateB = new Date(yearB, monthB - 1, dayB) as any
 
             return dateB - dateA
           })
