@@ -1,6 +1,5 @@
 import { ArrowBack, CookHat, Basket, Portions, Timer, Difficulty } from '../SVG'
 import Image from 'next/image'
-
 import {
   recipeWrapper,
   recipeActions,
@@ -20,7 +19,9 @@ import {
   IconType,
   IconAndLabelType,
   ListedItemsType,
+  CategoryType,
 } from '@/app/lib/types'
+import { vars } from '@/theme.css'
 
 const Icons = ({ icon, level }: IconType) => {
   switch (icon) {
@@ -41,7 +42,6 @@ const Icons = ({ icon, level }: IconType) => {
 
 const IconAndLabel = ({ icon, label, level }: IconAndLabelType) => (
   <div className={iconAndLabelWrapper}>
-    {' '}
     <Icons icon={icon} level={level} /> {label}
   </div>
 )
@@ -60,7 +60,8 @@ const ListedItems = ({ icon, title, items }: ListedItemsType) => {
 }
 
 const DetailsPage = ({ recipe }: DetailsPageType) => {
-  const { title, ingredients, steps, time, difficulty, image } = recipe[0]
+  const { title, ingredients, steps, time, difficulty, image, category } =
+    recipe[0]
   const formatedTime = timeConvert(time)
   const headers = [
     { icon: 'timer', label: formatedTime },
@@ -68,13 +69,20 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
     { icon: 'difficulty', label: difficulty },
   ]
 
+  const test: any = {
+    starters: vars.color.starters.light,
+    main: vars.color.main.light,
+    siders: vars.color.siders.light,
+    desserts: vars.color.desserts.light,
+  }
+
   const arraySteps = steps.split('\n').filter((item: any) => item.trim() !== '')
   const arrayIngredients = ingredients
     .split('\n')
     .filter((item: any) => item.trim() !== '')
 
   return (
-    <div className={recipeWrapper}>
+    <div className={recipeWrapper} style={{ backgroundColor: test[category] }}>
       {/*  <div className={recipeActions}>
             <div><ArrowBack /></div>
             <div className={recipeGoBackAction}>Atrás</div>
