@@ -1,10 +1,20 @@
 import { style } from '@vanilla-extract/css'
 
 export const searchWrapper = style({
+  marginTop: 32,
+  width: '100%',
   display: 'flex',
   justifyContent: 'center',
-  width: '100%',
-  marginTop: 32,
+})
+
+export const searchComponent = style({
+  display: 'inline-block',
+  position: 'relative',
+  '@media': {
+    'screen and (max-width: 887px)': {
+      width: '100%',
+    },
+  },
 })
 
 export const searchInput = style({
@@ -15,7 +25,15 @@ export const searchInput = style({
   '@media': {
     'screen and (max-width: 887px)': {
       width: '100%',
-      margin: '0px 24px',
     },
   },
+})
+
+export const searchCloseButton = style({
+  position: 'absolute',
+  right: 10,
+  fontSize: 16,
+  top: '50%',
+  transform: 'translateY(-50%)',
+  cursor: 'pointer',
 })

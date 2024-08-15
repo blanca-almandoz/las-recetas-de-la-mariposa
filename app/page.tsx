@@ -36,8 +36,17 @@ export default async function Home({
           justifyContent: 'space-between',
         }}
       >
-        {searchedRecipes.map((recipe) => {
-          return (
+        {searchedRecipes
+          .sort((a, b) => {
+            const [dayA, monthA, yearA] = a.date.split('/').map(Number)
+            const [dayB, monthB, yearB] = b.date.split('/').map(Number)
+
+            const dateA = new Date(yearA, monthA - 1, dayA)
+            const dateB = new Date(yearB, monthB - 1, dayB)
+
+            return dateB - dateA
+          })
+          .map((recipe) => (
             <div key={recipe.id}>
               <Card
                 key={recipe.id}
@@ -50,8 +59,7 @@ export default async function Home({
                 pathname={`recipes/${recipe.category}/${recipe.id}`}
               />
             </div>
-          )
-        })}
+          ))}
       </div>
     </div>
   )

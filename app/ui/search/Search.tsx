@@ -1,6 +1,11 @@
 'use client'
 import { useSearchParams, usePathname, useRouter } from 'next/navigation'
-import { searchInput, searchWrapper } from './styles.css'
+import {
+  searchInput,
+  searchWrapper,
+  searchCloseButton,
+  searchComponent,
+} from './styles.css'
 
 const Search = () => {
   const searchParams = useSearchParams()
@@ -19,17 +24,20 @@ const Search = () => {
 
   return (
     <div className={searchWrapper}>
-      <input
-        type="text"
-        name="search"
-        id="search"
-        className={searchInput}
-        placeholder="Buscar..."
-        onChange={(e) => {
-          handleSearch(e.target.value)
-        }}
-        defaultValue={searchParams.get('query')?.toString()}
-      />
+      <div className={searchComponent}>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          className={searchInput}
+          placeholder="Buscar..."
+          onChange={(e) => {
+            handleSearch(e.target.value)
+          }}
+          defaultValue={searchParams.get('query')?.toString()}
+        />
+        <div className={searchCloseButton}>x</div>
+      </div>
     </div>
   )
 }
