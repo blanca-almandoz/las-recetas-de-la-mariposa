@@ -18,7 +18,7 @@ export interface CardType {
   time: string
   image: string
   difficulty: string
-  category: string
+  category: TagKeys
   pathname: string
 }
 
