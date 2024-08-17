@@ -1,4 +1,12 @@
-import { ArrowBack, CookHat, Basket, Portions, Timer, Difficulty } from '../SVG'
+import {
+  ArrowBack,
+  CookHat,
+  Basket,
+  Portions,
+  Timer,
+  Difficulty,
+  TimerFilled,
+} from '../SVG'
 import Image from 'next/image'
 import {
   recipeWrapper,
@@ -10,6 +18,7 @@ import {
   recipeContentText,
   recipeContentImage,
   recipeContentTextHeaders,
+  recipeImage,
   listedSteps,
   iconAndLabelWrapper,
 } from './styles.css'
@@ -29,7 +38,7 @@ const Icons = ({ icon, level }: IconType) => {
     case 'basket':
       return <Basket />
     case 'timer':
-      return <Timer />
+      return <TimerFilled />
     case 'difficulty':
       return <Difficulty level={level} />
     case 'portions':
@@ -41,7 +50,8 @@ const Icons = ({ icon, level }: IconType) => {
 
 const IconAndLabel = ({ icon, label, level }: IconAndLabelType) => (
   <div className={iconAndLabelWrapper}>
-    <Icons icon={icon} level={level} /> {label}
+    <Icons icon={icon} level={level} />{' '}
+    <span style={{ fontWeight: 500 }}>{label}</span>
   </div>
 )
 
@@ -113,12 +123,7 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
               width={0}
               height={0}
               sizes="100vm"
-              style={{
-                width: '100%',
-                height: '100%',
-                borderRadius: 4,
-                objectFit: 'cover',
-              }}
+              className={recipeImage}
               alt={title}
             />
           </div>

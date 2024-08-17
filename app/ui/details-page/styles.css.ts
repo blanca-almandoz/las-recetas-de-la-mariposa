@@ -8,17 +8,19 @@ export const recipeWrapper = style({
   padding: 24,
   boxShadow: 'rgba(17, 12, 46, 0.15) 0px 48px 100px 0px',
   borderRadius: '0px 0px 4px 4px',
+  '@media': {
+    'screen and (max-width: 887px)': {
+      padding: 0,
+      paddingBottom: 24,
+      borderRadius: 0,
+    },
+  },
 })
 
 export const recipeActions = style({
   display: 'flex',
   width: '100%',
   gap: 8,
-  '@media': {
-    'screen and (max-width: 887px)': {
-      margin: '0px 16px',
-    },
-  },
 })
 
 export const recipeGoBackAction = style({
@@ -28,14 +30,15 @@ export const recipeGoBackAction = style({
 })
 
 export const recipeTitle = style({
-  marginTop: 16,
   fontSize: 40,
   fontWeight: 700,
   color: '#292D44',
   letterSpacing: 3,
+  marginBottom: 24,
   '@media': {
     'screen and (max-width: 887px)': {
-      margin: '24px 16px 0px',
+      padding: 8,
+      marginBottom: 8,
     },
   },
 })
@@ -43,7 +46,6 @@ export const recipeTitle = style({
 export const recipeContent = style({
   display: 'flex',
   flexDirection: 'column',
-  gap: 24,
 })
 
 export const recipeContentContainer = style({
@@ -71,12 +73,22 @@ export const recipeContentText = style({
 export const recipeContentImage = style({
   width: 590,
   height: 349,
-
   '@media': {
     'screen and (max-width: 639px)': {
       width: '100%',
-      borderRadius: 0,
       height: 229,
+    },
+  },
+})
+
+export const recipeImage = style({
+  width: '100%',
+  height: '100%',
+  borderRadius: 4,
+  objectFit: 'cover',
+  '@media': {
+    'screen and (max-width: 887px)': {
+      borderRadius: 0,
     },
   },
 })
@@ -89,14 +101,14 @@ export const listedSteps = style({
   marginTop: 48,
   '@media': {
     'screen and (max-width: 887px)': {
-      margin: '0px 16px 24px',
+      marginLeft: 8,
+      marginTop: 16,
     },
   },
 })
 
 export const iconAndLabelWrapper = style({
   display: 'flex',
-  alignItems: 'center',
   gap: 8,
 })
 
@@ -104,15 +116,12 @@ export const recipeContentTextHeaders = style({
   display: 'flex',
   gap: 64,
   minWidth: 300,
-  margin: '0px 0px 16px',
+  marginBottom: 16,
   '@media': {
-    'screen and (max-width: 639px)': {
-      gap: 32,
-      margin: '8px 16px',
-    },
     'screen and (max-width: 887px)': {
-      gap: 32,
-      margin: '8px 16px 16px',
+      marginLeft: 8,
+      marginTop: 16,
+      marginBottom: 24,
     },
   },
 })
