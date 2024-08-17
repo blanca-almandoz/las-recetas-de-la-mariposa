@@ -40,6 +40,8 @@ export interface DetailsPageType {
   recipe: any
 }
 
+export type TagKeys = 'starters' | 'main' | 'siders' | 'desserts'
+
 export interface TagType {
-  text: string
+  text: TagKeys
 }
