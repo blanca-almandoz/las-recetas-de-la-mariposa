@@ -6,6 +6,7 @@ import {
   Timer,
   Difficulty,
   TimerFilled,
+  Steps,
 } from '../SVG'
 import Image from 'next/image'
 import {
@@ -33,8 +34,8 @@ import { vars } from '@/theme.css'
 
 const Icons = ({ icon, level }: IconType) => {
   switch (icon) {
-    case 'hat':
-      return <CookHat />
+    case 'steps':
+      return <Steps />
     case 'basket':
       return <Basket />
     case 'timer':
@@ -43,6 +44,8 @@ const Icons = ({ icon, level }: IconType) => {
       return <Difficulty level={level} />
     case 'portions':
       return <Portions />
+    case 'hat':
+      return <CookHat />
     default:
       break
   }
@@ -50,8 +53,8 @@ const Icons = ({ icon, level }: IconType) => {
 
 const IconAndLabel = ({ icon, label, level }: IconAndLabelType) => (
   <div className={iconAndLabelWrapper}>
-    <Icons icon={icon} level={level} />{' '}
-    <span style={{ fontWeight: 500 }}>{label}</span>
+    <Icons icon={icon} level={level} />
+    <span style={{ fontWeight: 500, marginBottom: -4 }}>{label}</span>
   </div>
 )
 
@@ -69,13 +72,24 @@ const ListedItems = ({ icon, title, items }: ListedItemsType) => {
 }
 
 const DetailsPage = ({ recipe }: DetailsPageType) => {
-  const { title, ingredients, steps, time, difficulty, image, category } =
-    recipe[0]
+  const {
+    title,
+    ingredients,
+    steps,
+    time,
+    difficulty,
+    image,
+    category,
+    author,
+    portions,
+  } = recipe[0]
+
   const formatedTime = timeConvert(time)
   const headers = [
     { icon: 'timer', label: formatedTime },
-    { icon: 'portions', label: '4' },
+    { icon: 'portions', label: portions || '4' },
     { icon: 'difficulty', label: difficulty },
+    { icon: 'hat', label: author },
   ]
 
   const test: any = {
@@ -112,7 +126,7 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
               ))}
             </div>
             <ListedItems
-              title="Ingredientes:"
+              title="Ingredientes"
               items={arrayIngredients}
               icon="basket"
             />
@@ -128,7 +142,7 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
             />
           </div>
         </div>
-        <ListedItems title="Preparación:" items={arraySteps} icon="hat" />
+        <ListedItems title="Preparación" items={arraySteps} icon="steps" />
       </div>
     </div>
   )

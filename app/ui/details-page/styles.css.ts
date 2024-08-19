@@ -109,7 +109,15 @@ export const listedSteps = style({
 
 export const iconAndLabelWrapper = style({
   display: 'flex',
+  flexWrap: 'wrap',
   gap: 8,
+  '@media': {
+    'screen and (max-width: 639px)': {
+      justifyContent: 'center',
+      paddingRight: 8,
+      gap: 4,
+    },
+  },
 })
 
 export const recipeContentTextHeaders = style({
