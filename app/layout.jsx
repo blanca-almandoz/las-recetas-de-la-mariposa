@@ -9,7 +9,10 @@ import { montserrat } from './ui/fonts'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={clsx(themeClass, `${montserrat.className} antialiased`)}>
+      <body
+        className={clsx(themeClass, `${montserrat.className} antialiased`)}
+        style={{ overflowX: 'hidden' }}
+      >
         <div>
           <NavBar />
         </div>

@@ -97,39 +97,48 @@ export const listedSteps = style({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  gap: 16,
+  gap: 8,
   marginTop: 48,
   '@media': {
     'screen and (max-width: 887px)': {
       marginLeft: 8,
-      marginTop: 16,
+      marginRight: 8,
+      marginTop: 32,
     },
   },
 })
 
 export const iconAndLabelWrapper = style({
   display: 'flex',
-  flexWrap: 'wrap',
-  gap: 8,
+  gap: 4,
   '@media': {
     'screen and (max-width: 639px)': {
-      justifyContent: 'center',
+      flexDirection: 'column',
+      alignItems: 'center',
       paddingRight: 8,
-      gap: 4,
     },
+  },
+})
+
+export const recipeTitleList = style({
+  display: 'flex',
+  gap: 4,
+  '@media': {
+    'screen and (max-width: 639px)': {},
   },
 })
 
 export const recipeContentTextHeaders = style({
   display: 'flex',
   gap: 64,
-  minWidth: 300,
   marginBottom: 16,
   '@media': {
     'screen and (max-width: 887px)': {
       marginLeft: 8,
       marginTop: 16,
       marginBottom: 24,
+      gap: 0,
+      justifyContent: 'space-between',
     },
   },
 })

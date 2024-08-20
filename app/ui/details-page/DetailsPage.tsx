@@ -22,6 +22,7 @@ import {
   recipeImage,
   listedSteps,
   iconAndLabelWrapper,
+  recipeTitleList,
 } from './styles.css'
 import { timeConvert } from '@/app/lib/utils'
 import {
@@ -54,14 +55,20 @@ const Icons = ({ icon, level }: IconType) => {
 const IconAndLabel = ({ icon, label, level }: IconAndLabelType) => (
   <div className={iconAndLabelWrapper}>
     <Icons icon={icon} level={level} />
-    <span style={{ fontWeight: 500, marginBottom: -4 }}>{label}</span>
+    <span style={{ fontWeight: 500 }}>{label}</span>
   </div>
 )
 
 const ListedItems = ({ icon, title, items }: ListedItemsType) => {
   return (
     <div className={listedSteps}>
-      <IconAndLabel label={title} icon={icon} />
+      <div className={recipeTitleList}>
+        <div>
+          <Icons icon={icon} />
+        </div>
+
+        <span style={{ fontWeight: 500 }}>{title}</span>
+      </div>
       <div style={{ marginLeft: '8px' }}>
         {items.map((item) => (
           <li key={item}>{item}</li>
