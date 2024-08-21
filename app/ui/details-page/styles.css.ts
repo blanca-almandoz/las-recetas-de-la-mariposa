@@ -71,12 +71,23 @@ export const recipeContentText = style({
 })
 
 export const recipeContentImage = style({
-  width: 590,
   height: 349,
   '@media': {
     'screen and (max-width: 639px)': {
       width: '100%',
       height: 229,
+    },
+  },
+})
+
+export const recipeWrapperImage = style({
+  display: 'flex',
+  flexDirection: 'column',
+  fontStyle: 'italic',
+  width: 590,
+  '@media': {
+    'screen and (max-width: 639px)': {
+      width: '100%',
     },
   },
 })

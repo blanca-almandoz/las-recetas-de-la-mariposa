@@ -23,6 +23,7 @@ import {
   listedSteps,
   iconAndLabelWrapper,
   recipeTitleList,
+  recipeWrapperImage,
 } from './styles.css'
 import { timeConvert } from '@/app/lib/utils'
 import {
@@ -89,6 +90,7 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
     category,
     author,
     portions,
+    imageComment,
   } = recipe[0]
 
   const formatedTime = timeConvert(time)
@@ -138,15 +140,18 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
               icon="basket"
             />
           </div>
-          <div className={recipeContentImage}>
-            <Image
-              src={image}
-              width={0}
-              height={0}
-              sizes="100vm"
-              className={recipeImage}
-              alt={title}
-            />
+          <div className={recipeWrapperImage}>
+            <div className={recipeContentImage}>
+              <Image
+                src={image}
+                width={0}
+                height={0}
+                sizes="100vm"
+                className={recipeImage}
+                alt={title}
+              />
+            </div>
+            <div>{imageComment}</div>
           </div>
         </div>
         <ListedItems title="Preparación" items={arraySteps} icon="steps" />

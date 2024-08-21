@@ -31,6 +31,7 @@ export async function getRecipesList() {
           image: row[10],
           date: row[11],
           author: row[12],
+          imageComment: row[13],
         }))
         .filter((item) => item.title !== 'Nombre')
         .filter((item) => item.image !== undefined)

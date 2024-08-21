@@ -36,8 +36,20 @@ export interface ListedItemsType extends IconType {
   items: Array<string>
 }
 
+export interface Recipe {
+  title: string
+  ingredients: string
+  steps: string
+  time: number
+  difficulty: string
+  image: string
+  category: TagKeys
+  author: string
+  portions: number
+  imageComment: string
+}
 export interface DetailsPageType {
-  recipe: any
+  recipe: Recipe[]
 }
 
 export type TagKeys = 'starters' | 'main' | 'siders' | 'desserts'
