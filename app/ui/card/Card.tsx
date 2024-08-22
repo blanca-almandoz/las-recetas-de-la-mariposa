@@ -11,7 +11,6 @@ import {
 } from './styles.css'
 
 import { Difficulty, Timer } from '../SVG.jsx'
-import { Tag } from '../tag/Tag'
 import { timeConvert } from '@/app/lib/utils'
 import { CardType } from '@/app/lib/types'
 
@@ -24,12 +23,10 @@ const Card = ({
   category,
   pathname,
 }: CardType) => {
-  const displayTag = pathname.includes('recipes')
   return (
     <Link href={{ pathname: pathname }}>
       <div className={cardWrapper}>
         <div className={cardImage}>
-          <div className={cardTag}>{displayTag && <Tag text={category} />}</div>
           <Image
             src={image}
             width={0}

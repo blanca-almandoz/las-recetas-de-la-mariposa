@@ -18,7 +18,7 @@ export interface CardType {
   time: string
   image: string
   difficulty: string
-  category: TagKeys
+  category: CategoryKeys
   pathname: string
 }
 
@@ -43,7 +43,7 @@ export interface Recipe {
   time: number
   difficulty: string
   image: string
-  category: TagKeys
+  category: CategoryKeys
   author: string
   portions: number
   imageComment: string
@@ -52,8 +52,4 @@ export interface DetailsPageType {
   recipe: Recipe[]
 }
 
-export type TagKeys = 'starters' | 'main' | 'siders' | 'desserts'
-
-export interface TagType {
-  text: TagKeys
-}
+export type CategoryKeys = 'starters' | 'main' | 'siders' | 'desserts'
