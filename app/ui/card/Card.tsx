@@ -6,7 +6,6 @@ import {
   cardImage,
   cardInfo,
   cardTimer,
-  cardTag,
   cardTitle,
 } from './styles.css'
 
