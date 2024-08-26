@@ -1,6 +1,6 @@
 import '@/app/ui/global.css'
 import { Analytics } from '@vercel/analytics/react'
-import { NavBar } from './ui/NavBar'
+import { NavBar } from './ui/navbar/NavBar'
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
 import { themeClass } from '@/theme.css'
 import clsx from 'clsx'
