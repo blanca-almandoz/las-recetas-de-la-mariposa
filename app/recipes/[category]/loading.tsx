@@ -10,7 +10,6 @@ export const SkeletonCard = () => {
       style={{
         height: 341,
         borderRadius: 4,
-        borderColor: 'red',
         width: 387,
         backgroundColor: '#EFEAE6',
         margin: 16,
