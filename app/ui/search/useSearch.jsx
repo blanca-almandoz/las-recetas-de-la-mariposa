@@ -7,11 +7,13 @@ export const useSearch = () => useContext(SearchContext)
 
 export const SearchProvider = ({ children }) => {
   const [onOpenSearch, setOnOpenSearch] = useState(false)
+  const [searchValue, setSearchValue] = useState('')
 
   const initialValues = {
     onOpenSearch,
     setOnOpenSearch,
-    resetValue: true,
+    searchValue,
+    setSearchValue,
   }
   return (
     <SearchContext.Provider value={initialValues}>
