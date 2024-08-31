@@ -1,7 +1,7 @@
-import { Search } from './ui/search/Search'
 import { Card } from './ui/card/Card'
 import { getRecipesList } from './lib/sheet'
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
+import { Recipe } from './lib/types'
 
 export default async function Home({
   searchParams,
@@ -13,7 +13,7 @@ export default async function Home({
 }) {
   const recipes = await getRecipesList()
   const query = searchParams?.query || ''
-  const searchedRecipes = recipes.filter((recipe) => {
+  const searchedRecipes = recipes.filter((recipe: Recipe) => {
     const recipesList = recipe.title
       ?.toLowerCase()
       .normalize('NFD')
@@ -28,7 +28,7 @@ export default async function Home({
   return (
     <TopLevelWrapper>
       {searchedRecipes
-        .sort((a, b) => {
+        .sort((a: any, b: any) => {
           const [dayA, monthA, yearA] = a.date.split('/').map(Number)
           const [dayB, monthB, yearB] = b.date.split('/').map(Number)
 
@@ -37,7 +37,7 @@ export default async function Home({
 
           return dateB - dateA
         })
-        .map((recipe) => (
+        .map((recipe: Recipe) => (
           <div key={recipe.id}>
             <Card
               key={recipe.id}

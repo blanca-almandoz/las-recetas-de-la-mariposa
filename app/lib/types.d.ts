@@ -37,10 +37,11 @@ export interface ListedItemsType extends IconType {
 }
 
 export interface Recipe {
+  id: string
   title: string
   ingredients: string
   steps: string
-  time: number
+  time: string
   difficulty: string
   image: string
   category: CategoryKeys
