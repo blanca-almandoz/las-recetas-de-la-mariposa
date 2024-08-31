@@ -18,6 +18,7 @@ import {
 } from './styles.css'
 import { MobileMenu, SearchIcon } from '../SVG'
 import { Search } from '../search/Search'
+import { useSearch } from '../search/useSearch'
 
 const navbarItems = {
   starters: 'Tapas y aperitivos',
@@ -28,7 +29,6 @@ const navbarItems = {
 
 const NavBar = () => {
   const [onOpen, setOnOpen] = useState(false)
-  const [onSearch, setOnSearch] = useState(false)
   const pathname = usePathname()
 
   const handleClick = () => {
@@ -36,15 +36,16 @@ const NavBar = () => {
   }
 
   const handleCloseSearchBar = () => {
-    setOnSearch(!onSearch)
+    setOnOpenSearch(!onOpenSearch)
   }
+  const { onOpenSearch, setOnOpenSearch } = useSearch()
 
   return (
     <nav className={wrapper}>
       <div className={container}>
         <div
           className={content}
-          style={{ display: onSearch ? 'none' : 'flex' }}
+          style={{ display: onOpenSearch ? 'none' : 'flex' }}
         >
           <div className={menuMobile}>
             {/*  <!-- Mobile menu button--> */}
@@ -64,6 +65,7 @@ const NavBar = () => {
             </Link>
           </div>
 
+          {/* Menu items */}
           <div className={contentItems}>
             <div className={contentItemsLinksContainer}>
               {Object.keys(navbarItems).map((itemLink) => (
@@ -78,7 +80,7 @@ const NavBar = () => {
               ))}
             </div>
             <div
-              onClick={() => setOnSearch(!onSearch)}
+              onClick={() => setOnOpenSearch(!onOpenSearch)}
               style={{ padding: 8, cursor: 'pointer' }}
               className={navbarItem}
             >
@@ -86,9 +88,10 @@ const NavBar = () => {
             </div>
           </div>
         </div>
+        {/* Search bar */}
         <div
           style={{
-            display: onSearch ? 'flex' : 'none',
+            display: onOpenSearch ? 'flex' : 'none',
             justifyContent: 'center',
             width: '100%',
           }}

@@ -2,7 +2,7 @@ import { vars } from '@/theme.css'
 import { style } from '@vanilla-extract/css'
 
 export const searchWrapper = style({
-  width: 1290,
+  width: '100%',
   height: 64,
   display: 'flex',
   justifyContent: 'center',
@@ -31,7 +31,7 @@ export const searchInput = style({
 
 export const searchCloseButton = style({
   position: 'absolute',
-  right: 10,
+  right: 0,
   top: '50%',
   transform: 'translateY(-50%)',
   cursor: 'pointer',
