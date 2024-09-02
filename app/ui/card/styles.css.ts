@@ -1,12 +1,17 @@
 import { style } from '@vanilla-extract/css'
 
 export const cardWrapper = style({
-  width: 387,
+  width: 330,
   minHeight: 330,
   backgroundColor: '#EFEAE6',
   borderRadius: 4,
   margin: 16,
   boxShadow: '8px 8px 90px 1px #A6A6A6',
+  '@media': {
+    'screen and (min-width: 768px)': {
+      width: 387,
+    },
+  },
 })
 
 export const cardImage = style({
