@@ -12,7 +12,6 @@ import {
   contentItems,
   navbarItem,
   navBarItemSelected,
-  navbarItemsStyles,
   logo,
   menuMobile,
 } from './styles.css'
@@ -30,6 +29,7 @@ const navbarItems = {
 const NavBar = () => {
   const [onOpen, setOnOpen] = useState(false)
   const pathname = usePathname()
+  const { onOpenSearch, setOnOpenSearch } = useSearch()
 
   const handleClick = () => {
     setOnOpen(!onOpen)
@@ -38,7 +38,6 @@ const NavBar = () => {
   const handleCloseSearchBar = () => {
     setOnOpenSearch(!onOpenSearch)
   }
-  const { onOpenSearch, setOnOpenSearch } = useSearch()
 
   return (
     <nav className={wrapper}>
@@ -102,8 +101,8 @@ const NavBar = () => {
 
       {/*  <!-- Mobile menu, show/hide based on menu state. --> */}
       {onOpen && (
-        <div id="mobile-menu">
-          <div className="space-y-1 px-2 pb-3 pt-2">
+        <div className={menuMobile} style={{ width: '100%' }}>
+          <div style={{ padding: '8px 4px' }}>
             <Link
               href="/recipes/starters"
               onClick={handleClick}

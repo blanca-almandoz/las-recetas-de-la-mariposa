@@ -3,10 +3,11 @@ import { style } from '@vanilla-extract/css'
 
 export const wrapper = style({
   display: 'flex',
+  flexDirection: 'column',
   width: '100%',
   position: 'fixed',
+  alignItems: 'center',
   zIndex: 2,
-  justifyContent: 'center',
   backgroundColor: '#1F2937',
 })
 
@@ -14,8 +15,16 @@ export const container = style({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
+  width: '100%',
   height: 64,
-  width: 1200,
+  paddingLeft: 8,
+  paddingRight: 8,
+  '@media': {
+    'screen and (min-width: 887px)': {
+      maxWidth: 1200,
+      padding: 0,
+    },
+  },
 })
 
 export const content = style({
