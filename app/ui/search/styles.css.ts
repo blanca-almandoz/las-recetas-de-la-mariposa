@@ -1,8 +1,9 @@
+import { vars } from '@/theme.css'
 import { style } from '@vanilla-extract/css'
 
 export const searchWrapper = style({
-  marginTop: 32,
   width: '100%',
+  height: 64,
   display: 'flex',
   justifyContent: 'center',
 })
@@ -10,29 +11,27 @@ export const searchWrapper = style({
 export const searchComponent = style({
   display: 'inline-block',
   position: 'relative',
-  '@media': {
-    'screen and (max-width: 887px)': {
-      width: '100%',
-    },
-  },
+  width: '100%',
 })
 
 export const searchInput = style({
+  height: '100%',
   padding: '8px 12px',
-  borderRadius: 4,
-  width: 700,
-  backgroundColor: '#F5F5F5',
+  width: '100%',
+  backgroundColor: 'transparent',
+  color: vars.color.white,
   '@media': {
-    'screen and (max-width: 887px)': {
-      width: '100%',
-    },
+    'screen and (max-width: 887px)': {},
+  },
+  ':focus': {
+    outline: 'none',
+    boxShadow: 'none',
   },
 })
 
 export const searchCloseButton = style({
   position: 'absolute',
-  right: 10,
-  fontSize: 16,
+  right: 0,
   top: '50%',
   transform: 'translateY(-50%)',
   cursor: 'pointer',

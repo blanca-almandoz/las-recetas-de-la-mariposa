@@ -3,14 +3,26 @@ import { Card } from '../ui/card/Card'
 import { usePathname } from 'next/navigation'
 import { fetchRecipesByCategory } from '../lib/utils'
 
-const Pathname = ({ recipes }) => {
+const Pathname = ({ recipes, searchParams }) => {
+  const query = searchParams?.query || ''
   const pathname = usePathname()
   const categoryName = pathname.slice(9)
   const result = fetchRecipesByCategory(recipes, categoryName)
+  const searchedRecipes = result.filter((recipe) => {
+    const recipesList = recipe.title
+      ?.toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+    const recipeSearched = query
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+    return recipesList.includes(recipeSearched)
+  })
 
   return (
     <>
-      {result.map((recipe) => {
+      {searchedRecipes.map((recipe) => {
         return (
           <Card
             key={recipe.id}
