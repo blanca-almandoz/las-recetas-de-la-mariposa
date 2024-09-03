@@ -69,6 +69,7 @@ const NavBar = () => {
             <div className={contentItemsLinksContainer}>
               {Object.keys(navbarItems).map((itemLink) => (
                 <Link
+                  key={itemLink}
                   href={`/recipes/${itemLink}`}
                   className={clsx(navbarItem, {
                     [navBarItemSelected]: pathname === `/recipes/${itemLink}`,
