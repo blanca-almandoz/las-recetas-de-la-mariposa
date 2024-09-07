@@ -2,6 +2,7 @@ import { Card } from './ui/card/Card'
 import { getRecipesList } from './lib/sheet'
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
 import { Recipe } from './lib/types'
+import { IntroContainer } from './(overview)/IntroContainer'
 
 export default async function Home({
   searchParams,
@@ -27,6 +28,7 @@ export default async function Home({
 
   return (
     <>
+      <IntroContainer />
       <TopLevelWrapper>
         {searchedRecipes
           .sort((a: any, b: any) => {
