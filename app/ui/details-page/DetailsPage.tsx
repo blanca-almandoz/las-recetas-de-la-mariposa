@@ -1,4 +1,3 @@
-'use client'
 import {
   ArrowBack,
   CookHat,
@@ -34,8 +33,6 @@ import {
   ListedItemsType,
 } from '@/app/lib/types'
 import { vars } from '@/theme.css'
-import { useSearch } from '../search/useSearch'
-import { useEffect } from 'react'
 
 const Icons = ({ icon, level }: IconType) => {
   switch (icon) {
@@ -115,13 +112,6 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
   const arrayIngredients = ingredients
     .split('\n')
     .filter((item: any) => item.trim() !== '')
-
-  const { setOnOpenSearch, setSearchValue } = useSearch()
-
-  useEffect(() => {
-    setOnOpenSearch(false)
-    setSearchValue('')
-  }, [])
 
   return (
     <div className={recipeWrapper} style={{ backgroundColor: test[category] }}>

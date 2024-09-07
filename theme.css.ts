@@ -4,6 +4,9 @@ export const [themeClass, vars] = createTheme({
   color: {
     brand: 'white',
     white: '#fff',
+    primary: {
+      light: '#D0DCD2',
+    },
     starters: {
       dark: '#EED057',
       light: 'rgb(241, 227, 172, 0.5)',
