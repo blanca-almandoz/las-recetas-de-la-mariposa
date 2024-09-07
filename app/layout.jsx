@@ -1,7 +1,6 @@
 import '@/app/ui/global.css'
 import { Analytics } from '@vercel/analytics/react'
 import { NavBar } from './ui/navbar/NavBar'
-import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
 import { themeClass } from '@/theme.css'
 import clsx from 'clsx'
 import { montserrat } from './ui/fonts'
@@ -18,10 +17,10 @@ export default function RootLayout({ children }) {
           <div>
             <NavBar />
           </div>
-          <TopLevelWrapper>
+          <div>
             {children}
             <Analytics />
-          </TopLevelWrapper>
+          </div>
         </SearchProvider>
       </body>
     </html>

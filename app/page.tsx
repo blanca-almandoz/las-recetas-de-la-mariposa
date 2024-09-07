@@ -26,31 +26,33 @@ export default async function Home({
   })
 
   return (
-    <TopLevelWrapper>
-      {searchedRecipes
-        .sort((a: any, b: any) => {
-          const [dayA, monthA, yearA] = a.date.split('/').map(Number)
-          const [dayB, monthB, yearB] = b.date.split('/').map(Number)
+    <>
+      <TopLevelWrapper>
+        {searchedRecipes
+          .sort((a: any, b: any) => {
+            const [dayA, monthA, yearA] = a.date.split('/').map(Number)
+            const [dayB, monthB, yearB] = b.date.split('/').map(Number)
 
-          const dateA = new Date(yearA, monthA - 1, dayA) as any
-          const dateB = new Date(yearB, monthB - 1, dayB) as any
+            const dateA = new Date(yearA, monthA - 1, dayA) as any
+            const dateB = new Date(yearB, monthB - 1, dayB) as any
 
-          return dateB - dateA
-        })
-        .map((recipe: Recipe) => (
-          <div key={recipe.id}>
-            <Card
-              key={recipe.id}
-              id={recipe.id}
-              title={recipe.title}
-              time={recipe.time}
-              image={recipe.image}
-              category={recipe.category}
-              difficulty={recipe.difficulty}
-              pathname={`recipes/${recipe.category}/${recipe.id}`}
-            />
-          </div>
-        ))}
-    </TopLevelWrapper>
+            return dateB - dateA
+          })
+          .map((recipe: Recipe) => (
+            <div key={recipe.id}>
+              <Card
+                key={recipe.id}
+                id={recipe.id}
+                title={recipe.title}
+                time={recipe.time}
+                image={recipe.image}
+                category={recipe.category}
+                difficulty={recipe.difficulty}
+                pathname={`recipes/${recipe.category}/${recipe.id}`}
+              />
+            </div>
+          ))}
+      </TopLevelWrapper>
+    </>
   )
 }

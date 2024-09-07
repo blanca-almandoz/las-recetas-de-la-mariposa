@@ -1,14 +1,18 @@
+import { TopLevelWrapper } from '@/app/ui/topLevelWrapper/TopLevelWrapper'
+
 export default function Loading() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        width: '100%',
-      }}
-    >
-      <SkeletonDetailsPage />
-    </div>
+    <TopLevelWrapper>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          width: '100%',
+        }}
+      >
+        <SkeletonDetailsPage />
+      </div>
+    </TopLevelWrapper>
   )
 }
 
