@@ -1,5 +1,11 @@
 import Image from 'next/image'
-import { header, headerImage, headerText } from './styles.css'
+import {
+  header,
+  headerImage,
+  headerText,
+  headerMobile,
+  contentMobile,
+} from './styles.css'
 
 const introText = () => (
   <>
@@ -25,28 +31,56 @@ const introText = () => (
 
 const IntroContainer = () => {
   return (
-    <div className={header}>
-      <div className={headerImage}>
-        <Image
-          src="/images/kitchen-desktop.png"
-          alt="kitchen"
-          fill={true}
-          sizes="100vw"
-          style={{ objectFit: 'cover' }}
-          quality={100}
-        />
-      </div>
+    <>
+      {/* DESKTOP DESIGN */}
+      <div className={header}>
+        <div className={headerImage}>
+          <Image
+            src="/images/kitchen-desktop.png"
+            alt="kitchen"
+            fill={true}
+            sizes="100vw"
+            style={{ objectFit: 'cover' }}
+            quality={100}
+          />
+        </div>
 
-      <div className={headerText}>
-        <Image
-          src="/logo-complete.svg"
-          alt="logo-complete"
-          height={68}
-          width={300}
-        />
-        <div>{introText()}</div>
+        <div className={headerText}>
+          <Image
+            src="/logo-complete.svg"
+            alt="logo-complete"
+            height={68}
+            width={300}
+          />
+          <div>{introText()}</div>
+        </div>
       </div>
-    </div>
+      {/* MOBILE DESIGN */}
+      <div className={headerMobile}>
+        <div className={contentMobile}>
+          <div>
+            <div style={{ position: 'absolute', zIndex: 1 }}>
+              <Image
+                src="/logo-complete.svg"
+                alt="logo-complete"
+                height={52}
+                width={236}
+              />
+            </div>
+            <div style={{ position: 'relative', top: 0 }}>
+              <Image
+                src="/images/kitchen-mobile.png"
+                alt="kitchen"
+                height={226}
+                width={226}
+                quality={100}
+              />
+            </div>
+          </div>
+          <div>{introText()}</div>
+        </div>
+      </div>
+    </>
   )
 }
 

@@ -5,6 +5,11 @@ export const header = style({
   display: 'grid',
   gridTemplateColumns: 'repeat(12, 1fr)',
   paddingTop: 64,
+  '@media': {
+    'screen and (max-width: 887px)': {
+      display: 'none',
+    },
+  },
 })
 
 export const headerImage = style({
@@ -22,4 +27,22 @@ export const headerText = style({
   display: 'flex',
   alignItems: 'center',
   flexDirection: 'column',
+})
+
+export const headerMobile = style({
+  paddingTop: 64,
+  backgroundColor: vars.color.primary.light,
+  '@media': {
+    'screen and (min-width: 887px)': {
+      display: 'none',
+    },
+  },
+})
+
+export const contentMobile = style({
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: 16,
+  padding: 16,
 })
