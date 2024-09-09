@@ -8,7 +8,8 @@ export const wrapper = style({
   position: 'fixed',
   alignItems: 'center',
   zIndex: 2,
-  backgroundColor: '#1F2937',
+  backgroundColor: vars.color.white,
+  boxShadow: '0px 6px 9.9px -3px rgba(42,32,32,0.09)',
 })
 
 export const container = style({
@@ -63,16 +64,23 @@ export const contentItemsLinksContainer = style({
 })
 
 export const navbarItem = style({
-  color: vars.color.white,
+  color: vars.color.primary.dark,
   fontWeight: 500,
   padding: '8px 10px',
   ':hover': {
-    backgroundColor: '#49505c',
+    backgroundColor: vars.color.primary.light,
     borderRadius: 4,
   },
 })
 
 export const navBarItemSelected = style({
   borderRadius: 4,
-  backgroundColor: '#111827',
+  backgroundColor: vars.color.primary.dark,
+  color: vars.color.white,
+})
+
+export const navBarItemMobile = style({
+  display: 'block',
+  fontWeight: 500,
+  padding: '8px 12px',
 })
