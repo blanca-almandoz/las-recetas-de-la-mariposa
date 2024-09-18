@@ -84,3 +84,11 @@ export const navBarItemMobile = style({
   fontWeight: 500,
   padding: '8px 12px',
 })
+
+export const navBarIcon = style({
+  padding: 8,
+  ':hover': {
+    backgroundColor: vars.color.primary.light,
+    borderRadius: 4,
+  },
+})

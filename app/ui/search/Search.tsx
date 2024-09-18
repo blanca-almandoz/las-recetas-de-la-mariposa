@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import { useSearchParams, usePathname, useRouter } from 'next/navigation'
 import {
   searchInput,
@@ -10,19 +10,20 @@ import {
 import clsx from 'clsx'
 import { CloseIcon } from '../SVG'
 import { navbarItem } from '../navbar/styles.css'
-import { isHomePage } from '@/app/lib/utils'
 import { useSearch } from './useSearch'
+import { NavBarIcon } from '../navbar/NavBarIcon'
 
 interface SearchType {
   onClick: () => {}
 }
-const categories = 'starters' || 'main' || 'desserts' || 'siders'
+
 const Search = ({ onClick }: SearchType) => {
   const inputRef = useRef<HTMLInputElement>(null)
   const searchParams = useSearchParams()
   const pathname = usePathname()
   const { replace } = useRouter()
   const params = new URLSearchParams(searchParams)
+  const { searchValue, setSearchValue, onOpenSearch } = useSearch()
 
   const handleSearch = (term: string) => {
     setSearchValue(term)
@@ -31,32 +32,23 @@ const Search = ({ onClick }: SearchType) => {
     } else {
       params.delete('query')
     }
-
-    if (isHomePage(pathname, categories)) {
-      replace(`/?${params.toString()}`)
-    } else {
-      replace(`${pathname}?${params.toString()}`)
-    }
+    replace(`/search/?${params.toString()}`)
   }
-
-  const { searchValue, setSearchValue } = useSearch()
 
   useEffect(() => {
     setSearchValue(searchParams.get('query')?.toString() || '')
   }, [])
 
-  const handleClick = () => {
+  const handleClickCloseButton = () => {
     params.delete('query')
     setSearchValue('')
-    replace(`${pathname}?${params.toString()}`)
+    replace(pathname)
     onClick()
   }
 
   useEffect(() => {
-    if (inputRef.current) {
-      inputRef.current.focus()
-    }
-  }, [inputRef.current])
+    inputRef.current?.focus()
+  }, [onOpenSearch])
 
   return (
     <div className={searchWrapper}>
@@ -73,11 +65,10 @@ const Search = ({ onClick }: SearchType) => {
             handleSearch(e.target.value)
           }}
         />
-        <div
-          onClick={handleClick}
-          className={clsx(searchCloseButton, navbarItem)}
-        >
-          <CloseIcon />
+        <div className={searchCloseButton}>
+          <NavBarIcon onClick={handleClickCloseButton}>
+            <CloseIcon />
+          </NavBarIcon>
         </div>
       </div>
     </div>

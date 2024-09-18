@@ -19,6 +19,8 @@ import {
 import { MobileMenu, SearchIcon } from '../SVG'
 import { Search } from '../search/Search'
 import { useSearch } from '../search/useSearch'
+import { NavBarIcon } from './NavBarIcon'
+import { searchCloseButton } from '../search/styles.css'
 
 const NAVBARITEMS = {
   starters: 'Tapas y aperitivos',
@@ -81,16 +83,14 @@ const NavBar = () => {
                 </Link>
               ))}
             </div>
-            <div
+            <NavBarIcon
               onClick={() => {
                 setOnOpenSearch(!onOpenSearch)
                 setOnOpen(false)
               }}
-              style={{ padding: 8, cursor: 'pointer' }}
-              className={navbarItem}
             >
               <SearchIcon />
-            </div>
+            </NavBarIcon>
           </div>
         </div>
         {/* Search bar */}

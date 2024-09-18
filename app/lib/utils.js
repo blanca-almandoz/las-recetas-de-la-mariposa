@@ -35,12 +35,3 @@ export function timeConvert(n) {
     return rhours + 'h ' + rminutes + 'min'
   }
 }
-
-export function isHomePage(pathname, categories) {
-  let hasCategory = false
-
-  for (const category of categories) {
-    if (pathname.includes(category)) hasCategory = true
-  }
-  return hasCategory
-}
