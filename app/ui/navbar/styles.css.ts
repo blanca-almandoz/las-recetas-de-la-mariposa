@@ -25,6 +25,10 @@ export const container = style({
       maxWidth: 1200,
       padding: 0,
     },
+    'screen and (min-width: 887px) and (max-width: 1200px)': {
+      paddingRight: 16,
+      paddingLeft: 16,
+    },
   },
 })
 

@@ -111,7 +111,7 @@ const NavBar = () => {
           <div style={{ padding: '8px 4px' }}>
             {Object.keys(NAVBARITEMS).map((itemLink) => (
               <Link
-                href="/recipes/starters"
+                href={`/recipes/${itemLink}`}
                 onClick={handleClick}
                 className={clsx(navBarItemMobile, {
                   [navBarItemSelected]: pathname === `/recipes/${itemLink}`,
