@@ -1,14 +1,18 @@
+import { TopLevelWrapper } from '@/app/ui/topLevelWrapper/TopLevelWrapper'
+
 export default function Loading() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        width: '100%',
-      }}
-    >
-      <SkeletonDetailsPage />
-    </div>
+    <TopLevelWrapper>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          width: '100%',
+        }}
+      >
+        <SkeletonDetailsPage />
+      </div>
+    </TopLevelWrapper>
   )
 }
 
@@ -16,25 +20,25 @@ const SkeletonDetailsPage = () => {
   return (
     <div>
       {/* title */}
-      <div className="h-8 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[480px] md:mb-10 mt-10"></div>
+      <div className="h-8 bg-gray-200 rounded-full  max-w-[480px] md:mb-10 mt-10"></div>
       <div>
         <div
           role="status"
           className="space-y-8 animate-pulse md:space-y-0 md:space-x-8 rtl:space-x-reverse md:flex md:items-center"
         >
           <div className="w-full hidden md:block">
-            <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[280px] mb-2.5"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[100px] mb-2.5"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[200px] mb-2.5"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[160px] mb-2.5"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[280px] mb-2.5"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[100px] mb-2.5"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[200px] mb-2.5"></div>
-            <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[160px] mb-2.5"></div>
-            <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
+            <div className="h-2.5 bg-gray-200 rounded-full  w-48 mb-4"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[280px] mb-2.5"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[100px] mb-2.5"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[200px] mb-2.5"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[160px] mb-2.5"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[280px] mb-2.5"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[100px] mb-2.5"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[200px] mb-2.5"></div>
+            <div className="h-2 bg-gray-200 rounded-full max-w-[160px] mb-2.5"></div>
+            <div className="h-2.5 bg-gray-200 rounded-full w-48 mb-4"></div>
           </div>
-          <div className="flex items-center justify-center w-full h-60 md:h-80 bg-gray-300 rounded dark:bg-gray-700">
+          <div className="flex items-center justify-center w-full h-60 md:h-80 bg-gray-300 rounded ">
             <svg
               className="w-10 h-10 text-gray-200 dark:text-gray-600"
               aria-hidden="true"
@@ -47,17 +51,17 @@ const SkeletonDetailsPage = () => {
           </div>
         </div>
         <div className="w-full mt-10">
-          <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[480px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[500px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[440px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[460px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[480px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[500px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[440px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[460px] mb-2.5"></div>
-          <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px]"></div>
+          <div className="h-2.5 bg-gray-200 rounded-full  w-48 mb-4"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[480px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[500px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[440px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[460px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[360px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[480px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[500px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[440px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[460px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full max-w-[360px]"></div>
         </div>
       </div>
     </div>

@@ -27,11 +27,7 @@ export interface IconType {
   level?: string
 }
 
-export interface IconAndLabelType extends IconType {
-  label: any
-}
-
-export interface ListedItemsType extends IconType {
+export interface ListedItemsType {
   title: string
   items: Array<string>
 }

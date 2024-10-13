@@ -19,10 +19,7 @@ export const searchInput = style({
   padding: '8px 12px',
   width: '100%',
   backgroundColor: 'transparent',
-  color: vars.color.white,
-  '@media': {
-    'screen and (max-width: 887px)': {},
-  },
+  color: vars.color.body,
   ':focus': {
     outline: 'none',
     boxShadow: 'none',

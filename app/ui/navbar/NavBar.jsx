@@ -14,12 +14,14 @@ import {
   navBarItemSelected,
   logo,
   menuMobile,
+  navBarItemMobile,
 } from './styles.css'
 import { MobileMenu, SearchIcon } from '../SVG'
 import { Search } from '../search/Search'
 import { useSearch } from '../search/useSearch'
+import { NavBarIcon } from './NavBarIcon'
 
-const navbarItems = {
+const NAVBARITEMS = {
   starters: 'Tapas y aperitivos',
   main: 'Principales',
   desserts: 'Postres',
@@ -37,6 +39,7 @@ const NavBar = () => {
 
   const handleCloseSearchBar = () => {
     setOnOpenSearch(!onOpenSearch)
+    setOnOpen(false)
   }
 
   return (
@@ -51,14 +54,14 @@ const NavBar = () => {
             <button
               onClick={handleClick}
               type="button"
-              className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="relative inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
               <MobileMenu />
             </button>
           </div>
-          <div className={logo}>
+          <div className={logo} onClick={() => setOnOpen(false)}>
             <Link href="/">
               <Image src="logo.svg" width={32} height={32} alt="logo" />
             </Link>
@@ -67,7 +70,7 @@ const NavBar = () => {
           {/* Menu items */}
           <div className={contentItems}>
             <div className={contentItemsLinksContainer}>
-              {Object.keys(navbarItems).map((itemLink) => (
+              {Object.keys(NAVBARITEMS).map((itemLink) => (
                 <Link
                   key={itemLink}
                   href={`/recipes/${itemLink}`}
@@ -75,17 +78,18 @@ const NavBar = () => {
                     [navBarItemSelected]: pathname === `/recipes/${itemLink}`,
                   })}
                 >
-                  {navbarItems[itemLink]}
+                  {NAVBARITEMS[itemLink]}
                 </Link>
               ))}
             </div>
-            <div
-              onClick={() => setOnOpenSearch(!onOpenSearch)}
-              style={{ padding: 8, cursor: 'pointer' }}
-              className={navbarItem}
+            <NavBarIcon
+              onClick={() => {
+                setOnOpenSearch(!onOpenSearch)
+                setOnOpen(false)
+              }}
             >
               <SearchIcon />
-            </div>
+            </NavBarIcon>
           </div>
         </div>
         {/* Search bar */}
@@ -104,58 +108,19 @@ const NavBar = () => {
       {onOpen && (
         <div className={menuMobile} style={{ width: '100%' }}>
           <div style={{ padding: '8px 4px' }}>
-            <Link
-              href="/recipes/starters"
-              onClick={handleClick}
-              className={clsx(
-                'text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium',
-                {
-                  'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium':
-                    pathname === '/recipes/starters',
-                }
-              )}
-            >
-              Tapas y aperitivos
-            </Link>
-            <Link
-              href="/recipes/main"
-              onClick={handleClick}
-              className={clsx(
-                'text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium',
-                {
-                  'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium':
-                    pathname === '/recipes/main',
-                }
-              )}
-            >
-              Principales
-            </Link>
-            <Link
-              href="/recipes/desserts"
-              onClick={handleClick}
-              className={clsx(
-                'text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium',
-                {
-                  'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium':
-                    pathname === '/recipes/desserts',
-                }
-              )}
-            >
-              Postres
-            </Link>
-            <Link
-              href="/recipes/siders"
-              onClick={handleClick}
-              className={clsx(
-                'text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium',
-                {
-                  'bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium':
-                    pathname === '/recipes/siders',
-                }
-              )}
-            >
-              Salsas y guarniciones
-            </Link>
+            {Object.keys(NAVBARITEMS).map((itemLink) => (
+              <div key={itemLink}>
+                <Link
+                  href={`/recipes/${itemLink}`}
+                  onClick={handleClick}
+                  className={clsx(navBarItemMobile, {
+                    [navBarItemSelected]: pathname === `/recipes/${itemLink}`,
+                  })}
+                >
+                  {NAVBARITEMS[itemLink]}
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       )}
