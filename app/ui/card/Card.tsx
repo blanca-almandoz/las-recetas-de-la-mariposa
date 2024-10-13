@@ -27,7 +27,7 @@ const Card = ({
       <div className={cardWrapper}>
         <div className={cardImage}>
           <Image
-            src={image}
+            src={image || '/images/default.svg'}
             width={0}
             height={0}
             sizes="100vm"

@@ -39,6 +39,11 @@ export const [themeClass, vars] = createTheme({
   fonts: {
     primary: 'Montserrat, sans-serif',
   },
+  breakpoints: {
+    mobile: '480px',
+    tablet: '768px',
+    desktop: '1024px',
+  },
 })
 
 // TODO - now it is unused

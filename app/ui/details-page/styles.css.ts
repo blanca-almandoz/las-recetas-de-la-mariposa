@@ -1,51 +1,56 @@
+import { vars } from '@/theme.css'
 import { style } from '@vanilla-extract/css'
 
 export const recipeWrapper = style({
-  display: 'flex',
-  flexDirection: 'column',
+  display: 'grid',
+  gridTemplateColumns: '3fr 4fr',
   width: '100%',
-  gap: 24,
-  padding: 24,
-  boxShadow: 'rgba(17, 12, 46, 0.15) 0px 48px 100px 0px',
-  borderRadius: '0px 0px 4px 4px',
+  paddingBottom: 24,
+  marginTop: 32,
   '@media': {
-    'screen and (max-width: 887px)': {
-      padding: 0,
-      paddingBottom: 24,
-      borderRadius: 0,
+    'screen and (max-width: 768px)': {
+      display: 'none',
     },
   },
 })
 
-export const recipeActions = style({
+export const recipeWrapperMobile = style({
   display: 'flex',
-  width: '100%',
-  gap: 8,
+  flexDirection: 'column',
+  paddingBottom: 24,
+  marginTop: 16,
+  gap: 16,
+  '@media': {
+    'screen and (min-width: 768px)': {
+      display: 'none',
+    },
+  },
 })
 
-export const recipeGoBackAction = style({
-  color: '#A0846A',
-  height: 24,
-  width: '100%',
+export const leftColumn = style({
+  display: 'flex',
+  flexDirection: 'column',
+  height: '100%',
+  gap: 16,
+})
+export const rightColumn = style({
+  display: 'flex',
+  flexDirection: 'column',
+  height: '100%',
+  gap: 32,
 })
 
 export const recipeTitle = style({
   fontSize: 40,
   fontWeight: 700,
-  color: '#292D44',
+  color: vars.color.body,
   letterSpacing: 3,
-  marginBottom: 24,
   '@media': {
     'screen and (max-width: 887px)': {
-      padding: 8,
-      marginBottom: 8,
+      fontSize: 28,
+      marginLeft: 8,
     },
   },
-})
-
-export const recipeContent = style({
-  display: 'flex',
-  flexDirection: 'column',
 })
 
 export const recipeContentContainer = style({
@@ -84,12 +89,7 @@ export const recipeWrapperImage = style({
   display: 'flex',
   flexDirection: 'column',
   fontStyle: 'italic',
-  width: 590,
-  '@media': {
-    'screen and (max-width: 639px)': {
-      width: '100%',
-    },
-  },
+  width: '100%',
 })
 
 export const recipeImage = style({
@@ -109,47 +109,53 @@ export const listedSteps = style({
   flexDirection: 'column',
   justifyContent: 'center',
   gap: 8,
-  marginTop: 48,
+  marginRight: 16,
   '@media': {
     'screen and (max-width: 887px)': {
       marginLeft: 8,
       marginRight: 8,
-      marginTop: 32,
     },
   },
 })
 
-export const iconAndLabelWrapper = style({
+export const infoContent = style({
   display: 'flex',
-  gap: 4,
+  gap: 8,
   '@media': {
-    'screen and (max-width: 639px)': {
+    'screen and (max-width: 768px)': {
+      padding: '8px 0',
+      gap: 0,
       flexDirection: 'column',
       alignItems: 'center',
-      paddingRight: 8,
     },
   },
 })
 
-export const recipeTitleList = style({
+export const infoWrapper = style({
   display: 'flex',
-  gap: 4,
+  flexDirection: 'column',
+  gap: 16,
+  backgroundColor: vars.color.primary.light,
+  width: 330,
+  padding: 32,
   '@media': {
-    'screen and (max-width: 639px)': {},
+    'screen and (max-width: 768px)': {
+      width: '100%',
+      display: 'grid',
+      gridTemplateColumns: 'repeat(4, 1fr)',
+      padding: '0 8px',
+      gap: 0,
+      alignItems: 'center',
+    },
   },
 })
 
-export const recipeContentTextHeaders = style({
-  display: 'flex',
-  gap: 64,
-  marginBottom: 16,
+export const infoText = style({
+  fontWeight: 500,
   '@media': {
     'screen and (max-width: 887px)': {
-      marginLeft: 8,
-      marginTop: 16,
-      marginBottom: 24,
-      gap: 0,
-      justifyContent: 'space-between',
+      fontSize: 14,
+      textAlign: 'center',
     },
   },
 })
