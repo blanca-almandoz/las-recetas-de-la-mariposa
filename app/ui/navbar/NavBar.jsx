@@ -20,7 +20,6 @@ import { MobileMenu, SearchIcon } from '../SVG'
 import { Search } from '../search/Search'
 import { useSearch } from '../search/useSearch'
 import { NavBarIcon } from './NavBarIcon'
-import { searchCloseButton } from '../search/styles.css'
 
 const NAVBARITEMS = {
   starters: 'Tapas y aperitivos',
@@ -110,15 +109,17 @@ const NavBar = () => {
         <div className={menuMobile} style={{ width: '100%' }}>
           <div style={{ padding: '8px 4px' }}>
             {Object.keys(NAVBARITEMS).map((itemLink) => (
-              <Link
-                href={`/recipes/${itemLink}`}
-                onClick={handleClick}
-                className={clsx(navBarItemMobile, {
-                  [navBarItemSelected]: pathname === `/recipes/${itemLink}`,
-                })}
-              >
-                {NAVBARITEMS[itemLink]}
-              </Link>
+              <div key={itemLink}>
+                <Link
+                  href={`/recipes/${itemLink}`}
+                  onClick={handleClick}
+                  className={clsx(navBarItemMobile, {
+                    [navBarItemSelected]: pathname === `/recipes/${itemLink}`,
+                  })}
+                >
+                  {NAVBARITEMS[itemLink]}
+                </Link>
+              </div>
             ))}
           </div>
         </div>
