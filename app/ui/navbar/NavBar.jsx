@@ -61,9 +61,11 @@ const NavBar = () => {
               <MobileMenu />
             </button>
           </div>
+
+          {/* Logo */}
           <div className={logo} onClick={() => setOnOpen(false)}>
             <Link href="/">
-              <Image src="logo.svg" width={32} height={32} alt="logo" />
+              <Image src="/logo.svg" width={32} height={32} alt="logo" />
             </Link>
           </div>
 
