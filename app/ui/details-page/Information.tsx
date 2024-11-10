@@ -45,7 +45,11 @@ export const Information = ({ recipe }: DetailsPageType) => {
         <div key={item.icon}>
           <div className={infoContent}>
             <div
-              style={{ width: 24, display: 'flex', justifyContent: 'center' }}
+              style={{
+                width: 24,
+                display: 'flex',
+                justifyContent: 'center',
+              }}
             >
               <Icons icon={item.icon} level={difficulty} />
             </div>

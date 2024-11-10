@@ -10,6 +10,7 @@ import {
   recipeWrapperImage,
   leftColumn,
   rightColumn,
+  recipeCommentImage,
 } from './styles.css'
 import { DetailsPageType, ListedItemsType } from '@/app/lib/types'
 import { Information } from './Information'
@@ -60,7 +61,7 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
           alt={title}
         />
       </div>
-      <div>{imageComment}</div>
+      <div className={recipeCommentImage}>{imageComment}</div>
     </div>
   )
 

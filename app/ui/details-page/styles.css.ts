@@ -92,6 +92,16 @@ export const recipeWrapperImage = style({
   width: '100%',
 })
 
+export const recipeCommentImage = style({
+  backgroundColor: vars.color.primary.light,
+  borderBottom: `1px solid ${vars.color.utility[300]}`,
+  '@media': {
+    'screen and (min-width: 768px)': {
+      display: 'none',
+    },
+  },
+})
+
 export const recipeImage = style({
   width: '100%',
   height: '100%',
