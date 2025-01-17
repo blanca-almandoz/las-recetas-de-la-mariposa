@@ -97,7 +97,8 @@ export const recipeCommentImage = style({
   borderBottom: `1px solid ${vars.color.utility[300]}`,
   '@media': {
     'screen and (min-width: 768px)': {
-      display: 'none',
+      backgroundColor: 'transparent',
+      borderBottom: 'none',
     },
   },
 })
