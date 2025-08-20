@@ -22,7 +22,7 @@ const Search = ({ onClick }: SearchType) => {
   const searchParams = useSearchParams()
   const pathname = usePathname()
   const { replace } = useRouter()
-  const params = new URLSearchParams(searchParams)
+  const params = new URLSearchParams(Object.fromEntries(searchParams))
   const { searchValue, setSearchValue, onOpenSearch } = useSearch()
 
   const handleSearch = (term: string) => {
