@@ -28,15 +28,14 @@ export interface IconType {
 }
 
 export interface ListedItemsType {
-  title: string
-  items: Array<string>
+  items: Record<string, string[]>
 }
 
 export interface Recipe {
   id: string
   title: string
-  ingredients: string
-  steps: string
+  ingredients: Record<string, string[]>
+  steps: Record<string, string[]>
   time: string
   difficulty: string
   image: string

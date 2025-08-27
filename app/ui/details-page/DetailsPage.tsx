@@ -16,26 +16,25 @@ import { DetailsPageType, ListedItemsType } from '@/app/lib/types'
 import { Information } from './Information'
 import { useEffect, useRef, useState } from 'react'
 
-const ListedItems = ({ title, items }: ListedItemsType) => {
+const ListedItems = ({ items }: ListedItemsType) => {
   return (
-    <div className={listedSteps}>
-      <span style={{ fontWeight: 700 }}>{title}</span>
-      <div style={{ marginLeft: '8px' }}>
-        {items.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </div>
-    </div>
+    <>
+      {Object.entries(items).map(([title, list]) => (
+        <div key={title} className="listedSteps">
+          <span style={{ fontWeight: 700 }}>{title}</span>
+          <div style={{ marginLeft: '8px' }}>
+            {list.map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
+          </div>
+        </div>
+      ))}
+    </>
   )
 }
 
 const DetailsPage = ({ recipe }: DetailsPageType) => {
   const { title, ingredients, steps, image, imageComment } = recipe[0]
-
-  const arraySteps = steps.split('\n').filter((item: any) => item.trim() !== '')
-  const arrayIngredients = ingredients
-    .split('\n')
-    .filter((item: any) => item.trim() !== '')
 
   const rightColumnRef = useRef<HTMLDivElement | null>(null)
   const [isRightColumnTallerThan100vh, setIsRightColumnTallerThan100vh] =
@@ -82,13 +81,13 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
               gap: 24,
             }}
           >
-            <ListedItems title="Ingredientes:" items={arrayIngredients} />
+            <ListedItems items={ingredients} />
             <Information recipe={recipe} />
           </div>
         </div>
         <div className={rightColumn} ref={rightColumnRef}>
           <ImageComponent />
-          <ListedItems title="Preparación:" items={arraySteps} />
+          <ListedItems items={steps} />
         </div>
       </div>
 
@@ -99,8 +98,8 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
           <ImageComponent />
           <Information recipe={recipe} />
         </div>
-        <ListedItems title="Ingredientes:" items={arrayIngredients} />
-        <ListedItems title="Preparación:" items={arraySteps} />
+        <ListedItems items={ingredients} />
+        <ListedItems items={steps} />
       </div>
     </>
   )
