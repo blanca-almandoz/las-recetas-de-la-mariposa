@@ -1,23 +1,23 @@
 import { google } from 'googleapis'
 
-function parseSections(text = '', defaultSection) {
-  const sections = {}
-  let currentText = defaultSection
-  sections[currentText] = []
+function parseSections(texto = '', defaultSection = 'General') {
+  const secciones = {}
+  let bloqueActual = defaultSection
+  secciones[bloqueActual] = []
 
-  text.split('\n').forEach((linea) => {
+  texto.split('\n').forEach((linea) => {
     const clean = linea.trim()
     if (!clean) return
 
     if (clean.startsWith('[') && clean.endsWith(']')) {
-      currentText = clean.slice(1, -1)
-      sections[currentText] = []
+      bloqueActual = clean.slice(1, -1)
+      secciones[bloqueActual] = []
     } else {
-      sections[currentText].push(clean)
+      secciones[bloqueActual].push(clean)
     }
   })
 
-  return sections
+  return secciones
 }
 
 export async function getRecipesList() {
@@ -44,8 +44,8 @@ export async function getRecipesList() {
           return {
             id: row[0],
             title: row[1],
-            steps: parseSections(row[2], 'Preparación'),
-            ingredients: parseSections(row[3], 'Ingredientes'),
+            steps: parseSections(row[2], 'Preparación') || '',
+            ingredients: parseSections(row[3], 'Ingredientes') || '',
             difficulty: row[4],
             category: row[5],
             time: row[6],

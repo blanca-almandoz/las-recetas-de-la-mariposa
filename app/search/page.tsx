@@ -13,7 +13,7 @@ export default async function Page({
 }) {
   const recipes = await getRecipesList()
   const query = searchParams?.query || ''
-  const searchedRecipes = recipes.filter((recipe: Recipe) => {
+  const searchedRecipes = recipes.filter((recipe) => {
     const recipesList = recipe.title
       ?.toLowerCase()
       .normalize('NFD')
@@ -26,7 +26,7 @@ export default async function Page({
   })
   return (
     <TopLevelWrapper>
-      {searchedRecipes.map((recipe: Recipe) => (
+      {searchedRecipes.map((recipe) => (
         <div key={recipe.id}>
           <Card
             key={recipe.id}
