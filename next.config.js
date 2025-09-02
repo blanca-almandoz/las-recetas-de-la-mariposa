@@ -7,6 +7,11 @@ const nextConfig = {}
 module.exports = withVanillaExtract({
   ...nextConfig,
   images: {
-    domains: ['i.ibb.co'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+      },
+    ],
   },
 })
