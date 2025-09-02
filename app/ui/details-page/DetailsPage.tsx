@@ -12,7 +12,7 @@ import {
   rightColumn,
   recipeCommentImage,
 } from './styles.css'
-import { DetailsPageType, ListedItemsType } from '@/app/lib/types'
+import { DetailsPageType, ListedItemsType } from '@/lib/types'
 import { Information } from './Information'
 import { useEffect, useRef, useState } from 'react'
 
@@ -20,13 +20,22 @@ const ListedItems = ({ items }: ListedItemsType) => {
   return (
     <>
       {Object.entries(items).map(([title, list]) => (
-        <div key={title} className="listedSteps">
+        <div key={title}>
           <span style={{ fontWeight: 700 }}>{title}</span>
-          <div style={{ marginLeft: '8px' }}>
+          <ul
+            style={{
+              listStyleType: 'circle',
+              listStylePosition: 'inside',
+              paddingLeft: 0,
+              margin: 0,
+            }}
+          >
             {list.map((item, i) => (
-              <li key={i}>{item}</li>
+              <li style={{ listStyleType: 'circle', margin: 0 }} key={i}>
+                {item}
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       ))}
     </>
