@@ -10,8 +10,8 @@ import {
 } from './styles.css'
 
 import { Difficulty, Timer } from '../SVG.jsx'
-import { timeConvert } from '@/app/lib/utils'
-import { CardType } from '@/app/lib/types'
+import { timeConvert } from '@/lib/utils'
+import { CardType } from '@/lib/types'
 
 const Card = ({
   id,

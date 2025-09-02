@@ -102,7 +102,7 @@ const NavBar = () => {
             width: '100%',
           }}
         >
-          <Search onClick={handleCloseSearchBar} />
+          <Search initialQuery='' onClick={handleCloseSearchBar} />
         </div>
       </div>
 

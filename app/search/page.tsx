@@ -1,5 +1,5 @@
-import { getRecipesList } from '../lib/sheet'
-import { Recipe } from '../lib/types'
+import recipes from '../../public/data/recipes.json'
+import { Recipe } from '../../lib/types'
 import { Card } from '../ui/card/Card'
 import { TopLevelWrapper } from '../ui/topLevelWrapper/TopLevelWrapper'
 
@@ -11,9 +11,8 @@ export default async function Page({
     page?: string
   }
 }) {
-  const recipes = await getRecipesList()
   const query = searchParams?.query || ''
-  const searchedRecipes = recipes.filter((recipe) => {
+  const searchedRecipes = recipes.filter((recipe: any) => {
     const recipesList = recipe.title
       ?.toLowerCase()
       .normalize('NFD')

@@ -18,7 +18,7 @@ export interface CardType {
   time: string
   image: string
   difficulty: string
-  category: CategoryKeys
+  category: string
   pathname: string
 }
 
@@ -39,7 +39,7 @@ export interface Recipe {
   time: string
   difficulty: string
   image: string
-  category: CategoryKeys
+  category: string
   author: string
   portions: number
   imageComment: string

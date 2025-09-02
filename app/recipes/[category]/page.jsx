@@ -1,9 +1,8 @@
 import { Pathname } from '../../ui/Pathname'
-import { getRecipesList } from '../../lib/sheet'
+import recipes from '../../../public/data/recipes.json'
 import { TopLevelWrapper } from '@/app/ui/topLevelWrapper/TopLevelWrapper'
 
 export default async function Page() {
-  const recipes = await getRecipesList()
 
   return (
     <TopLevelWrapper>

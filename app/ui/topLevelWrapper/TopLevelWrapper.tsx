@@ -1,4 +1,4 @@
-import { TopLevelWrapperType } from '@/app/lib/types'
+import { TopLevelWrapperType } from '@/lib/types'
 import { wrapperStyled, wrapperContent } from './styles.css'
 
 const TopLevelWrapper = ({ children }: TopLevelWrapperType) => {

@@ -1,8 +1,9 @@
 import { Card } from './ui/card/Card'
-import { getRecipesList } from './lib/sheet'
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
-import { Recipe } from './lib/types'
+import { Recipe } from '../lib/types'
 import { IntroContainer } from './(overview)/IntroContainer'
+import recipes from '../public/data/recipes.json'
+
 
 export default async function Home({
   searchParams,
@@ -12,7 +13,6 @@ export default async function Home({
     page?: string
   }
 }) {
-  const recipes = await getRecipesList()
   const query = searchParams?.query || ''
   const searchedRecipes = recipes.filter((recipe) => {
     const recipesList = recipe.title

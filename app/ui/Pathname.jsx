@@ -1,7 +1,7 @@
 'use client'
 import { Card } from '../ui/card/Card'
 import { usePathname } from 'next/navigation'
-import { fetchRecipesByCategory } from '../lib/utils'
+import { fetchRecipesByCategory } from '../../lib/utils'
 
 const Pathname = ({ recipes, searchParams }) => {
   const query = searchParams?.query || ''

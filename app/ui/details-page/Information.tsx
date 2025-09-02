@@ -1,5 +1,5 @@
-import { timeConvert } from '@/app/lib/utils'
-import { DetailsPageType, IconType } from '@/app/lib/types'
+import { timeConvert } from '@/lib/utils'
+import { DetailsPageType, IconType } from '@/lib/types'
 import { infoContent, infoWrapper, infoText } from './styles.css'
 import {
   CookHat,
