@@ -1,9 +1,13 @@
 import { Card } from './ui/card/Card'
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
 import { Recipe } from '../lib/types'
-import { IntroContainer } from './(overview)/IntroContainer'
 import recipes from '../public/data/recipes.json'
+import { IntroContainer } from './(overview)/IntroContainer'
+import { searchRecipes } from '@/lib/utils'
 
+interface DateItem {
+  date: string
+}
 
 export default async function Home({
   searchParams,
@@ -14,33 +18,23 @@ export default async function Home({
   }
 }) {
   const query = searchParams?.query || ''
-  const searchedRecipes = recipes.filter((recipe) => {
-    const recipesList = recipe.title
-      ?.toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-    const recipeSearched = query
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-    return recipesList.includes(recipeSearched)
-  })
+  const searchedRecipes = searchRecipes(query, recipes)
 
   return (
     <>
       <IntroContainer />
       <TopLevelWrapper>
         {searchedRecipes
-          .sort((a: any, b: any) => {
+          .sort((a: DateItem, b: DateItem) => {
             const [dayA, monthA, yearA] = a.date.split('/').map(Number)
             const [dayB, monthB, yearB] = b.date.split('/').map(Number)
 
-            const dateA = new Date(yearA, monthA - 1, dayA) as any
-            const dateB = new Date(yearB, monthB - 1, dayB) as any
+            const dateA = new Date(yearA, monthA - 1, dayA)
+            const dateB = new Date(yearB, monthB - 1, dayB)
 
-            return dateB - dateA
+            return dateB.getTime() - dateA.getTime()
           })
-          .map((recipe) => (
+          .map((recipe: Recipe) => (
             <div key={recipe.id}>
               <Card
                 key={recipe.id}

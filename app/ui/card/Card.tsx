@@ -14,12 +14,10 @@ import { timeConvert } from '@/lib/utils'
 import { CardType } from '@/lib/types'
 
 const Card = ({
-  id,
   title,
   time,
   image,
   difficulty = 'medio',
-  category,
   pathname,
 }: CardType) => {
   return (

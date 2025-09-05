@@ -2,6 +2,7 @@ import recipes from '../../public/data/recipes.json'
 import { Recipe } from '../../lib/types'
 import { Card } from '../ui/card/Card'
 import { TopLevelWrapper } from '../ui/topLevelWrapper/TopLevelWrapper'
+import { searchRecipes } from '@/lib/utils'
 
 export default async function Page({
   searchParams,
@@ -12,20 +13,11 @@ export default async function Page({
   }
 }) {
   const query = searchParams?.query || ''
-  const searchedRecipes = recipes.filter((recipe: any) => {
-    const recipesList = recipe.title
-      ?.toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-    const recipeSearched = query
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-    return recipesList.includes(recipeSearched)
-  })
+  const searchedRecipes = searchRecipes(query, recipes)
+
   return (
     <TopLevelWrapper>
-      {searchedRecipes.map((recipe) => (
+      {searchedRecipes.map((recipe: Recipe) => (
         <div key={recipe.id}>
           <Card
             key={recipe.id}

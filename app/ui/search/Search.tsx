@@ -8,35 +8,34 @@ import {
   searchComponent,
 } from './styles.css'
 import { CloseIcon } from '../SVG'
-import { navbarItem } from '../navbar/styles.css'
 import { useSearch } from './useSearch'
 import { NavBarIcon } from '../navbar/NavBarIcon'
 
 interface SearchType {
   initialQuery: string
-  onClick: () => {}
+  onClick: () => void
 }
 
-const Search = ({initialQuery, onClick }: SearchType) => {
+const Search = ({ initialQuery, onClick }: SearchType) => {
   const inputRef = useRef<HTMLInputElement>(null)
 
   const pathname = usePathname()
   const { replace } = useRouter()
 
-  const [searchValue, setSearchValue] = useState(initialQuery);
-  const { onOpenSearch } = useSearch();
+  const [searchValue, setSearchValue] = useState(initialQuery)
+  const { onOpenSearch } = useSearch()
 
   const handleSearch = (term: string) => {
-    setSearchValue(term);
+    setSearchValue(term)
 
-    const params = new URLSearchParams();
+    const params = new URLSearchParams()
     if (term) {
-      params.set("query", term);
-      replace(`/search/?${params.toString()}`);
+      params.set('query', term)
+      replace(`/search/?${params.toString()}`)
     } else {
-      replace(pathname);
+      replace(pathname)
     }
-  };
+  }
 
   const handleClickCloseButton = () => {
     setSearchValue('')

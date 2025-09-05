@@ -6,7 +6,6 @@ import {
   recipeTitle,
   recipeContentImage,
   recipeImage,
-  listedSteps,
   recipeWrapperImage,
   leftColumn,
   rightColumn,
