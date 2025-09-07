@@ -1,5 +1,8 @@
 import { vars } from '@/theme.css'
-import { wrapper } from './styles.css'
+import { shimmer, wrapper } from './styles.css'
+
+const LINES = 4
+const WEIGHT = [250, 190, 100, 200]
 
 const SkeletonCard = () => {
   return (
@@ -22,10 +25,11 @@ const SkeletonCard = () => {
         }}
       ></div>
       <div style={{ padding: '24px 16px' }}>
-        <div className={wrapper} style={{ width: 250 }}></div>
-        <div className={wrapper} style={{ width: 190 }}></div>
-        <div className={wrapper} style={{ width: 100 }}></div>
-        <div className={wrapper} style={{ width: 200 }}></div>
+        {Array.from({ length: LINES }).map((_, index) => (
+          <div key={index} className={wrapper} style={{ width: WEIGHT[index] }}>
+            <div className={shimmer}></div>
+          </div>
+        ))}
       </div>
     </div>
   )

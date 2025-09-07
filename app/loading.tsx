@@ -1,6 +1,8 @@
 import { SkeletonCard } from './ui/skeleton/SkeletonCard'
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
 
+const SKELETON_COUNT = 6
+
 export default function Loading() {
   return (
     <TopLevelWrapper>
@@ -16,12 +18,9 @@ export default function Loading() {
           padding: 16,
         }}
       >
-        <SkeletonCard />
-        <SkeletonCard />
-        <SkeletonCard />
-        <SkeletonCard />
-        <SkeletonCard />
-        <SkeletonCard />
+        {Array.from({ length: SKELETON_COUNT }).map((_, index) => (
+          <SkeletonCard key={index} />
+        ))}
       </div>
     </TopLevelWrapper>
   )
