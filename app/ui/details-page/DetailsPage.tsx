@@ -14,6 +14,7 @@ import {
 import { DetailsPageType, ListedItemsType } from '@/lib/types'
 import { Information } from './Information'
 import { useEffect, useRef, useState } from 'react'
+import { DetailsPageAnimations } from '../animations/DetailsPageAnimations'
 
 const ListedItems = ({ items }: ListedItemsType) => {
   return (
@@ -75,40 +76,44 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
   return (
     <>
       {/* DESKTOP */}
-      <div className={recipeWrapper}>
-        <div className={leftColumn}>
-          <div className={recipeTitle}>{title.toUpperCase()}</div>
-          <div
-            style={{
-              flexGrow: 1,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: isRightColumnTallerThan100vh
-                ? 'flex-start'
-                : 'space-between',
-              gap: 24,
-            }}
-          >
-            <ListedItems items={ingredients} />
-            <Information recipe={recipe} />
+      <DetailsPageAnimations>
+        <div className={recipeWrapper}>
+          <div className={leftColumn}>
+            <div className={recipeTitle}>{title.toUpperCase()}</div>
+            <div
+              style={{
+                flexGrow: 1,
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: isRightColumnTallerThan100vh
+                  ? 'flex-start'
+                  : 'space-between',
+                gap: 24,
+              }}
+            >
+              <ListedItems items={ingredients} />
+              <Information recipe={recipe} />
+            </div>
+          </div>
+          <div className={rightColumn} ref={rightColumnRef}>
+            <ImageComponent />
+            <ListedItems items={steps} />
           </div>
         </div>
-        <div className={rightColumn} ref={rightColumnRef}>
-          <ImageComponent />
-          <ListedItems items={steps} />
-        </div>
-      </div>
+      </DetailsPageAnimations>
 
       {/* MOBILE */}
-      <div className={recipeWrapperMobile}>
-        <div className={recipeTitle}>{title.toUpperCase()}</div>
-        <div>
-          <ImageComponent />
-          <Information recipe={recipe} />
+      <DetailsPageAnimations>
+        <div className={recipeWrapperMobile}>
+          <div className={recipeTitle}>{title.toUpperCase()}</div>
+          <div>
+            <ImageComponent />
+            <Information recipe={recipe} />
+          </div>
+          <ListedItems items={ingredients} />
+          <ListedItems items={steps} />
         </div>
-        <ListedItems items={ingredients} />
-        <ListedItems items={steps} />
-      </div>
+      </DetailsPageAnimations>
     </>
   )
 }

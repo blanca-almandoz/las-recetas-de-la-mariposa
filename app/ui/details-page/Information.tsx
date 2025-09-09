@@ -1,5 +1,5 @@
 import { timeConvert } from '@/lib/utils'
-import { DetailsPageType, IconType } from '@/lib/types'
+import { DetailsPageType, IconKey, IconType } from '@/lib/types'
 import { infoContent, infoWrapper, infoText } from './styles.css'
 import {
   CookHat,
@@ -21,22 +21,15 @@ export const Information = ({ recipe }: DetailsPageType) => {
   ]
 
   const Icons = ({ icon, level }: IconType) => {
-    switch (icon) {
-      case 'steps':
-        return <Steps />
-      case 'basket':
-        return <Basket />
-      case 'timer':
-        return <TimerFilled />
-      case 'difficulty':
-        return <Difficulty level={level} />
-      case 'portions':
-        return <Portions />
-      case 'hat':
-        return <CookHat />
-      default:
-        break
+    const iconMap: Record<IconKey, JSX.Element> = {
+      steps: <Steps />,
+      basket: <Basket />,
+      timer: <TimerFilled />,
+      difficulty: <Difficulty level={level} />,
+      portions: <Portions />,
+      hat: <CookHat />,
     }
+    return iconMap[icon]
   }
 
   return (
@@ -51,7 +44,7 @@ export const Information = ({ recipe }: DetailsPageType) => {
                 justifyContent: 'center',
               }}
             >
-              <Icons icon={item.icon} level={difficulty} />
+              <Icons icon={item.icon as IconKey} level={difficulty} />
             </div>
             <span className={infoText}>{item.label}</span>
           </div>

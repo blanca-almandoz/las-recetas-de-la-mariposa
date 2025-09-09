@@ -155,15 +155,17 @@ const DifficultyIcon = () => {
 }
 
 const Difficulty = ({ level }) => {
+  const levels = {
+    Facil: 1,
+    Medio: 2,
+    Dificil: 3,
+  }
+  const count = levels[level] || 0
   return (
     <div style={{ display: 'flex' }}>
-      <DifficultyIcon />
-      {(level === 'Medio' || level === 'Dificil') && (
-        <>
-          {<DifficultyIcon />}
-          {level === 'Dificil' && <DifficultyIcon />}
-        </>
-      )}
+      {Array.from({ length: count }).map((_, i) => (
+        <DifficultyIcon key={i} />
+      ))}
     </div>
   )
 }

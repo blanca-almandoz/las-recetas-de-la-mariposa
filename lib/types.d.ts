@@ -12,8 +12,15 @@ export interface CardType {
   pathname: string
 }
 
+export type IconKey =
+  | 'steps'
+  | 'basket'
+  | 'timer'
+  | 'difficulty'
+  | 'portions'
+  | 'hat'
 export interface IconType {
-  icon: string
+  icon: IconKey
   level?: string
 }
 

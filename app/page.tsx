@@ -1,15 +1,17 @@
+'use client'
 import { Card } from './ui/card/Card'
 import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
 import { Recipe } from '../lib/types'
 import recipes from '../public/data/recipes.json'
 import { IntroContainer } from './(overview)/IntroContainer'
 import { searchRecipes } from '@/lib/utils'
+import { CardAnimations } from './ui/animations/CardAnimations'
 
 interface DateItem {
   date: string
 }
 
-export default async function Home({
+export default function Home({
   searchParams,
 }: {
   searchParams?: {
@@ -19,23 +21,23 @@ export default async function Home({
 }) {
   const query = searchParams?.query || ''
   const searchedRecipes = searchRecipes(query, recipes)
+  const sortedRecipes = searchedRecipes.sort((a: DateItem, b: DateItem) => {
+    const [dayA, monthA, yearA] = a.date.split('/').map(Number)
+    const [dayB, monthB, yearB] = b.date.split('/').map(Number)
+
+    const dateA = new Date(yearA, monthA - 1, dayA)
+    const dateB = new Date(yearB, monthB - 1, dayB)
+
+    return dateB.getTime() - dateA.getTime()
+  })
 
   return (
     <>
       <IntroContainer />
       <TopLevelWrapper>
-        {searchedRecipes
-          .sort((a: DateItem, b: DateItem) => {
-            const [dayA, monthA, yearA] = a.date.split('/').map(Number)
-            const [dayB, monthB, yearB] = b.date.split('/').map(Number)
-
-            const dateA = new Date(yearA, monthA - 1, dayA)
-            const dateB = new Date(yearB, monthB - 1, dayB)
-
-            return dateB.getTime() - dateA.getTime()
-          })
-          .map((recipe: Recipe) => (
-            <div key={recipe.id}>
+        {sortedRecipes.map((recipe: Recipe) => (
+          <div key={recipe.id}>
+            <CardAnimations>
               <Card
                 key={recipe.id}
                 id={recipe.id}
@@ -46,8 +48,9 @@ export default async function Home({
                 difficulty={recipe.difficulty}
                 pathname={`recipes/${recipe.category}/${recipe.id}`}
               />
-            </div>
-          ))}
+            </CardAnimations>
+          </div>
+        ))}
       </TopLevelWrapper>
     </>
   )
