@@ -6,6 +6,7 @@ import recipes from '../public/data/recipes.json'
 import { IntroContainer } from './(overview)/IntroContainer'
 import { searchRecipes } from '@/lib/utils'
 import { CardAnimations } from './ui/animations/CardAnimations'
+import { CardContainer } from './ui/card/CardContainer'
 
 interface DateItem {
   date: string
@@ -34,24 +35,7 @@ export default function Home({
   return (
     <>
       <IntroContainer />
-      <TopLevelWrapper>
-        {sortedRecipes.map((recipe: Recipe) => (
-          <div key={recipe.id}>
-            <CardAnimations>
-              <Card
-                key={recipe.id}
-                id={recipe.id}
-                title={recipe.title}
-                time={recipe.time}
-                image={recipe.image}
-                category={recipe.category}
-                difficulty={recipe.difficulty}
-                pathname={`recipes/${recipe.category}/${recipe.id}`}
-              />
-            </CardAnimations>
-          </div>
-        ))}
-      </TopLevelWrapper>
+      <CardContainer recipes={sortedRecipes} />
     </>
   )
 }

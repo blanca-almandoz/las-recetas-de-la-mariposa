@@ -68,19 +68,16 @@ export const contentItemsLinksContainer = style({
 })
 
 export const navbarItem = style({
-  color: vars.color.primary.dark,
+  color: vars.color.body,
   fontWeight: 500,
   padding: '8px 10px',
   ':hover': {
-    backgroundColor: vars.color.primary.light,
-    borderRadius: 4,
+    color: vars.color.primary.dark,
   },
 })
 
 export const navBarItemSelected = style({
-  borderRadius: 4,
-  backgroundColor: vars.color.primary.dark,
-  color: vars.color.white,
+  color: vars.color.primary.dark,
 })
 
 export const navBarItemMobile = style({

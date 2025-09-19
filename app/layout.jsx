@@ -4,7 +4,6 @@ import { Analytics } from '@vercel/analytics/react'
 import { NavBar } from './ui/navbar/NavBar'
 import { themeClass } from '@/theme.css'
 import clsx from 'clsx'
-import { globalBody } from './ui/global.css'
 import { montserrat } from './ui/fonts'
 import { SearchProvider } from './ui/search/useSearch'
 

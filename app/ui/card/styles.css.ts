@@ -1,36 +1,31 @@
+import { vars } from '@/theme.css'
 import { style } from '@vanilla-extract/css'
 
 export const cardWrapper = style({
-  width: 330,
-  minHeight: 330,
-  backgroundColor: '#EFEAE6',
+  backgroundColor: vars.color.white,
   borderRadius: 4,
-  margin: 16,
-  boxShadow: '8px 8px 90px 1px #A6A6A6',
-  '@media': {
-    'screen and (min-width: 768px)': {
-      width: 387,
-    },
-  },
+  boxShadow: '8px 8px 90px 1px #edededff',
+  display: 'flex',
+  flexDirection: 'column',
 })
 
 export const cardImage = style({
   borderRadius: '4px 4px 0px 0px',
   width: '100%',
-  height: 229,
+  height: '200px',
+  position: 'relative',
+  overflow: 'hidden',
 })
 
 export const cardContent = style({
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'space-between',
   padding: 16,
-  minHeight: 101,
+  marginBottom: 24,
 })
 
 export const cardTitle = style({
   fontWeight: 700,
-  color: '#292D44',
   letterSpacing: 2,
   minHeight: 48,
   marginBottom: 8,
