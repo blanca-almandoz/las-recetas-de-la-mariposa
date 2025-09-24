@@ -20,8 +20,9 @@ export const cardImage = style({
 export const cardContent = style({
   display: 'flex',
   flexDirection: 'column',
-  padding: 16,
-  marginBottom: 24,
+  padding: 12,
+  borderBottomLeftRadius: 4,
+  borderBottomRightRadius: 4,
 })
 
 export const cardTitle = style({
