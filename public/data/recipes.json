@@ -821,21 +821,27 @@
     "id": "28",
     "title": "Albóndigas",
     "steps": {
-      "Preparación": [
+      "Preparación": [],
+      "Albóndigas": [
+        "Laminar la zanahoria lo más finita posible ya que la zanahoria tarda mucho en hacerse. Cortar la cebolla y el pimiento, picar el ajo y poner todas las verduras en una sartén a fuego medio. Echar un poco de sal. Tapar la sartén para que vaya más rápido.",
+        "Cuando las verduras estén pochadas, pasar por un colador para quitar el aceite restante y que la salsa quede más ligera. Echar las verduras en una cazuela a fuego alto, añadir el vaso de vino y esperar hasta que el alcohol se evapore. Añadir el tomate laminado (o 3 cucharadas de tomate frito).",
+        "Triturar en la propia cazuela con la batidora. Si queda muy espesa, añadir un poco de agua hasta que quede una textura cremosa. Añadir sal."
+      ],
+      "Salsa española": [
         "Poner la miga de pan en un bol. Vertir la leche y dejar que la miga se empape bien. La miga de pan va a dar jugosidad a las albóndigas.",
-        "Mientras el pan reposa, laminar la zanahoria lo más finita posible ya que la zanahoria tarda mucho en hacerse. Cortar la cebolla y el pimiento, picar el ajo y poner todas las verduras en una sartén a fuego medio. Echar un poco de sal. Tapar la sartén para que vaya más rápido.",
         "Escurrir un poco la leche y desmigar el pan en un bol. Añadir la carne picada. Mezclar bien la carne con el pan. No pueden quedar trozos grandes de pan.",
         "Añadir el huevo, el ajo y el perejil muy picaditos. Salpimentar. Mezclar bien con las manos.",
         "Poner harina en un plato. Formar bolitas de carne con las manos (tamaño al gusto) y rebozar por la harina.",
-        "Freir en una sartén con abundante aceite caliente. Cuando estén doradas, retirar a un plato con papel de cocina para eliminar el aceite sobrante. No dejar mucho tiempo las albóndigas en la sartén para que queden jugosas y no se sequen (1-2min).",
-        "Cuando las verduras estén pochadas, pasar por un colador para quitar el aceite restante y que la salsa quede más ligera. Echar las verduras en una cazuela a fuego alto, añadir el vaso de vino y esperar hasta que el alcohol se evapore. Añadir 3 cucharadas de tomate frito.",
-        "Triturar en la propia cazuela con la batidora. Si queda muy espesa, añadir un poco de agua hasta que quede una textura cremosa. Añadir sal.",
-        "Apagar el fuego y añadir las albóndigas a la cazuela con la salsa.",
+        "Freir en una sartén con abundante aceite caliente. Cuando estén doradas, retirar a un plato con papel de cocina para eliminar el aceite sobrante. No dejar mucho tiempo las albóndigas en la sartén para que queden jugosas y no se sequen (1-2min)."
+      ],
+      "Emplatado": [
+        "Añadir las albóndigas a la cazuela con la salsa.",
         "Servir con arroz blanco, patatas fritas o puré de patata."
       ]
     },
     "ingredients": {
-      "Ingredientes": [
+      "Ingredientes": [],
+      "Albóndigas": [
         "700 g de carne picada de ternera (24 albóndigas aprox)",
         "2 rebanadas de pan de molde sin borde",
         "1 huevo",
@@ -844,19 +850,20 @@
         "Harina (para rebozar las albóndigas)",
         "Perejil",
         "Pimienta",
-        "Sal",
-        "Salsa española",
+        "Sal"
+      ],
+      "Salsa española": [
         "1 cebolla",
         "100 ml de vino blanco o cerveza",
         "4 zanahorias",
-        "1 tomate (también vale tomate frito)",
+        "1/2 tomate (también vale tomate frito)",
         "1 pimiento verde",
         "1 diente de ajo"
       ]
     },
-    "difficulty": "Facil",
+    "difficulty": "Medio",
     "category": "main",
-    "time": "60",
+    "time": "75",
     "portions": "8",
     "image": "https://i.ibb.co/HBtF8tt/albondigas.png ",
     "date": "09/04/2023",
