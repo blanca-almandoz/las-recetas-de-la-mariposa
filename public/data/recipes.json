@@ -211,19 +211,19 @@
     "title": "Fingers de pollo",
     "steps": {
       "Preparación": [
-        "Cortar las pechugas en tiras. Pasarlas por el huevo batido y luego por el pan rallado.",
-        "Freir en una sartén con abundante aceite. Cuando se empiecen a dorar por una cara, se les da la vuelta.",
-        "Sacar escurriendo el aceite y colocar en una fuente con papel de cocina para eliminar todo el aceite",
-        "posible. Salar.",
-        "Servir en una fuente en la que colocamos en el centro un pequeño bol de salsa barbacoa, o mayonesa",
-        "o ketchup. O lo que prefieras."
+        "Cortar las pechugas de pollo en tiras del tamaño deseado.",
+        "Pasar las tiras por huevo batido y, a continuación, por pan rallado, procurando que queden bien cubiertas.",
+        "Freir en una sartén con abundante aceite caliente (7-8). Cuando comiencen a dorarse por un lado, dar la vuelta.",
+        "Retirar a un plato con papel de cocina para eliminar el exceso de aceite. Salar al gusto.",
+        "Servir en una fuente con un bol de salsa barbacoa, mayonesa, kétchup o la salsa de preferencia."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "Una pechuga entera de pollo en filetes",
-        "Dos huevos",
-        "Pan rallado"
+        "1 pechuga de pollo entera en filetes",
+        "2 huevos",
+        "Pan rallado",
+        "Sal"
       ]
     },
     "difficulty": "Facil",
@@ -822,12 +822,12 @@
     "title": "Albóndigas",
     "steps": {
       "Preparación": [],
-      "Albóndigas": [
+      "Salsa española": [
         "Laminar la zanahoria lo más finita posible ya que la zanahoria tarda mucho en hacerse. Cortar la cebolla y el pimiento, picar el ajo y poner todas las verduras en una sartén a fuego medio. Echar un poco de sal. Tapar la sartén para que vaya más rápido.",
         "Cuando las verduras estén pochadas, pasar por un colador para quitar el aceite restante y que la salsa quede más ligera. Echar las verduras en una cazuela a fuego alto, añadir el vaso de vino y esperar hasta que el alcohol se evapore. Añadir el tomate laminado (o 3 cucharadas de tomate frito).",
         "Triturar en la propia cazuela con la batidora. Si queda muy espesa, añadir un poco de agua hasta que quede una textura cremosa. Añadir sal."
       ],
-      "Salsa española": [
+      "Albóndigas": [
         "Poner la miga de pan en un bol. Vertir la leche y dejar que la miga se empape bien. La miga de pan va a dar jugosidad a las albóndigas.",
         "Escurrir un poco la leche y desmigar el pan en un bol. Añadir la carne picada. Mezclar bien la carne con el pan. No pueden quedar trozos grandes de pan.",
         "Añadir el huevo, el ajo y el perejil muy picaditos. Salpimentar. Mezclar bien con las manos.",
@@ -1063,14 +1063,21 @@
     "id": "35",
     "title": "Arroz a la cubana",
     "steps": {
-      "Preparación": [
-        "Arroz blanco. Poner en una cazuela un poco de aceite con un diente de ajo picado. Cuando esté dorado,",
-        "añadimos un vaso de arroz blanco. Removemos durante 2 minutos hasta que se empape bien con el aceite.",
-        "Añadimos dos vasos de agua, sal y una hoja de laurel. Dejamos hervir hasta que desaparezca el agua",
-        "completamente. Retiramos del fuego y tapamos con un trapo. Dejamos reposar.",
-        "Plátano frito. Ponemos el plátano partido en dos mitades en una sartén con el aceite muy caliente. Se doran",
-        "los dos lados, se saca de la sartén y se ponen en un plato con papel de cocina para absorver el aceite sobrante.",
-        "Freimos los huevos y ponemos en cada plato un poco de arroz, los huevos, el plátanos y la salsa de tomate."
+      "Preparación": [],
+      "Arroz blanco": [
+        "Poner un chorrito de aceite en una cazuela a fuego fuerte. Añadir un diente de ajo picado.",
+        "Cuando esté dorado, añadir el vaso de arroz. Remover para que se fría un poco (1min).",
+        "Añadir 2 vasos de agua, sal y el laurel. Mezclar todo y no volver a tocar.",
+        "Cuando empiece a hervir bajar a fuego medio. Cuando desaparezca el agua bajar a fuego suave. Dejar que se formen chimeneas y, cuando dejen de salir burbujas de agua del interior de las chimeneas, retirar del fuego y cubrir con un trapo.",
+        "Dejar reposar durante 10 minutos."
+      ],
+      "Plátano frito": [
+        "Partir el plátano en dos mitades.",
+        "Poner el plátano en una sarten con el aceite muy caliente. Dorar los dos lados.",
+        "Sacar de la sartén y poner en un plato con papel de cocina para eliminar el exceso de aceite."
+      ],
+      "Emplatar": [
+        "Freir los huevos y poner en cada plato un poco de arroz, los huevos, el plátanos y la salsa de tomate."
       ]
     },
     "ingredients": {
@@ -1097,10 +1104,10 @@
     "title": "Steak tartar",
     "steps": {
       "Preparación": [
-        "Limpiar de nervio la carne y picar en trocitos pequeños",
-        "Picar la cebolleta muy fina",
+        "Limpiar de nervio la carne y picar en trocitos pequeños.",
+        "Picar la cebolleta muy fina.",
         "Mostaza",
-        "Yema de huevo (quitarle la clara)",
+        "Yema de huevo (quitarle la clara).",
         "Sal y pimienta y Tabasco",
         "Mezclar bien todo"
       ]
@@ -1192,10 +1199,10 @@
     "title": "Conejo en salsa",
     "steps": {
       "Preparación": [
-        "Salpimentar el conejo . Pasar los trozos por harina y dorar en una sartén con un poco de aceite a fuego medio (7).",
-        "Una vez el conejo está dorado, retirar de la sartén y poner en un plato con papel para que escurra la grasa.",
+        "Salpimentar el conejo. Pasar los trozos por harina y dorar en una sartén con un poco de aceite a fuego medio (7).",
+        "Una vez el conejo está dorado, retirar de la sartén y poner en un plato con papel para que escurra el exceso de aceite.",
         "Pochar todas las verduras picadas pequeñito en la misma sartén que se ha hecho el conejo. Cuando estén bien pochaditas, añadir el conejo.",
-        "Añadir el vaso de alcohol y flambear con un mechero ¡OJITO! Recogerse el pelo para que no se queme y con la campana apagada.",
+        "Añadir el vaso de alcohol y flambear con un mechero ¡OJITO! Recogerse el pelo para que no se queme y siempre con la campana apagada.",
         "Cuando se apaguen las llamas, añadir un agua hasta casi cubrir. Dejar hervir durante 20 minutos.",
         "Se puede servir con patatas fritas o arroz blanco."
       ]
@@ -1360,15 +1367,18 @@
     "id": "43",
     "title": "Roastbeef Kevin",
     "steps": {
-      "Preparación": [
-        "Pedirle al carnicero que nos corte un trozo de lomo alto de vacuno y que nos lo ate para asar.",
-        "Ponemos el hormo a 250 grados. Cuando ya esté a esa temperatura, introducimos la carne en una fuente, con el lado de la grasa hacia arriba, salpimentado y con un chorrito de aceite.",
-        "Tenerlo en el horno durante 15 minutos.",
-        "Pasado ese tiempo, bajamos el horno a 180 grados durante 18 minutos en el caso de que nos guste poco hecho, 25 minutos si nos gusta al punto y 30 si nos gusta muy hecho.",
-        "Lo sacamos del horno y lo ponemos en un plato donde hemos preparado un trozo grande de papel de aluminio.",
-        "Ponemos la carne sobre el papel y lo cerramos bien por arriba de forma que quede un paquete bien cerrado. De esta forma se termina de hacer y evitamos que pierda todos sus jugos.",
-        "Dejarlo de esta forma reposando durante por lo menos 30 minutos.",
-        "Preparación de la salsa. Pochar un cebolleta y dos dientes de ajo muy bien picados en una cazuela.",
+      "Preparación": [],
+      "Roastbeef": [
+        "Pedirle al carnicero que corte un trozo de lomo alto de vacuno y que lo ate para asar.",
+        "Precalentar el hormo a 250ºC. Cuando ya esté a esa temperatura, poner la carne en una fuente, con el lado de la grasa hacia arriba, salpimentado y con un chorrito de aceite.",
+        "Dejar en el horno durante 15 minutos.",
+        "Pasado ese tiempo, bajar el horno a 180ºC durante 18 minutos en el caso de que se quiera poco hecho, 25 minutos si se quiere al punto y 30 si se quiere muy hecho.",
+        "Sacar del horno y lo poner en un plato donde se ha puesto un trozo grande de papel de aluminio.",
+        "Poner la carne sobre el papel y tapar bien por arriba de forma que quede un paquete bien cerrado. De esta forma se termina de hacer y se evita que pierda todos sus jugos.",
+        "Dejarlo de esta forma reposando durante por lo menos 30 minutos."
+      ],
+      "Preparación de la salsa": [
+        "Pochar un cebolleta y dos dientes de ajo muy bien picados en una cazuela.",
         "Cuando todo esté dorado, añadir una cucharada de maicena. Remover bien durante por lo menos 2 minutos.",
         "Añadir un vaso de vino tinto y los jugos que haya dentro del paquete de papel de aluminio. Añadir tomillo,",
         "pimienta y sal. Dejar hervir sin cubrir dutrante 10 minutos."
@@ -1469,11 +1479,14 @@
     "id": "46",
     "title": "Arroz con bogavante",
     "steps": {
-      "Preparación": [
+      "Preparación": [],
+      "Arroz": [
         "Para que salga bueno de verdad, tenemos que tener dos bogabantes vivos. Lo primero que hay que hacer es cortarlos por la mitad desde la cabeza a la cola. Hay que hacer un poco de fuerza pero con un cuchillo grande se cortan muy bien.",
         "Poner en la paellera con la cáscara hacia arriba y dorar durante 5 minutos. Retirar.",
-        "Picar la cebolleta, la zanahoria y el pimiento verde. Pochar en la paellera con los restos que ha dejado el bogavante. Cuando ya está bien pochado, añadir dos vasos de arroz. Revolver y mezclar bien. Añadir el caldo de pescado, el azafrán y la sal. Mezclar de nuevo. Colocar por encima los bogavantes cortados en trozos. Ya no se vuelve a mover. Mantener al fuego medio hasta que desaparezca el caldo. Retirar del fuego, cubrir con un paño grueso y dejar reposar 10 minutos.",
-        "Caldo de pescado. Es muy importante tener un buen caldo para que el arroz esté más sabroso. Poner en una cazuela espinas de rape y algo de morralla que vendan en la pescadería. Añadir sal y una hoja de laurel. Cubrir de agua y lo poner a hervir durante 10 minutos. Colar con un colador y ya está listo el caldo de pescado."
+        "Picar la cebolleta, la zanahoria y el pimiento verde. Pochar en la paellera con los restos que ha dejado el bogavante. Cuando ya está bien pochado, añadir dos vasos de arroz. Revolver y mezclar bien. Añadir el caldo de pescado, el azafrán y la sal. Mezclar de nuevo. Colocar por encima los bogavantes cortados en trozos. Ya no se vuelve a mover. Mantener al fuego medio hasta que desaparezca el caldo. Retirar del fuego, cubrir con un paño grueso y dejar reposar 10 minutos."
+      ],
+      "Caldo de pescado": [
+        "Es muy importante tener un buen caldo para que el arroz esté más sabroso. Poner en una cazuela espinas de rape y algo de morralla que vendan en la pescadería. Añadir sal y una hoja de laurel. Cubrir de agua y lo poner a hervir durante 10 minutos. Colar con un colador y ya está listo el caldo de pescado."
       ]
     },
     "ingredients": {
@@ -1501,11 +1514,14 @@
     "id": "47",
     "title": "Arroz con pescado",
     "steps": {
-      "Preparación": [
+      "Preparación": [],
+      "Arroz": [
         "Picar la cebolleta, la zanahoria y el pimiento verde y pochar en una cazuela. Cuando ya está bien pochado, añadir el calamar cortado en trocitos pequeños, las gambas y el rape cortado en dados.",
         "Añadir dos vasos de arroz. Remover bien. Añadir 4 vasos del caldo de pescado y el azafrán. Remover de nuevo. Mantener a fuego medio sin remover hasta que todo el caldo se haya evaporado.",
-        "Retirar del fuego, cubrir con un paño grueso y dejar reposar 10 minutos.",
-        "Caldo de pescado. Es muy importante tener un buen caldo para que el arroz esté más sabroso. Poner en una cazuela las espinas del rape y las cáscaras de las gambas. Añadir sal y una hoja de laurel. Cubrir de agua y poner a hervir durante 10 minutos. Colar con un colador. Ya está listo el caldo de pescado."
+        "Retirar del fuego, cubrir con un paño grueso y dejar reposar 10 minutos."
+      ],
+      "Caldo de pescado": [
+        "Es muy importante tener un buen caldo para que el arroz esté más sabroso. Poner en una cazuela las espinas del rape y las cáscaras de las gambas. Añadir sal y una hoja de laurel. Cubrir de agua y poner a hervir durante 10 minutos. Colar con un colador. Ya está listo el caldo de pescado."
       ]
     },
     "ingredients": {
@@ -1744,7 +1760,7 @@
     "steps": {
       "Preparación": [
         "Pelar las zanahorias, la cebolla y los ajos. Cortar la zanahoria en trozos grandes. Los ajos y la cebolla se echan enteros ya que más tarde se van a triturar.",
-        "Poner todos los ingredientes en una olla rápida a fuego fuerte. Cuando sale el segundo arito, bajar a fuego suave y dejar 15 minutos.",
+        "Poner todos los ingredientes en una olla express a fuego fuerte. Cuando sale el segundo arito, bajar a fuego suave y dejar cocinar 15 minutos.",
         "Apagar el fuego. Abrir la olla y remover. Si están muy espesas, echar un poco más de agua.",
         "Sacar de la cazuela los dientes de ajo, la cebolla, unos trozos de zanahorias y un poco de caldo. Ponerlo en un vaso de batidora y triturar bien.",
         "Añadir la mezcla a la olla con las lentejas. Remover bien."
@@ -1779,8 +1795,10 @@
         "Picamos la cebolleta, la zanahoria y el pimiento verde y los pochamos en una cazuela.  Cuando ya está bien",
         "pochado, añadimos el calamar cortado en trocitos pequeños, las gambas y el rape cortado en dados.",
         "Revolvemos y bien. Añadimos las patatas chascadas en trozos y cubrimos con el caldo de pescado.",
-        "Dejamos hervir durante minutos vigilando que siempre haya agua. Si se evapora, añadimos un poco más.",
-        "Caldo de pescado. Es muy importante tener un buen caldo para que el guiso esté más sabroso. Ponemos en",
+        "Dejamos hervir durante minutos vigilando que siempre haya agua. Si se evapora, añadimos un poco más."
+      ],
+      "Caldo de pescado": [
+        "Es muy importante tener un buen caldo para que el guiso esté más sabroso. Ponemos en",
         "una cazuela espinas de rape y algo de morralla que nos vendan en la pescadería. Ponemos sal y una",
         "hoja de laurel. Lo cubrimos de agua y lo ponemos a hervir durante 10 minutos. Lo colamos",
         "con un colador y ya tenemos nuestro caldo de pescado."
@@ -1814,34 +1832,41 @@
     "title": "Patatas con costillas",
     "steps": {
       "Preparación": [
-        "Rehogar las costillas partidas en trozos para sellarlas bien. Echar pimienta y sal. Retirar y reservar. (quitar el aceite extra si ha quedado mucho)",
-        "Echar las verduras bien picaditas en la misma cazuela a pochar a fuego medio (pimientos, cebolla, ajos y guindillas). Los ajos dejarlos en trozos grandes si luego los quiero quitar. Cuando estén pochadas, quitar las guindillas si no quiero que pique demasiado.",
-        "Añadir el tomate frito, las costillas y la cerveza. Si es un vaso de vino, echarlo el primero dejar hervir hasta que se vaya el alcohol. Echar agua si fuera necesario hasta cubrir.",
-        "Cerrar la olla rápida, y cuando salga la segunda arandela, 20minutos. (No abrir la olla hasta que las arandelas hayan bajado). Si no lo haces en olla express, tapar la cazuela con la tapa para que no se evapore el agua y dejar hervir 1hora aprox- hasta que las costillas estén blandas.",
-        "Pelar y cortar las patatas en trozos, chascándolas. Añadirlas a la olla, remover y echar agua hasta cubrir.",
-        "Añadir tomillo, pimienta y sal. Cerrar la olla rápida, y cuando salga la segunda arandela, mantenerlo en el fuego durante 10’. Si no lo haces en olla express, 30min a fuego bajo.",
-        "Cuando ya estén hechas las patatas, remover para que se rompan un poco y espese el caldo.",
-        "Apagar el fuego y dejar la cazuela ahí para que siga cogiendo calor y se termine de hacer"
+        "Rehogar las costillas a fuego medio alto para sellarlas bien. Salpimentar, retirar y reservar. Si ha quedado demasiado aceite en la cazuela, retirar el exceso.",
+        "Picar las verduras y pochar a fuego medio suave en la misma cazuela. Los ajos se pueden dejar enteros si luego se quieren quitar. Cuando estén pochadas, retirar las guindillas si no se quiere que el guiso quede demasiado picante.",
+        "Añadir el vaso de vino y dejar hervir hasta que se evapore el alcohol. Añadir el tomate frito y las costillas. Salpimentar y echar agua hasta cubrir."
+      ],
+      "En olla express": [
+        "Cerrar la olla y, cuando aparezca la segunda arandela, dejar cocinar 20 minutos. Nunca abrir la olla hasta que las arandelas hayan bajado.",
+        "Cerrar de nuevo la olla y, cuando aparezca la segunda arandela, dejar cocinar 10 minutos."
+      ],
+      "En cazuela tradicional": [
+        "Tapar la cazuela para que no se evapore el agua y dejar hervir a fuego medio aproximadamente 1hora, hasta que las costillas estén tiernas.",
+        "Mientras tanto, pelar y cortar las patatas en trozos, chascándolas. Añadir las patatas a la olla, el tomillo, salpimentar, remover bien y echar agua hasta cubrir.",
+        "Cocinar a fuego bajo durante 45 minutos. Pinchar las patatas con un cuchillo para confirmar que no están duras.",
+        "Cuando las patatas estén hechas, remover para que se rompan un poco y espesen el caldo.",
+        "Apagar el fuego y dejar la cazuela reposar para que mantenga el calor y el guiso termine de asentarse."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "1 tira de costillas de cerdo sin",
-        "adobar, cortadas de una en",
-        "una y por la mitad",
+        "1 tira de costillas de cerdo sin adobar, cortadas de una en una y por la mitad",
+        "8 patatas",
+        "1 pimiento verde",
+        "1/2 pimiento rojo",
         "1 cebolla",
         "2 dientes de ajo",
-        "1 pimiento verde",
-        "1 pimiento rojo",
-        "8 patatas",
         "1 bote de tomate frito",
-        "2 guindillas",
-        "1 cerveza o 1 vaso de vino tinto"
+        "2 guindillas (opcionales)",
+        "1 cerveza o 1 vaso de vino tinto",
+        "Tomillo",
+        "Pimienta",
+        "Sal"
       ]
     },
     "difficulty": "Facil",
     "category": "main",
-    "time": "50",
+    "time": "90",
     "portions": "6",
     "image": "https://i.ibb.co/0GxKXpy/patatas-costillas.png",
     "date": "25/04/2020",
@@ -2255,22 +2280,23 @@
         "Dorar el bacon. Reservar.",
         "Tostar el pan por solo una cara.",
         "Untar con mayonesa y mostaza.",
-        "En una de las dos rodajas de pan de molde añadir el bacon, el queso en lonchas, el tomate en rodajas, el pollo, el huevo duro, la cebola frita y la hoja de lechuga.",
+        "En una de las dos rodajas de pan de molde añadir el bacon, el queso en lonchas, el tomate en rodajas, el pollo, el huevo duro, la cebolla frita y la hoja de lechuga.",
         "Colocar encima de todo la otra tostada de pan de molde.",
         "Con un cuchilo de sierra y, sujentando bien el sandwich, cortarlo por la mitad."
       ]
     },
     "ingredients": {
       "Ingredientes": [
+        "Pechuga de pollo a la plancha o restos de pollo asado",
+        "Pan de molde",
         "Huevo duro",
+        "Queso",
         "Lechuga",
         "Tomate",
-        "Mostaza",
-        "Mayonesa",
         "Bacon",
-        "Pan de molde",
         "Cebolla frita",
-        "Pechuga de pollo a la plancha o restos de pollo asado."
+        "Mostaza",
+        "Mayonesa"
       ]
     },
     "difficulty": "Facil",
@@ -3111,11 +3137,11 @@
     "title": "Arroz blanco",
     "steps": {
       "Preparación": [
-        "Poner en una cazuela al 9 un chorrito de aceite. Cuando esté caliente, añadir el vaso de arroz.",
-        "Remover y que se fría un poco.",
-        "Añadir 2 vasos de agua, sal y el laurel. Mezclar todo y no volver a tocar. Cuando empiece a hervir bajar al 6.",
-        "Cuando desaparezca el agua bajar al 4 y vigilar las chimeneas y cuando no salgan pompas de agua de dentro de las chimeneas, quitar del fuego y tapar con un trapo.",
-        "Dejar reposar 10 minutos"
+        "Poner un chorrito de aceite en una cazuela a fuego fuerte. Añadir un diente de ajo picado.",
+        "Cuando esté dorado, añadir el vaso de arroz. Remover para que se fría un poco (1min).",
+        "Añadir 2 vasos de agua, sal y el laurel. Mezclar todo y no volver a tocar.",
+        "Cuando empiece a hervir bajar a fuego medio. Cuando desaparezca el agua bajar a fuego suave. Dejar que se formen chimeneas y, cuando dejen de salir burbujas de agua del interior de las chimeneas, retirar del fuego y cubrir con un trapo.",
+        "Dejar reposar durante 10 minutos."
       ]
     },
     "ingredients": {
@@ -3200,7 +3226,7 @@
     "title": "Bizcocho 1,2,3",
     "steps": {
       "Preparación": [
-        "Precalentar el horno a 180º",
+        "Precalentar el horno a 180ºC.",
         "Aplicar una fina capa de mantequilla en toda la superficie del molde. Añadir un poco de harina y repartir por todo el molde. Sacudir el molde para quitar toda la harina sobrante. Así se evita que el bizcocho se quede pegado al molde.",
         "En un bol, mezclar bien todos los ingredientes. Pasar la mezcla al molde.",
         "Hornear durante 20 minutos."
@@ -3765,20 +3791,18 @@
       "Preparación": [
         "Mezclar la mayonesa y la salsa de salmón. Untar las rebanadas de pan tostado.",
         "Desmigar el salmón y ponerlo sobre las rebanadas.",
-        "Añadir el huevo duro picado, la lechuga cortada en juliana y la punta de espárrago.",
-        "Y a disfrutar.",
-        "Se puede cambiar los restos de salmón a la plancha por salmón ahumado. Y la salsa puede ser salsa rosa."
+        "Añadir el huevo duro picado, la lechuga cortada en juliana y la punta de espárrago."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "Restos de salmón a la plancha",
+        "Restos de salmón a la plancha o salmón ahumado",
         "Rebanadas de pan cortadas finas",
         "Huevo duro",
         "Lechuga",
         "Punta de espárrago",
         "Mayonesa",
-        "Salsa para pescado (Druvan)"
+        "Salsa para pescado (Druvan) - también puede ser salsa rosa"
       ]
     },
     "difficulty": "Facil",
@@ -3942,7 +3966,7 @@
     "title": "Macarrones con chorizo",
     "steps": {
       "Preparación": [
-        "Sofrito: Picar finamente la cebolla y pochar en una sartén con el aceite a fuego medio. Picar el jamón u el chorizo y añadir a la sartén con la cebolla. Retirar de la sartén cuando la cebolla esté muy bien pochada, casi deshecha, y poner sobre papel de cocina para que absorba el aceite.",
+        "Picar finamente la cebolla y pochar en una sartén con el aceite a fuego medio. Picar el jamón y el chorizo y añadir a la sartén. Retirar de la sartén cuando la cebolla esté muy bien pochada, casi deshecha, y poner sobre papel de cocina para que absorba el aceite.",
         "Cocer la pasta en una olla siguiendo las instrucciones del fabricante.",
         "En una fuente de horno, añadir el sofrito y echar orégano al gusto.",
         "Precalentar el horno a 220ºC.",
@@ -3970,7 +3994,7 @@
     "image": "https://i.ibb.co/RB4DKKY/macarrones-chorizo.jpg",
     "date": "31/07/2024",
     "author": "Marta",
-    "imageComment": "Viaje a la infancia más profunda. Se pueden comer sin límite, buebo hasta que se acaben."
+    "imageComment": "Viaje a la infancia más profunda. Se pueden comer sin límite, bueno hasta que se acaben."
   },
   {
     "id": "123",
@@ -4117,8 +4141,9 @@
         "Aumentar el fuego. Añadir la carne y sofreír de nuevo otros cinco minutos. Pasarla al plato del beicon reservado. Añadir los vegetales, cocinar a fuego medio 10 minutos hasta que estén un poco blandos.",
         "Echar la harina y darle vueltas para que se cueza un poco. Añadir el vino removiendo constantemente. Añadir el tomate frito. Echar la carne y el beicon. Salpimentar al gusto. Reducir el fuego y dejar cocinar todo durante 2 horas y media o hasta que la carne esté casi blanda.",
         "Añadir los champiñones a la olla con la carne. Cubrir y seguir cocinando durante 1 hora más, añadiéndole caldo de carne en pequeñas cantidades para que la carne quede cubierta siempre por el líquido. Retirar cuando la carne ya está blanda.",
-        "Acompañar con patatas hervidas y cebollitas glaseadas.",
-        "Cebolletas caramelizadas",
+        "Acompañar con patatas hervidas y cebollitas glaseadas."
+      ],
+      "Cebolletas caramelizadas": [
         "Pelar las cebolletas, quitar las primeras capas y cortar un poquito la base hasta dejarlas completamente peladas. Colocar en una cazuela de forma que no queden amontonadas.",
         "Añadir la mantequilla, el azúcar y la sal.",
         "Pasar 1 minuto a fuego medio para que se sellen. Posteriormente verter el agua de forma que cubra las cebollas al ras. No más porque sería excesivo. Incluso se puede poner un poquito menos de agua para luego añadir por si hace falta en la cocción. También se puede aplicar la técnica con un fondo oscuro de carne, un buen chorro de Pedro Ximénez u Oporto en vez de agua.",
@@ -4143,8 +4168,9 @@
         "1 ramillete de perejil",
         "Aceite de oliva",
         "Pimienta negra molida",
-        "Sal",
-        "Cebollitas glaseadas",
+        "Sal"
+      ],
+      "Cebollitas glaseadas": [
         "1/2 kg de cebollitas francesas",
         "500 ml de agua",
         "150 gr de mantequilla",
@@ -4696,20 +4722,42 @@
   },
   {
     "id": "144",
-    "title": "",
+    "title": "Guiso de ternera",
     "steps": {
-      "Preparación": []
+      "Preparación": [
+        "Rehogar el morcillo a fuego medio alto para sellarlo bien. Salpimentar, retirar y reservar. Si ha quedado demasiado aceite en la cazuela, retirar el exceso.",
+        "Picar las verduras y pochar a fuego medio suave en la misma cazuela. Los ajos se pueden dejar enteros si luego se quieren quitar.",
+        "Añadir el vaso de vino y dejar hervir hasta que se evapore el alcohol. Añadir la cucharada de harina para espesar un poco la salsa. Si se echa maicena, diluir previamente en un vaso con agua fría. Añadir el tomate frito y el morcillo. Salpimentar y echar agua hasta cubrir."
+      ],
+      "En olla express": [
+        "Cerrar la olla y, cuando aparezca la segunda arandela, dejar cocinar 20 minutos. Nunca abrir la olla hasta que las arandelas hayan bajado."
+      ],
+      "En cazuela tradicional": [
+        "Tapar la cazuela para que no se evapore el agua y dejar hervir a fuego medio aproximadamente 1hora, hasta que las costillas estén tiernas.",
+        "Apagar el fuego y dejar la cazuela reposar para que mantenga el calor y el guiso termine de asentarse."
+      ]
     },
     "ingredients": {
-      "Ingredientes": []
+      "Ingredientes": [
+        "1/2kg morcillo de ternera - pedir que lo corten en taquitos en la carnicería. Siempre es mejor el morcillo delantero que el trasero, es más jugoso",
+        "1 pimiento verde",
+        "2 zanahorias",
+        "1 cebolla",
+        "2 dientes de ajo",
+        "1 bote de tomate frito",
+        "1 vaso de vino tinto o cerveza",
+        "1 cucharada de harina o maicena",
+        "Pimienta",
+        "Sal"
+      ]
     },
-    "difficulty": "",
-    "category": "",
-    "time": "",
-    "portions": "",
+    "difficulty": "Facil",
+    "category": "main",
+    "time": "60",
+    "portions": "4",
     "image": "",
-    "date": "",
-    "author": "",
+    "date": "16/11/2025",
+    "author": "Chef JC",
     "imageComment": ""
   },
   {
