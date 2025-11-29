@@ -39,9 +39,9 @@ export default function Home({
   return (
     <>
       <Title />
-      {/* <CardContainer recipes={sortedRecipes} hasTitle />
+      <CardContainer recipes={sortedRecipes} hasTitle />
       <IntroContainer />
-      <Footer /> */}
+      {/* <Footer /> */}
     </>
   )
 }
