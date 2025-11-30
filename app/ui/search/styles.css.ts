@@ -1,35 +1,24 @@
 import { vars } from '@/theme.css'
 import { style } from '@vanilla-extract/css'
 
-export const searchWrapper = style({
-  width: '100%',
-  height: 64,
+export const searchContainer = style({
   display: 'flex',
-  justifyContent: 'center',
-})
-
-export const searchComponent = style({
-  display: 'inline-block',
-  position: 'relative',
-  width: '100%',
-})
-
-export const searchInput = style({
-  height: '100%',
-  padding: '8px 12px',
-  width: '100%',
-  backgroundColor: 'transparent',
-  color: vars.color.body,
-  ':focus': {
-    outline: 'none',
-    boxShadow: 'none',
+  height: 64,
+  padding: 8,
+  gap: 16,
+  backgroundColor: vars.color.white,
+  border: `1px solid ${vars.color.utility[100]}`,
+  borderRadius: 8,
+  alignItems: 'center',
+  '@media': {
+    'screen and (max-width: 639px)': {
+      margin: '0 16px',
+    },
   },
 })
 
-export const searchCloseButton = style({
-  position: 'absolute',
-  right: 0,
-  top: '50%',
-  transform: 'translateY(-50%)',
-  cursor: 'pointer',
+export const searchInput = style({
+  flexGrow: 1,
+  height: 48,
+  outline: 'none',
 })

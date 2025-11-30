@@ -1,28 +1,20 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
-import {
-  searchInput,
-  searchWrapper,
-  searchCloseButton,
-  searchComponent,
-} from './styles.css'
-import { CloseIcon } from '../SVG'
+
+import { TopLevelWrapper } from '../topLevelWrapper/TopLevelWrapper'
+import { searchContainer, searchInput } from './styles.css'
+import { SearchIcon } from '../SVG'
+import { Button } from '../button/Button'
 import { useSearch } from './useSearch'
-import { NavBarIcon } from '../navbar/NavBarIcon'
 
-interface SearchType {
-  initialQuery: string
-  onClick: () => void
-}
-
-const Search = ({ initialQuery, onClick }: SearchType) => {
+const Search = () => {
   const inputRef = useRef<HTMLInputElement>(null)
 
   const pathname = usePathname()
   const { replace } = useRouter()
 
-  const [searchValue, setSearchValue] = useState(initialQuery)
+  const [searchValue, setSearchValue] = useState('')
   const { onOpenSearch } = useSearch()
 
   const handleSearch = (term: string) => {
@@ -37,19 +29,14 @@ const Search = ({ initialQuery, onClick }: SearchType) => {
     }
   }
 
-  const handleClickCloseButton = () => {
-    setSearchValue('')
-    replace(pathname)
-    onClick()
-  }
-
   useEffect(() => {
     inputRef.current?.focus()
   }, [onOpenSearch])
 
   return (
-    <div className={searchWrapper}>
-      <div className={searchComponent}>
+    <TopLevelWrapper>
+      <div className={searchContainer}>
+        <SearchIcon />
         <input
           id="search"
           ref={inputRef}
@@ -57,18 +44,13 @@ const Search = ({ initialQuery, onClick }: SearchType) => {
           name="search"
           value={searchValue}
           className={searchInput}
-          placeholder="Buscar..."
           onChange={(e) => {
             handleSearch(e.target.value)
           }}
         />
-        <div className={searchCloseButton}>
-          <NavBarIcon onClick={handleClickCloseButton}>
-            <CloseIcon />
-          </NavBarIcon>
-        </div>
+        <Button>Buscar</Button>
       </div>
-    </div>
+    </TopLevelWrapper>
   )
 }
 

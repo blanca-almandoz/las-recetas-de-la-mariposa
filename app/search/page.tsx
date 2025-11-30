@@ -2,7 +2,7 @@
 import recipes from '../../public/data/recipes.json'
 import { searchRecipes } from '@/lib/utils'
 import { CardContainer } from '../ui/card/CardContainer'
-import { Search } from '../ui/searchv2/Search'
+import { Search } from '../ui/search/Search'
 
 export default function Page({
   searchParams,

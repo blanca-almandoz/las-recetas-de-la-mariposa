@@ -3,7 +3,7 @@ import recipes from '../../../public/data/recipes.json'
 import { usePathname } from 'next/navigation'
 import { fetchRecipesByCategory, searchRecipes } from '../../../lib/utils'
 import { CardContainer } from '@/app/ui/card/CardContainer'
-import { Search } from '@/app/ui/searchv2/Search'
+import { Search } from '@/app/ui/search/Search'
 
 interface PageProps {
   searchParams: Record<string, string | string[] | undefined>
