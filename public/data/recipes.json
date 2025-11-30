@@ -664,9 +664,9 @@
       "Preparación": [
         "Hervir las patatas.",
         "Pelar y cortar las patatas en trozos.",
-        "Picar lo más pequeño posible un trocito pequeño de un diente de ajo y machacarlo en un mortero.",
-        "Mezclar el ajo picado con la mayonesa y añadir las patatas.",
-        "Espolvorear perejil picado."
+        "Picar muy finamente un trocito pequeño de un diente de ajo y machacarlo en un mortero.",
+        "Mezclar el ajo picado con la mayonesa y añadir las patatas, integrándolo todo suavemente.",
+        "Terminar espolvoreando perejil picado por encima"
       ]
     },
     "ingredients": {
@@ -2513,14 +2513,17 @@
     "title": "Salmón a la plancha",
     "steps": {
       "Preparación": [
-        "Calentar una sartén al 9 con un poco de aciete de oliva. Una vez caliente (7) ponemos nuestras tajadas de salmón y lo tapamos con una tapadera.",
-        "Pasados 5 minutos, comprobamos si nos gusta ya su punto de cocción. Lo sacamos sin darle la vueta ya que, al estar tapado se habrá cocinado en su totalidad y habrá permanecio muy jugoso."
+        "Calentar una sartén a fuego fuerte.",
+        "Una vez caliente, poner las tajadas de salmón y tapar con una tapadera. Salpimentar.",
+        "Pasados 5 minutos, comprobar si su punto de cocción es el deseado.",
+        "Sacar sin darle la vueta ya que, al estar tapado se habrá cocinado en su totalidad y habrá permanecio muy jugoso."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "Lomo de salmón con la piel. Calcular 200g por persona",
-        "Sal, pimienta y aceite."
+        "Pimienta",
+        "Sal"
       ]
     },
     "difficulty": "Facil",
@@ -4001,10 +4004,11 @@
     "title": "Judías verdes",
     "steps": {
       "Preparación": [
-        "Limpiar las judías, partirlas en trozos y echarlas en una olla rápida. Añadir las patatas peladas y una cebolla. Cubrir de agua y tapar. Cuando salga la segunda raya roja, 15 minutos.",
-        "Pelar la otra cebolla y picar en juliana. Pelar los ajos y ponerlos enteros en una sartén con aceite hasta dorar.",
-        "Escurrir las judías de la olla en un colador, escurrir bien y echar en la sartén con el resto de ingredientes.",
-        "Añadir la mantequilla cortada en trozos y rehogar durante 10 minutos. Salpimentar."
+        "Limpiar las judías, pelar las patatas y cortar una de las cebollas.",
+        "Partir las judías en trozos y colocarlas en una olla rápida junto con las patatas y la cebolla. Cubrir con agua y tapar. Cuando salga la segunda raya roja, cocinar durante 15 minutos.",
+        "Mientras tanto, pelar la otra cebolla y cortar en juliana. Pelar también ajos y dorarlos enteros en una sartén con un poco de aceite.",
+        "Escurrir bien las judías y las patatas en un colador y pasarlas a la sartén con la cebolla y los ajos.",
+        "Añadir la mantequilla en trocitos y rehogar todo durante 10 minutos. Salpimentar al gusto."
       ]
     },
     "ingredients": {
