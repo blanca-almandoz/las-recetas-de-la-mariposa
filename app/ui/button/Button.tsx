@@ -1,6 +1,10 @@
 import { button } from './styles.css'
 
-const Button = ({ children }: any) => {
+interface ButtonProps {
+  children: React.ReactNode
+}
+
+const Button = ({ children }: ButtonProps) => {
   return <button className={button}>{children}</button>
 }
 
