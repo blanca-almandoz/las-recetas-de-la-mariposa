@@ -44,39 +44,18 @@ const IntroContainer = () => {
             quality={100}
           />
         </div>
-
-        <div className={headerText}>
-          <Image
-            src="/logo-complete.svg"
-            alt="logo-complete"
-            height={68}
-            width={300}
-          />
-          <div>{introText()}</div>
-        </div>
+        <div className={headerText}>{introText()}</div>
       </div>
       {/* MOBILE DESIGN */}
       <div className={headerMobile}>
         <div className={contentMobile}>
-          <div>
-            <div style={{ position: 'absolute', zIndex: 1 }}>
-              <Image
-                src="/logo-complete.svg"
-                alt="logo-complete"
-                height={52}
-                width={236}
-              />
-            </div>
-            <div style={{ position: 'relative', top: 0 }}>
-              <Image
-                src="/images/kitchen-mobile.png"
-                alt="kitchen"
-                height={226}
-                width={226}
-                quality={100}
-              />
-            </div>
-          </div>
+          <Image
+            src="/images/kitchen-mobile.png"
+            alt="kitchen"
+            height={226}
+            width={226}
+            quality={100}
+          />
           <div>{introText()}</div>
         </div>
       </div>

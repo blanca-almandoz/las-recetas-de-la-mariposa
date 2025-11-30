@@ -22,15 +22,12 @@ export const headerImage = style({
 export const headerText = style({
   gridColumn: 'span 5',
   backgroundColor: vars.color.primary.light,
-  padding: 40,
-  gap: 32,
-  display: 'flex',
-  alignItems: 'center',
-  flexDirection: 'column',
+  padding: '80px 60px',
 })
 
 export const headerMobile = style({
-  paddingTop: 64,
+  marginTop: 48,
+  padding: '24px 16px',
   backgroundColor: vars.color.primary.light,
   '@media': {
     'screen and (min-width: 887px)': {
@@ -43,6 +40,6 @@ export const contentMobile = style({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  gap: 16,
+  gap: 24,
   padding: 16,
 })

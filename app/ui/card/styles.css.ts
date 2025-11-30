@@ -17,6 +17,13 @@ export const cardImage = style({
   overflow: 'hidden',
 })
 
+export const cardWithTitle = style({
+  fontWeight: 500,
+  fontSize: 20,
+  marginBottom: 16,
+  color: vars.color.body,
+})
+
 export const cardContent = style({
   display: 'flex',
   flexDirection: 'column',
