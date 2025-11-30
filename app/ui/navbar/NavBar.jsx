@@ -17,8 +17,6 @@ import {
   navBarItemMobile,
 } from './styles.css'
 import { MobileMenu, SearchIcon } from '../SVG'
-import { Search } from '../search/Search'
-import { useSearch } from '../search/useSearch'
 import { NavBarIcon } from './NavBarIcon'
 
 const NAVBARITEMS = {
@@ -31,24 +29,15 @@ const NAVBARITEMS = {
 const NavBar = () => {
   const [onOpen, setOnOpen] = useState(false)
   const pathname = usePathname()
-  const { onOpenSearch, setOnOpenSearch } = useSearch()
 
   const handleClick = () => {
     setOnOpen(!onOpen)
   }
 
-  const handleCloseSearchBar = () => {
-    setOnOpenSearch(!onOpenSearch)
-    setOnOpen(false)
-  }
-
   return (
     <nav className={wrapper}>
       <div className={container}>
-        <div
-          className={content}
-          style={{ display: onOpenSearch ? 'none' : 'flex' }}
-        >
+        <div className={content}>
           <div className={menuMobile}>
             {/*  <!-- Mobile menu button--> */}
             <button
@@ -84,28 +73,19 @@ const NavBar = () => {
                 </Link>
               ))}
             </div>
-            <NavBarIcon
+            <Link
+              href={`/search`}
               onClick={() => {
-                setOnOpenSearch(!onOpenSearch)
                 setOnOpen(false)
               }}
             >
-              <SearchIcon />
-            </NavBarIcon>
+              <NavBarIcon>
+                <SearchIcon />
+              </NavBarIcon>
+            </Link>
           </div>
         </div>
-        {/* Search bar */}
-        <div
-          style={{
-            display: onOpenSearch ? 'flex' : 'none',
-            justifyContent: 'center',
-            width: '100%',
-          }}
-        >
-          <Search initialQuery="" onClick={handleCloseSearchBar} />
-        </div>
       </div>
-
       {/*  <!-- Mobile menu, show/hide based on menu state. --> */}
       {onOpen && (
         <div className={menuMobile} style={{ width: '100%' }}>

@@ -22,7 +22,7 @@ export const container = style({
   paddingRight: 8,
   '@media': {
     'screen and (min-width: 887px)': {
-      maxWidth: 1200,
+      maxWidth: 1290,
       padding: 0,
     },
     'screen and (min-width: 887px) and (max-width: 1200px)': {

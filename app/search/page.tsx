@@ -2,6 +2,7 @@
 import recipes from '../../public/data/recipes.json'
 import { searchRecipes } from '@/lib/utils'
 import { CardContainer } from '../ui/card/CardContainer'
+import { Search } from '../ui/searchv2/Search'
 
 export default function Page({
   searchParams,
@@ -16,6 +17,7 @@ export default function Page({
 
   return (
     <div style={{ paddingTop: 24 }}>
+      <Search />
       <CardContainer recipes={searchedRecipes} />
     </div>
   )
