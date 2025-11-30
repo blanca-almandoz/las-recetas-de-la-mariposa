@@ -9,6 +9,7 @@ import { CardAnimations } from './ui/animations/CardAnimations'
 import { CardContainer } from './ui/card/CardContainer'
 import { Footer } from './ui/footer/Footer'
 import { Title } from './ui/title/Title'
+import { Search } from './ui/searchv2/Search'
 
 interface DateItem {
   date: string
@@ -39,6 +40,7 @@ export default function Home({
   return (
     <>
       <Title />
+      <Search />
       <CardContainer recipes={sortedRecipes} hasTitle />
       <IntroContainer />
       <Footer />
