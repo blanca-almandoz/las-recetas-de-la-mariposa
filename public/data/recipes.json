@@ -184,24 +184,26 @@
     "title": "Crema de Cabrales y manzana",
     "steps": {
       "Preparación": [
-        "Pela las manzanas, descorazónalas y trocéalas. Ponlas a cocer en un cazo con el azúcar y una cucharada de agua para conseguir una compota. Cuando estén cocidas, retíralas y déjalas enfriar.",
-        "Cuando se hayan enfriado, mezcla con el queso y tritura hasta tener una masa homogénea.",
-        "Sirve la crema sobre tostadas de pan y acompáñalo de nueces.​"
+        "Pelar las manzanas, descorazonar y trocear. Poner a cocer en un cazo con el azúcar y una cucharada de agua para conseguir una compota.",
+        "Cuando estén cocidas, retírar y déjar enfriar.",
+        "Una vez frías, mezclar con el queso y triturar hasta tener una masa homogénea.",
+        "Servir la crema sobre las tostas de pan y poner una cucharadita de mermelada encima."
       ]
     },
     "ingredients": {
       "Ingredientes": [
+        "100 g de queso Cabrales",
         "3 manzanas reineta",
         "65 g de azúcar",
-        "100 g de queso Cabrales",
-        "Rebanadas de pan tostado"
+        "Mermelada de arándanos",
+        "Tostas de pan"
       ]
     },
     "difficulty": "Facil",
     "category": "starters",
     "time": "30",
     "portions": "12",
-    "image": "",
+    "image": "https://i.ibb.co/m5XNXpr5/crema-cabrales.jpg ",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "No se lo esperan, ya verás. Y te copiarán.\nLos que lo prueban, te piden la receta. Ya lo verás"
@@ -1072,7 +1074,7 @@
         "Dejar reposar durante 10 minutos."
       ],
       "Plátano frito": [
-        "Partir el plátano en dos mitades.",
+        "Cortar el plátano en dos mitades.",
         "Poner el plátano en una sarten con el aceite muy caliente. Dorar los dos lados.",
         "Sacar de la sartén y poner en un plato con papel de cocina para eliminar el exceso de aceite."
       ],
@@ -1085,6 +1087,7 @@
         "Dos vasos de arroz",
         "6 plátanos",
         "6 huevos",
+        "1 hoja de laurel",
         "Tomate frito",
         "Aceite",
         "Sal"
@@ -1106,10 +1109,9 @@
       "Preparación": [
         "Limpiar de nervio la carne y picar en trocitos pequeños.",
         "Picar la cebolleta muy fina.",
-        "Mostaza",
-        "Yema de huevo (quitarle la clara).",
-        "Sal y pimienta y Tabasco",
-        "Mezclar bien todo"
+        "Separar la yema de la clara. Solo se necesita la yema.",
+        "En un bol, añadir la carne, la cebolla, la yema, la mostaza, el tabasco (al gusto), la pimienta y la sal. Mezclar bien todo.",
+        "Ayudarse de un molde para emplatar."
       ]
     },
     "ingredients": {
@@ -1300,14 +1302,14 @@
     "ingredients": {
       "Ingredientes": [],
       "Ingredientes relleno": [
-        "Medio kilo de bacon",
+        "500gr de bacon",
         "6 cebollas",
         "2 manzanas Granny Smith",
+        "3 huevos",
         "Perejil",
         "Azúcar",
         "Pan duro cortado en tacos",
-        "Caldo de carne",
-        "3 huevos"
+        "Caldo de carne"
       ],
       "Ingredientes pavo": [
         "1 pavo de 7 kilos",
@@ -1332,7 +1334,7 @@
     "image": "https://i.ibb.co/TWy5TvP/pavo-navidad.jpg ",
     "date": "25/04/2020",
     "author": "Chef JC",
-    "imageComment": "Hasta que probé el pavo en casa de Marina,pensaba que un trozo de pavo era lo mismo que un trozo de alpargata. Error. Es una receta larga pero deliciosa. Hazla y repetirás todos los años."
+    "imageComment": "Hasta que probé el pavo en casa de Marina, pensaba que un trozo de pavo era lo mismo que un trozo de alpargata. Error. Es una receta larga pero deliciosa. Hazla y repetirás todos los años."
   },
   {
     "id": "42",
@@ -2539,25 +2541,30 @@
     "id": "77",
     "title": "Crema de marisco",
     "steps": {
-      "Preparación": [
-        "Para hacer el fumet de pescado, poner la cabeza de rape y las cáscaras y cabezas de los langostinos en una cazuela con agua hirviendo, sazonar y añadir una ramita de perejil. Dejar hervir durante 15 minutos aproximadamente, colar, volver a poner el caldo en la cazuela e introducir los mejillones limpios. Hervir justo hasta que se abran. Retirar los mejillones, sacarles la carne y colar el caldo. Reservar.",
-        "Cortar el pan en rebanadas y tostarlas eu un tostador. Trocear el pan y reservar.",
-        "Picar la cebolla, los puerros y las zanahorias y póchalos en una cazuela con un chorro de aceite hasta que todo esté bien doradito. Agregar el pan, añadir el caldo y la salsa de tomate. Cocinar a fuego lento durante 15 minutos y triturar. Distribuir la crema en 4 cuencos.",
-        "Cortar la cola de rape en 4 trozos. Salpimientar el rape, los mejillones y los langostinos. Añadir una pizca de estragón y saltear todo en una sartén con un chorrito de aceite. Vertir el brandy y flambear. Agregar el marisco a los cuencos de la crema."
+      "Preparación": [],
+      "Fumet de pescado": [
+        "Colocar la cabeza de rape junto con las cáscaras y cabezas de los langostinos en una cazuela con abundante agua. Añadir sal al gusto y una ramita de perejil. Si se forma espuma durante la cocción, retirar con una cuchara. Una vez el agua empieza a hervir, dejar cocer aproximadamente 15 minutos. No conviene dejarlo más tiempo, ya que puede enrranciarse y no aportará más sabor.",
+        "Colar y guardar en botes."
+      ],
+      "Crema de marisco": [
+        "Picar la cebolla, los puerros y las zanahorias. Pochar en una cazuela a fuego medio con un chorrito de aceite.",
+        "Mientras tanto, cortar el pan en rebanadas y tostarlas en un tostador. Trocear el pan y reservar.",
+        "Cuando las verduras estén bien doraditas, agregar el pan. Remover bien para que el pan se impregne. Añadir el vaso de tomate frito y remover.",
+        "Añadir 1,5 litros del fumet hecho anteriormente. Una vez empieza a hervir, dejar cocer durante 15 minutos. Se puede poner la tapa solo hasta que empiece a hervir más rápido, luego hay que quitarla porque interesa que se evapore un poco del caldo.",
+        "Triturar todo en la misma cazuela con una batidora. Triturar bien, quedándose suave y sin grumos. Añadir un poquito de estragón. Si el caldo ha quedado muy líquido, dejar hervir hasta conseguir la textura deseada.",
+        "Cortar la cola de rape, lo suficientemente grandes para que quepan en la boca sin necesidad de partirlos. Salpimientar el rape y los langostinos.",
+        "Añadir el rape y los langostinos a la crema triturada y apagar el fuego. Dejar reposar tapado 10 minutos. El rape y los langostinos se cocinarán con el calor remanente."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "16 mejillones",
-        "16 langostinos",
-        "1 vaso de tomate frito",
-        "1/4 barra de pan",
+        "350 gr rape (pedir al pescadero los dos lomos limpios, la espina y la cabeza - partida en trozos para poder hacer el fumet)",
+        "250 gr de langostinos (18 unidades aprox)",
+        "5 rebanadas de pan de molde - no hay que quitar los bordes",
         "1 cebolla",
-        "2 puerros",
-        "1 copa de brandy",
-        "1 rape pequeño",
-        "2 zanahorias",
-        "Agua",
+        "1 puerro gordo",
+        "2 zanahorias grandes",
+        "1 vaso de tomate frito",
         "Estragón",
         "Aceite",
         "Sal"
@@ -2565,7 +2572,7 @@
     },
     "difficulty": "Dificil",
     "category": "main",
-    "time": "60",
+    "time": "90",
     "portions": "4",
     "image": "https://i.ibb.co/pzZLvx0/sopa-marisco.png ",
     "date": "25/12/2021",
@@ -2609,16 +2616,7 @@
       ]
     },
     "ingredients": {
-      "Ingredientes": [
-        "8 tomates pera maduros (1,1 kg)",
-        "1/2 pimiento rojo riquitico (50 g)",
-        "1 pimiento verde igual de riquitico (70 g)",
-        "1 pepino (150 g)",
-        "1/2 de cebolla (25 g)",
-        "120 ml aceite",
-        "20 ml vinagre",
-        "Sal"
-      ]
+      "Ingredientes": []
     },
     "difficulty": "Facil",
     "category": "starters",
@@ -4766,20 +4764,34 @@
   },
   {
     "id": "145",
-    "title": "",
+    "title": "Lubina al horno",
     "steps": {
-      "Preparación": []
+      "Preparación": [
+        "Precalentar el horno a 180ºC.",
+        "En una fuente de horno poner las patatas, las cebollas y las zanahorias cortadas en rodajas no muy gruesas. Echar aceite y salpimentar.",
+        "Cuando el horno esté caliente, introducir la bandeja y dejar hornear hasta que las patatas estén doradas (40 minutos aproximadamente).",
+        "Sacar la bandeja. Hacer un huequito en la bandeja y colocar la lubina entera (con la cabeza y piel). Chorrito de aceite y sal.",
+        "Volver a meter la bandeja en el horno. La lubina estará en su punto cuando al clavar el cuchillo, éste entre con suavidad. El tiempo de cocción aproximado es de 20 a 30 minutos."
+      ]
     },
     "ingredients": {
-      "Ingredientes": []
+      "Ingredientes": [
+        "1 lubina (compra la lubina acorde al número de comensales)",
+        "6 patatas",
+        "1 cebolla",
+        "2 zanahorias",
+        "2 dientes de ajo",
+        "Pimienta",
+        "Sal"
+      ]
     },
-    "difficulty": "",
-    "category": "",
-    "time": "",
-    "portions": "",
-    "image": "",
-    "date": "",
-    "author": "",
+    "difficulty": "Medio",
+    "category": "main",
+    "time": "60",
+    "portions": "5",
+    "image": "https://i.ibb.co/ksP3qW7D/lubina.jpg ",
+    "date": "25/12/2025",
+    "author": "ChefJC",
     "imageComment": ""
   },
   {
