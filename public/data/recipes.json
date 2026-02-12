@@ -1794,28 +1794,23 @@
     "title": "Guiso de pescado con patatas",
     "steps": {
       "Preparación": [
-        "Picamos la cebolleta, la zanahoria y el pimiento verde y los pochamos en una cazuela.  Cuando ya está bien",
-        "pochado, añadimos el calamar cortado en trocitos pequeños, las gambas y el rape cortado en dados.",
-        "Revolvemos y bien. Añadimos las patatas chascadas en trozos y cubrimos con el caldo de pescado.",
-        "Dejamos hervir durante minutos vigilando que siempre haya agua. Si se evapora, añadimos un poco más."
+        "Pochar en una cazuela la cebolleta, la zanahoria y el pimiento verde bien picados. Cuando ya está pochado, añadir el calamar cortado en trocitos pequeños, las gambas y el rape cortado en dados.",
+        "Remover bien. Añadir las patatas chascadas en trozos y cubrir con el caldo de pescado. Dejar hervir durante 120 minutos vigilando que siempre haya agua. Si se evapora, añadir un poco más de caldo. Se sabrá que el guiso está listo cuando las patatas estén en su punto (si las pinchas con un cuchillo entra suave)."
       ],
       "Caldo de pescado": [
-        "Es muy importante tener un buen caldo para que el guiso esté más sabroso. Ponemos en",
-        "una cazuela espinas de rape y algo de morralla que nos vendan en la pescadería. Ponemos sal y una",
-        "hoja de laurel. Lo cubrimos de agua y lo ponemos a hervir durante 10 minutos. Lo colamos",
-        "con un colador y ya tenemos nuestro caldo de pescado."
+        "Es muy importante tener un buen caldo para que el guiso esté más sabroso. En una cazuela poner las espinas de rape, las cáscaras de las gambas y la morralla. Añadir una hoja de laurel y sal. Cubrir de agua y poner a hervir durante 10 minutos. Colar con un colador y reservar."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "2 rodajas de rape",
-        "2 puñaditos de gambas",
-        "arroceras",
+        "2 puñaditos de gambas arroceras",
         "1 calamar de potera",
+        "Morralla (para el caldo de pescado - pedir en la pescadería)",
         "1 cebolleta",
         "1 zanahoria",
         "2 pimientos verdes",
-        "Patatas",
+        "7 patatas",
         "Unas hebras de azafrán",
         "Sal"
       ]
@@ -2180,14 +2175,10 @@
     "title": "Lasaña",
     "steps": {
       "Preparación": [
-        "En una sartén, pochar la cebolla, las zanahorias y los ajos. Todo bien picado. Sal, pimienta y orégano.",
-        "Añadir el tomate frito.",
-        "Añadir la carne picada. Rehogar.",
-        "En una fuente de horno, poner un poco de tomate frito y de bechamel. Añadir las placas de lasaña, siguiendo",
-        "las instrucciones de preparación del fabricante. Hay veces que hay que ponerlas en remojo, otros cocerlas y",
-        "otros se pueden poner tal cual salen de la caja. Ojito con esto.",
-        "Encima de las placas de lasaña, añadir el sofrito y un poco de queso rallado.",
-        "Poner otra capa de placas de lasaña. Cubrir de bechamel y queso rallado.",
+        "Pelar la cebolla y las zanahorias. Es recomendable usar una mandolina para laminar la zanahoria lo más fina posible. En una sartén a fuego medio, pochar la cebolla, las zanahorias y los ajos. Añadir sal, pimienta y orégano.",
+        "Mientras tanto, hacer la bechamel.",
+        "Cuando esté bien pochado bajar a fuego suave, añadir el tomate frito y la carne picada.",
+        "En una fuente de horno, poner un poco de tomate frito y de bechamel y repartir por el fondo para evitar que la pasta se pegue. Añadir una capa de placas de lasaña, siguiendo las instrucciones de preparación del fabricante (hay veces que hay que ponerlas en remojo, otros cocerlas y otros se pueden poner tal cual salen de la caja). Añadir todo el sofrito con un poco de queso rallado. Poner otra capa de placas de lasaña. Cubrir de bechamel y bien de queso rallado.",
         "Meter en el horno precalentado a 200º durante 20 minutos.",
         "Dejar reposar entre 5 y 10 minutos."
       ]
@@ -4800,20 +4791,34 @@
   },
   {
     "id": "146",
-    "title": "",
+    "title": "Sopa suave",
     "steps": {
-      "Preparación": []
+      "Preparación": [
+        "En una cazuela grande, poner a fuego medio los muslos de pollo, la pastilla de avecrem, las zanahorias peladas y los puerros limpios. Cubrir de agua hasta arriba y salpimentar al gusto.",
+        "Cuando empiece a hervir, quitar con una cuchara la espuma que se forma en la superficie. Dejar cocer a fuego medio durante al menos 1 hora y media, para que el caldo coja bien todo el sabor.",
+        "Pasado ese tiempo, retirar los muslitos de pollo y dos zanahorias. Quitar con un colador pequeño los posibles restos de pollo.",
+        "Triturar los dos puerros y las dos zanahorias y volver a incorporarlas al caldo para darle más sabor.",
+        "Desmenuzar los muslitos de pollo y cortar en rodajas la zanahoria. Añadir todo de nuevo a la cazuela.",
+        "Y listo, ya está lista la sopita suave. Se puede añadir fideos para hacerla más completa."
+      ]
     },
     "ingredients": {
-      "Ingredientes": []
+      "Ingredientes": [
+        "4 mulslitos de pollo",
+        "4 zanahorias",
+        "2 puerros",
+        "1 pastilla avecrem (opcional)",
+        "Pimienta",
+        "Sal"
+      ]
     },
-    "difficulty": "",
-    "category": "",
-    "time": "",
-    "portions": "",
+    "difficulty": "Facil",
+    "category": "main",
+    "time": "120",
+    "portions": "4",
     "image": "",
-    "date": "",
-    "author": "",
+    "date": "12/2/2026",
+    "author": "Blanca",
     "imageComment": ""
   },
   {
