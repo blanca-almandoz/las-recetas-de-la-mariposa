@@ -2722,9 +2722,9 @@
         "Pelar todas las verduras y cortarlas en trozos.",
         "Poner en la Thermomix y triturar un poco.",
         "Echar 1 vaso y medio de agua.",
-        "Cocinar durante 30min a100 grados y velocidad cuchara.",
+        "Cocinar durante 30min a 100 grados y velocidad cuchara.",
         "Echar 20g de aceite, sal y pimienta.",
-        "Triturar 1min a velocidad máxima."
+        "Triturar 3min a velocidad máxima."
       ]
     },
     "ingredients": {
@@ -2732,7 +2732,9 @@
         "1 patata",
         "1 cebolla",
         "Verduras al gusto",
+        "1 1/2 vaso de agua",
         "20g de aceite",
+        "Pimienta",
         "Sal"
       ]
     },
