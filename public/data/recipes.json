@@ -3313,9 +3313,12 @@
     "title": "Mouse de chocolate",
     "steps": {
       "Preparación": [
-        "Derretir el chocolate al baño María.",
-        "En una cazuela, poner los huevos, la mantequilla, la nata, el azúcar y el ron. Remover continuamente durante 5 minutos hasta que todo se quede bien integrado.",
-        "Vertir la mouse en cuenquitos pequeños. Dejar enfriar durante media hora antes de meterlos en el congelador.",
+        "En caso de no tener azúcar glass, triturar en la Thermomix 4 segundos a velocidad 10. Reservar.",
+        "Partir el chocolate en trozos y triturar 3 segundos velocidad 5.",
+        "Una vez molido, añadir los huevos y el ron. Poner a velocidad 1, 90ºC durante 5 minutos.",
+        "Cuando finalice ese tiempo, añadir el azúcar y la mantequilla en trozos. Mantener a 90 °C, velocidad 1, hasta que la mantequilla esté completamente derretida e integrada en la mezcla (el tiempo puede variar ligeramente).",
+        "A continuación, añadir la nata y mezclar a la misma velocidad hasta que quede bien integrada y la textura sea homogénea. Una vez esté bien mezclado, parar la Thermomix.",
+        "Vertir la mouse en cuenquitos individuales pequeños. Dejar enfriar durante media hora antes de meterlos en el congelador.",
         "Introducir en el congelador 24 horas antes de consumir."
       ]
     },
@@ -4350,12 +4353,12 @@
     "title": "Torreznos a baja temperatura con puré de batata",
     "steps": {
       "Preparación": [
-        "Hervir una batata en un cazo cubierta de agua. sabrás que está hecha cuando la pinches y no ofrezca resistencia.",
-        "Sacar y pelar. Machacar en un bol con dos nueces de mantequilla. Añadir sal.",
+        "Hervir una batata en un cazo, cubriéndola completamente con agua. Comprobar su cocción pinchándola con un cuchillo. Estará lista cuando no ofrezca resistencia.",
+        "Pelar la batata y machacar en un bol con las dos cucharaditas de mantequilla. Añadir sal al gusto.",
         "En una sartén con abundante aceite, poner los torreznos cortados en tiras con la piel hacia abajo",
-        "Enciende el fuego a baja potencia y deja que el aceite se vaya calentando. Poco a poco se irán formando burbujas en la corteza, que tiene que levantarse del todo, hasta que quede completamente hinchada. El tiempo en el que se logra esto es muy variable y puede ir de los 25 minutos a una hora,",
-        "Cuando la corteza se haya levantado por completo sube el fuego al máximo y coloca los torreznos de lado. Cocínalos aproximadamente un minuto por cada lado, o hasta que se doren, y sácalos sobre papel absorbente.",
-        "En una fuente colocas el pure de batata y encima los torreznos."
+        "Encender el fuego a baja potencia y dejar que el aceite se vaya calentando. A medida que aumenta la temperatura, se irán formando burbujas en la corteza, tiene que levantarse del todo, hasta que quede completamente hinchada. El tiempo que tarda es muy variable y puede ir de los 25 minutos a una hora.",
+        "Cuando la corteza se haya levantado por completo, subir el fuego al máximo y colocar los torreznos de lado. Freír aproximadamente un minuto por cada lado, o hasta que estén bien dorados. Retirar y dejar escurrir sobre papel para que absorba el exceso de aceite.",
+        "En una fuente poner el pure de batata y colocar encima los torreznos."
       ]
     },
     "ingredients": {
@@ -4793,7 +4796,7 @@
   },
   {
     "id": "146",
-    "title": "Sopa suave",
+    "title": "Sopa sana",
     "steps": {
       "Preparación": [
         "En una cazuela grande, poner a fuego medio los muslos de pollo, la pastilla de avecrem, las zanahorias peladas y los puerros limpios. Cubrir de agua hasta arriba y salpimentar al gusto.",
@@ -4818,7 +4821,7 @@
     "category": "main",
     "time": "120",
     "portions": "4",
-    "image": "",
+    "image": "https://i.ibb.co/VpzjrdbF/sopa-sana.jpg",
     "date": "12/2/2026",
     "author": "Blanca",
     "imageComment": ""
