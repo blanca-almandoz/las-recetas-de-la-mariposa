@@ -21,7 +21,11 @@ export const wrapperContent = style({
   width: '100%',
   '@media': {
     'screen and (max-width: 1290px)': {
-      justifyContent: 'center',
+      gridAutoFlow: 'column',
+      gridTemplateColumns: 'unset',
+      gridAutoColumns: '270px',
+      overflowX: 'auto',
+      padding: '0 8px 8px 8px',
     },
   },
 })

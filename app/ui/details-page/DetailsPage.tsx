@@ -110,8 +110,12 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
             <ImageComponent />
             <Information recipe={recipe} />
           </div>
-          <ListedItems items={ingredients} />
-          <ListedItems items={steps} />
+          <div style={{ paddingLeft: 8 }}>
+            <ListedItems items={ingredients} />
+          </div>
+          <div style={{ paddingLeft: 8 }}>
+            <ListedItems items={steps} />
+          </div>
         </div>
       </DetailsPageAnimations>
     </>
