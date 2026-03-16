@@ -19,6 +19,9 @@ export const wrapperContent = style({
   gridTemplateColumns: 'repeat(auto-fill, minmax(270px, 1fr))',
   gap: 16,
   width: '100%',
+})
+
+export const horizontalScroll = style({
   '@media': {
     'screen and (max-width: 1290px)': {
       gridAutoFlow: 'column',

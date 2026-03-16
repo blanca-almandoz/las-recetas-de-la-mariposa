@@ -1,25 +1,33 @@
 import { Recipe } from '@/lib/types'
-import { wrapperContent } from '../topLevelWrapper/styles.css'
+import { wrapperContent, horizontalScroll } from '../topLevelWrapper/styles.css'
 import { TopLevelWrapper } from '../topLevelWrapper/TopLevelWrapper'
 import { DetailsPageAnimations } from '../animations/DetailsPageAnimations'
 import { Card } from './Card'
 import { cardWithTitle } from './styles.css'
+import clsx from 'clsx'
 
 interface CardContainerType {
   recipes: Recipe[]
   hasCategory?: boolean
   hasTitle?: boolean
+  hasHorizontalScroll?: boolean
 }
 
 const CardContainer = ({
   recipes,
   hasCategory = false,
+  hasHorizontalScroll = false,
   hasTitle = false,
 }: CardContainerType) => {
   return (
     <TopLevelWrapper>
       {hasTitle && <div className={cardWithTitle}>Las últimas recetas</div>}
-      <div className={wrapperContent}>
+      <div
+        className={clsx(
+          wrapperContent,
+          hasHorizontalScroll && horizontalScroll
+        )}
+      >
         {recipes.map((recipe: Recipe) => (
           <div key={recipe.id}>
             <DetailsPageAnimations>
