@@ -17,7 +17,7 @@ export default function Page({ searchParams }: PageProps) {
   const searchedRecipes = searchRecipes(query, result)
 
   return (
-    <div style={{ paddingTop: 24 }}>
+    <div style={{ paddingTop: 24, padding: 8 }}>
       <CardContainer recipes={searchedRecipes} hasCategory />
     </div>
   )

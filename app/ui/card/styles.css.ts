@@ -19,7 +19,7 @@ export const cardImage = style({
 
 export const cardWithTitle = style({
   fontWeight: 500,
-  fontSize: 20,
+  fontSize: 16,
   marginBottom: 8,
   paddingLeft: 8,
   color: vars.color.body,
@@ -37,7 +37,7 @@ export const cardTitle = style({
   fontWeight: 700,
   letterSpacing: 2,
   minHeight: 48,
-  marginBottom: 8,
+  fontSize: 14,
 })
 
 export const cardInfo = style({
@@ -50,4 +50,5 @@ export const cardTimer = style({
   alignItems: 'center',
   gap: 8,
   fontWeight: 500,
+  fontSize: 14,
 })
