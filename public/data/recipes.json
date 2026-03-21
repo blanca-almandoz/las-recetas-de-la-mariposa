@@ -3940,11 +3940,12 @@
     "title": "Redondo con salsa de cerveza",
     "steps": {
       "Preparación": [
-        "Salpimentar el redondo y sellarlo en una cazuela. Retirar.",
-        "Cortar las verduras en trozos grandes (luego se van a triturar)",
-        "Cuando estén las verduras doradas, añadir la manzana cortada en tacos y dejar 5 minutos.",
-        "Añadir la cerveza y un poco de agua. Hervir durante 35 minutos tapado a fuego bajo. Pasado ese tiempo, triturar la salsa.",
-        "Para la guarnición, se puede hervir pasta y echar en la sartén con pimienta y perejil. También se puede tomar con puré de patata."
+        "Salpimentar el redondo y sellarlo en una cazuela con un poco de aceite hasta que esté bien dorado por todos lados. Retirar y reservar.",
+        "Cortar las verduras en trozos grandes (ya que después se triturarán) y cocinarlas en la misma cazuela a fuego medio hasta que estén bien doradas.",
+        "Añadir la manzana cortada en dados y cocinar durante unos 5 minutos más.",
+        "Incorporar la cerveza y un poco de agua, mezclar bien y volver a introducir el redondo en la cazuela. Tapar y dejar cocinar a fuego bajo durante unos 35 minutos.",
+        "Pasado ese tiempo, retirar el redondo y triturar la salsa hasta obtener una textura fina y homogénea.",
+        "Para la guarnición, se puede acompañar con pasta hervida, salteada después en sartén con un poco de pimienta y perejil, o con un puré de patata cremoso."
       ]
     },
     "ingredients": {
@@ -4832,20 +4833,36 @@
   },
   {
     "id": "147",
-    "title": "",
+    "title": "Salsa de zanahoria y manzana",
     "steps": {
-      "Preparación": []
+      "Preparación": [
+        "Picar la verdura y pocharla en una cazuela a fuego medio hasta que esté bien dorada. Salpimentar al gusto.",
+        "Cuando las verduras estén en su punto, añadir la manzana troceada y cocinar durante unos 5 minutos más, removiendo de vez en cuando.",
+        "Incorporar el brandy y dejar cocinar un par de minutos, hasta que el alcohol se evapore.",
+        "A continuación, añadir la cerveza, mezclar bien y dejar que hierva unos minutos para integrar los sabores.",
+        "Por último, triturar la mezcla hasta obtener una textura fina y homogénea."
+      ]
     },
     "ingredients": {
-      "Ingredientes": []
+      "Ingredientes": [
+        "2 cebollas",
+        "2 manzanas",
+        "1 puerro",
+        "4 zanahorias",
+        "3 dientes de ajo",
+        "33ml de cerveza",
+        "1 chupito de brandy",
+        "Pimienta",
+        "Sal"
+      ]
     },
-    "difficulty": "",
-    "category": "",
-    "time": "",
-    "portions": "",
-    "image": "",
-    "date": "",
-    "author": "",
+    "difficulty": "Facil",
+    "category": "siders",
+    "time": "40",
+    "portions": "4",
+    "image": "https://i.ibb.co/dwd7kxbt/salsa-zanahoria-manzana.jpg",
+    "date": "20/3/2026",
+    "author": "ChefJC",
     "imageComment": ""
   },
   {
