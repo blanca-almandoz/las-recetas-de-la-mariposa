@@ -5,11 +5,10 @@
     "steps": {
       "Preparación": [
         "Pelar y cortar las alcachofas.",
-        "Poner en una cazuela abundante aceite a calentar a fuego suave.",
-        "Echar las alcachofas boca arriba. Tienen que estar cubiertas por el aceite. Dejarlas al menos 60 minutos.",
-        "Pincharlas para comprobar que ya están hechas. El cuchillo tiene que entrar con facilidad.",
-        "Sacarlas y ponerlas boca abajo en un plato con un papel para quitar el exceso de aceite.",
-        "Servirlas en su posición natural, es decir, boca arriba."
+        "En una cazuela, calentar abundante aceite a fuego suave.",
+        "Colocar las alcachofas boca arriba, asegurándose de que queden totalmente cubiertas por el aceite. Cocinar a fuego bajo durante al menos 60 minutos, pinchando de vez en cuando para comprobar que estén hechas. El cuchillo tiene que entrar con facilidad.",
+        "Sacar las alcachofas y ponerlas boca abajo en un plato con un papel para eliminar el exceso de aceite.",
+        "Servir las alcachofas en su posición natural, es decir, boca arriba."
       ]
     },
     "ingredients": {
@@ -218,16 +217,17 @@
       "Preparación": [
         "Cortar las pechugas de pollo en tiras del tamaño deseado.",
         "Pasar las tiras por huevo batido y, a continuación, por pan rallado, procurando que queden bien cubiertas.",
-        "Freir en una sartén con abundante aceite caliente (7-8). Cuando comiencen a dorarse por un lado, dar la vuelta.",
-        "Retirar a un plato con papel de cocina para eliminar el exceso de aceite. Salar al gusto.",
-        "Servir en una fuente con un bol de salsa barbacoa, mayonesa, kétchup o la salsa de preferencia."
+        "Freir en una sartén con abundante aceite caliente (7-8). Cuando empiezen a dorarse por un lado, dar la vuelta.",
+        "Poner en un plato con papel de cocina para eliminar el exceso de aceite. Salar al gusto.",
+        "Servir en una fuente con un bol de salsa barbacoa, mayonesa, kétchup o la salsa preferida."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "1 pechuga de pollo entera en filetes",
+        "1 pechuga de pollo entera",
         "2 huevos",
-        "Pan rallado",
+        "Pan rallado para rebozar",
+        "Pimienta",
         "Sal"
       ]
     },
@@ -247,7 +247,7 @@
       "Preparación": [
         "Sacar la pulpa de los aguacates en un bol. Añadir un chorrito de limón. Machacar con un tenedor (con pala de madera queda mejor).",
         "Cortar y picar la cebolleta y el tomate lo más fino posible. Añadir al bol con el aguacate.",
-        "Mezclar bien. Añadir unas gotas de Tabasco (según el gusto del picante)."
+        "Mezclar bien. Añadir unas gotas de Tabasco según el gusto del picante."
       ]
     },
     "ingredients": {
@@ -255,9 +255,8 @@
         "3 aguacates maduros grandes",
         "1 tomate pequeño",
         "1/2 cebolleta (muy importante que no sea cebolla)",
-        "Tabasco",
         "1/2 limón (para que no se oxide el aguacate)",
-        "Nachos"
+        "Tabasco"
       ]
     },
     "difficulty": "Facil",
@@ -313,8 +312,8 @@
         "6 Huevos",
         "1 cebolla",
         "2 latas de atún",
-        "Aceitunas sin hueso",
-        "Mayonesa"
+        "4 - 5 cucharadas de mayonesa",
+        "Aceitunas sin hueso"
       ]
     },
     "difficulty": "Facil",
@@ -1240,10 +1239,8 @@
     "steps": {
       "Preparación": [
         "Hervir las patatas. Pelarlas y triturarlas. Pasarlas por el pasapurés. Añadir mantequilla, leche y sal.",
-        "Mientras se hierven las patatas, picar y pochar las verduras. Cuando ya están pochadas las verduras se añade",
-        "primero el tomate frito. Revuelves. Añades la carne, salpimentar. Añadir las pasas (es optativo).",
-        "En un molde de horno desmoldable, poner una capa de pure de patata, una capa de verduras y carne y otra",
-        "capa con pure de patata de nuevo. Cubrir con abudante queso rallado.",
+        "Mientras se hierven las patatas, picar y pochar las verduras. Cuando ya están pochadas las verduras se añade primero el tomate frito. Revuelves. Añades la carne, salpimentar. Añadir las pasas (es optativo).",
+        "En un molde de horno desmoldable, poner una capa de pure de patata, una capa de verduras y carne y otra capa con pure de patata de nuevo. Cubrir con abudante queso rallado.",
         "Gratinar en el horno durante 10 minutos hasta que el queso esté bien derretido y tenga aspecto apetitoso."
       ]
     },
@@ -2053,10 +2050,9 @@
     "title": "Espaguetis carbonata",
     "steps": {
       "Preparación": [
-        "Hervir la pasta con abundante sal.",
-        "En una sartén, hacer el bacon. Cuando ya este dorado, se añadir los dos huevos ligeramente batidos y la nata.",
-        "​Sacarla pasta, escurrir bien y añadir en la sartén donde esta el bacon con la nata​.",
-        "Mezclar bien todo, añadir pimienta y a disfrutar."
+        "Hervir la pasta con abundante agua con sal.",
+        "Mientras tanto, en una sartén, dorar el bacon a fuego medio hasta que esté crujiente. Batir ligeramente los huevos y mezclarlos con la nata. Añadir a la sartén con el bacon y mezclar bien, removiendo suavemente para que no se cuajen demasiado los huevos.",
+        "Incorporar la pasta escurrida a la sartén y mezclar cuidadosamente. Añadir pimienta al gusto y a disfrutar."
       ]
     },
     "ingredients": {
@@ -2721,12 +2717,12 @@
     "title": "Puré de 10",
     "steps": {
       "Preparación": [
-        "Pelar todas las verduras y cortarlas en trozos.",
-        "Poner en la Thermomix y triturar un poco.",
-        "Echar 1 vaso y medio de agua.",
-        "Cocinar durante 30min a 100 grados y velocidad cuchara.",
-        "Echar 20g de aceite, sal y pimienta.",
-        "Triturar 3min a velocidad máxima."
+        "Pelar todas las verduras y cortarlas en trozos grandes.",
+        "Ponerlas en la Thermomix y triturar 2 segundos a velocidad 4.",
+        "Añadir 1 vaso y medio de agua.",
+        "Programar 30 minutos, 100 ºC, velocidad cuchara.",
+        "Añadir 20g de aceite, sal y pimienta al gusto.",
+        "Triturar durante 3 minutos a velocidad máxima hasta obtener una textura cremosa."
       ]
     },
     "ingredients": {
@@ -2754,9 +2750,11 @@
     "title": "Crema de espárragos",
     "steps": {
       "Preparación": [
-        "Rehogar las yemas de 100 g de espárragos en una sarten y reservar.",
-        "En la olla express, echar la cebolla, el ajo, los espárragos, el puerro, la patata troceada, el aceite y el agua. Dejar 10 minutos al segundo aro.",
-        "Triturar con la batidora hasta que quede una textura fina."
+        "En una sartén, rehogar las yemas de 100g de espárragos con un poco de aceite. Reservar para el final.",
+        "En la olla exprés, añadir la cebolla, el ajo, el resto de los espárragos, el puerro, la patata troceada, un chorrito de aceite y agua hasta cubrir.",
+        "Cerrar la olla y cocer durante 10 minutos desde que alcance presión (cuando aparezcan los dos aros).",
+        "Triturar con la batidora hasta obtener una textura fina y cremosa.",
+        "Servir la crema y añadir por encima las yemas de espárrago rehogadas."
       ]
     },
     "ingredients": {
@@ -2818,7 +2816,7 @@
       "Preparación": [
         "Limpiar y triturar los tomates. Colar para quitar la piel y las pepitas.",
         "Volver a triturar añadiéndole el pan, el aceite, los ajos y la sal.",
-        "Decorar con huevo duro picado y trocitos de jamón ibérico"
+        "Decorar con huevo duro picado y trocitos de jamón ibérico."
       ]
     },
     "ingredients": {
@@ -2827,7 +2825,9 @@
         "200 g pan",
         "100 g aceite de oliva virgen extra",
         "1 diente de ajo",
-        "10 g sal"
+        "10 g sal",
+        "1 huevo",
+        "Jamón ibérico picado"
       ]
     },
     "difficulty": "Facil",
@@ -2837,7 +2837,7 @@
     "image": "https://i.ibb.co/JF41YkX/salmorejo.jpg ",
     "date": "2/05/2019",
     "author": "Calle de Córdoba",
-    "imageComment": "Receta copiada de una pared del casco antiguo de Córdoba. Es perfecto. Muy recomendable estirarse con la calidad del aceite y del picadillo de jamón."
+    "imageComment": "Receta copiada de una pared del casco antiguo de Córdoba. Muy recomendable estirarse con la calidad del aceite y del picadillo de jamón."
   },
   {
     "id": "87",
@@ -3103,11 +3103,10 @@
     "title": "Salsa pimienta",
     "steps": {
       "Preparación": [
-        "Picar y pochar la cebolla. Bien picadita. Cazuela al 5.",
-        "Cuando la cebolla está bien pochada, añadir el vino.",
-        "Dejar hirviendo 5 minutos para que pierda el alcohol.",
-        "Añadir las pasas, la pimienta y la sal.",
-        "Revolver todo bien y añadir la nata. Dejar hervir un poco más de tiempo con cuidado para que no se pegue."
+        "Picar la cebolla muy fina y pocharla en una cazuela a fuego medio (nivel 5) hasta que esté blanda y ligeramente dorada.",
+        "Cuando la cebolla esté bien pochada, añadir el vino y dejar hervir durante unos 5 minutos para que se evapore el alcohol.",
+        "Incorporar las pasas, la pimienta y la sal al gusto, y mezclar bien.",
+        "Añadir la nata y dejar cocinar unos minutos más, removiendo de vez en cuando para evitar que se pegue, hasta que la salsa quede bien integrada y ligeramente espesa."
       ]
     },
     "ingredients": {
@@ -3135,16 +3134,18 @@
     "title": "Arroz blanco",
     "steps": {
       "Preparación": [
-        "Poner un chorrito de aceite en una cazuela a fuego fuerte. Añadir un diente de ajo picado.",
-        "Cuando esté dorado, añadir el vaso de arroz. Remover para que se fría un poco (1min).",
-        "Añadir 2 vasos de agua, sal y el laurel. Mezclar todo y no volver a tocar.",
-        "Cuando empiece a hervir bajar a fuego medio. Cuando desaparezca el agua bajar a fuego suave. Dejar que se formen chimeneas y, cuando dejen de salir burbujas de agua del interior de las chimeneas, retirar del fuego y cubrir con un trapo.",
-        "Dejar reposar durante 10 minutos."
+        "Poner un chorrito de aceite en una cazuela y calentar a fuego fuerte. Añadir un diente de ajo picado y dorarlo ligeramente.",
+        "Incorporar el arroz y remover durante 1 minuto para que se rehogue y se impregne bien del aceite.",
+        "Añadir 2 vasos de agua, sal al gusto y una hoja de laurel. Mezclar suavemente y, a partir de este momento, no volver a remover.",
+        "Cuando empiece a hervir, bajar a fuego medio. A medida que el agua se vaya consumiendo, reducir a fuego suave.",
+        "Dejar que se formen pequeños agujeros en la superficie (“chimeneas”). Cuando dejen de salir burbujas de agua por ellas, el arroz estará listo.",
+        "Retirar del fuego, cubrir con un trapo y dejar reposar durante 10 minutos antes de servir."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "1 vaso de arroz",
+        "1 diente de ajo",
         "2 vasos de agua",
         "1 hoja de laurel",
         "Sal"
@@ -3326,13 +3327,12 @@
     },
     "ingredients": {
       "Ingredientes": [
-        "200 g chocolate negro",
+        "200 g chocolate negro (muy importante que sea Lindt 70%)",
         "250 g mantequilla",
         "8 huevos",
         "250 g azúcar glass",
         "8 cucharas de nata líquida",
-        "1 chorrito de ron",
-        "​"
+        "1 chorrito de ron"
       ]
     },
     "difficulty": "Facil",
@@ -4390,11 +4390,11 @@
       "Preparación": [
         "Espolvorear azúcar sobre la plancha de hojaldre. Pasarle el rodillo para fijar el azúicar.",
         "Plegar por los dos extremos como 3 cm. Esplovorear azúcar.",
-        "Sigue plegando por los dos lados hasta que se encuwntren. Ahí colocar uno sobre otro, espolvorear azúcar y pasa levemente el rodillo.",
+        "Seguir plegando por los dos lados hasta que se encuentren. Ahí colocar uno sobre otro, espolvorear azúcar y pasar levemente el rodillo.",
         "Meter en el congelador durante 5 minutos.",
-        "Cortar en rodajas de 1 cm y colocar en bandeja de horno cubierta con papel de hormear.",
+        "Cortar en rodajas de 1cm y colocar en una bandeja de horno cubierta con papel de hornear.",
         "Al colocarlas, abrirlas un poco para que tengan forma de V.",
-        "Horno precalentado con calor arriba y abajo a 200º. Dejar hormear durante 25 minutos a 180º.",
+        "Horno precalentado con calor arriba y abajo a 200º. Dejar hornear durante 25 minutos a 180º.",
         "A partir de ahí, controlar y sacarlas cuande estén doradas."
       ]
     },
@@ -4449,7 +4449,7 @@
     "steps": {
       "Preparación": [
         "Hervir las espinacas.",
-        "Cortar en juliana la cebolla y, a fuego muy suave, dejar caramelizar hasta que aparezca completamente dorada.",
+        "Cortar en juliana la cebolla y, a fuego muy suave, dejar caramelizar hasta que esté completamente dorada.",
         "Precalentar el horno a 180º.",
         "Colocar sobre la masa de hojaldre la cebolla caramelizada, el lacón, el queso gallego y las espinacas hervidas y bien escurridas.",
         "Cubrir con la otra plancha de masa de hojaldre y cerrar bien los bordes. Hacer el agujero para la chimenea central, así se evita que la empanada se llene de aire.",
@@ -4481,11 +4481,11 @@
     "title": "Cookies",
     "steps": {
       "Preparación": [
-        "Derretir la mantequilla en una sartén a fuego medio. Tiene que quedar una mantequilla marrón. Cuando salgan burbujas, remover para que no se queme. Poner en un bol y dejar enfriar 15 minutos. Si se mezcla ahora con el resto de ingredientes, se quedará una galleta grasienta.",
+        "Derretir la mantequilla en una sartén a fuego medio. Tiene que quedar una mantequilla marrón. Cuando salgan burbujas, remover para que no se queme. Poner en un bol y dejar enfriar 15 minutos. Si se mezcla ahora con el resto de ingredientes, quedará una galleta grasienta.",
         "En el bol de la mantequilla, añadir el azúcar moreno y el azúcar blanco y remover.",
         "Añadir el huevo batido, el bicarbonato, la vainilla y la sal.",
         "Añadir la harina y las pepitas de chocolate a la vez. Mezclar hasta que no quede nada blanco.",
-        "Coger una bandeja y poner un papel de horno. Con un sacabolas de helado hacer bolas con la masa. Es recomendable poner solo 4 cookies por bandeja ya que en el horno se expanden.",
+        "Poner papel de horno en una bandeja. Con un sacabolas de helado hacer bolas con la masa. Es recomendable poner solo 4 cookies por bandeja ya que en el horno se expanden.",
         "Hornear a 180º durante 10 minutos. Cuando se saquen del horno, poner las galletas en una rejilla para que no se cocinen más con el calor de la bandeja."
       ]
     },
@@ -4867,20 +4867,36 @@
   },
   {
     "id": "148",
-    "title": "",
+    "title": "Patatas gratinadas",
     "steps": {
-      "Preparación": []
+      "Preparación": [
+        "Cocer las patatas y la batata con piel en agua y sal solo 25 minutos.",
+        "En una sartén calentar el aceite y rehogar las cebollas, peladas y cortadas en rodajas no muy finas. Cuando empiezen a dorarse un poco, retirarlas y reservarlas en un plato.",
+        "Untar con un poco de mantequilla una fuente de horno honda. Pelar las patatas y la batata y cortarlas en rodajas finas.",
+        "Poner una capa de patatas y batatas alternadas y cubrirlas con la mitad de las cebollas. Espolvorear queso y salar. Poner lo que queda de las patatas, de las batatas y de las cebollas. Volver a salar. Verter por encima la nata, sacudiendo un poco la fuente para que penetre bien entre las patatas, y espolvorear con el resto del queso.",
+        "Encender el horno 5 minutos antes de meter la fuente. El calor debe ser mediano, para que se hagan despacio las patatas, unos 20 minutos.",
+        "Después se ponen a gratinar, hasta que la parte de arriba quede dorada."
+      ]
     },
     "ingredients": {
-      "Ingredientes": []
+      "Ingredientes": [
+        "1kg patatas",
+        "1 batata",
+        "3 cebollas (350g)",
+        "75g queso rallado",
+        "1/4L de nata líquida",
+        "25g mantequilla",
+        "3 cucharas soperas de aceite",
+        "Sal"
+      ]
     },
-    "difficulty": "",
-    "category": "",
-    "time": "",
-    "portions": "",
-    "image": "",
-    "date": "",
-    "author": "",
+    "difficulty": "Facil",
+    "category": "siders",
+    "time": "60",
+    "portions": "6",
+    "image": "https://i.ibb.co/cSHYGwW8/patatas-gratinadas.jpg",
+    "date": "22/3/2026",
+    "author": "Blanca",
     "imageComment": ""
   },
   {
