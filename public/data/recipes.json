@@ -91,7 +91,7 @@
     "steps": {
       "Preparación": [
         "Limpiar los champiñones y vaciarlos con un cuchillo.",
-        "En una sartén, pochar la cebolla picada. Añadir el jamón y los trozos de champiñón cortados al vaciarlos. Sal y pimienta. Reservar.",
+        "En una sartén, pochar la cebolla picada. Añadir el jamón y los trozos de champiñón cortados al vaciarlos. Salpimientar y reservar.",
         "Poner los champiñones en una fuente en el horno a 200º con un poco de aceite, sal y pimienta durante 15 minutos.",
         "Sacar y rellenar con el sofrito, cubrir con bechamel y queso y gratinar 10 minutos."
       ]
@@ -386,38 +386,34 @@
   },
   {
     "id": "14",
-    "title": "Quiche",
+    "title": "Quiche lorraine",
     "steps": {
       "Preparación": [
-        "Poner en una cazuela a fuego medio (6) la mantequilla, la leche, la sal y la pimienta.",
-        "Cuando la mantequilla se haya derretido, añadir la harina. Remover todo el rato con una varilla hasta que se",
-        "quiten los grumos de la harina.",
-        "Bajar el fuego al 3 si empiezan a salir burbujitas.",
-        "Retirar del fuego, echar los tres huevos y remover. Añadir el queso y la nata.",
-        "Poner en un molde la pasta quebrada o masa brisa de Buitoni. Esparcir el bacon. Añadir el resto del relleno que estaba en la cazuela.",
-        "Meter al horno 20-25' a 180º."
+        "Picar la cebolleta y pochar en una sartén a fuego medio con un poquito de sal. Una vez dorada, poner en un colador para escurrir bien el aceite.",
+        "Mientras tanto, precalentar el horno a 200ºC. En un molde de 24cm, colocar la masa y picharla con un tenedor. Es importante para que no suba de volumen en el horno. Además, poner un papel de horno encima de la masa y echar 1kilo de arroz para evitar que la masa crezca y se mantenga fina.",
+        "Meter la masa al horno durante 30 minutos. Al sacarla, tienen que estar los bordes un poco dorados. Retirar el arroz y el papel de cocina.",
+        "En un bol, batir los huevos y mezclar con la nata. Salpimentar. Poner el queso partido en tacos sobre la masa. Añadir el lacón y la cebolleta dorada y, por último, la mezcla de los huevos y la nata.",
+        "Hornear a 180ºC durante 90 minutos o hasta que el cuchillo salga limpio"
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "Masa (pasta quebrada) hecha en casa o masa brisa de buitoni",
-        "25 g mantequilla",
-        "Un poquito menos de un vaso de leche",
-        "1 cucharada de harina",
-        "3 huevos",
-        "150 ml nata",
-        "200 g de queso gruyère",
-        "200 g bacon",
+        "Masa quebrada redonda de marca Buitoni o Casa Tarradellas o hecha en casa",
+        "1 cebolleta",
+        "200 gr queso emmental o gruyère",
+        "250g lacón cocido cortado en trozos",
+        "2 huevos",
+        "200 ml nata",
         "Pimienta",
         "Sal"
       ]
     },
-    "difficulty": "Medio",
+    "difficulty": "Facil",
     "category": "starters",
-    "time": "60",
+    "time": "120",
     "portions": "6",
-    "image": "",
-    "date": "24/03/2022",
+    "image": "https://i.ibb.co/GvYp8XZ2/quiche.jpg ",
+    "date": "03/04/2026",
     "author": "Chef JC",
     "imageComment": "Esta es la quiche de verdad. Infalible. La quiche es para los franceses como para nosotros la tortilla de patata."
   },
@@ -497,12 +493,11 @@
     "steps": {
       "Preparación": [
         "Cortar las patatas y picar la cebolla. Es recomendable que las patatas estén cortadas más o menos con el mismo grosor para que se hagan a la vez.",
-        "En una sarten con abundante aceite, poner a dorar las patatas y la cebolla. Al principio poner la sartén a fuego fuerte (al 9) para que coja temperatura. Después de meter las patatas, bajar a fuego medio (7). Dejar aproximadamente 20 minutos. Sacar y escurrir el aceite en un colador.",
-        "Batir los huevos en un bol y añadir las patatas escurridas. Mezclar bien. Salar.",
-        "En otra sartén, poner un poco de aceite. Cuando ya esté caliente (al 7 sobre 9), añadir la mezcla de patatas y huevos.",
-        "Dejar hacer a fuego medio (al 6) durante 5 o 6 minutos.",
-        "Con la ayuda de un plato, dar la vuelta a la tortilla para que se cuaje por el otro lado. Es más fácil de lo que parece. Si da miedo que se caiga todo, hacer en el fregadero. Así dará la misma rabia pero lo limpiarás mejor. Poner en la sartén con un poco de aceite.",
-        "Pasados otros 2 minutos aprox, sacar a un plato y dejar reposar por lo menos 10 minutos."
+        "En una sarten con abundante aceite, poner a dorar las patatas y la cebolla. Al principio poner la sartén a fuego fuerte para que coja temperatura. Después de meter las patatas, bajar a fuego medio. Dejar aproximadamente 20 minutos o hasta que las patatas se partan cuando se pinchen. Sacar y escurrir el aceite en un colador.",
+        "Batir los huevos en un bol y añadir las patatas escurridas. Mezclar bien. Salar. Es muy importante salar en este paso para que se integre bien.",
+        "En la misma sartén donde se han frito las patatas, poner un poco de aceite. Cuando ya esté caliente, añadir la mezcla de patatas y huevos. Dejar freir a fuego medio durante 2-3 minutos aproximadamente. Mover la sartén para comprobar que no se está pegando.",
+        "Con la ayuda de un plato, dar la vuelta a la tortilla para que se cuaje por el otro lado. Es más fácil de lo que parece. Si da miedo que se caiga todo, hacer en el fregadero. Así dará la misma rabia pero lo limpiarás mejor.",
+        "Pasado 1 minuto aprox, sacar a un plato y dejar reposar por lo menos 10 minutos."
       ]
     },
     "ingredients": {
@@ -529,7 +524,7 @@
       "Preparación": [
         "Triturar el tomate en una picadora. (Así se no se desperdicia nada de tomate)",
         "Cortar rebanadas de pan.",
-        "Poner primero el aceite, luego el tomate y encima el jamón."
+        "Poner primero el aceite, luego el tomate y encima el jamón al gusto."
       ]
     },
     "ingredients": {
@@ -547,7 +542,7 @@
     "image": "https://i.ibb.co/KX55fJM/tostadas-con-jamon.jpg ",
     "date": "10/06/2022",
     "author": "Chef JC",
-    "imageComment": "Hala, a disfrutar"
+    "imageComment": "Recomendables en desayuno, meriendas y cenas. Lo puedes tomar con achoas."
   },
   {
     "id": "19",
@@ -580,8 +575,13 @@
     "title": "Brunch reyes",
     "steps": {
       "Preparación": [
-        "Esto realmente no es una receta. Como el día de Reyes estamos a otros asuntos, se trata de comer cosas que nos gustan mucho y que son sencillas de preparar. Con pequeñas variaciones de un año a otro, estos son los componentes de nuestro brunch:",
-        "Huevos a la plancha",
+        "Esto realmente no es una receta. Como el día de Reyes estamos a otros asuntos, se trata de comer cosas que nos gustan mucho y que son sencillas de preparar. Con pequeñas variaciones de un año a otro, estos son los componentes de nuestro brunch.",
+        "Probad a hacerlo, os gustará. Como te levantas pronto, no desayunas, aguantas hasta las 12 y así, luego ya podéis visitar otras casas y ver si los Reyes han dejado algo para vosotros o no."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "Huevos a la plancha o huevos revueltos",
         "Patatas baby pasadas por la sartén con mantequilla, pimienta y sal",
         "Salmón ahumado",
         "Huevo hilado",
@@ -589,12 +589,8 @@
         "Dos o tres quesos diferentes",
         "Aguacates",
         "Frambuesas",
-        "Jarra enorme de zumo de naranja",
-        "Probad a hacerlo. Os gustará. Como te levantas pronto, no desayunas, aguantas hasta las 12 y así, luego ya podéis visitar otras casas y ver si los Reyes han dejado algo para vosotros o no."
+        "Jarra enorme de zumo de naranja"
       ]
-    },
-    "ingredients": {
-      "Ingredientes": []
     },
     "difficulty": "Facil",
     "category": "main",
@@ -611,8 +607,8 @@
     "steps": {
       "Preparación": [
         "Picar todas las verduras (cebolla, pimientos, calabacines y berenjena) en cubos pequeños.",
-        "Calentar una cazuela grande con un chorrito de aceite a fuego medio. Añadir primero la cebolla, luego los pimientos y los calabacines y, por último, la berenjena. Cocinar a fuego medio todo el rato. Salpimentar.",
-        "Cuando las verduras estén bien pochadas (30 minutos aprox), añadir el tomate frito y dejar hervir 5 minutos a fuego medio suave (5).",
+        "Calentar una sartén grande con un chorrito de aceite a fuego medio. Añadir primero la cebolla, luego los pimientos y los calabacines y, por último, la berenjena. Cocinar a fuego medio todo el rato. Salpimentar.",
+        "Cuando las verduras estén bien pochadas (30 minutos aprox), añadir el tomate frito y dejar hervir 5 minutos a fuego medio suave.",
         "Probar y rectificar de sal."
       ]
     },
@@ -643,7 +639,8 @@
     "steps": {
       "Preparación": [
         "Esto no es una receta. Es la forma más fácil de hacer morcilla frita sin que se rompa y sin que se manche toda la cocina con las salpicaduras habituales.",
-        "Cortar en rodajas. Poner en una sartén sin aceite ni nada a fuego medio. Cuando está dorada por una cara, darle la vuelta para dorarla también por el otro lado. Cuando esté dorada, retirar del fuego.",
+        "Cortar en rodajas al gusto. Poner en una sartén sin aceite a fuego medio. Cuando está dorada por una cara, darle la vuelta para dorarla también por el otro lado. Cuando esté dorada, retirar del fuego.",
+        "Si la morcilla se va a hacer en la parrilla, cocinar entera para que no se caiga a las cenizas.",
         "​"
       ]
     },
@@ -1554,9 +1551,10 @@
     "steps": {
       "Preparación": [
         "Pedir pescadero que corte el pescado primero en dos lomos, y luego en tajadas sin piel ni espinas.",
-        "Cortar el pescado en trozos. Tamaño al gusto. Poner harina en un plato y los huevos batidos en otro. Pasar el pescado primero por la harina y luego por huevo. Salar.",
-        "Poner sartén a fuego fuerte (7 de 9). Cuando se empieza a dorar, dar la vuelta. Para saber si ya no está crudo, pinchar con un tenedor. Si entra sin forzar ya se pueden sacar las tajadas.",
-        "Colocar en un plato con papel de cocina para que suelte el aceite sobrante."
+        "Cortar el pescado en trozos. Tamaño al gusto.",
+        "Poner harina en un plato y los huevos batidos en otro. Pasar el pescado primero por la harina y luego por huevo. Salar.",
+        "Poner sartén a fuego fuerte. Cuando se empieza a dorar, dar la vuelta. Para saber si ya no está crudo, pinchar con un tenedor. Si entra sin forzar ya se pueden sacar las tajadas.",
+        "Colocar en un plato con papel de cocina para que suelte el exceso de aceite."
       ]
     },
     "ingredients": {
@@ -1987,20 +1985,19 @@
     "steps": {
       "Preparación": [
         "Hervir la pasta con abundante sal.",
-        "Limpiamos bien los champiñones.",
-        "En una sartén, pochamos la cebolleta y el diente de ajo bien picados. Añadimos los champiñones cortados",
-        "en trozos.",
-        "​Sacar la pasta, escurrir bien y añadir en la sartén donde están los chapiñones y la cebolleta",
-        "Mezclar bien todo, añadir pimienta, queso rallado y a disfrutar."
+        "En una sartén, pochar la cebolleta y el diente de ajo bien picados. Mientras tanto, limpiar bien los champiñones y cortarlos en láminas gruesas. Añadir los champiñones y el tomate frito.",
+        "Incorporar la pasta escurrida a la sartén y mezclar cuidadosamente. Mezclar bien todo, añadir orégano, pimienta, queso rallado y a disfrutar."
       ]
     },
     "ingredients": {
       "Ingredientes": [
+        "Espaguetis",
         "1 cebolleta",
         "1 diente de ajo",
         "Champiñones",
-        "Espaguetis",
+        "Tomate frito",
         "Queso rallado al gusto",
+        "Orégano",
         "Pimienta",
         "Sal"
       ]
@@ -2020,17 +2017,16 @@
     "steps": {
       "Preparación": [
         "Hervir la pasta con abundante sal.",
-        "En una sartén, pochamos el puerro y el ajo bien picados. Añadimos la nata.",
-        "​Sacar la pasta, escurrir bien y añadir en la sartén donde están los puerros.",
-        "Mezclar bien todo, añadir pimienta, queso rallado y a disfrutar."
+        "Pochar el puerro y el ajo bien picados en una sartén a fuego medio. Cuando ya esté bien pochado, añadir la nata.",
+        "Incorporar la pasta escurrida a la sartén y mezclar cuidadosamente. Mezclar bien todo, añadir pimienta, queso rallado y a disfrutar."
       ]
     },
     "ingredients": {
       "Ingredientes": [
+        "Espaguetis",
         "1 puerro",
         "1 diente de ajo",
-        "100 cl nata de cocinar",
-        "Espaguetis",
+        "100 ml nata de cocinar",
         "Queso rallado al gusto",
         "Pimienta",
         "Sal"
@@ -2109,22 +2105,22 @@
     "title": "Espaguetis al pesto",
     "steps": {
       "Preparación": [
-        "Poner a hervir la pasta. Poner los pistachos, la albahaca, el queso, el aceite y el ajo en una mini pimer. Batir bien.",
-        "Echar un poco de agua de la burrata para que sea más cremosa y menos espesa.",
-        "En una sartén, echar el resto del agua de burrata y el pesto de la mini pimer.",
-        "Una vez la pasta esté hervida, echar los espaguetis en la sartén y mezclar bien.",
+        "Hervir la pasta. Mientras tanto, poner los pistachos, la albahaca, el queso, el aceite y el ajo en una mini pimer. Batir bien.",
+        "Echar un poco de agua de la burrata para que la mezcla sea más cremosa y menos espesa.",
+        "En una sartén, echar la mezcla de la mini pimer y el resto del agua de burrata.",
+        "Incorporar la pasta escurrida a la sartén y mezclar cuidadosamente.",
         "Una vez emplatado, coger la burrata y romperla encima de los espaguetis. Rallar parmesano por encima para decorar"
       ]
     },
     "ingredients": {
       "Ingredientes": [
+        "200 g espaguetis",
         "50 g pistachos pelados",
+        "1 burrata",
         "25 g albahaca",
         "110 g parmesano rallado",
         "1 diente de ajo",
-        "100 ml de aceite",
-        "1 burrata",
-        "200 g espaguetis"
+        "100 ml de aceite"
       ]
     },
     "difficulty": "Facil",
@@ -2184,12 +2180,12 @@
     "ingredients": {
       "Ingredientes": [
         "200 g de carne picada de ternera",
-        "1 vasito tomate frito",
+        "Pasta de lasaña",
+        "3 zanahorias",
         "1 cebolla",
         "2 dientes de ajo",
-        "3 zanahorias",
-        "Pasta de lasaña",
-        "Bechamel",
+        "1 vasito tomate frito",
+        "Bechamel (850 gr)",
         "Queso rallado",
         "Orégano",
         "Pimienta",
@@ -2212,14 +2208,14 @@
       "Preparación": [
         "Hervir los macarrones en una cazuela.",
         "Hacer la bechamel.",
-        "Poner los macarrones en una fuente de horno, poner tomate frito y cubrir con bechamel. Echar bien de queso y poner a gratinar al horno durante 10 minutos."
+        "Poner los macarrones en una fuente de horno, añadir tomate frito y cubrir con bechamel. Echar bien de queso y poner a gratinar al horno durante 10 minutos."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "400 g macarrones",
         "100 g queso cheddar rallado",
-        "Bechamel",
+        "Bechamel (850 gr)",
         "Tomate frito",
         "Pimienta",
         "Sal"
@@ -2248,7 +2244,7 @@
       "Ingredientes": [
         "400 g macarrones",
         "150 g queso cheddar rallado",
-        "Bechamel",
+        "Bechamel (850 gr)",
         "Pimienta",
         "Sal"
       ]
@@ -2267,25 +2263,23 @@
     "title": "Sandwich club",
     "steps": {
       "Preparación": [
-        "Hervir los huevos. Reservar.",
+        "Hervir el huevo. Reservar.",
         "Dorar el bacon. Reservar.",
-        "Tostar el pan por solo una cara.",
-        "Untar con mayonesa y mostaza.",
-        "En una de las dos rodajas de pan de molde añadir el bacon, el queso en lonchas, el tomate en rodajas, el pollo, el huevo duro, la cebolla frita y la hoja de lechuga.",
-        "Colocar encima de todo la otra tostada de pan de molde.",
-        "Con un cuchilo de sierra y, sujentando bien el sandwich, cortarlo por la mitad."
+        "Tostar el pan por solo una cara. Untar con mayonesa y mostaza.",
+        "En una de las dos rodajas de pan de molde añadir el bacon, el queso en lonchas, el tomate en rodajas, el pollo, el huevo duro, la cebolla frita y la hoja de lechuga. Colocar encima de todo la otra tostada de pan de molde.",
+        "Con un cuchilo de sierra y sujentando bien el sandwich, cortarlo por la mitad."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "Pechuga de pollo a la plancha o restos de pollo asado",
-        "Pan de molde",
-        "Huevo duro",
-        "Queso",
-        "Lechuga",
-        "Tomate",
-        "Bacon",
-        "Cebolla frita",
+        "2 rebanadas de pan de molde",
+        "1 huevo",
+        "1 loncha de queso",
+        "2 hojas de lechuga",
+        "3 rebanadas de tomate",
+        "1 loncha de bacon",
+        "Cebolla frita al gusto",
         "Mostaza",
         "Mayonesa"
       ]
@@ -2293,7 +2287,7 @@
     "difficulty": "Facil",
     "category": "main",
     "time": "45",
-    "portions": "",
+    "portions": "1",
     "image": "https://i.ibb.co/6NpPR5x/sandwich-club.png ",
     "date": "16/10/2022",
     "author": "Chef JC",
@@ -2683,7 +2677,7 @@
   },
   {
     "id": "82",
-    "title": "Crema/puré de verduras",
+    "title": "Crema de verduras",
     "steps": {
       "Preparación": [
         "Ponemos en el Thermomix la patata, el puerro, la cebolla, un puñado de judías verdes y los calabacines.",
@@ -2697,7 +2691,7 @@
         "1 patata",
         "1 cebolla",
         "1 puerro",
-        "150 g de judías verdes",
+        "150 g judías verdes",
         "2 calabacines",
         "Aceite",
         "Sal"
@@ -2740,7 +2734,7 @@
     "category": "main",
     "time": "30",
     "portions": "",
-    "image": "",
+    "image": "https://i.ibb.co/XZGdYY8D/pure-10.jpg ",
     "date": "16/04/2022",
     "author": "Álvaro",
     "imageComment": ""
@@ -4566,17 +4560,18 @@
     },
     "ingredients": {
       "Ingredientes": [
-        "160 gramos de salmón",
-        "1 aguacate",
-        "El resto de ingredientes, al gusto. Esta lleva:",
+        "160 gr de salmón",
+        "1 aguacate"
+      ],
+      "El resto de ingredientes, al gusto. Esta lleva:": [
+        "1 chalota picada",
+        "3 alcaparras picadas tamaño aceituna",
         "2 cucharaditas de mostaza de dijon",
         "Unas gotitas de limón (estrujar medio limón al gusto)",
         "3 cucharaditas de soja",
-        "Pimienta",
-        "Sal",
         "Chorrito de aceite (le da cremosidad)",
-        "3 alcaparras picadas tamaño aceituna",
-        "1 chalota picada"
+        "Pimienta",
+        "Sal"
       ]
     },
     "difficulty": "Facil",
@@ -4662,7 +4657,7 @@
     "steps": {
       "Preparación": [
         "Poner una cazuela con agua a hervir para cocer la pasta. Guardar un poco de agua de cocción para la salsa.",
-        "Cortar el puerro. En una sartén, pochar el puerro con las guindillas. Añadir la calabaza cortada en trozos.",
+        "Cortar el puerro en rodajas finas. En una sartén, pochar el puerro con las guindillas. Añadir la calabaza cortada en trozos.",
         "Retirar las guindillas y añadir la nata con sal y pimienta, que vaya quedando cremosa la salsa.",
         "Triturar la salsa en la batidora, añadir dos cucharadas de agua de cocción de la pasta y un poco de parmesano. Probar por si hay que ajustar pimienta o sal.",
         "Volver a verter la salsa en la sartén y añadir los macarrones. Mezclar todo bien y voilà."
@@ -4694,10 +4689,11 @@
     "title": "Cookies de nueces",
     "steps": {
       "Preparación": [
-        "Cortar el chocolate y las nueces en trozos.",
-        "Para obtener mantequilla en pomada. Debe estar suave al tocarla con el dedo, pero no derretida. Cortar la mantequilla en cubos pequeños, se ablandará más rápido y de manera uniforme. Con un tenedor, aplastar la mantequilla hasta que tenga textura cremosa. No poner la mantequilla en el microondas, ya que se puede derretir demasiado y cambiar la textura de la receta.",
-        "Añadir el azúcar y la sal a la mantequilla y batir hasta que la mezcla se blanquee.",
-        "Añadir el huevo y la vainilla.",
+        "Cortar el chocolate y las nueces en trozos."
+      ],
+      "Mantequilla en pomada": [
+        "Debe estar suave al tocarla con el dedo, pero no derretida. Cortar la mantequilla en cubos pequeños, se ablandará más rápido y de manera uniforme. Con un tenedor, aplastar la mantequilla hasta que tenga textura cremosa. No poner la mantequilla en el microondas, ya que se puede derretir demasiado y cambiar la textura de la receta.",
+        "Añadir el azúcar y la sal a la mantequilla y batir hasta que la mezcla se blanquee. Añadir el huevo y la vainilla.",
         "Incorporar progresivamente la mezcla de harina y levadura.",
         "Acabar por los trozos de chocolate y las nueces. Mezclar bien y dejar reposar en el frigorífico durante al menos 15min. Es muy importante dejarlas en la nevera para poder hacer bien las bolas de las galletas.",
         "Poner bolitas de masa sobre una placa cubierta de papel de horno.",
@@ -4850,7 +4846,7 @@
         "1 puerro",
         "4 zanahorias",
         "3 dientes de ajo",
-        "33ml de cerveza",
+        "33 ml de cerveza",
         "1 chupito de brandy",
         "Pimienta",
         "Sal"
@@ -4880,12 +4876,12 @@
     },
     "ingredients": {
       "Ingredientes": [
-        "1kg patatas",
+        "1 kg patatas",
         "1 batata",
         "3 cebollas (350g)",
-        "75g queso rallado",
-        "1/4L de nata líquida",
-        "25g mantequilla",
+        "75 g queso rallado",
+        "1/4 L de nata líquida",
+        "25 g mantequilla",
         "3 cucharas soperas de aceite",
         "Sal"
       ]
