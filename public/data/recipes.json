@@ -2798,7 +2798,7 @@
     "category": "main",
     "time": "30",
     "portions": "",
-    "image": "",
+    "image": "https://i.ibb.co/WNhyL4Bb/pure-calabacin.jpg ",
     "date": "07/04/2022",
     "author": "Chef JC",
     "imageComment": ""
@@ -2838,10 +2838,10 @@
     "title": "Mayonesa",
     "steps": {
       "Preparación": [
-        "Es muy fácil, cuando le coges el punto. La puedes hacer con aceite de oliva (sabor más fuerte) o con aceite de girasol (mucho más suave).",
+        "Es muy fácil cuando se coge el punto. Se puede hacer con aceite de oliva (sabor más fuerte) o con aceite de girasol (mucho más suave).",
         "En el baso de una batidora, añadir por este orden: un huevo, pizca se sal, unas gotas de zumo de limón y un vaso de aceite.",
-        "Poner la batidora pegada al fondo del vaso y, sin movera, batir a velocidad máxima. Cuando veamos que se empieza a crear la mayones, podemos empezar a levantar la batidora del fonde muy despacio.",
-        "Y ya tendremos nuestra mayonesa."
+        "Poner la batidora pegada al fondo del vaso y, sin movera, batir a velocidad máxima. Cuando se empieza a crear la mayones, empezar a levantar la batidora del fondo muy despacio.",
+        "Y ya está lista la mayonesa."
       ]
     },
     "ingredients": {
@@ -2892,16 +2892,17 @@
     "title": "Espaguetis de calabacín",
     "steps": {
       "Preparación": [
-        "En las tiendas de artículos de cocina, venden un rallador de verduras que, en el caso de los calabacines los convierte en lago parecido a espaguettis. Sólo tienes que lavarlos, rallarlos y hervirlos 2/3 minutos (según tu gusto)",
+        "En tiendas de artículos de cocina se puede encontrar un rallador de verduras que, en el caso del calabacín, lo convierte en algo parecido a espaguetis.",
+        "Lavar los calabacines, rallarlos y hervirlos durante 2-3 minutos (según el gusto). Es una opción muy sencilla y se puede usar de acompañamiento para carnes o pescados a la plancha",
         "Es muy sencillo y tendrás un acompañamiento para tus carnes o pescados a la plancha sorprendente.",
-        "Una vez hechos, les puedes añadir un poco de aceite virgen extra y sal."
+        "Una vez listo, se puede aliñar con un poco de aceite de oliva virgen extra y sal."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "Calabacines",
-        "Sal",
-        "Aceite"
+        "Aceite",
+        "Sal"
       ]
     },
     "difficulty": "Facil",
@@ -3190,7 +3191,7 @@
       "Preparación": [
         "Cortar la cebolla, el pimiento rojo y el ajo en una cazuela a fuego medio (trozos grandes ya que luego se va a triturar).",
         "Cuando ya está todo bien pochadito, añadir las tres latas de tomate.",
-        "Una vez empieza a hervir, dejarlo durante 20 minutos a fuego medio (6).",
+        "Una vez empieza a hervir, dejarlo durante 20 minutos a fuego medio.",
         "Triturar con la batidora en la misma cazuela. Añadir el azúcar, la sal y la pimienta. Probar."
       ]
     },
@@ -3251,11 +3252,11 @@
     "title": "Brownie",
     "steps": {
       "Preparación": [
-        "Encender el horno a 180º.",
+        "Precalentar el horno a 180º.",
         "Derretir la mantequilla y el chocolate en una cazuela al baño maría.",
-        "En un bowl, batir los huevos y añadir el azúcar, la harina, la levadura y las nueces picadas en trocitos pequeños.",
-        "Cuando el chocolate y la mantequilla estén bien derretido sin grumos, añadir al bowl y mezclar bien.",
-        "Poner papel de cocinar en un molde y echar la masa del bowl.",
+        "En un bol, batir los huevos y añadir el azúcar, la harina, la levadura y las nueces picadas en trocitos pequeños.",
+        "Cuando el chocolate y la mantequilla estén bien derretido sin grumos, añadir al bol y mezclar bien.",
+        "Poner papel de cocinar en un molde y echar la masa del bol.",
         "Meter al horno aproximadamente 40 minutos, hasta que el cuchillo salga limpio despues de pinchar."
       ]
     },
@@ -3285,7 +3286,7 @@
     "steps": {
       "Preparación": [
         "Exprimir los limones.",
-        "Mezclar bien todos los ingredientes. Parece que no se va a poder mezclar pero sí.",
+        "En un bol, mezclar bien todos los ingredientes. Parece que no se va a poder mezclar pero sí.",
         "Dejar reposar en la nevera por lo menos 6 horas."
       ]
     },
@@ -3293,7 +3294,7 @@
       "Ingredientes": [
         "1 vaso de 33 cl de zumo de limón exprimido (depende lo ácido que se quiera)",
         "1 bote de leche condensada grande (La Lechera 740 g)",
-        "250 ml de nata líquida"
+        "250 ml nata líquida"
       ]
     },
     "difficulty": "Facil",
@@ -3377,15 +3378,14 @@
     "steps": {
       "Preparación": [
         "Pulverizar con la picadora las galletas. En un molde desmontable, mezclar el polvo de galletas con mantequilla (aprox 50g). Mezclar con las manos hasta que quede una masa medio pegajosa. Extender la masa sobre el fondo, haciendo una capa lo más fina posible y con borde. La masa tiene que quedar bien pegada a la base.",
-        "En un bowl, mezclar bien el zumo de limón con la leche condensada y la nata.",
-        "Añadir sobre la base de galleta, la crema de limón.",
+        "En un bol, mezclar el zumo de limón con la leche condensada y la nata. Añadir sobre la base de galleta.",
         "Dejar reposar en la nevera por lo menos 6 horas."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "Zumo de 8 limones",
-        "Bote de leche condensada grande (La Lechera)",
+        "Bote de leche condensada (La Lechera 740 g)",
         "250 ml de nata líquida",
         "2 paquetes de galletas chiquilín",
         "Mantequilla"
@@ -3458,7 +3458,7 @@
     "title": "Torrijas",
     "steps": {
       "Preparación": [
-        "Cortar el pan de un dedo de grosor. Mejor pan de ayer (pan normal) nunca bimbo.",
+        "Cortar el pan de un dedo de grosor.",
         "Poner en una cazuela leche a hervir, con azúcar, canela y una rodajita de limón. Cuando esté hirviendo, meter el pan, empaparlo y sacarlo. Poner en una bandeja y dejar reposar media hora.",
         "En un cuenco, echar canela en polvo y azúcar a partes iguales. Espolvorear en la fuente dónde se van a poner las torrijas después de freírlas.",
         "Batir 2 huevos. Bañar las torrijas en huevo y freir. Pincharlas con un tenedor cuando las fríes. Freír con aceite muy caliente y sacar. Echar azúcar y canela.",
@@ -3467,7 +3467,7 @@
     },
     "ingredients": {
       "Ingredientes": [
-        "1 barra de pan (pan de ayer, pan bimbo no)",
+        "1 barra de pan (pan de torrijas o pan de ayer, pan bimbo no)",
         "300 ml leche",
         "200 g de azúcar",
         "1 o 2 ramas de canela (2 para más sabor)",
@@ -3600,9 +3600,9 @@
     "steps": {
       "Preparación": [
         "Derretir la mantequilla en el microondas.",
-        "Batir el huevo y mezclar bien con el resto de ingredientes hasta obtener una pasta líquida sin grumos.",
-        "Sartén a fuego medio. Añadir un cucharón de masa y dejamos que sea la masa la que se distribuya en la sartén.",
-        "Cuando salgan burbujitas en la parte superior, darle la vuelta con una espátula. Dejar cocinar 20-30 segundos más y retirar."
+        "En un bol batir el huevo y mezclar bien con el resto de ingredientes hasta obtener una pasta líquida sin grumos.",
+        "Calentar una sartén a fuego medio. Añadir un cucharón de masa y dejar que sea la masa la que se distribuya en la sartén.",
+        "Cuando salgan burbujitas en la parte superior, darle la vuelta con una espátula. Dejar cocinar 20-30 segundos más y retirar. Las primeras tortitas saldrán más pálidas, es normal."
       ]
     },
     "ingredients": {
@@ -3729,8 +3729,7 @@
     "steps": {
       "Preparación": [
         "Receta típica de Colmenar de Oreja.",
-        "Pelar las patatas y cortaslas en rodajas un poco gruesas. Cortar en trozos grandes los pimientos verdes.",
-        "Añadir enteros los dientes de ajo.",
+        "Pelar las patatas y cortaslas en rodajas un poco gruesas. Cortar en trozos grandes los pimientos verdes. Añadir enteros los dientes de ajo.",
         "Freír en abundante aceite a fuego lento. Lo mínimo para que fría.",
         "Salar.",
         "Gran acompañamiento para todo tipo de platos."
@@ -4323,9 +4322,8 @@
       "Preparación": [
         "Salpimentar los filetes por los dos lados.",
         "Preparar 3 platos: uno con harina, otro con el huevo batido y otro con pan rallado.",
-        "Pasar los filetes primero por la harina. Quitar la harina sobrante.",
-        "Después pasarlos por el huevo y por último por pan rallado.",
-        "Freír a fuego medio alto."
+        "Pasar los filetes primero por la harina. Quitar la harina sobrante. Pasarlos por el huevo y por último por pan rallado.",
+        "Freír a fuego medio alto y dejar en un plato con papel de cocina para que absorba el exceso de aceite."
       ]
     },
     "ingredients": {
