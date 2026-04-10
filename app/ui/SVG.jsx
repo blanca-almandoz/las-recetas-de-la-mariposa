@@ -156,9 +156,9 @@ const DifficultyIcon = () => {
 
 const Difficulty = ({ level }) => {
   const levels = {
-    Facil: 1,
+    Fácil: 1,
     Medio: 2,
-    Dificil: 3,
+    Difícil: 3,
   }
   const count = levels[level] || 0
   return (

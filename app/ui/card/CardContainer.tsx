@@ -21,7 +21,7 @@ const CardContainer = ({
 }: CardContainerType) => {
   return (
     <TopLevelWrapper>
-      {hasTitle && <div className={cardWithTitle}>Las últimas recetas</div>}
+      {hasTitle && <div className={cardWithTitle}>Novedades</div>}
       <div
         className={clsx(
           wrapperContent,
