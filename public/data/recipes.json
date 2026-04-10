@@ -3698,26 +3698,25 @@
   },
   {
     "id": "114",
-    "title": "Puré de patata y manzana",
+    "title": "Puré de patata",
     "steps": {
       "Preparación": [
-        "Lavar la patatas y poner a hervir en una cazuela. Dejar que hiervan durante 35 minutos. Sacar y reservar.",
-        "En otra cazuela, hervir las manzanas ya peladas, durante 15 minutos. Reservar.",
-        "Pelar las patatas y machacar junto con las manzanas. Añadir la mantequilla y la sal."
+        "Lavar la patatas y poner a hervir en una cazuela. Dejar que hiervan durante 35 minutos. Sacar y reservar",
+        "Pelar las patatas y machacarlas en un bol. Añadir la mantequilla y la sal. Añadir un chorrito de leche o nata para darle cremosidad."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "6 patatas",
-        "6 manzanas",
+        "4 patatas",
         "Dos cucharitas de mantequilla",
+        "Un chorrito de leche o nata",
         "Sal"
       ]
     },
     "difficulty": "Facil",
     "category": "siders",
     "time": "45",
-    "portions": "4",
+    "portions": "2",
     "image": "https://i.ibb.co/2S4rRx3/carrilleras.jpg",
     "date": "04/02/2024",
     "author": "Chef JC",
@@ -3829,8 +3828,9 @@
         "1 kg de de carne de cerdo (aguja, espaldilla, cuello, paleta...)",
         "Caldo de pollo o de carne",
         "Aceite",
-        "Salsa barbacoa",
-        "Marinado",
+        "Salsa barbacoa"
+      ],
+      "Marinado": [
         "1 cucharada de pimentón dulce",
         "1 cucharada de jengibre molido",
         "1 cucharada de ajo en polvo",
