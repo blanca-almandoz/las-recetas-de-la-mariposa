@@ -37,7 +37,7 @@ export default function Home({
       <Title />
       <CardContainer recipes={sortedRecipes} hasTitle hasHorizontalScroll />
       <IntroContainer />
-      <Footer />
+      <Footer hasMargin={false} />
     </>
   )
 }

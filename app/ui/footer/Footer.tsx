@@ -1,9 +1,9 @@
 import { footerWrapper, footerContent } from './styles.css'
 import Image from 'next/image'
 
-const Footer = () => {
+const Footer = ({ hasMargin = true }) => {
   return (
-    <div className={footerWrapper}>
+    <div className={footerWrapper} style={{ marginTop: hasMargin ? 20 : 1 }}>
       <div className={footerContent}>
         <Image src="/logo.svg" width={32} height={32} alt="logo" />
         <div

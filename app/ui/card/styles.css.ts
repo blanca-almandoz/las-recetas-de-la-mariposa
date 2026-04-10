@@ -21,7 +21,6 @@ export const cardWithTitle = style({
   fontWeight: 500,
   fontSize: 16,
   marginBottom: 8,
-  paddingLeft: 8,
   color: vars.color.body,
 })
 
