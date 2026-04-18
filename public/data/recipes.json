@@ -2564,31 +2564,6 @@
   },
   {
     "id": "78",
-    "title": "Crema de calabaza",
-    "steps": {
-      "Preparación": [
-        "Pelar las calabazas y ponerlas a hervir hasta que estén hechas",
-        "Escurrir y triturar con la batidora. Añadir la nata y la sal."
-      ]
-    },
-    "ingredients": {
-      "Ingredientes": [
-        "4 calabazas",
-        "100 cl nata líquida",
-        "Sal"
-      ]
-    },
-    "difficulty": "Fácil",
-    "category": "main",
-    "time": "45",
-    "portions": "4",
-    "image": "",
-    "date": "17/12/2021",
-    "author": "Chef JC",
-    "imageComment": ""
-  },
-  {
-    "id": "79",
     "title": "Gazpacho de la abuela",
     "steps": {
       "Preparación": [
@@ -2611,7 +2586,7 @@
     "imageComment": "Buen gazpacho, receta muy bien especificada."
   },
   {
-    "id": "80",
+    "id": "79",
     "title": "Gazpacho",
     "steps": {
       "Preparación": [
@@ -2643,7 +2618,7 @@
     "imageComment": "Estoy obligado a que haya siempre gazpacho en la nevera durante todo el verano. Imposición familiar."
   },
   {
-    "id": "81",
+    "id": "80",
     "title": "Sopa de tomate",
     "steps": {
       "Preparación": [
@@ -2676,7 +2651,7 @@
     "imageComment": ""
   },
   {
-    "id": "82",
+    "id": "81",
     "title": "Crema de verduras",
     "steps": {
       "Preparación": [
@@ -2707,7 +2682,7 @@
     "imageComment": ""
   },
   {
-    "id": "83",
+    "id": "82",
     "title": "Puré de 10",
     "steps": {
       "Preparación": [
@@ -2740,7 +2715,7 @@
     "imageComment": ""
   },
   {
-    "id": "85",
+    "id": "84",
     "title": "Crema de espárragos",
     "steps": {
       "Preparación": [
@@ -2773,7 +2748,7 @@
     "imageComment": ""
   },
   {
-    "id": "84",
+    "id": "83",
     "title": "Puré de calabacín",
     "steps": {
       "Preparación": [
@@ -2804,7 +2779,7 @@
     "imageComment": ""
   },
   {
-    "id": "86",
+    "id": "85",
     "title": "Salmorejo",
     "steps": {
       "Preparación": [
@@ -2834,7 +2809,7 @@
     "imageComment": "Receta copiada de una pared del casco antiguo de Córdoba. Muy recomendable estirarse con la calidad del aceite y del picadillo de jamón."
   },
   {
-    "id": "87",
+    "id": "86",
     "title": "Mayonesa",
     "steps": {
       "Preparación": [
@@ -2862,7 +2837,7 @@
     "imageComment": ""
   },
   {
-    "id": "88",
+    "id": "87",
     "title": "Ensalada de tomate",
     "steps": {
       "Preparación": [
@@ -2888,7 +2863,7 @@
     "imageComment": ""
   },
   {
-    "id": "89",
+    "id": "88",
     "title": "Espaguetis de calabacín",
     "steps": {
       "Preparación": [
@@ -2915,7 +2890,7 @@
     "imageComment": ""
   },
   {
-    "id": "90",
+    "id": "89",
     "title": "Gajos de patatas especiadas",
     "steps": {
       "Preparación": [
@@ -2947,7 +2922,7 @@
     "imageComment": ""
   },
   {
-    "id": "91",
+    "id": "90",
     "title": "Ensalada de col",
     "steps": {
       "Preparación": [
@@ -2976,7 +2951,7 @@
     "imageComment": ""
   },
   {
-    "id": "92",
+    "id": "91",
     "title": "Salsa española",
     "steps": {
       "Preparación": [
@@ -3006,7 +2981,7 @@
     "imageComment": ""
   },
   {
-    "id": "93",
+    "id": "92",
     "title": "Bechamel",
     "steps": {
       "Preparación": [
@@ -3038,7 +3013,7 @@
     "imageComment": ""
   },
   {
-    "id": "94",
+    "id": "93",
     "title": "Cebolla caramelizada",
     "steps": {
       "Preparación": [
@@ -3066,7 +3041,7 @@
     "imageComment": ""
   },
   {
-    "id": "95",
+    "id": "94",
     "title": "Pimientos asados",
     "steps": {
       "Preparación": [
@@ -3094,7 +3069,7 @@
     "imageComment": ""
   },
   {
-    "id": "96",
+    "id": "95",
     "title": "Salsa pimienta",
     "steps": {
       "Preparación": [
@@ -3125,7 +3100,7 @@
     "imageComment": ""
   },
   {
-    "id": "97",
+    "id": "96",
     "title": "Arroz blanco",
     "steps": {
       "Preparación": [
@@ -3156,7 +3131,7 @@
     "imageComment": ""
   },
   {
-    "id": "98",
+    "id": "97",
     "title": "Vinagreta",
     "steps": {
       "Preparación": [
@@ -3185,7 +3160,7 @@
     "imageComment": ""
   },
   {
-    "id": "99",
+    "id": "98",
     "title": "Tomate frito",
     "steps": {
       "Preparación": [
@@ -3216,7 +3191,7 @@
     "imageComment": ""
   },
   {
-    "id": "100",
+    "id": "99",
     "title": "Bizcocho 1,2,3",
     "steps": {
       "Preparación": [
@@ -3248,7 +3223,7 @@
     "imageComment": ""
   },
   {
-    "id": "101",
+    "id": "100",
     "title": "Brownie",
     "steps": {
       "Preparación": [
@@ -3281,7 +3256,7 @@
     "imageComment": ""
   },
   {
-    "id": "102",
+    "id": "101",
     "title": "Limón aquí",
     "steps": {
       "Preparación": [
@@ -3307,7 +3282,7 @@
     "imageComment": ""
   },
   {
-    "id": "103",
+    "id": "102",
     "title": "Mouse de chocolate",
     "steps": {
       "Preparación": [
@@ -3340,7 +3315,7 @@
     "imageComment": ""
   },
   {
-    "id": "104",
+    "id": "103",
     "title": "Tarta de la abuela",
     "steps": {
       "Preparación": [
@@ -3373,7 +3348,7 @@
     "imageComment": ""
   },
   {
-    "id": "105",
+    "id": "104",
     "title": "Tarta de limón",
     "steps": {
       "Preparación": [
@@ -3401,7 +3376,7 @@
     "imageComment": ""
   },
   {
-    "id": "106",
+    "id": "105",
     "title": "Tarta de zanahoria",
     "steps": {
       "Preparación": [],
@@ -3454,7 +3429,7 @@
     "imageComment": "Una tarta de '¡Caramba vaya tarta!'"
   },
   {
-    "id": "107",
+    "id": "106",
     "title": "Torrijas",
     "steps": {
       "Preparación": [
@@ -3486,7 +3461,7 @@
     "imageComment": "Las mejores torrijas son estas. Sin duda. Lo que pasa es que la mano hace mucho aquí."
   },
   {
-    "id": "108",
+    "id": "107",
     "title": "Tortita de manzana",
     "steps": {
       "Preparación": [
@@ -3523,7 +3498,7 @@
     "imageComment": ""
   },
   {
-    "id": "109",
+    "id": "108",
     "title": "Trufas",
     "steps": {
       "Preparación": [
@@ -3557,7 +3532,7 @@
     "imageComment": "No envidian nada a las de una bombonería. La presentación quizás, aunque esto depende de lo minucioso que seas."
   },
   {
-    "id": "110",
+    "id": "109",
     "title": "Rosquillas",
     "steps": {
       "Preparación": [
@@ -3595,7 +3570,7 @@
     "imageComment": "Ojito, ojito. Crean adicción. Hazlas cuando vayas a tener merienda en casa porque sino puedes explotar. te las comerás todas."
   },
   {
-    "id": "111",
+    "id": "110",
     "title": "Tortitas",
     "steps": {
       "Preparación": [
@@ -3623,7 +3598,7 @@
     "imageComment": "No conozco a nadie que las haya probado y que no haya comido menos de una docena. "
   },
   {
-    "id": "112",
+    "id": "111",
     "title": "Ensaladilla rusa",
     "steps": {
       "Preparación": [
@@ -3659,7 +3634,7 @@
     "imageComment": "La verdad es que de rusa tiene poco. Pero está muy rica."
   },
   {
-    "id": "113",
+    "id": "112",
     "title": "Carrilleras de ternera",
     "steps": {
       "Preparación": [
@@ -3697,7 +3672,7 @@
     "imageComment": "Cuando las compres, pídele al carnicero que te las limpie. Es lo más engorroso de este plato."
   },
   {
-    "id": "114",
+    "id": "113",
     "title": "Puré de patata",
     "steps": {
       "Preparación": [
@@ -3723,7 +3698,7 @@
     "imageComment": "Te dirán que está muy bueno muchas veces."
   },
   {
-    "id": "115",
+    "id": "114",
     "title": "Patatas Chulas",
     "steps": {
       "Preparación": [
@@ -3752,7 +3727,7 @@
     "imageComment": "Sorpendentemente buenas. Elevan la categoría de una barbacoa."
   },
   {
-    "id": "116",
+    "id": "115",
     "title": "Hamburguesas planas",
     "steps": {
       "Preparación": [
@@ -3782,7 +3757,7 @@
     "imageComment": ""
   },
   {
-    "id": "117",
+    "id": "116",
     "title": "Tosta La Decimoquinta",
     "steps": {
       "Preparación": [
@@ -3812,7 +3787,7 @@
     "imageComment": "Esta receta fue creada al día siguiente que nuestro insigne club ganase la décimoquinta Copa de Europa. ¡Hala Madrid!"
   },
   {
-    "id": "118",
+    "id": "117",
     "title": "Pulled pork",
     "steps": {
       "Preparación": [
@@ -3856,7 +3831,7 @@
     "imageComment": ""
   },
   {
-    "id": "119",
+    "id": "118",
     "title": "Salmón Wellington",
     "steps": {
       "Preparación": [
@@ -3898,7 +3873,7 @@
     "imageComment": ""
   },
   {
-    "id": "120",
+    "id": "119",
     "title": "Salsa tártara",
     "steps": {
       "Preparación": [
@@ -3929,7 +3904,7 @@
     "imageComment": ""
   },
   {
-    "id": "121",
+    "id": "120",
     "title": "Redondo con salsa de cerveza",
     "steps": {
       "Preparación": [
@@ -3961,7 +3936,7 @@
     "imageComment": ""
   },
   {
-    "id": "122",
+    "id": "121",
     "title": "Macarrones con chorizo",
     "steps": {
       "Preparación": [
@@ -3996,7 +3971,7 @@
     "imageComment": "Viaje a la infancia más profunda. Se pueden comer sin límite, bueno hasta que se acaben."
   },
   {
-    "id": "123",
+    "id": "122",
     "title": "Judías verdes",
     "steps": {
       "Preparación": [
@@ -4029,7 +4004,7 @@
     "imageComment": "Receta afrancesada."
   },
   {
-    "id": "124",
+    "id": "123",
     "title": "Kartoffelsalat (ensalada de patata alemana)",
     "steps": {
       "Preparación": [
@@ -4061,7 +4036,7 @@
     "imageComment": "La clave está en calcular bien la cantidad de salsa."
   },
   {
-    "id": "125",
+    "id": "124",
     "title": "Filet Américain",
     "steps": {
       "Preparación": [
@@ -4095,7 +4070,7 @@
     "imageComment": "Sorprendentemente bueno. Plato muy extranjero."
   },
   {
-    "id": "126",
+    "id": "125",
     "title": "Magdalenas",
     "steps": {
       "Preparación": [
@@ -4133,7 +4108,7 @@
     "imageComment": "No podrás comer solo una"
   },
   {
-    "id": "127",
+    "id": "126",
     "title": "Boeuf Bourguignon",
     "steps": {
       "Preparación": [
@@ -4189,7 +4164,7 @@
     "imageComment": "Un buen guiso de carne. Pero como es una receta francesa suena mucho más fino"
   },
   {
-    "id": "128",
+    "id": "127",
     "title": "Bizcocho de plátano",
     "steps": {
       "Preparación": [
@@ -4220,7 +4195,7 @@
     "imageComment": "Mucho más rico que lo que se intuye en la foto. También le puedes poner nueces"
   },
   {
-    "id": "129",
+    "id": "128",
     "title": "Rape estilo Carril",
     "steps": {
       "Preparación": [
@@ -4252,7 +4227,7 @@
     "imageComment": "Esta es una receta clásica elaborada miles de veces en la zona de Carril, Rías Bajas"
   },
   {
-    "id": "130",
+    "id": "129",
     "title": "Fajitas",
     "steps": {
       "Preparación": [
@@ -4284,7 +4259,7 @@
     "imageComment": "Hay que preparar guacamole casero, no compres de bote. Esfuérzate un poco, vale la pena"
   },
   {
-    "id": "131",
+    "id": "130",
     "title": "Caldo",
     "steps": {
       "Preparación": [
@@ -4316,7 +4291,7 @@
     "imageComment": "El entonacuerpos por excelencia"
   },
   {
-    "id": "132",
+    "id": "131",
     "title": "Filetes de ternera empanados",
     "steps": {
       "Preparación": [
@@ -4346,7 +4321,7 @@
     "imageComment": ""
   },
   {
-    "id": "133",
+    "id": "132",
     "title": "Torreznos a baja temperatura con puré de batata",
     "steps": {
       "Preparación": [
@@ -4376,7 +4351,7 @@
     "imageComment": "Lo deborarán. Y seguro que te piden la receta"
   },
   {
-    "id": "134",
+    "id": "133",
     "title": "Palmeritas de hojaldre",
     "steps": {
       "Preparación": [
@@ -4406,7 +4381,7 @@
     "imageComment": "Os gustarán"
   },
   {
-    "id": "135",
+    "id": "134",
     "title": "Salchichas al vino",
     "steps": {
       "Preparación": [
@@ -4436,7 +4411,7 @@
     "imageComment": ""
   },
   {
-    "id": "136",
+    "id": "135",
     "title": "Empanada Popeye",
     "steps": {
       "Preparación": [
@@ -4469,7 +4444,7 @@
     "imageComment": "Empanada de lujo. Sorprendente combinación de sabores."
   },
   {
-    "id": "137",
+    "id": "136",
     "title": "Cookies",
     "steps": {
       "Preparación": [
@@ -4504,7 +4479,7 @@
     "imageComment": ""
   },
   {
-    "id": "138",
+    "id": "137",
     "title": "Bizcocho de calabaza",
     "steps": {
       "Preparación": [
@@ -4548,7 +4523,7 @@
     "imageComment": ""
   },
   {
-    "id": "139",
+    "id": "138",
     "title": "Tartar de salmón y aguacate",
     "steps": {
       "Preparación": [
@@ -4582,7 +4557,7 @@
     "imageComment": ""
   },
   {
-    "id": "140",
+    "id": "139",
     "title": "Arroz con costillas de ternera",
     "steps": {
       "Preparación": [
@@ -4619,7 +4594,7 @@
     "imageComment": ""
   },
   {
-    "id": "141",
+    "id": "140",
     "title": "Ensalada italiana",
     "steps": {
       "Preparación": [
@@ -4650,7 +4625,7 @@
     "imageComment": ""
   },
   {
-    "id": "142",
+    "id": "141",
     "title": "Pasta con salsa de calabaza",
     "steps": {
       "Preparación": [
@@ -4683,17 +4658,16 @@
     "imageComment": ""
   },
   {
-    "id": "143",
+    "id": "142",
     "title": "Cookies de nueces",
     "steps": {
       "Preparación": [
-        "Cortar el chocolate y las nueces en trozos.",
-        "Añadir el azúcar y la sal a la mantequilla y batir hasta que la mezcla se blanquee. Añadir el huevo y la vainilla.",
+        "Cortar el chocolate y las nueces en trozos (puede ser con una batidora). Reservar",
+        "En un bol, añadir el azúcar y la sal a la mantequilla y batir hasta que la mezcla se blanquee. Añadir el huevo y la vainilla.",
         "Incorporar progresivamente la mezcla de harina y levadura.",
         "Acabar por los trozos de chocolate y las nueces. Mezclar bien y dejar reposar en el frigorífico durante al menos 15min. Es muy importante dejarlas en la nevera para poder hacer bien las bolas de las galletas.",
-        "Poner bolitas de masa sobre una placa cubierta de papel de horno.",
-        "Cocinar en el horno precalentado a 170ºC durante 10min.",
-        "Dejar enfriar antes de despegar. Las galletas deben quedar blandas en el centro."
+        "Precalentar el horno a 170ºC. Cubrir una bandeja con papel de hornear. Hacer bolitas de masa e ir poniéndolas en la bandeja. Es importante hacer las bolitas con las manos para que no se deshagan.",
+        "Hornear durante 20 minutos. Dejar enfriar antes de despegar. Las galletas deben quedar blandas en el centro."
       ],
       "Mantequilla en pomada": [
         "Debe estar suave al tocarla con el dedo, pero no derretida. Cortar la mantequilla en cubos pequeños, se ablandará más rápido y de manera uniforme. Con un tenedor, aplastar la mantequilla hasta que tenga textura cremosa. No poner la mantequilla en el microondas, ya que se puede derretir demasiado y cambiar la textura de la receta."
@@ -4722,7 +4696,7 @@
     "imageComment": ""
   },
   {
-    "id": "144",
+    "id": "143",
     "title": "Guiso de ternera",
     "steps": {
       "Preparación": [
@@ -4762,7 +4736,7 @@
     "imageComment": ""
   },
   {
-    "id": "145",
+    "id": "144",
     "title": "Lubina al horno",
     "steps": {
       "Preparación": [
@@ -4794,7 +4768,7 @@
     "imageComment": ""
   },
   {
-    "id": "146",
+    "id": "145",
     "title": "Sopa sana",
     "steps": {
       "Preparación": [
@@ -4826,7 +4800,7 @@
     "imageComment": ""
   },
   {
-    "id": "147",
+    "id": "146",
     "title": "Salsa de zanahoria y manzana",
     "steps": {
       "Preparación": [
@@ -4860,7 +4834,7 @@
     "imageComment": ""
   },
   {
-    "id": "148",
+    "id": "147",
     "title": "Patatas gratinadas",
     "steps": {
       "Preparación": [
