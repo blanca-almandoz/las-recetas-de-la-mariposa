@@ -2655,10 +2655,9 @@
     "title": "Crema de verduras",
     "steps": {
       "Preparación": [
-        "Ponemos en el Thermomix la patata, el puerro, la cebolla, un puñado de judías verdes y los calabacines.",
-        "Programamos velocidad 1, 27 minutos a 90 grados. Cuando pase el tiempo, añadir un chorrito de aceite y la sal,",
-        "triturar a velocidad 10 durante 3 minutos.",
-        "Cambiando las judías y los calabacines por calabaza y zanahorias también está muy bueno."
+        "Poner en el Thermomix la patata, el puerro, la cebolla, un puñado de judías verdes y los calabacines.",
+        "Programar velocidad 1, 27 minutos a 90ºC. Cuando pase el tiempo, añadir un chorrito de aceite y la sal.",
+        "Triturar a velocidad 10 durante 3 minutos."
       ]
     },
     "ingredients": {
@@ -2675,11 +2674,11 @@
     "difficulty": "Fácil",
     "category": "main",
     "time": "30",
-    "portions": "",
+    "portions": "4",
     "image": "https://i.ibb.co/RNx6v89/crema.png",
     "date": "25/04/2020",
     "author": "Chef JC",
-    "imageComment": ""
+    "imageComment": "Cambiando las judías y los calabacines por calabaza y zanahorias también está muy bueno"
   },
   {
     "id": "82",
@@ -2752,13 +2751,11 @@
     "title": "Puré de calabacín",
     "steps": {
       "Preparación": [
-        "Pelar y cortar los calabacines, los puerros y las patatas. Poner en una olla express rápida.",
-        "Echar agua hasta que la veas.",
-        "Cerrar la olla. Ponerlo a fuego fuerte, hasta que salgan los dos aros (de la olla express)",
-        "Cuando hayan salido, bajar a fuego suave (3) durante 15min.",
-        "Apagar el fuego y retirar. Pasar a otro recipiente y añadir algo de agua si vemos que nos ha quedado mu espeso.",
-        "Triturar con la batidora",
-        "Añadir Philadelphia al gusto (recomendado el paquete pequeño entero), aceite y sal"
+        "Pelar y cortar los calabacines, los puerros y las patatas. Poner en una olla express rápida. Echar agua hasta que la veas.",
+        "Cerrar la olla. Ponerlo a fuego fuerte, hasta que salgan los dos aros. Cuando hayan salido, bajar a fuego suave (3) durante 15min.",
+        "Apagar el fuego y retirar. Pasar a otro recipiente y añadir algo de agua si vemos que ha quedado muy espeso.",
+        "Triturar con la batidora.",
+        "Añadir Philadelphia al gusto (recomendado el paquete pequeño entero), aceite y sal."
       ]
     },
     "ingredients": {
@@ -2824,7 +2821,7 @@
         "Un huevo",
         "Gotas de zumo de limón",
         "Un vaso de aceite",
-        "sal"
+        "Sal"
       ]
     },
     "difficulty": "Fácil",
@@ -2985,18 +2982,18 @@
     "title": "Bechamel",
     "steps": {
       "Preparación": [
-        "Cortar un taco generoso de mantequilla y ponerlo en una sartén a fuego medio. Cuando la mantequilla ya está derretida, añadir la harina.",
+        "Cortar un taco generoso de mantequilla y ponerlo en una sartén a fuego medio.Usar la misma cantidad de mantequilla que de harina (en este caso 40g). Cuando la mantequilla ya está derretida, añadir la harina.",
         "Remover con una varilla hasta que la harina haya absorbido toda la mantequilla y esté hecha (1-2 min aprox).",
-        "Añadir un poco de leche y remover. Primero se hacen unas pelotas horribles pero, según se remueve, van desapareciendo.",
-        "Añadir más leche varias veces todo el rato removiendo. Ir echando la leche poco a poco para que la harina la absorba mejor. Bajar el fuego a fuego medio bajo. Añadir tanta leche como sea necesaria para encontrar la textura deseada.",
-        "Si la bechamel es para croquetas, echar menos leche para que quede espesa. Si la bechamel es para unos canelones, echar más leche para que quede más cremosa.",
+        "Añadir poco a poco la leche sin dejar de remover. Al principio se formarán grumos, pero a medida que se mezcla, van desapareciendo.",
+        "Ir añadiendo más leche poco a poco, sin dejar de remover, para que la harina la vaya absorbiendo y evitar grumos. Bajar el fuego a medio bajo. Añadir tanta leche como sea necesaria para encontrar la textura deseada.",
+        "Si la bechamel es para croquetas, usar menos leche para que quede más espesa. Si la bechamel es para unos canelones, echar más leche para que quede más cremosa.",
         "Añadir sal, pimienta y nuez moscada."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "Mantequilla",
-        "3,5 cucharadas de harina",
+        "3,5 cucharadas de harina (40g)",
         "Leche",
         "Nuez moscada",
         "Pimienta",
@@ -3010,7 +3007,7 @@
     "image": "https://i.ibb.co/L9sVHqt/bechamel.jpg ",
     "date": "29/05/2024",
     "author": "Chef JC",
-    "imageComment": ""
+    "imageComment": "El secreto es batirla lo suficiente como para que no haya grumos y la harina se haga. Si aun así hay muchos grumos y no puedo quitarlos, usar la batidora y apañao."
   },
   {
     "id": "93",
@@ -3106,9 +3103,9 @@
       "Preparación": [
         "Poner un chorrito de aceite en una cazuela y calentar a fuego fuerte. Añadir un diente de ajo picado y dorarlo ligeramente.",
         "Incorporar el arroz y remover durante 1 minuto para que se rehogue y se impregne bien del aceite.",
-        "Añadir 2 vasos de agua, sal al gusto y una hoja de laurel. Mezclar suavemente y, a partir de este momento, no volver a remover.",
+        "Añadir 2 vasos de agua, sal al gusto y una hoja de laurel. Mezclar bien y, a partir de este momento, no volver a remover.",
         "Cuando empiece a hervir, bajar a fuego medio. A medida que el agua se vaya consumiendo, reducir a fuego suave.",
-        "Dejar que se formen pequeños agujeros en la superficie (“chimeneas”). Cuando dejen de salir burbujas de agua por ellas, el arroz estará listo.",
+        "Dejar que se formen pequeñas \"chimeneas”. Cuando dejen de salir burbujas de agua por ellas, el arroz estará listo.",
         "Retirar del fuego, cubrir con un trapo y dejar reposar durante 10 minutos antes de servir."
       ]
     },
@@ -4662,10 +4659,10 @@
     "title": "Cookies de nueces",
     "steps": {
       "Preparación": [
-        "Cortar el chocolate y las nueces en trozos (puede ser con una batidora). Reservar",
-        "En un bol, añadir el azúcar y la sal a la mantequilla y batir hasta que la mezcla se blanquee. Añadir el huevo y la vainilla.",
+        "Cortar el chocolate y las nueces en trozos (puede ser con una batidora). Reservar.",
+        "En un bol, añadir la mantequilla en pomada. Añadir el azúcar y la sal y mezclar bien hasta que la mezcla se blanquee. Añadir el huevo y la vainilla.",
         "Incorporar progresivamente la mezcla de harina y levadura.",
-        "Acabar por los trozos de chocolate y las nueces. Mezclar bien y dejar reposar en el frigorífico durante al menos 15min. Es muy importante dejarlas en la nevera para poder hacer bien las bolas de las galletas.",
+        "Acabar por los trozos de chocolate y las nueces. Mezclar bien y dejar reposar en el frigorífico durante al menos 15 minutos. Es muy importante dejarlas en la nevera para poder hacer bien las bolas de las galletas.",
         "Precalentar el horno a 170ºC. Cubrir una bandeja con papel de hornear. Hacer bolitas de masa e ir poniéndolas en la bandeja. Es importante hacer las bolitas con las manos para que no se deshagan.",
         "Hornear durante 20 minutos. Dejar enfriar antes de despegar. Las galletas deben quedar blandas en el centro."
       ],
@@ -4865,6 +4862,42 @@
     "image": "https://i.ibb.co/cSHYGwW8/patatas-gratinadas.jpg",
     "date": "22/3/2026",
     "author": "Blanca",
+    "imageComment": ""
+  },
+  {
+    "id": "148",
+    "title": "Muesli",
+    "steps": {
+      "Preparación": [
+        "Precalentar el horno a 140 ºC y forrar una bandeja con papel de horno.",
+        "En un bol, mezclar los copos de avena con los frutos secos.",
+        "En otro bol más pequeño, añadir la miel, la mantequilla de cacahuete, el aceite de oliva, la canela, la vainilla y la sal. Mezclar bien hasta integrar todos los ingredientes.",
+        "Verter esta mezcla líquida sobre los ingredientes secos y mezclar bien.",
+        "Extender la granola sobre la bandeja y hornear durante 40 minutos. Remover cada 10 minutos para que se dore de manera uniforme.",
+        "Al sacar la granola del horno no estará crujiente, pero lo estará al enfriarse. Dejar enfriar completamente y guardar en un tarro hermético."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "2 tazas de copos de avena",
+        "1 taza de nueces",
+        "1 taza de avellanas",
+        "(los frutos secos se pueden sustituir por otros: almendras, cacahuetes…)",
+        "8 cucharadas de miel",
+        "1 cucharada de mantequilla de cacahuete",
+        "1 cucharada de aceite de oliva",
+        "1 cucharada de canela",
+        "1 cucharadita de extracto de vainilla",
+        "1/2 cucharadita de sal"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "desserts",
+    "time": "50",
+    "portions": "6",
+    "image": "https://i.ibb.co/HTc4ySHR/muesli.jpg",
+    "date": "4/5/2026",
+    "author": "",
     "imageComment": ""
   }
 ]
