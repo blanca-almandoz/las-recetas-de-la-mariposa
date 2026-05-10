@@ -1232,37 +1232,41 @@
   },
   {
     "id": "40",
-    "title": "Pastel de puré de patata",
+    "title": "Pastel de carne picada",
     "steps": {
       "Preparación": [
-        "Hervir las patatas. Pelarlas y triturarlas. Pasarlas por el pasapurés. Añadir mantequilla, leche y sal.",
-        "Mientras se hierven las patatas, picar y pochar las verduras. Cuando ya están pochadas las verduras se añade primero el tomate frito. Revuelves. Añades la carne, salpimentar. Añadir las pasas (es optativo).",
-        "En un molde de horno desmoldable, poner una capa de pure de patata, una capa de verduras y carne y otra capa con pure de patata de nuevo. Cubrir con abudante queso rallado.",
-        "Gratinar en el horno durante 10 minutos hasta que el queso esté bien derretido y tenga aspecto apetitoso."
+        "Poner las patatas a hervir en una cazuela cubiertas de agua. Añadir una cucharadita de sal. Dejar hervir a fuego medio durante 25-35 minutos aproximadamente. Pinchar con un cuchillo para saber que ya están cocidas.",
+        "Sacar las patatas, pelarlas y volver a meterlas en el cazo. Machacar con un tenedor y añadir la mantequilla, el queso rallado, la leche, la pimienta, la nuez moscada y sal.",
+        "Volver a calentar la cazuela a fuego suave para integrar bien todos los ingredientes. Si quedara muy espeso, añadir un poco más de leche. Reservar.",
+        "Picar y pochar la cebolla en una sartén a fuego medio. Cortar las zanahorias con una mandolina lo más finita posible y añadir a la sartén. Cuando la cebolla no esté muy dorada todavía, añadir la carne picada. Subir el fuego y dejar que se dore. Remover con frecuencia para que la carne no se apelmace. Añadir el tomate frito y el caldo. Cuando empiece a burbujear, bajar a fuego medio y dejar que cueza unos 20 minutos o hasta que el caldo se haya reducido casi por completo. Es recomendable dejar la carne con un poco de caldo ya que el puré absorberá éste y quedará más jugoso.",
+        "En una fuente de horno, colocar la carne picada. Añadir por encima el puré de patatas. Hay que extenderlo con cuidado para que no se hunda dentro de la carne. Dejarlo bien nivelado. Añadir abundante queso rallado.",
+        "Hornear 20 minutos a 200 ºC, calor arriba y abajo o hasta que la superficie se haya dorado al gusto. Dejar reposar 15 minutos antes de servir."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "1 kg de patatas",
-        "200 g de carne picada de ternera",
+        "400 g de carne picada",
+        "600 g de patatas",
+        "1 cebolla grande",
         "2 zanahorias",
-        "1 cebolla",
-        "1 pimiento verde",
-        "100 g de mantequilla",
-        "1 vasito de leche",
-        "Tomate frito",
-        "Pasas (optativo)",
+        "150 g de queso rallado (emmental o similar)",
+        "20 g de mantequilla",
+        "Un chorrito de leche",
+        "1 pizca de nuez moscada",
+        "200 g de tomate triturado",
+        "200 ml de caldo de carne",
+        "Aceite",
         "Pimienta",
         "Sal"
       ]
     },
     "difficulty": "Medio",
     "category": "main",
-    "time": "60",
+    "time": "90",
     "portions": "6",
-    "image": "",
-    "date": "02/02/2021",
-    "author": "Chef JC",
+    "image": "https://i.ibb.co/1tYn8y0F/pastel-carne.jpg ",
+    "date": "10/05/2026",
+    "author": "Marta",
     "imageComment": ""
   },
   {
@@ -2574,7 +2578,16 @@
       ]
     },
     "ingredients": {
-      "Ingredientes": []
+      "Ingredientes": [
+        "8 tomates pera maduros (1,1 kg)",
+        "1/2 pimiento rojo riquitico (50 g)",
+        "1 pimiento verde igual de riquitico (70 g)",
+        "1 pepino (150 g)",
+        "1/2 de cebolla (25 g)",
+        "120 ml aceite",
+        "20 ml vinagre de vino",
+        "Sal"
+      ]
     },
     "difficulty": "Fácil",
     "category": "starters",
@@ -2751,19 +2764,22 @@
     "title": "Puré de calabacín",
     "steps": {
       "Preparación": [
-        "Pelar y cortar los calabacines, los puerros y las patatas. Poner en una olla express rápida. Echar agua hasta que la veas.",
-        "Cerrar la olla. Ponerlo a fuego fuerte, hasta que salgan los dos aros. Cuando hayan salido, bajar a fuego suave (3) durante 15min.",
-        "Apagar el fuego y retirar. Pasar a otro recipiente y añadir algo de agua si vemos que ha quedado muy espeso.",
-        "Triturar con la batidora.",
-        "Añadir Philadelphia al gusto (recomendado el paquete pequeño entero), aceite y sal."
+        "Poner en el vaso de la Thermomix la cebolla y el diente de ajo y trocear 3 seg/vel 5. Con la espátula, bajar los ingredientes hacia el fondo del vaso.",
+        "Añadir los calabacines, el agua, la pastilla de caldo, la sal y la pimienta y programar 15 min/100°C/vel 1.",
+        "Añadir la mantequilla y el queso. Triturar 1 min/vel 5-8 progresivamente."
       ]
     },
     "ingredients": {
       "Ingredientes": [
-        "3 calabacines (2 grandes y 1 pequeño)",
-        "2 puerros",
-        "2 patatas",
-        "1 paquete de Philadelphia"
+        "50 g de cebolla en trozos",
+        "1 diente de ajo (opcional)",
+        "700 g de calabacines en trozos",
+        "150 g de agua",
+        "1 pastilla de caldo Avecrem Pollo Gallina Blanca",
+        "1 cucharadita de sal",
+        "1 pellizco de pimienta molida",
+        "10 g de mantequilla",
+        "40 g de queso cremoso (Philadelphia)"
       ]
     },
     "difficulty": "Fácil",
