@@ -692,11 +692,10 @@
     "title": "Empanada de atún ",
     "steps": {
       "Preparación": [
-        "Picar la cebolla y los pimientos y rehogarlos en una sartén. Mientras se hace, hervir los 3 huevos duros.",
-        "Cuando el sofrito esté hecho, añadir en la sartén los huevos bien picados, las latas de atún (escurrir aceite) y el tomate frito. Remover.",
-        "Poner todo lo de la sartén en un colador para escurrir el líquido.",
-        "Poner una masa en la bandeja de horno (no quitar el papel). Añadir el relleno y distribuir bien. Dejar un poco de margen en los bordes para poder cerrarla. Poner la segunda masa encima y quitar papel. Cerrar hacia arriba los bordes y pinchar con un tenedor varías veces por el centro.",
-        "Poner a calentar el horno (mirar lo que ponga en el paquete 180-200 grados). Coger el huevo para decorar y separar clara de la yema. Quedarse con la yema. Ponerla en un cuenco y remover. Pintar la empanada para que se dore.",
+        "Picar la cebolla y los pimientos y rehogarlos en una sartén. Mientras tanto, hervir los 3 huevos duros.",
+        "Cuando el sofrito esté hecho, añadir en la sartén los huevos bien picados, las latas de atún (escurrir previamente el aceite) y el tomate frito. Remover. Pasar por un colador para escurrir el líquido.",
+        "Extender la masa en una bandeja de horno (sin quitar el papel). Añadir el relleno y distribuir bien. Dejar un poco de margen en los bordes para poder cerrarla. Poner la segunda masa encima y quitar papel. Cerrar hacia arriba los bordes y pinchar con un tenedor varías veces por el centro.",
+        "Precalentar el horno (mirar lo que ponga en el paquete 180-200 grados). Separar clara de la yema de un huevo y pintar la empanada con la yema para que se dore.",
         "Hornear según los tiempos del paquete (aprox 20-30 minutos)"
       ]
     },
@@ -4913,7 +4912,44 @@
     "portions": "6",
     "image": "https://i.ibb.co/HTc4ySHR/muesli.jpg",
     "date": "4/5/2026",
-    "author": "",
+    "author": "Blanca",
+    "imageComment": ""
+  },
+  {
+    "id": "149",
+    "title": "Pollo Grevenmacher",
+    "steps": {
+      "Preparación": [
+        "Poner el pollo troceado en una cazuela y dorarlo a fuego medio alto hasta que quede bien sellado por fuera. Salpimentar al gusto. Cuando esté dorado, retirarlo y reservar.",
+        "En la misma cazuela, añadir el puerro y el diente de ajo, ambos bien picados, y pochar a fuego medio.",
+        "Cuando las verduras estén pochadas, incorporar el vaso de brandy y dejar cocinar unos minutos para que se evapore el alcohol. Añadir después las cervezas y dejar hervir para que pierda también el alcohol.",
+        "Volver a incorporar el pollo reservado y cocinar durante 30 minutos a fuego medio suave.",
+        "Mientras tanto, lavar y trocear los champiñones. Añadirlos a la cazuela y cocinar durante unos 10 minutos más.",
+        "Incorporar la nata y la mostaza, mezclar bien y dejar hervir suavemente durante 5 minutos más. Retirar del fuego y dejar reposar unos minutos antes de servir.",
+        "Se puede acompañar con arroz blanco, pasta, patats fritas, puré de patata o cuscus."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "1 kg de pollo cortado en trozos de contramuslo (queda más jugoso)",
+        "200 g de champiñones",
+        "2 puerros",
+        "1 diente de ajo",
+        "100 ml de nata",
+        "4 cucharadas de mostaza (depende de lo fuerte que sea, ésta era suave)",
+        "1 vasito de Brandy",
+        "1/2 L de cerveza",
+        "Pimienta",
+        "Sal"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "main",
+    "time": "60",
+    "portions": "4",
+    "image": "https://i.ibb.co/S7NFLThz/pollo-grevenmacher.jpg ",
+    "date": "27/5/2026",
+    "author": "ChefJC",
     "imageComment": ""
   }
 ]
