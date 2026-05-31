@@ -8,7 +8,7 @@ import { ChevronArrowBack } from '../ui/SVG'
 
 export default function Page({ params }: { params: { section: string } }) {
   const router = useRouter()
-  const section = sections.find((s: any) => s.path === params.section)
+  const section = sections.find((s) => s.path === params.section)
 
   return (
     <>

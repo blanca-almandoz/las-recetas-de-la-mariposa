@@ -19,8 +19,8 @@ const SectionsWrapper = () => {
       <div className={sectionsContainer}>
         <div style={{ display: 'flex', gap: 32 }}>
           {sections.map((item) => (
-            <Link href={item.path}>
-              <div className={sectionItem} onClick={() => console.log('hola')}>
+            <Link href={item.path} key={item.path}>
+              <div className={sectionItem}>
                 <div className={sectionIlustration}>
                   <Image
                     src={item.image}
