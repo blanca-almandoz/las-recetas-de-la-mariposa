@@ -1,0 +1,144 @@
+[
+  {
+    "title": "Cerdo",
+    "path": "pork",
+    "image": "/images/animals/pork.svg",
+    "introduction": "El cerdo es una carne muy versátil y presente en muchísimas recetas tradicionales. Según la pieza y la calidad, cambia mucho el resultado final del plato.",
+    "sections": [
+      {
+        "header": "Cerdo blanco",
+        "content": "Opción económica y muy práctica para el día a día. Ideal para filetitos finos (aprox 9–10 €/kg) fáciles y rápidos de hacer a la plancha (los conocidos filetitos de excursión)."
+      },
+      {
+        "header": "Cerdo ibérico",
+        "content": "Carne más sabrosa pero también más cara. Para elaboraciones sencillas del día a día, muchas veces no compensa la diferencia de precio."
+      },
+      {
+        "header": "Chuletas de cerdo",
+        "content": "La chuleta natural es similar a la chuleta de Sajonia, pero sin adobar ni ahumar. Se puede hacer a la plancha, parrilla u horno."
+      },
+      {
+        "header": "Cinta de lomo",
+        "content": "También conocido como lomo fresco. Muy versátil: se puede hacer a la plancha, al horno o adobada (lomo adobado). Es magra y fácil de cocinar."
+      },
+      {
+        "header": "Costillas de cerdo",
+        "content": "Perfectas para horno o cocciones largas. Ideales para preparar estilo pulled pork o asadas lentamente hasta que la carne se despegue del hueso."
+      },
+      {
+        "header": "Embutidos",
+        "content": "Morcilla, chorizo y otros embutidos tradicionales aportan sabor y grasa a muchos platos de cuchara."
+      },
+      {
+        "header": "Para guisos",
+        "content": "En recetas como lentejas o judías, cualquier parte del cerdo aporta sabor. Son ingredientes que enriquecen el caldo y aportan profundidad al plato:\n • Oreja\n• Patas o manitas\n• Tocino\n• Panceta\n• Hueso de jamón"
+      },
+      {
+        "header": "Salchichas",
+        "content": "Mejor siempre de carnicería: más carne, mejor textura y sabor. Las industriales suelen ser de menor calidad."
+      },
+      {
+        "header": "Solomillo de cerdo",
+        "content": "Corte tierno y magro. Perfecto a la plancha, al horno o en medallones. Es una de las piezas más agradecidas del cerdo."
+      }
+    ]
+  },
+  {
+    "title": "Ternera",
+    "path": "veal",
+    "image": "/images/animals/veal.svg",
+    "introduction": "Vaca pequeña. Carne más tierna y de sabor suave. Ideal para quienes buscan una textura delicada y menos intensa que la vaca madura.",
+    "sections": [
+      {
+        "header": "Babilla (filetes de ternera blanca)",
+        "content": "Corte magro y tierno, ideal para filetes a la plancha. Es un poco más caro, pero merece la pena por su suavidad y sabor limpio."
+      },
+      {
+        "header": "Carne picada",
+        "content": "Es fundamental que se pase solo una vez por la máquina. Si se pica dos veces, pierde textura y se vuelve pastosa. "
+      },
+      {
+        "header": "Lomo alto y lomo bajo (entrecot)",
+        "content": "Ambos son ideales para filetes gruesos a la plancha o parrilla:\n • Lomo alto: más jugoso, con mayor grasa infiltrada (veteado). Textura más suelta y sabor más intenso.\n • Lomo bajo: más compacto, con una capa de grasa exterior. Sabor equilibrado y textura firme."
+      },
+      {
+        "header": "Morcillo de ternera",
+        "content": "Perfecto para guisos y estofados. Recomendado el morcillo delantero, ya que es más jugoso y meloso que el trasero gracias a su mayor contenido en colágeno. Tras una cocción lenta, queda espectacular."
+      },
+      {
+        "header": "Solomillo",
+        "content": "Uno de los cortes más tiernos y valorados. Precio aproximado: 35–40€/kg. Perfecto para hacer a la plancha o al punto, ya que su textura es extremadamente suave. Es una opción más exclusiva."
+      },
+
+      {
+        "header": "Tapilla",
+        "content": "Muy buena opción para carne guisada o asada. Se cocina de forma similar al redondo: admite bien cocciones largas y salsas, quedando tierna si se respeta el tiempo adecuado."
+      }
+    ]
+  },
+  {
+    "title": "Vaca o toro",
+    "path": "cow",
+    "image": "/images/animals/cow.svg",
+    "introduction": "Animal afable que le gusta mucho el pan. Su carne suele tener un sabor más intenso y profundo que la ternera, especialmente en ejemplares de mayor edad.",
+    "sections": [
+      {
+        "header": "Rabo de vaca o toro",
+        "content": "Corte ideal para guisos largos y tradicionales como el rabo de toro. Es una pieza con mucho colágeno y tejido conectivo, lo que requiere cocción lenta y prolongada. A cambio, ofrece una textura melosa y una salsa llena de sabor. Perfecto para recetas de cuchara y platos contundentes."
+      }
+    ]
+  },
+  {
+    "title": "Cordero",
+    "path": "lamb",
+    "image": "/images/animals/lamb.svg",
+    "introduction": "Muy recomendable elegir cordero lechal. Su carne es mucho más tierna y menos intensa que la de un cordero más grande.",
+    "sections": [
+      {
+        "header": "Chuletas",
+        "content": "Son la parte más cara del cordero. Perfectas para hacer a la plancha o a la parrilla. Existen dos tipos según la zona de corte. Ambas son igual de sabrosas; la diferencia es principalmente estética y de forma:\n • Chuletas de palo (de hueso): más vistosas y “pintonas”, con el hueso largo característico.\n • Chuletas de riñonada: más pequeñas y redondeadas."
+      },
+      {
+        "header": "Paletilla y pierna",
+        "content": "Son las piezas clásicas para asar al horno.\n • Paletilla: más jugosa y sabrosa. Tiene algo menos de carne, pero resulta más melosa gracias a su mayor proporción de grasa.\n • Pierna: pieza más grande y con más carne. Es algo más magra y puede resultar un poco más seca si no se controla bien el punto."
+      }
+    ]
+  },
+  {
+    "title": "Pollo y pavo",
+    "path": "chicken",
+    "image": "/images/animals/chicken.svg",
+    "introduction": "Carne económica, versátil y muy fácil de cocinar.Más sabroso y con mejor textura que el blanco. El pollo amarillo es un poco más caro pero suele compensar en sabor. El pavo es carne más magra y de sabor suave; es la opción clásica para Navidad o celebraciones especiales.",
+    "sections": [
+      {
+        "header": "Alitas",
+        "content": "Ideales para horno, freidora de aire o fritas. Tienen más grasa y piel, por eso quedan especialmente sabrosas."
+      },
+      {
+        "header": "Contramuslo",
+        "content": "La parte más jugosa del pollo.\n • Recomendación clara: pedirlo deshuesado. Es mucho más cómodo y el resultado es infinitamente más sabroso que la pechuga. Si lo pides cortado en trozos, es de lo más jugoso que puedes usar. Perfecto para:\n • Caldo: lo ideal es añadir 1 muslo y 1 contramuslo. Aportan más sabor que usar solo pechuga.\n • Pollo al curry\n • Guisos y arroces\n • Horno"
+      },
+      {
+        "header": "Cuarto trasero",
+        "content": "Es la pieza completa formada por muslo + contramuslo. Muy buena opción para horno y asados. También puedes comprar:\n • Muslos sueltos\n • Contramuslos sueltos"
+      },
+      {
+        "header": "Patas y otras piezas",
+        "content": "En general no suelen merecer mucho la pena: son menos jugosas y menos versátiles que las de pollo."
+      },
+      {
+        "header": "Pechuga",
+        "content": "Es la parte más magra y también la más seca. No es la mejor opción para guisos largos porque tiende a secarse. Ideal para:\n • Filetes finitos a la plancha\n • Fajitas\n • Ensaladas\n • Recetas rápidas"
+      },
+
+      {
+        "header": "Pechuga de pavo",
+        "content": "Es lo que más se vende y suele dar buen resultado para filetes o preparaciones ligeras."
+      },
+      {
+        "header": "Solomillo de pollo",
+        "content": "Es una parte pequeña y más cara. No suele merecer la pena pagar el sobreprecio, ya que el contra muslo ofrece mejor resultado por menos dinero."
+      }
+    ]
+  }
+]

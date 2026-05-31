@@ -5,6 +5,7 @@ import { searchRecipes } from '@/lib/utils'
 import { CardContainer } from './ui/card/CardContainer'
 import { Footer } from './ui/footer/Footer'
 import { Title } from './ui/title/Title'
+import { SectionsWrapper } from './ui/sections/SectionsWrapper'
 
 interface DateItem {
   date: string
@@ -35,6 +36,7 @@ export default function Home({
   return (
     <>
       <Title />
+      <SectionsWrapper />
       <CardContainer recipes={sortedRecipes} hasTitle hasHorizontalScroll />
       <IntroContainer />
       <Footer hasMargin={false} />

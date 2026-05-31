@@ -48,7 +48,6 @@ export const recipeTitle = style({
   '@media': {
     'screen and (max-width: 887px)': {
       fontSize: 28,
-      marginLeft: 8,
     },
   },
 })

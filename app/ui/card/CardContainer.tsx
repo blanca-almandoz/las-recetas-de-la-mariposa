@@ -3,7 +3,7 @@ import { wrapperContent, horizontalScroll } from '../topLevelWrapper/styles.css'
 import { TopLevelWrapper } from '../topLevelWrapper/TopLevelWrapper'
 import { DetailsPageAnimations } from '../animations/DetailsPageAnimations'
 import { Card } from './Card'
-import { cardWithTitle } from './styles.css'
+import { stylesTitle } from './styles.css'
 import clsx from 'clsx'
 
 interface CardContainerType {
@@ -21,7 +21,7 @@ const CardContainer = ({
 }: CardContainerType) => {
   return (
     <TopLevelWrapper>
-      {hasTitle && <div className={cardWithTitle}>Novedades</div>}
+      {hasTitle && <div className={stylesTitle}>Novedades</div>}
       <div
         className={clsx(
           wrapperContent,

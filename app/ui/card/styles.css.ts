@@ -17,9 +17,9 @@ export const cardImage = style({
   overflow: 'hidden',
 })
 
-export const cardWithTitle = style({
+export const stylesTitle = style({
   fontWeight: 500,
-  fontSize: 16,
+  fontSize: 20,
   marginBottom: 8,
   color: vars.color.body,
 })

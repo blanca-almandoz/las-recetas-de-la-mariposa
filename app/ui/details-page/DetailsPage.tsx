@@ -105,7 +105,9 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
       {/* MOBILE */}
       <DetailsPageAnimations>
         <div className={recipeWrapperMobile}>
-          <div className={recipeTitle}>{title.toUpperCase()}</div>
+          <div className="px-6 md:px-8">
+            <div className={recipeTitle}>{title.toUpperCase()}</div>
+          </div>
           <div>
             <ImageComponent />
             <Information recipe={recipe} />
