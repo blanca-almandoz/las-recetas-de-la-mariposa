@@ -3030,24 +3030,22 @@
     "steps": {
       "Preparación": [
         "Cortar la cebolla en juliana fina.",
-        "Poner en una sartén con bien de aceite a fuego medio(6).",
-        "A los 10', bajar al 4 y poner una tapa para que se haga antes",
-        "Cuando la cebolla esté empezando a cambiar de color, añadir el azúcar y el vinagre.",
+        "Poner en una sartén con bien de aceite a fuego suave (3) durate aproximadamete 1 hora. Poner la tapa para que se cocine mejor y el calor sea más uniforme.",
+        "Ver que la cebolla ha cambiado de color y añadir el azúcar.",
         "Remover y dejar que se termine de hacer."
       ]
     },
     "ingredients": {
       "Ingredientes": [
         "1 cebolla​",
-        "2 cucharadas soperas colmadas de azúcar",
-        "Un chorrito de vinagre"
+        "2 cucharadas soperas colmadas de azúcar"
       ]
     },
     "difficulty": "Fácil",
     "category": "siders",
     "time": "40",
     "portions": "",
-    "image": "",
+    "image": "https://i.ibb.co/zWc5NCns/cebolla-caramelizada.jpg ",
     "date": "19/06/2024",
     "author": "Chef JC",
     "imageComment": ""
@@ -4949,6 +4947,187 @@
     "portions": "4",
     "image": "https://i.ibb.co/S7NFLThz/pollo-grevenmacher.jpg ",
     "date": "27/5/2026",
+    "author": "ChefJC",
+    "imageComment": ""
+  },
+  {
+    "id": "150",
+    "title": "Juan Pastas",
+    "steps": {
+      "Preparación": [
+        "Poner la mantequilla en pomada en el interior de un bol, agregar el azúcar glass y la yema de huevo y batir bien.",
+        "A continuación añadir la sal, las ralladuras y la leche.",
+        "Por último incorporar la harina de golpe y mezclar hasta obtener una masa homogénea.",
+        "Cargar con la mezcla una manga pastelera y con la boquilla rizada, formar las pastas sobre una bandeja del horno, cubierta con papel de horno.",
+        "Por último, hornear a 180º durante 10 minutos aproximadamente. Una vez frías bañarlas con el chocolate."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "150 g mantequilla",
+        "80 g azúcar glass",
+        "1 yema de huevo",
+        "200 g harina",
+        "40 ml leche",
+        "Ralladura de limón y naranja",
+        "Sal"
+      ]
+    },
+    "difficulty": "Medio",
+    "category": "desserts",
+    "time": "60",
+    "portions": "",
+    "image": "",
+    "date": "10/8/2026",
+    "author": "Juan",
+    "imageComment": ""
+  },
+  {
+    "id": "151",
+    "title": "Empanada de bacalao",
+    "steps": {
+      "Preparación": [
+        "Cocer los huevos.",
+        "Picar las cebollas y sofreir lentamente en dos cucharadas de aceite durante a fuego medio-bajo. Añadir el pimiento y el ajo picado.",
+        "Cuando el sofrito esté hecho, añadir el pimentón dulce y el laurel. Incorporar el tomate frito y cocinar hasta que se espese un poco. Salpimentar.",
+        "Añadir el bacalao desmigado al sofrito. Cocinar 3-5 minutos aproximadamente, solo hasta que se integre bien, sin pasarse para que quede jugoso.",
+        "Añadir los huevos picados y remover suavemente. Si el relleno ha quedado muy líquido, pasar por un colador. Dejar que el relleno se enfríe antes de colocar sobre el hojaldre.",
+        "Extender la masa en una bandeja de horno (sin quitar el papel). Añadir el relleno y distribuir bien. Dejar un poco de margen en los bordes para poder cerrarla. Poner la segunda masa encima y quitar papel. Cerrar hacia arriba los bordes y pinchar con un tenedor varías veces por el centro.",
+        "Precalentar el horno (mirar lo que ponga en el paquete 180-200 grados). Separar clara de la yema de un huevo y pintar la empanada con la yema para que se dore.",
+        "Hornear según los tiempos del paquete (aprox 20-30 minutos)"
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "2 masas de empanada",
+        "1 bolsa de migas de bacalao 250 g",
+        "1 pimiento rojo",
+        "2 pimientos verdes",
+        "1 cebolla",
+        "1/2 bote de tomate frito",
+        "2 huevos duros",
+        "2 dientes de ajo",
+        "1/2 cucharadita de pimentón dulce",
+        "Laurel seco"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "starters",
+    "time": "90",
+    "portions": "6",
+    "image": "https://i.ibb.co/zVqcJGBs/empanada-bacalao.jpg ",
+    "date": "10/8/2026",
+    "author": "Marta",
+    "imageComment": ""
+  },
+  {
+    "id": "152",
+    "title": "Quiche de calabacín y puerro",
+    "steps": {
+      "Preparación": [
+        "En una sartén poner el bacon a fuego medio hasta que esté dorado. Retirar.",
+        "Precalentar el horno a 200ºC. En un molde redondo, colocar la masa y pinchar con un tenedor. Cubrir la masa con papel de horno y colocar encima aproximadamente 1 kg de arroz, para evitar que la masa suba durante el horneado.  Dejar 30 min o hasta que los bordes estén dorados. Sacar del horno.",
+        "Mientras tanto, poner 300 ml de agua en el vaso de la Thermonix. Cortar el calabacín en dados y el puerro en rodajas y colocar en el recipiente Varoma. Tapar el Varoma y programar 20 min/Varoma/vel 1.",
+        "Retirar el Varoma y desechar el agua del vaso. Poner la cebolla y el aceite. Trocear 2 seg/vel 5 y sofrerír 7 min/120°C/vel 1.",
+        "Añadir al vaso el calabacín y la maicena y trocear 3 seg/vel 4.",
+        "Añadir la nata, el bacon, los huevos, la mozzarella (rallarla con rallador), la sal y la pimienta. Mezclar 10 seg/sentido invertido/vel 3.",
+        "Precaliente el horno a 180°C.",
+        "En el molde con la masa ya hecha, vertir encima el relleno y hornear a 180°C durante 25-30 minutos (hasta que la superficie esté firme y dorada). Deje templar antes de servir (también puede tomarse fría)."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "1 masa brisa o masa quebrada (recomendable que sea redonda)",
+        "1 paquete de bacon (100 g)",
+        "1 cebolla (50 g)",
+        "2 calabacines (800 g)",
+        "1 puerro (200 g)",
+        "4 huevos",
+        "1 mozarella",
+        "70 g nata",
+        "30 g maicena",
+        "50 g aceite de oliva",
+        "Pimienta",
+        "Sal"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "starters",
+    "time": "90",
+    "portions": "10",
+    "image": "https://i.ibb.co/39wB2W9s/quiche-calabacin.jpg",
+    "date": "24/8/2026",
+    "author": "Blanca",
+    "imageComment": ""
+  },
+  {
+    "id": "153",
+    "title": "Cabeza de cerdo",
+    "steps": {
+      "Preparación": [
+        "Salpimentar la carne. En la olla exprés poner bien de aceite y sellar. Añadir los botellines de cerveza y dejar hasta que se haya evaporado el alcohol.",
+        "Tapar y subir para que suban los aritos. Cuando salgan los dos aritos dejar 35 minutos al 3.",
+        "Apagar fuego y dejar que se bajen los aritos.",
+        "Sacar la carne y envolver en papel Albal para que se reorganicen los jugos.",
+        "Reducir el caldo caldo de la olla: dejar hirviendo 45 minutos. Cuando se reduce a 1/3 de lo que había, añadir un paquete de nata, champiñones, sal, pimienta y mostaza. Dejar hervir 15 minutos e ir probando.",
+        "Pelar las verduras, cortar finito y poner en una sartén tapada para que se cueza la patata. Luego quitar la tapa para que la patata tenga ese color de “cómeme”.",
+        "Desenvolver carne. El jugo que suelte la carne echar a la salsa.",
+        "Cortar carne en rodajas."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "Cabeza de lomo de cerdo de Mercadona 1,300 kg",
+        "5 patatas medianas",
+        "1 cebolla",
+        "2 zanahorias",
+        "2 dientes de ajo",
+        "Medio pimiento rojo (no pasa nada si no tienes)",
+        "Nata",
+        "Champiñones",
+        "2 botellines de cerveza",
+        "Buen chorro de mostaza",
+        "Pimienta",
+        "Sal"
+      ]
+    },
+    "difficulty": "Medio",
+    "category": "main",
+    "time": "90",
+    "portions": "6",
+    "image": "https://i.ibb.co/zT19tkKz/cabeza-cerdo.jpg",
+    "date": "24/8/2026",
+    "author": "ChefJC",
+    "imageComment": "Esto está tan rico como barato es. O sea, mucho."
+  },
+  {
+    "id": "154",
+    "title": "Empanadillas",
+    "steps": {
+      "Preparación": [
+        "Cocer los huevos.",
+        "Picar verduras. Rehogar. Cuando está hecho, apagar el fuego y añadir huevos, atún y tomate y remover.",
+        "En un plato, poner una oblea y rellenar con poquito. Doblar por la mitad y cerrar con las marcas de un tenedor.",
+        "Freír empanadillas en una sartén pequeña aparte o asar en el horno (tiempos del horno próximamente)."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "Obleas de empanadilla (16 unidades)",
+        "1 pimiento verde",
+        "⁠1/2 pimiento rojo",
+        "⁠1/2 cebolleta",
+        "⁠2 huevos duros",
+        "⁠2 latas de atún",
+        "⁠1 bote pequeño de tomate frito ⁠  ⁠"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "starters",
+    "time": "60",
+    "portions": "4",
+    "image": "https://i.ibb.co/dhqCQ3G/empanadillas.jpg ",
+    "date": "24/8/2026",
     "author": "ChefJC",
     "imageComment": ""
   }
