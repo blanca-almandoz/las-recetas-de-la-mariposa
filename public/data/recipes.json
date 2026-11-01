@@ -21,7 +21,7 @@
     "category": "starters",
     "time": "60",
     "portions": "6",
-    "image": "https://i.ibb.co/dtX2DPs/alcachofas.jpg ",
+    "image": "/images/recipes/alcachofas.webp",
     "date": "12/04/2024",
     "author": "Chef JC",
     "imageComment": "Alcachofas sabrosonas"
@@ -52,7 +52,7 @@
     "category": "starters",
     "time": "60",
     "portions": "4",
-    "image": "https://i.ibb.co/nkMj2hr/brecol.jpg ",
+    "image": "/images/recipes/brecol.webp",
     "date": "6/04/2024",
     "author": "Chef JC",
     "imageComment": "Para los que no les gusta el brécol"
@@ -80,7 +80,7 @@
     "category": "starters",
     "time": "20",
     "portions": "6",
-    "image": "https://i.ibb.co/vXkwwGx/berenjenas-rebozadas.jpg ",
+    "image": "/images/recipes/berenjenas-rebozadas.webp",
     "date": "06/08/2024",
     "author": "Chef JC",
     "imageComment": "Ojito que se comen como pipas"
@@ -111,7 +111,7 @@
     "category": "starters",
     "time": "40",
     "portions": "6",
-    "image": "https://i.ibb.co/4KrKXVc/champi-ones-rellenos.jpg ",
+    "image": "/images/recipes/champi-ones-rellenos.webp",
     "date": "12/04/2024",
     "author": "Chef JC",
     "imageComment": "Están mejor que en la foto"
@@ -141,7 +141,7 @@
     "category": "starters",
     "time": "15",
     "portions": "6",
-    "image": "https://i.ibb.co/6WGnZ7B/langostinos.png ",
+    "image": "/images/recipes/langostinos.webp",
     "date": "06/08/2022",
     "author": "Chef JC",
     "imageComment": "Fresquitos y sabrosos. Gran aperitivo/primer plato"
@@ -176,7 +176,7 @@
     "category": "starters",
     "time": "20",
     "portions": "6",
-    "image": "https://i.ibb.co/0rxbF9K/coctail-langostinos.png ",
+    "image": "/images/recipes/coctail-langostinos.webp",
     "date": "06/05/2022",
     "author": "Chef JC",
     "imageComment": "Era lo más en las bodas de los 80. Revindiquémoslo"
@@ -205,7 +205,7 @@
     "category": "starters",
     "time": "30",
     "portions": "12",
-    "image": "https://i.ibb.co/m5XNXpr5/crema-cabrales.jpg ",
+    "image": "/images/recipes/crema-cabrales.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "No se lo esperan, ya verás. Y te copiarán.\nLos que lo prueban, te piden la receta. Ya lo verás"
@@ -235,7 +235,7 @@
     "category": "starters",
     "time": "45",
     "portions": "12",
-    "image": "https://i.ibb.co/2W2HzWw/fingers-pollo.png ",
+    "image": "/images/recipes/fingers-pollo.webp",
     "date": "13/12/2022",
     "author": "Chef JC",
     "imageComment": "Como los de McDonalds, pero buenos"
@@ -263,7 +263,7 @@
     "category": "starters",
     "time": "10",
     "portions": "12",
-    "image": "https://i.ibb.co/K5nyDw7/guacamole.jpg ",
+    "image": "/images/recipes/guacamole.webp",
     "date": "26/08/2023",
     "author": "Chef JC",
     "imageComment": "Cuando lo pruebes no volverás a comprar el de Mercadona"
@@ -289,7 +289,7 @@
     "category": "starters",
     "time": "10",
     "portions": "",
-    "image": "https://i.ibb.co/55gd41H/gilda-comoda.jpg ",
+    "image": "/images/recipes/gilda-comoda.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Una tontería ocurrente."
@@ -320,7 +320,7 @@
     "category": "starters",
     "time": "20",
     "portions": "6",
-    "image": "https://i.ibb.co/KVWq1Hx/huevos-rellenos.png ",
+    "image": "/images/recipes/huevos-rellenos.webp",
     "date": "25/12/2019",
     "author": "Chef JC",
     "imageComment": "Ten cuidado, porque si pones muchos, luego ya no prueban la cena"
@@ -347,7 +347,7 @@
     "category": "starters",
     "time": "10",
     "portions": "6",
-    "image": "https://i.ibb.co/GsVw80z/pajaritos.jpg",
+    "image": "/images/recipes/pajaritos.webp",
     "date": "08/09/2020",
     "author": "Chef JC",
     "imageComment": "Un clásico de Jurucha. Imbatible. Gusta a todo el mundo."
@@ -379,7 +379,7 @@
     "category": "starters",
     "time": "60",
     "portions": "6",
-    "image": "https://i.ibb.co/s2zVTv3/quiche-espinacas.jpg ",
+    "image": "/images/recipes/quiche-espinacas.webp",
     "date": "24/03/2024",
     "author": "Chef JC",
     "imageComment": "Lo de las espinacas es para que parezca que no engorda. Y es mentira"
@@ -412,7 +412,7 @@
     "category": "starters",
     "time": "120",
     "portions": "6",
-    "image": "https://i.ibb.co/GvYp8XZ2/quiche.jpg ",
+    "image": "/images/recipes/quiche.webp",
     "date": "03/04/2026",
     "author": "Chef JC",
     "imageComment": "Esta es la quiche de verdad. Infalible. La quiche es para los franceses como para nosotros la tortilla de patata."
@@ -482,7 +482,7 @@
     "category": "starters",
     "time": "90",
     "portions": "6",
-    "image": "https://i.ibb.co/s9j5GHB2/tortilla-bacalao.jpg ",
+    "image": "/images/recipes/tortilla-bacalao.webp",
     "date": "18/05/2025",
     "author": "Chef JC",
     "imageComment": "Sin ninguna duda, estupenda. Hazla una vez y repetirás."
@@ -512,7 +512,7 @@
     "category": "starters",
     "time": "75",
     "portions": "",
-    "image": "https://i.ibb.co/Q9vqjbR/tortilla-de-patata.jpg ",
+    "image": "/images/recipes/tortilla-de-patata.webp",
     "date": "29/07/2021",
     "author": "Chef JC",
     "imageComment": "Todo el mundo piensa que su tortilla es la mejor. FALSO. Esta es la mejor"
@@ -539,7 +539,7 @@
     "category": "starters",
     "time": "10",
     "portions": "",
-    "image": "https://i.ibb.co/KX55fJM/tostadas-con-jamon.jpg ",
+    "image": "/images/recipes/tostadas-con-jamon.webp",
     "date": "10/06/2022",
     "author": "Chef JC",
     "imageComment": "Recomendables en desayuno, meriendas y cenas. Lo puedes tomar con achoas."
@@ -596,7 +596,7 @@
     "category": "main",
     "time": "60",
     "portions": "",
-    "image": "https://i.ibb.co/0j9PDZx/brunch-reyes.png ",
+    "image": "/images/recipes/brunch-reyes.webp",
     "date": "06/01/2021",
     "author": "Chef JC",
     "imageComment": "Y después, a jugar con los juguetes"
@@ -628,7 +628,7 @@
     "category": "starters",
     "time": "60",
     "portions": "",
-    "image": "https://i.ibb.co/ZdwrQw8/pisto.jpg ",
+    "image": "/images/recipes/pisto.webp",
     "date": "06/04/2020",
     "author": "Chef JC",
     "imageComment": "El acompañamiento. perfecto para todo: carne, pollo o pescado a la plancha y por supuesto con huevos fritos."
@@ -653,7 +653,7 @@
     "category": "starters",
     "time": "15",
     "portions": "",
-    "image": "https://i.ibb.co/RCcttKn/morcilla.jpg ",
+    "image": "/images/recipes/morcilla.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Esto evidentemente no es una receta. Sirve para aprender a freir la morcilla sin odiarla por lo que mancha."
@@ -682,7 +682,7 @@
     "category": "starters",
     "time": "15",
     "portions": "",
-    "image": "https://i.ibb.co/zPvv9Q5/alioli.jpg ",
+    "image": "/images/recipes/alioli.webp",
     "date": "12/07/2020",
     "author": "Chef JC",
     "imageComment": "El alioli de verdad no lleva mayonesa, pero así es más fácil. Esta nota es para los puristas."
@@ -714,7 +714,7 @@
     "category": "starters",
     "time": "50",
     "portions": "6",
-    "image": "https://i.ibb.co/0rdTRPR/empanada.jpg ",
+    "image": "/images/recipes/empanada.webp",
     "date": "28/03/2024",
     "author": "Chef JC",
     "imageComment": "Verás cómo desaparece rápidamente del plato. Al principio. les da pereza, pero en cuanto la prueban, desaparece."
@@ -747,7 +747,7 @@
     "category": "starters",
     "time": "50",
     "portions": "",
-    "image": "https://i.ibb.co/9wnmnBN/patata-colonia.jpg ",
+    "image": "/images/recipes/patata-colonia.webp",
     "date": "7/12/2019",
     "author": "Mercadillos Navidad Colonia",
     "imageComment": "Además de calentarte las manos, están muy buenas. Muy alemanas"
@@ -777,7 +777,7 @@
     "category": "starters",
     "time": "30",
     "portions": "",
-    "image": "https://i.ibb.co/HqB7mgt/pan-bomba.jpg ",
+    "image": "/images/recipes/pan-bomba.webp",
     "date": "30/09/2023",
     "author": "Lilo",
     "imageComment": "El nombre de la receta lo dice todo. Explota seguro."
@@ -812,7 +812,7 @@
     "category": "main",
     "time": "120",
     "portions": "6",
-    "image": "https://i.ibb.co/ySmLFQq/risotto-conejo.png ",
+    "image": "/images/recipes/risotto-conejo.webp",
     "date": "06/10/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -865,7 +865,7 @@
     "category": "main",
     "time": "75",
     "portions": "8",
-    "image": "https://i.ibb.co/HBtF8tt/albondigas.png ",
+    "image": "/images/recipes/albondigas.webp",
     "date": "09/04/2023",
     "author": "Chef JC",
     "imageComment": ""
@@ -903,7 +903,7 @@
     "category": "main",
     "time": "90",
     "portions": "4",
-    "image": "https://i.ibb.co/LdfLhpJ/berenjenas-rellenas.jpg ",
+    "image": "/images/recipes/berenjenas-rellenas.webp",
     "date": "30/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -934,7 +934,7 @@
     "category": "main",
     "time": "60",
     "portions": "4",
-    "image": "https://i.ibb.co/Vtpv5Gq/Cachopo.jpg ",
+    "image": "/images/recipes/cachopo.webp",
     "date": "30/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -968,7 +968,7 @@
     "category": "main",
     "time": "180",
     "portions": "4",
-    "image": "https://i.ibb.co/T4gVCfX/cordero.jpg ",
+    "image": "/images/recipes/cordero.webp",
     "date": "09/11/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -999,7 +999,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/TmcYqxT/pechugas-de-pavo-pedro-ximenez.jpg ",
+    "image": "/images/recipes/pechugas-de-pavo-pedro-ximenez.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1028,7 +1028,7 @@
     "category": "main",
     "time": "20",
     "portions": "4",
-    "image": "https://i.ibb.co/r7srNqj/pechuga-pollo.jpg ",
+    "image": "/images/recipes/pechuga-pollo.webp",
     "date": "13/10/2021",
     "author": "",
     "imageComment": ""
@@ -1054,7 +1054,7 @@
     "category": "main",
     "time": "20",
     "portions": "4",
-    "image": "https://i.ibb.co/WKpbxPM/pollo-frito.jpg ",
+    "image": "/images/recipes/pollo-frito.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1095,7 +1095,7 @@
     "category": "main",
     "time": "15",
     "portions": "",
-    "image": "https://i.ibb.co/55qbX5n/arroz-a-la-cubana.png ",
+    "image": "/images/recipes/arroz-a-la-cubana.webp",
     "date": "29/06/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -1127,7 +1127,7 @@
     "category": "main",
     "time": "15",
     "portions": "4",
-    "image": "https://i.ibb.co/m0krFfc/steak-tartar.jpg",
+    "image": "/images/recipes/steak-tartar.webp",
     "date": "15/09/2022",
     "author": "Chef JC",
     "imageComment": ""
@@ -1158,7 +1158,7 @@
     "category": "main",
     "time": "45",
     "portions": "4",
-    "image": "https://i.ibb.co/3zmc8Yn/pollo-curry.jpg",
+    "image": "/images/recipes/pollo-curry.webp",
     "date": "14/09/2024",
     "author": "Chef JC",
     "imageComment": "Vuelo directo a Bombay"
@@ -1189,7 +1189,7 @@
     "category": "main",
     "time": "60",
     "portions": "4",
-    "image": "https://i.ibb.co/Qdz6JLt/arroz-conejo.jpg",
+    "image": "/images/recipes/arroz-conejo.webp",
     "date": "21/02/2023",
     "author": "Chef JC",
     "imageComment": ""
@@ -1224,7 +1224,7 @@
     "category": "main",
     "time": "60",
     "portions": "4",
-    "image": "https://i.ibb.co/7QWpTg9/conejo-en-salsa.jpg ",
+    "image": "/images/recipes/conejo-en-salsa.webp",
     "date": "25/10/2022",
     "author": "Chef JC",
     "imageComment": ""
@@ -1263,7 +1263,7 @@
     "category": "main",
     "time": "90",
     "portions": "6",
-    "image": "https://i.ibb.co/1tYn8y0F/pastel-carne.jpg ",
+    "image": "/images/recipes/pastel-carne.webp",
     "date": "10/05/2026",
     "author": "Marta",
     "imageComment": ""
@@ -1331,7 +1331,7 @@
     "category": "main",
     "time": "480",
     "portions": "20",
-    "image": "https://i.ibb.co/TWy5TvP/pavo-navidad.jpg ",
+    "image": "/images/recipes/pavo-navidad.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Hasta que probé el pavo en casa de Marina, pensaba que un trozo de pavo era lo mismo que un trozo de alpargata. Error. Es una receta larga pero deliciosa. Hazla y repetirás todos los años."
@@ -1360,7 +1360,7 @@
     "category": "main",
     "time": "80",
     "portions": "6",
-    "image": "https://i.ibb.co/sjXLVT7/pollo-aburrido.png",
+    "image": "/images/recipes/pollo-aburrido.webp",
     "date": "25/10/2022",
     "author": "Chef JC y Teresa",
     "imageComment": ""
@@ -1402,7 +1402,7 @@
     "category": "main",
     "time": "120",
     "portions": "6",
-    "image": "https://i.ibb.co/SnrzYZX/roastbeef.jpg ",
+    "image": "/images/recipes/roastbeef.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1437,7 +1437,7 @@
     "category": "main",
     "time": "60",
     "portions": "6",
-    "image": "https://i.ibb.co/p1GdNYv/tartiflette.png ",
+    "image": "/images/recipes/tartiflette.webp",
     "date": "26/01/2024",
     "author": "Chef JC",
     "imageComment": "Para comer sólo cuando haga frío, ya que la sensación de calor es tremenda. Comerlo en verano es ilegal."
@@ -1472,7 +1472,7 @@
     "category": "main",
     "time": "60",
     "portions": "6",
-    "image": "https://i.ibb.co/jRRt2fm/pimientos-rellenos.jpg",
+    "image": "/images/recipes/pimientos-rellenos.webp",
     "date": "31/05/2021",
     "author": "Chef JC",
     "imageComment": "No ahorres en los pimientos. Compra los mejores que puedas. No hay gran diferencia de precio entre unos y otros,  pero la diferencia al final es tremenda."
@@ -1507,7 +1507,7 @@
     "category": "main",
     "time": "90",
     "portions": "6",
-    "image": "https://i.ibb.co/NpBHSBf/arroz-bogavante.jpg",
+    "image": "/images/recipes/arroz-bogavante.webp",
     "date": "11/08/2023",
     "author": "Chef JC",
     "imageComment": ""
@@ -1543,7 +1543,7 @@
     "category": "main",
     "time": "90",
     "portions": "6",
-    "image": "https://i.ibb.co/0FBRnJW/arroz-pescado.jpg",
+    "image": "/images/recipes/arroz-pescado.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1572,7 +1572,7 @@
     "category": "main",
     "time": "20",
     "portions": "",
-    "image": "https://i.ibb.co/Kw5zBrc/pescadito-basico.png ",
+    "image": "/images/recipes/pescadito-basico.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Es una receta muy básica y sencilla, pero hay que apreder a darle el punto de fritura al pescado"
@@ -1600,7 +1600,7 @@
     "category": "main",
     "time": "30",
     "portions": "",
-    "image": "https://i.ibb.co/ByCgLDh/bacalao-au-bras-jose.jpg ",
+    "image": "/images/recipes/bacalao-au-bras-jose.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Esta receta es una invención sobre la tradicional receta de Bacalao a bras portuguesa. Mil perdones a los portugueses"
@@ -1676,7 +1676,7 @@
     "category": "main",
     "time": "120",
     "portions": "6",
-    "image": "https://i.ibb.co/k8DYhMb/potaje-semana-santa.jpg ",
+    "image": "/images/recipes/potaje-semana-santa.webp",
     "date": "29/03/2024",
     "author": "Chef JC",
     "imageComment": "Amén"
@@ -1708,7 +1708,7 @@
     "category": "main",
     "time": "120",
     "portions": "4",
-    "image": "https://i.ibb.co/51WdZRF/garbanzos-con-chocos.jpg ",
+    "image": "/images/recipes/garbanzos-con-chocos.webp",
     "date": "12/12/2023",
     "author": "Chef JC",
     "imageComment": ""
@@ -1752,7 +1752,7 @@
     "category": "main",
     "time": "240",
     "portions": "",
-    "image": "https://i.ibb.co/fSW50YG/rabo-de-toro.png ",
+    "image": "/images/recipes/rabo-de-toro.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1785,7 +1785,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/KKFXG7z/lentejas.png ",
+    "image": "/images/recipes/lentejas.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Asi de fácil y así de bueno"
@@ -1820,7 +1820,7 @@
     "category": "main",
     "time": "60",
     "portions": "",
-    "image": "https://i.ibb.co/7VDdbfr/guiso-pescado.png",
+    "image": "/images/recipes/guiso-pescado.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1866,7 +1866,7 @@
     "category": "main",
     "time": "90",
     "portions": "6",
-    "image": "https://i.ibb.co/0GxKXpy/patatas-costillas.png",
+    "image": "/images/recipes/patatas-costillas.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1899,7 +1899,7 @@
     "category": "main",
     "time": "120",
     "portions": "6",
-    "image": "https://i.ibb.co/QP3rfqm/fabes.jpg ",
+    "image": "/images/recipes/fabes.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1938,7 +1938,7 @@
     "category": "main",
     "time": "90",
     "portions": "4",
-    "image": "https://i.ibb.co/pzSt9pd/patatas-riojanas.jpg ",
+    "image": "/images/recipes/patatas-riojanas.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -1977,7 +1977,7 @@
     "category": "main",
     "time": "90",
     "portions": "4",
-    "image": "https://i.ibb.co/rmx6QkR/canelones.jpg ",
+    "image": "/images/recipes/canelones.webp",
     "date": "16/05/2024",
     "author": "Chef JC",
     "imageComment": ""
@@ -2009,7 +2009,7 @@
     "category": "main",
     "time": "40",
     "portions": "",
-    "image": "https://i.ibb.co/HB3bqMC/espaguetis-champinones.png ",
+    "image": "/images/recipes/espaguetis-champinones.webp",
     "date": "01/03/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -2039,7 +2039,7 @@
     "category": "main",
     "time": "40",
     "portions": "4",
-    "image": "https://i.ibb.co/v3Cwff3/espaguetis-puerro.png ",
+    "image": "/images/recipes/espaguetis-puerro.webp",
     "date": "14/05/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -2069,7 +2069,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/h99MpSS/espaguetis-carbonara.png ",
+    "image": "/images/recipes/espaguetis-carbonara.webp",
     "date": "18/04/2020",
     "author": "Álvaro",
     "imageComment": ""
@@ -2098,7 +2098,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/vz7L24s/carbonara.png",
+    "image": "/images/recipes/carbonara.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -2130,7 +2130,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/WFNHGHw/pasta-pesto.jpg",
+    "image": "/images/recipes/pasta-pesto.webp",
     "date": "30/01/2024",
     "author": "Álvaro",
     "imageComment": "Y con pesto casero. Nada que ver."
@@ -2162,7 +2162,7 @@
     "category": "main",
     "time": "120",
     "portions": "6",
-    "image": "https://i.ibb.co/DQKLYWD/gnocci.jpg ",
+    "image": "/images/recipes/gnocci.webp",
     "date": "9/04/2020",
     "author": "Teresa y Blanca",
     "imageComment": ""
@@ -2199,7 +2199,7 @@
     "category": "main",
     "time": "120",
     "portions": "6",
-    "image": "https://i.ibb.co/whfBM2k/lasan-a.png ",
+    "image": "/images/recipes/lasan-a.webp",
     "date": "30/09/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -2228,7 +2228,7 @@
     "category": "main",
     "time": "40",
     "portions": "4",
-    "image": "https://i.ibb.co/KsFKs46/pasta-tomate.jpg ",
+    "image": "/images/recipes/pasta-tomate.webp",
     "date": "25/05/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -2256,7 +2256,7 @@
     "category": "main",
     "time": "40",
     "portions": "4",
-    "image": "https://i.ibb.co/fGJSHM3/macarrones-suaves.jpg ",
+    "image": "/images/recipes/macarrones-suaves.webp",
     "date": "30/05/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -2291,7 +2291,7 @@
     "category": "main",
     "time": "45",
     "portions": "1",
-    "image": "https://i.ibb.co/6NpPR5x/sandwich-club.png ",
+    "image": "/images/recipes/sandwich-club.webp",
     "date": "16/10/2022",
     "author": "Chef JC",
     "imageComment": ""
@@ -2359,7 +2359,7 @@
     "category": "main",
     "time": "20",
     "portions": "",
-    "image": "https://i.ibb.co/k1HrG82/ensalada-no-ligera.jpg ",
+    "image": "/images/recipes/ensalada-no-ligera.webp",
     "date": "12/07/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -2386,7 +2386,7 @@
     "category": "main",
     "time": "20",
     "portions": "",
-    "image": "https://i.ibb.co/x20ff0m/ensalada-verano.jpg",
+    "image": "/images/recipes/ensalada-verano.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -2424,7 +2424,7 @@
     "category": "main",
     "time": "20",
     "portions": "",
-    "image": "https://i.ibb.co/gdjKxGK/poke.jpg ",
+    "image": "/images/recipes/poke.webp",
     "date": "25/04/2020",
     "author": "Teresa y Blanca",
     "imageComment": "También se le puede poner queso fresco."
@@ -2459,7 +2459,7 @@
     "category": "main",
     "time": "90",
     "portions": "",
-    "image": "https://i.ibb.co/qFRyj77/pizza.jpg ",
+    "image": "/images/recipes/pizza.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -2491,7 +2491,7 @@
     "category": "main",
     "time": "30",
     "portions": "",
-    "image": "https://i.ibb.co/FmwWR27/salmon-ahumado.jpg ",
+    "image": "/images/recipes/salmon-ahumado.webp",
     "date": "25/11/2023",
     "author": "Itzi",
     "imageComment": "Esta receta es de nuestra amiga Itzi"
@@ -2518,7 +2518,7 @@
     "category": "main",
     "time": "15",
     "portions": "",
-    "image": "https://i.ibb.co/pvcbvpD/salmon.png ",
+    "image": "/images/recipes/salmon.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -2560,7 +2560,7 @@
     "category": "main",
     "time": "90",
     "portions": "4",
-    "image": "https://i.ibb.co/pzZLvx0/sopa-marisco.png ",
+    "image": "/images/recipes/sopa-marisco.webp",
     "date": "25/12/2021",
     "author": "Chef JC",
     "imageComment": ""
@@ -2592,7 +2592,7 @@
     "category": "starters",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/6r8YBVw/gazpacho.jpg",
+    "image": "/images/recipes/gazpacho.webp",
     "date": "10/06/2022",
     "author": "Kau",
     "imageComment": "Buen gazpacho, receta muy bien especificada."
@@ -2624,7 +2624,7 @@
     "category": "starters",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/jZ4V9HN/gazpaho.jpg ",
+    "image": "/images/recipes/gazpaho.webp",
     "date": "19/07/2020",
     "author": "Chef JC",
     "imageComment": "Estoy obligado a que haya siempre gazpacho en la nevera durante todo el verano. Imposición familiar."
@@ -2657,7 +2657,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/x5S2dh6/sopa-tomate.jpg",
+    "image": "/images/recipes/sopa-tomate.webp",
     "date": "1/03/2024",
     "author": "Blanca",
     "imageComment": ""
@@ -2687,7 +2687,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/RNx6v89/crema.png",
+    "image": "/images/recipes/crema.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Cambiando las judías y los calabacines por calabaza y zanahorias también está muy bueno"
@@ -2720,7 +2720,7 @@
     "category": "main",
     "time": "30",
     "portions": "",
-    "image": "https://i.ibb.co/XZGdYY8D/pure-10.jpg ",
+    "image": "/images/recipes/pure-10.webp",
     "date": "16/04/2022",
     "author": "Álvaro",
     "imageComment": ""
@@ -2753,7 +2753,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/QmrVck9/crema-esparragos.jpg ",
+    "image": "/images/recipes/crema-esparragos.webp",
     "date": "7/04/2024",
     "author": "Blanca",
     "imageComment": ""
@@ -2785,7 +2785,7 @@
     "category": "main",
     "time": "30",
     "portions": "",
-    "image": "https://i.ibb.co/WNhyL4Bb/pure-calabacin.jpg ",
+    "image": "/images/recipes/pure-calabacin.webp",
     "date": "07/04/2022",
     "author": "Chef JC",
     "imageComment": ""
@@ -2815,7 +2815,7 @@
     "category": "starters",
     "time": "20",
     "portions": "4",
-    "image": "https://i.ibb.co/JF41YkX/salmorejo.jpg ",
+    "image": "/images/recipes/salmorejo.webp",
     "date": "2/05/2019",
     "author": "Calle de Córdoba",
     "imageComment": "Receta copiada de una pared del casco antiguo de Córdoba. Muy recomendable estirarse con la calidad del aceite y del picadillo de jamón."
@@ -2843,7 +2843,7 @@
     "category": "siders",
     "time": "15",
     "portions": "",
-    "image": "https://i.ibb.co/K2tj833/mayonesa.jpg ",
+    "image": "/images/recipes/mayonesa.webp",
     "date": "31/03/2022",
     "author": "Chef JC",
     "imageComment": ""
@@ -2869,7 +2869,7 @@
     "category": "siders",
     "time": "10",
     "portions": "",
-    "image": "https://i.ibb.co/NFtw5Np/ensalada-tomate.jpg ",
+    "image": "/images/recipes/ensalada-tomate.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -2896,7 +2896,7 @@
     "category": "siders",
     "time": "20",
     "portions": "",
-    "image": "https://i.ibb.co/0r79wxw/espaguetis-calabacin.jpg ",
+    "image": "/images/recipes/espaguetis-calabacin.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -2928,7 +2928,7 @@
     "category": "siders",
     "time": "30",
     "portions": "",
-    "image": "https://i.ibb.co/cF2rcCF/patatas-al-horno.png ",
+    "image": "/images/recipes/patatas-al-horno.webp",
     "date": "19/06/2023",
     "author": "Chef JC",
     "imageComment": ""
@@ -2957,7 +2957,7 @@
     "category": "siders",
     "time": "20",
     "portions": "",
-    "image": "https://i.ibb.co/Hqh4rL4/ensalada-col.jpg ",
+    "image": "/images/recipes/ensalada-col.webp",
     "date": "23/07/2024",
     "author": "Chef JC",
     "imageComment": ""
@@ -3019,7 +3019,7 @@
     "category": "siders",
     "time": "25",
     "portions": "",
-    "image": "https://i.ibb.co/L9sVHqt/bechamel.jpg ",
+    "image": "/images/recipes/bechamel.webp",
     "date": "29/05/2024",
     "author": "Chef JC",
     "imageComment": "El secreto es batirla lo suficiente como para que no haya grumos y la harina se haga. Si aun así hay muchos grumos y no puedo quitarlos, usar la batidora y apañao."
@@ -3045,7 +3045,7 @@
     "category": "siders",
     "time": "40",
     "portions": "",
-    "image": "https://i.ibb.co/zWc5NCns/cebolla-caramelizada.jpg ",
+    "image": "/images/recipes/cebolla-caramelizada.webp",
     "date": "19/06/2024",
     "author": "Chef JC",
     "imageComment": ""
@@ -3073,7 +3073,7 @@
     "category": "siders",
     "time": "40",
     "portions": "",
-    "image": "https://i.ibb.co/fpdYPnS/pimientos-asados.jpg ",
+    "image": "/images/recipes/pimientos-asados.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -3135,7 +3135,7 @@
     "category": "siders",
     "time": "15",
     "portions": "4",
-    "image": "https://i.ibb.co/S0HZbzk/arroz-blanco.jpg ",
+    "image": "/images/recipes/arroz-blanco.webp",
     "date": "19/04/2024",
     "author": "Chef JC",
     "imageComment": ""
@@ -3164,7 +3164,7 @@
     "category": "siders",
     "time": "20",
     "portions": "",
-    "image": "https://i.ibb.co/y6m6BqS/vinagreta.jpg ",
+    "image": "/images/recipes/vinagreta.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -3195,7 +3195,7 @@
     "category": "siders",
     "time": "40",
     "portions": "",
-    "image": "https://i.ibb.co/1722wCC/tomate-frito.jpg ",
+    "image": "/images/recipes/tomate-frito.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -3227,7 +3227,7 @@
     "category": "desserts",
     "time": "60",
     "portions": "",
-    "image": "https://i.ibb.co/HFpJrFN/bizcocho-123.jpg ",
+    "image": "/images/recipes/bizcocho-123.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -3260,7 +3260,7 @@
     "category": "desserts",
     "time": "60",
     "portions": "10",
-    "image": "https://i.ibb.co/4fZqvwt/brownie.jpg ",
+    "image": "/images/recipes/brownie.webp",
     "date": "25/04/2020",
     "author": "Blanca",
     "imageComment": ""
@@ -3286,7 +3286,7 @@
     "category": "desserts",
     "time": "15",
     "portions": "6",
-    "image": "https://i.ibb.co/3svtMjx/limon-aqui.jpg ",
+    "image": "/images/recipes/limon-aqui.webp",
     "date": "25/04/2020",
     "author": "Kau",
     "imageComment": ""
@@ -3319,7 +3319,7 @@
     "category": "desserts",
     "time": "40",
     "portions": "12",
-    "image": "https://i.ibb.co/ts5mpX0/mousse-chocolate.jpg ",
+    "image": "/images/recipes/mousse-chocolate.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -3352,7 +3352,7 @@
     "category": "desserts",
     "time": "45",
     "portions": "",
-    "image": "https://i.ibb.co/YDP3gM7/tarta-abuela.png ",
+    "image": "/images/recipes/tarta-abuela.webp",
     "date": "20/05/2020",
     "author": "Kau",
     "imageComment": ""
@@ -3380,7 +3380,7 @@
     "category": "desserts",
     "time": "45",
     "portions": "",
-    "image": "https://i.ibb.co/JnSRKjB/tarta-de-limon.jpg ",
+    "image": "/images/recipes/tarta-de-limon.webp",
     "date": "19/05/2020",
     "author": "Chef JC",
     "imageComment": ""
@@ -3433,7 +3433,7 @@
     "category": "desserts",
     "time": "90",
     "portions": "",
-    "image": "https://i.ibb.co/F4wtsbsJ/tarta-zanahoria2.jpg ",
+    "image": "/images/recipes/tarta-zanahoria2.webp",
     "date": "27/8/2025",
     "author": "Chef JC y pinches",
     "imageComment": "Una tarta de '¡Caramba vaya tarta!'"
@@ -3465,7 +3465,7 @@
     "category": "desserts",
     "time": "45",
     "portions": "8",
-    "image": "https://i.ibb.co/mvPjkB5/torrijas.jpg ",
+    "image": "/images/recipes/torrijas.webp",
     "date": "25/03/2022",
     "author": "Kau",
     "imageComment": "Las mejores torrijas son estas. Sin duda. Lo que pasa es que la mano hace mucho aquí."
@@ -3536,7 +3536,7 @@
     "category": "desserts",
     "time": "120",
     "portions": "",
-    "image": "https://i.ibb.co/j42Tvf5/trufas.jpg ",
+    "image": "/images/recipes/trufas.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "No envidian nada a las de una bombonería. La presentación quizás, aunque esto depende de lo minucioso que seas."
@@ -3574,7 +3574,7 @@
     "category": "desserts",
     "time": "120",
     "portions": "20",
-    "image": "https://i.ibb.co/drxvYCD/rosquillas.jpg",
+    "image": "/images/recipes/rosquillas.webp",
     "date": "09/06/2024",
     "author": "Chef JC",
     "imageComment": "Ojito, ojito. Crean adicción. Hazlas cuando vayas a tener merienda en casa porque sino puedes explotar. te las comerás todas."
@@ -3602,7 +3602,7 @@
     "category": "desserts",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/mz26G08/tortitas.jpg ",
+    "image": "/images/recipes/tortitas.webp",
     "date": "13/06/2020",
     "author": "Chef JC",
     "imageComment": "No conozco a nadie que las haya probado y que no haya comido menos de una docena. "
@@ -3638,7 +3638,7 @@
     "category": "starters",
     "time": "50",
     "portions": "8",
-    "image": "https://i.ibb.co/x7nBqLz/ensaladilla-rusa.jpg",
+    "image": "/images/recipes/ensaladilla-rusa.webp",
     "date": "27/04/2022",
     "author": "Chef JC",
     "imageComment": "La verdad es que de rusa tiene poco. Pero está muy rica."
@@ -3676,7 +3676,7 @@
     "category": "main",
     "time": "120",
     "portions": "4",
-    "image": "https://i.ibb.co/9cLCyH8/carilleras.jpg",
+    "image": "/images/recipes/carilleras.webp",
     "date": "25/04/2020",
     "author": "Chef JC",
     "imageComment": "Cuando las compres, pídele al carnicero que te las limpie. Es lo más engorroso de este plato."
@@ -3702,7 +3702,7 @@
     "category": "siders",
     "time": "45",
     "portions": "2",
-    "image": "https://i.ibb.co/2S4rRx3/carrilleras.jpg",
+    "image": "/images/recipes/carrilleras.webp",
     "date": "04/02/2024",
     "author": "Chef JC",
     "imageComment": "Te dirán que está muy bueno muchas veces."
@@ -3731,7 +3731,7 @@
     "category": "siders",
     "time": "45",
     "portions": "4",
-    "image": "https://i.ibb.co/2MTzv5S/patatas-chulas.jpg",
+    "image": "/images/recipes/patatas-chulas.webp",
     "date": "16/05/2024",
     "author": "Colmenar",
     "imageComment": "Sorpendentemente buenas. Elevan la categoría de una barbacoa."
@@ -3761,7 +3761,7 @@
     "category": "main",
     "time": "40",
     "portions": "2",
-    "image": "https://i.ibb.co/CBLhS6X/hamburguesas-planas.jpg",
+    "image": "/images/recipes/hamburguesas-planas.webp",
     "date": "16/03/2024",
     "author": "Kau",
     "imageComment": ""
@@ -3791,7 +3791,7 @@
     "category": "starters",
     "time": "15",
     "portions": "4",
-    "image": "https://i.ibb.co/kXMzg51/tosta-salmon.jpg",
+    "image": "/images/recipes/tosta-salmon.webp",
     "date": "01/06/2024",
     "author": "Chef JC",
     "imageComment": "Esta receta fue creada al día siguiente que nuestro insigne club ganase la décimoquinta Copa de Europa. ¡Hala Madrid!"
@@ -3835,7 +3835,7 @@
     "category": "main",
     "time": "1440",
     "portions": "8",
-    "image": "https://i.ibb.co/vwB7JTk/pulled-pork.jpg ",
+    "image": "/images/recipes/pulled-pork.webp",
     "date": "23/06/2024",
     "author": "Álvaro y Marta",
     "imageComment": ""
@@ -3877,7 +3877,7 @@
     "category": "main",
     "time": "120",
     "portions": "2",
-    "image": "https://i.ibb.co/YRJN14s/salmon-wellington.jpg",
+    "image": "/images/recipes/salmon-wellington.webp",
     "date": "23/06/2024",
     "author": "Álvaro y Marta",
     "imageComment": ""
@@ -3908,7 +3908,7 @@
     "category": "siders",
     "time": "15",
     "portions": "4",
-    "image": "https://i.ibb.co/K6pmP6q/salsa-tartara.jpg",
+    "image": "/images/recipes/salsa-tartara.webp",
     "date": "31/07/2024",
     "author": "Chef JC",
     "imageComment": ""
@@ -3940,7 +3940,7 @@
     "category": "main",
     "time": "60",
     "portions": "4",
-    "image": "https://i.ibb.co/k5V81tw/redondo.jpg ",
+    "image": "/images/recipes/redondo.webp",
     "date": "02/08/2024",
     "author": "Chef JC",
     "imageComment": ""
@@ -3975,7 +3975,7 @@
     "category": "main",
     "time": "40",
     "portions": "4",
-    "image": "https://i.ibb.co/RB4DKKY/macarrones-chorizo.jpg",
+    "image": "/images/recipes/macarrones-chorizo.webp",
     "date": "31/07/2024",
     "author": "Marta",
     "imageComment": "Viaje a la infancia más profunda. Se pueden comer sin límite, bueno hasta que se acaben."
@@ -4008,7 +4008,7 @@
     "category": "main",
     "time": "30",
     "portions": "4",
-    "image": "https://i.ibb.co/ypN5nCL/judias-verdes.jpg",
+    "image": "/images/recipes/judias-verdes.webp",
     "date": "15/08/2024",
     "author": "Chef JC",
     "imageComment": "Receta afrancesada."
@@ -4040,7 +4040,7 @@
     "category": "siders",
     "time": "45",
     "portions": "4",
-    "image": "https://i.ibb.co/N6cTBNH/karttofel.jpg ",
+    "image": "/images/recipes/karttofel.webp",
     "date": "15/08/2024",
     "author": "Marta",
     "imageComment": "La clave está en calcular bien la cantidad de salsa."
@@ -4074,7 +4074,7 @@
     "category": "main",
     "time": "15",
     "portions": "4",
-    "image": "https://i.ibb.co/VT8qgvY/filet-american.jpg",
+    "image": "/images/recipes/filet-american.webp",
     "date": "25/08/2024",
     "author": "Álvaro",
     "imageComment": "Sorprendentemente bueno. Plato muy extranjero."
@@ -4112,7 +4112,7 @@
     "category": "desserts",
     "time": "120",
     "portions": "20 uds",
-    "image": "https://i.ibb.co/TWzRhn8/magdalenas.jpg",
+    "image": "/images/recipes/magdalenas.webp",
     "date": "26/08/2024",
     "author": "Chef JC",
     "imageComment": "No podrás comer solo una"
@@ -4168,7 +4168,7 @@
     "category": "main",
     "time": "180",
     "portions": "2",
-    "image": "https://i.ibb.co/G5wp1Bv/boeuf-bourguignon.jpg",
+    "image": "/images/recipes/boeuf-bourguignon.webp",
     "date": "27/08/2024",
     "author": "Chef JC",
     "imageComment": "Un buen guiso de carne. Pero como es una receta francesa suena mucho más fino"
@@ -4199,7 +4199,7 @@
     "category": "desserts",
     "time": "50",
     "portions": "6",
-    "image": "https://i.ibb.co/zSVspFf/bizcocho-platano.jpg",
+    "image": "/images/recipes/bizcocho-platano.webp",
     "date": "06/09/2024",
     "author": "Blanca",
     "imageComment": "Mucho más rico que lo que se intuye en la foto. También le puedes poner nueces"
@@ -4231,7 +4231,7 @@
     "category": "main",
     "time": "90",
     "portions": "3",
-    "image": "https://i.ibb.co/MgP5dd7/rape-carril.png",
+    "image": "/images/recipes/rape-carril.webp",
     "date": "07/09/2024",
     "author": "Chef JC",
     "imageComment": "Esta es una receta clásica elaborada miles de veces en la zona de Carril, Rías Bajas"
@@ -4263,7 +4263,7 @@
     "category": "main",
     "time": "40",
     "portions": "4",
-    "image": "https://i.ibb.co/yXF1GzX/fajitas.png",
+    "image": "/images/recipes/fajitas.webp",
     "date": "26/09/2024",
     "author": "Chef JC",
     "imageComment": "Hay que preparar guacamole casero, no compres de bote. Esfuérzate un poco, vale la pena"
@@ -4295,7 +4295,7 @@
     "category": "main",
     "time": "250",
     "portions": "4",
-    "image": "https://i.ibb.co/gwKy9Tt/caldo.jpg ",
+    "image": "/images/recipes/caldo.webp",
     "date": "09/10/2024",
     "author": "Chef JC",
     "imageComment": "El entonacuerpos por excelencia"
@@ -4325,7 +4325,7 @@
     "category": "main",
     "time": "15",
     "portions": "2",
-    "image": "https://i.ibb.co/kJshG30/filete-ternera.jpg",
+    "image": "/images/recipes/filete-ternera.webp",
     "date": "24/10/2024",
     "author": "Blanca",
     "imageComment": ""
@@ -4355,7 +4355,7 @@
     "category": "starters",
     "time": "45",
     "portions": "6",
-    "image": "https://i.ibb.co/JkjrMkf/patatas-torreznos.jpg",
+    "image": "/images/recipes/patatas-torreznos.webp",
     "date": "2/11/2024",
     "author": "Chef JC",
     "imageComment": "Lo deborarán. Y seguro que te piden la receta"
@@ -4385,7 +4385,7 @@
     "category": "desserts",
     "time": "45",
     "portions": "6",
-    "image": "https://i.ibb.co/LZ6X1Gy/palmeritas.jpg ",
+    "image": "/images/recipes/palmeritas.webp",
     "date": "3/11/2024",
     "author": "Chef JC",
     "imageComment": "Os gustarán"
@@ -4415,7 +4415,7 @@
     "category": "main",
     "time": "45",
     "portions": "4",
-    "image": "https://i.ibb.co/wWRPWBW/salchichas-vino.jpg",
+    "image": "/images/recipes/salchichas-vino.webp",
     "date": "27/11/2024",
     "author": "Blanca",
     "imageComment": ""
@@ -4483,7 +4483,7 @@
     "category": "desserts",
     "time": "40",
     "portions": "8",
-    "image": "https://i.ibb.co/yPqydf4/cookies.png",
+    "image": "/images/recipes/cookies.webp",
     "date": "27/1/2025",
     "author": "Blanca",
     "imageComment": ""
@@ -4527,7 +4527,7 @@
     "category": "desserts",
     "time": "90",
     "portions": "12",
-    "image": "https://i.ibb.co/hR3Ljgh4/bizcocho-calabaza.jpg",
+    "image": "/images/recipes/bizcocho-calabaza.webp",
     "date": "24/2/2025",
     "author": "Marta",
     "imageComment": ""
@@ -4561,7 +4561,7 @@
     "category": "main",
     "time": "15",
     "portions": "2",
-    "image": "https://i.ibb.co/MJMv9TM/tartar-salmon.jpg ",
+    "image": "/images/recipes/tartar-salmon.webp",
     "date": "20/4/2025",
     "author": "Álvaro",
     "imageComment": ""
@@ -4598,7 +4598,7 @@
     "category": "main",
     "time": "90",
     "portions": "2",
-    "image": "https://i.ibb.co/hR8fMTQK/arroz-costillas.jpg",
+    "image": "/images/recipes/arroz-costillas.webp",
     "date": "26/8/2025",
     "author": "Álvaro",
     "imageComment": ""
@@ -4629,7 +4629,7 @@
     "category": "main",
     "time": "20",
     "portions": "2",
-    "image": "https://i.ibb.co/65PnQjh/ensalada-italiana.jpg",
+    "image": "/images/recipes/ensalada-italiana.webp",
     "date": "26/8/2025",
     "author": "Álvaro",
     "imageComment": ""
@@ -4662,7 +4662,7 @@
     "category": "main",
     "time": "45",
     "portions": "2",
-    "image": "https://i.ibb.co/NBVnwLQ/pasta-calabaza.jpg",
+    "image": "/images/recipes/pasta-calabaza.webp",
     "date": "26/8/2025",
     "author": "Álvaro",
     "imageComment": ""
@@ -4700,7 +4700,7 @@
     "category": "desserts",
     "time": "120",
     "portions": "12",
-    "image": "https://i.ibb.co/ks8R5MbT/cookies-nueces.jpg",
+    "image": "/images/recipes/cookies-nueces.webp",
     "date": "26/8/2025",
     "author": "Chef JC",
     "imageComment": ""
@@ -4772,7 +4772,7 @@
     "category": "main",
     "time": "60",
     "portions": "5",
-    "image": "https://i.ibb.co/ksP3qW7D/lubina.jpg ",
+    "image": "/images/recipes/lubina.webp",
     "date": "25/12/2025",
     "author": "ChefJC",
     "imageComment": ""
@@ -4804,7 +4804,7 @@
     "category": "main",
     "time": "120",
     "portions": "4",
-    "image": "https://i.ibb.co/4Z6qH2w3/sopa-sana.jpg ",
+    "image": "/images/recipes/sopa-sana.webp",
     "date": "12/2/2026",
     "author": "Blanca",
     "imageComment": ""
@@ -4838,7 +4838,7 @@
     "category": "siders",
     "time": "40",
     "portions": "4",
-    "image": "https://i.ibb.co/dwd7kxbt/salsa-zanahoria-manzana.jpg",
+    "image": "/images/recipes/salsa-zanahoria-manzana.webp",
     "date": "20/3/2026",
     "author": "ChefJC",
     "imageComment": ""
@@ -4872,7 +4872,7 @@
     "category": "siders",
     "time": "60",
     "portions": "6",
-    "image": "https://i.ibb.co/cSHYGwW8/patatas-gratinadas.jpg",
+    "image": "/images/recipes/patatas-gratinadas.webp",
     "date": "22/3/2026",
     "author": "Blanca",
     "imageComment": ""
@@ -4908,7 +4908,7 @@
     "category": "desserts",
     "time": "50",
     "portions": "6",
-    "image": "https://i.ibb.co/HTc4ySHR/muesli.jpg",
+    "image": "/images/recipes/muesli.webp",
     "date": "4/5/2026",
     "author": "Blanca",
     "imageComment": ""
@@ -4945,7 +4945,7 @@
     "category": "main",
     "time": "60",
     "portions": "4",
-    "image": "https://i.ibb.co/S7NFLThz/pollo-grevenmacher.jpg ",
+    "image": "/images/recipes/pollo-grevenmacher.webp",
     "date": "27/5/2026",
     "author": "ChefJC",
     "imageComment": ""
@@ -4992,7 +4992,7 @@
         "Cuando el sofrito esté hecho, añadir el pimentón dulce y el laurel. Incorporar el tomate frito y cocinar hasta que se espese un poco. Salpimentar.",
         "Añadir el bacalao desmigado al sofrito. Cocinar 3-5 minutos aproximadamente, solo hasta que se integre bien, sin pasarse para que quede jugoso.",
         "Añadir los huevos picados y remover suavemente. Si el relleno ha quedado muy líquido, pasar por un colador. Dejar que el relleno se enfríe antes de colocar sobre el hojaldre.",
-        "Extender la masa en una bandeja de horno (sin quitar el papel). Añadir el relleno y distribuir bien. Dejar un poco de margen en los bordes para poder cerrarla. Poner la segunda masa encima y quitar papel. Cerrar hacia arriba los bordes y pinchar con un tenedor varías veces por el centro.",
+        "Extender la masa en una bandeja de horno (sin quitar el papel). Añadir el relleno y distribuir bien. Dejar un poco de margen en los bordes para poder cerrarla. Poner la segunda masa encima y quitar papel. Cerrar hacia arriba los bordes y pinchar con un tenedor varias veces por el centro.",
         "Precalentar el horno (mirar lo que ponga en el paquete 180-200 grados). Separar clara de la yema de un huevo y pintar la empanada con la yema para que se dore.",
         "Hornear según los tiempos del paquete (aprox 20-30 minutos)"
       ]
@@ -5015,7 +5015,7 @@
     "category": "starters",
     "time": "90",
     "portions": "6",
-    "image": "https://i.ibb.co/zVqcJGBs/empanada-bacalao.jpg ",
+    "image": "/images/recipes/empanada-bacalao.webp",
     "date": "10/8/2026",
     "author": "Marta",
     "imageComment": ""
@@ -5055,7 +5055,7 @@
     "category": "starters",
     "time": "90",
     "portions": "10",
-    "image": "https://i.ibb.co/39wB2W9s/quiche-calabacin.jpg",
+    "image": "/images/recipes/quiche-calabacin.webp",
     "date": "24/8/2026",
     "author": "Blanca",
     "imageComment": ""
@@ -5095,7 +5095,7 @@
     "category": "main",
     "time": "90",
     "portions": "6",
-    "image": "https://i.ibb.co/zT19tkKz/cabeza-cerdo.jpg",
+    "image": "/images/recipes/cabeza-cerdo.webp",
     "date": "24/8/2026",
     "author": "ChefJC",
     "imageComment": "Esto está tan rico como barato es. O sea, mucho."
@@ -5126,7 +5126,7 @@
     "category": "starters",
     "time": "60",
     "portions": "4",
-    "image": "https://i.ibb.co/dhqCQ3G/empanadillas.jpg ",
+    "image": "/images/recipes/empanadillas.webp",
     "date": "24/8/2026",
     "author": "ChefJC",
     "imageComment": ""

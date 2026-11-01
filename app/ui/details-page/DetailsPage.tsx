@@ -64,7 +64,8 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
           src={image || '/images/default.svg'}
           width={0}
           height={0}
-          sizes="100vm"
+          sizes="(max-width: 887px) 100vw, 50vw"
+          quality={90}
           className={recipeImage}
           alt={title}
         />

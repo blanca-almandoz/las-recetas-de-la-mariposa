@@ -28,7 +28,8 @@ const Card = ({
             src={image || '/images/default.svg'}
             width={0}
             height={0}
-            sizes="100vm"
+            sizes="(max-width: 639px) 100vw, 400px"
+            quality={90}
             style={{
               width: '100%',
               height: '100%',
