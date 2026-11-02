@@ -1,18 +1,9 @@
 import { vars } from '@/theme.css'
 import { style } from '@vanilla-extract/css'
 
-export const sectionItem = style({
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  width: 'fit-content',
-  textDecoration: 'none',
-  cursor: 'pointer',
-})
-
 export const sectionsContainer = style({
   display: 'flex',
-  gap: 32,
+  gap: 14,
   paddingTop: 4,
   paddingBottom: 8,
   '@media': {
@@ -21,34 +12,46 @@ export const sectionsContainer = style({
       WebkitOverflowScrolling: 'touch',
       paddingLeft: 16,
       paddingRight: 16,
-      gap: 16,
+      gap: 12,
     },
   },
 })
 
-export const sectionTitle = style({
-  fontSize: 14,
-  fontWeight: 500,
-  color: vars.color.primary.dark,
-  textAlign: 'center',
-  marginTop: 8,
+export const sectionItem = style({
+  flex: '0 0 auto',
+  width: 96,
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: 6,
+  padding: '12px 8px 10px',
+  backgroundColor: vars.color.white,
+  border: `1px solid ${vars.color.utility[200]}`,
+  borderRadius: 16,
+  boxShadow: '0 10px 26px -18px rgba(41, 45, 68, .4)',
+  textDecoration: 'none',
+  cursor: 'pointer',
+  transition: 'transform .18s, box-shadow .18s',
+  selectors: {
+    '&:hover': {
+      transform: 'translateY(-3px)',
+      boxShadow: '0 16px 30px -18px rgba(41, 45, 68, .5)',
+    },
+  },
 })
 
 export const sectionIlustration = style({
-  border: `1px solid ${vars.color.primary.dark}`,
-  borderRadius: '50%',
-  height: 80,
-  width: 80,
+  width: 62,
+  height: 62,
   display: 'flex',
-  justifyContent: 'center',
   alignItems: 'center',
-  background: vars.color.white,
-  transition: 'transform .18s, box-shadow .18s, background .18s',
-  selectors: {
-    [`${sectionItem}:hover &`]: {
-      transform: 'translateY(-3px)',
-      boxShadow: '0 10px 22px -12px rgba(111, 143, 114, .6)',
-      background: vars.color.primary.light,
-    },
-  },
+  justifyContent: 'center',
+})
+
+export const sectionTitle = style({
+  fontSize: 12,
+  fontWeight: 600,
+  color: vars.color.body,
+  textAlign: 'center',
+  lineHeight: 1.15,
 })

@@ -15,7 +15,7 @@ export const brand = style({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  gap: 7,
+  gap: 8,
   textDecoration: 'none',
 })
 
@@ -28,13 +28,13 @@ export const bfly = style({
 export const wordmark = style({
   position: 'relative',
   display: 'block',
-  width: 210,
-  height: 14,
-  maxWidth: '72%',
+  width: 240,
+  height: 15,
+  maxWidth: '78%',
   '@media': {
     'screen and (min-width: 768px)': {
-      width: 300,
-      height: 19,
+      width: 340,
+      height: 21,
     },
   },
 })
@@ -46,6 +46,7 @@ export const catNav = style({
   alignItems: 'center',
   rowGap: 6,
   columnGap: 24,
+  marginTop: 8,
   maxWidth: 560,
 })
 
@@ -73,7 +74,7 @@ export const catItemActive = style({
 })
 
 export const searchBar = style({
-  marginTop: 2,
+  marginTop: 4,
   width: '100%',
   maxWidth: 520,
   display: 'flex',
