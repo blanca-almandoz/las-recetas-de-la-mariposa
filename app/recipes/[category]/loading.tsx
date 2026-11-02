@@ -1,27 +1,14 @@
-import { SkeletonCard } from '@/app/ui/skeleton/SkeletonCard'
-import { TopLevelWrapper } from '@/app/ui/topLevelWrapper/TopLevelWrapper'
+import { SkeletonCardContainer } from '@/app/ui/skeleton/SkeletonCardContainer'
+import { Footer } from '@/app/ui/footer/Footer'
 
-const SKELETON_COUNT = 6
-
+// Misma estructura que app/recipes/[category]/page.tsx
 export default function Loading() {
   return (
-    <TopLevelWrapper>
-      <div
-        style={{
-          width: '100%',
-          display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          gap: 16,
-          marginTop: 8,
-          padding: 16,
-        }}
-      >
-        {Array.from({ length: SKELETON_COUNT }).map((_, index) => (
-          <SkeletonCard key={index} />
-        ))}
+    <>
+      <div style={{ paddingTop: 24, padding: 8 }}>
+        <SkeletonCardContainer count={6} />
       </div>
-    </TopLevelWrapper>
+      <Footer />
+    </>
   )
 }

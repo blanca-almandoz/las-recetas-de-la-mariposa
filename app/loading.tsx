@@ -1,27 +1,6 @@
-import { SkeletonCard } from './ui/skeleton/SkeletonCard'
-import { TopLevelWrapper } from './ui/topLevelWrapper/TopLevelWrapper'
+import { SkeletonHome } from './ui/skeleton/SkeletonHome'
 
-const SKELETON_COUNT = 6
-
+// Se muestra mientras carga la portada, con su misma estructura
 export default function Loading() {
-  return (
-    <TopLevelWrapper>
-      <div
-        style={{
-          width: '100%',
-          display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          gap: 16,
-          marginTop: 8,
-          padding: 16,
-        }}
-      >
-        {Array.from({ length: SKELETON_COUNT }).map((_, index) => (
-          <SkeletonCard key={index} />
-        ))}
-      </div>
-    </TopLevelWrapper>
-  )
+  return <SkeletonHome />
 }
