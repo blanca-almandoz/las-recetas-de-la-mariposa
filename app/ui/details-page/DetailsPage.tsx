@@ -7,38 +7,54 @@ import {
   recipeContentImage,
   recipeImage,
   recipeWrapperImage,
+  recipeCommentImage,
   leftColumn,
   rightColumn,
-  recipeCommentImage,
+  listGroups,
+  groupTitle,
+  bulletList,
+  bulletItem,
+  stepList,
+  stepItem,
+  stepNum,
 } from './styles.css'
 import { DetailsPageType, ListedItemsType } from '@/lib/types'
 import { Information } from './Information'
 import { useEffect, useRef, useState } from 'react'
 import { DetailsPageAnimations } from '../animations/DetailsPageAnimations'
 
-const ListedItems = ({ items }: ListedItemsType) => {
+type ListVariant = 'bullets' | 'steps'
+
+const ListedItems = ({
+  items,
+  variant = 'bullets',
+}: ListedItemsType & { variant?: ListVariant }) => {
   return (
-    <>
+    <div className={listGroups}>
       {Object.entries(items).map(([title, list]) => (
         <div key={title}>
-          <span style={{ fontWeight: 700 }}>{title}</span>
-          <ul
-            style={{
-              listStyleType: 'circle',
-              listStylePosition: 'inside',
-              paddingLeft: 0,
-              margin: 0,
-            }}
-          >
-            {list.map((item, i) => (
-              <li style={{ listStyleType: 'circle', margin: 0 }} key={i}>
-                {item}
-              </li>
-            ))}
-          </ul>
+          <h3 className={groupTitle}>{title}</h3>
+          {variant === 'steps' ? (
+            <ol className={stepList}>
+              {list.map((item, i) => (
+                <li className={stepItem} key={i}>
+                  <span className={stepNum}>{i + 1}</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <ul className={bulletList}>
+              {list.map((item, i) => (
+                <li className={bulletItem} key={i}>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       ))}
-    </>
+    </div>
   )
 }
 
@@ -70,7 +86,9 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
           alt={title}
         />
       </div>
-      <div className={recipeCommentImage}>{imageComment}</div>
+      {imageComment && (
+        <div className={recipeCommentImage}>{imageComment}</div>
+      )}
     </div>
   )
 
@@ -98,7 +116,7 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
           </div>
           <div className={rightColumn} ref={rightColumnRef}>
             <ImageComponent />
-            <ListedItems items={steps} />
+            <ListedItems items={steps} variant="steps" />
           </div>
         </div>
       </DetailsPageAnimations>
@@ -111,13 +129,15 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
           </div>
           <div>
             <ImageComponent />
+          </div>
+          <div className="px-6 md:px-8">
             <Information recipe={recipe} />
           </div>
-          <div style={{ paddingLeft: 8 }}>
+          <div className="px-6 md:px-8">
             <ListedItems items={ingredients} />
           </div>
-          <div style={{ paddingLeft: 8 }}>
-            <ListedItems items={steps} />
+          <div className="px-6 md:px-8">
+            <ListedItems items={steps} variant="steps" />
           </div>
         </div>
       </DetailsPageAnimations>

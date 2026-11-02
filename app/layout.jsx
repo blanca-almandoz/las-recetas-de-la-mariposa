@@ -1,7 +1,8 @@
 import '@/app/ui/global.css'
 import '@/app/ui/global.css.ts'
 import { Analytics } from '@vercel/analytics/react'
-import { NavBar } from './ui/navbar/NavBar'
+import { Header } from './ui/header/Header'
+import { Footer } from './ui/footer/Footer'
 import { themeClass } from '@/theme.css'
 import clsx from 'clsx'
 import { montserrat } from './ui/fonts'
@@ -12,16 +13,20 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={clsx(themeClass, montserrat.className)}
-        style={{ overflowX: 'hidden' }}
+        style={{
+          overflowX: 'hidden',
+          minHeight: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
       >
         <SearchProvider>
-          <div>
-            <NavBar />
-          </div>
-          <div>
+          <Header />
+          <div style={{ flex: 1, width: '100%' }}>
             {children}
             <Analytics />
           </div>
+          <Footer />
         </SearchProvider>
       </body>
     </html>

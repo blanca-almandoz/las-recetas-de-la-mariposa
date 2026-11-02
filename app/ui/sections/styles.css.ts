@@ -13,6 +13,8 @@ export const sectionItem = style({
 export const sectionsContainer = style({
   display: 'flex',
   gap: 32,
+  paddingTop: 4,
+  paddingBottom: 8,
   '@media': {
     'screen and (max-width: 887px)': {
       overflowX: 'auto',

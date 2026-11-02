@@ -1,45 +1,32 @@
 'use client'
 import recipes from '../public/data/recipes.json'
-import { IntroContainer } from './(overview)/IntroContainer'
-import { searchRecipes } from '@/lib/utils'
-import { CardContainer } from './ui/card/CardContainer'
-import { Footer } from './ui/footer/Footer'
-import { Title } from './ui/title/Title'
+import { CategoriesWrapper } from './ui/categories/CategoriesWrapper'
 import { SectionsWrapper } from './ui/sections/SectionsWrapper'
+import { CardContainer } from './ui/card/CardContainer'
+import { IntroContainer } from './(overview)/IntroContainer'
 
 interface DateItem {
   date: string
 }
 
-export default function Home({
-  searchParams,
-}: {
-  searchParams?: {
-    query?: string
-    page?: string
-  }
-}) {
-  const query = searchParams?.query || ''
-  const searchedRecipes = searchRecipes(query, recipes)
-  const sortedRecipes = searchedRecipes
+export default function Home() {
+  const recent = [...recipes]
     .sort((a: DateItem, b: DateItem) => {
       const [dayA, monthA, yearA] = a.date.split('/').map(Number)
       const [dayB, monthB, yearB] = b.date.split('/').map(Number)
-
-      const dateA = new Date(yearA, monthA - 1, dayA)
-      const dateB = new Date(yearB, monthB - 1, dayB)
-
-      return dateB.getTime() - dateA.getTime()
+      return (
+        new Date(yearB, monthB - 1, dayB).getTime() -
+        new Date(yearA, monthA - 1, dayA).getTime()
+      )
     })
     .slice(0, 8)
 
   return (
     <>
-      <Title />
+      <CategoriesWrapper />
       <SectionsWrapper />
-      <CardContainer recipes={sortedRecipes} hasTitle hasHorizontalScroll />
+      <CardContainer recipes={recent} hasTitle hasHorizontalScroll />
       <IntroContainer />
-      <Footer hasMargin={false} />
     </>
   )
 }

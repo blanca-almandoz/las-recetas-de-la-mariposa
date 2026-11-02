@@ -1,10 +1,13 @@
 import Image from 'next/image'
 import {
+  headerOuter,
   header,
   headerImage,
   headerText,
   headerMobile,
   contentMobile,
+  mobileImage,
+  mobileText,
 } from './styles.css'
 
 const introText = () => (
@@ -33,30 +36,34 @@ const IntroContainer = () => {
   return (
     <>
       {/* DESKTOP DESIGN */}
-      <div className={header}>
-        <div className={headerImage}>
-          <Image
-            src="/images/kitchen-desktop.png"
-            alt="kitchen"
-            fill={true}
-            sizes="100vw"
-            style={{ objectFit: 'cover' }}
-            quality={100}
-          />
+      <div className={headerOuter}>
+        <div className={header}>
+          <div className={headerImage}>
+            <Image
+              src="/images/kitchen-desktop.png"
+              alt="kitchen"
+              fill
+              sizes="(max-width: 887px) 0px, 58vw"
+              style={{ objectFit: 'cover' }}
+              quality={100}
+            />
+          </div>
+          <div className={headerText}>{introText()}</div>
         </div>
-        <div className={headerText}>{introText()}</div>
       </div>
       {/* MOBILE DESIGN */}
       <div className={headerMobile}>
         <div className={contentMobile}>
-          <Image
-            src="/images/kitchen-mobile.png"
-            alt="kitchen"
-            height={226}
-            width={226}
-            quality={100}
-          />
-          <div>{introText()}</div>
+          <span className={mobileImage}>
+            <Image
+              src="/images/kitchen-mobile.png"
+              alt="kitchen"
+              height={226}
+              width={226}
+              quality={100}
+            />
+          </span>
+          <div className={mobileText}>{introText()}</div>
         </div>
       </div>
     </>
