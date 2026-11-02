@@ -1,5 +1,6 @@
 'use client'
 import recipes from '../public/data/recipes.json'
+import { searchRecipes } from '@/lib/utils'
 import { CategoriesWrapper } from './ui/categories/CategoriesWrapper'
 import { SectionsWrapper } from './ui/sections/SectionsWrapper'
 import { CardContainer } from './ui/card/CardContainer'
@@ -10,7 +11,7 @@ interface DateItem {
 }
 
 export default function Home() {
-  const recent = [...recipes]
+  const recent = searchRecipes('', recipes)
     .sort((a: DateItem, b: DateItem) => {
       const [dayA, monthA, yearA] = a.date.split('/').map(Number)
       const [dayB, monthB, yearB] = b.date.split('/').map(Number)
