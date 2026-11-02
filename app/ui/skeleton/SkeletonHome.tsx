@@ -14,7 +14,6 @@ import {
   headerMobile,
   contentMobile,
 } from '../../(overview)/styles.css'
-import { Footer } from '../footer/Footer'
 import { SkeletonCardContainer } from './SkeletonCardContainer'
 import { skeletonBlock, skeletonLine } from './styles.css'
 
@@ -130,7 +129,6 @@ const SkeletonHome = () => (
       hasHorizontalScroll
     />
     <SkeletonIntro />
-    <Footer hasMargin={false} />
   </>
 )
 

@@ -3,7 +3,6 @@ import recipes from '../public/data/recipes.json'
 import { IntroContainer } from './(overview)/IntroContainer'
 import { searchRecipes } from '@/lib/utils'
 import { CardContainer } from './ui/card/CardContainer'
-import { Footer } from './ui/footer/Footer'
 import { Title } from './ui/title/Title'
 import { SectionsWrapper } from './ui/sections/SectionsWrapper'
 
@@ -39,7 +38,6 @@ export default function Home({
       <SectionsWrapper />
       <CardContainer recipes={sortedRecipes} hasTitle hasHorizontalScroll />
       <IntroContainer />
-      <Footer hasMargin={false} />
     </>
   )
 }

@@ -3,7 +3,6 @@ import recipes from '../../public/data/recipes.json'
 import { searchRecipes } from '@/lib/utils'
 import { CardContainer } from '../ui/card/CardContainer'
 import { Search } from '../ui/search/Search'
-import { Footer } from '../ui/footer/Footer'
 
 export default function Page({
   searchParams,
@@ -20,7 +19,6 @@ export default function Page({
     <div style={{ paddingTop: 24 }}>
       <Search />
       <CardContainer recipes={searchedRecipes} />
-      <Footer />
     </div>
   )
 }

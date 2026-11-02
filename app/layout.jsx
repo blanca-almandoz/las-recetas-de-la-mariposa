@@ -6,6 +6,7 @@ import { themeClass } from '@/theme.css'
 import clsx from 'clsx'
 import { montserrat } from './ui/fonts'
 import { SearchProvider } from './ui/search/useSearch'
+import { Footer } from './ui/footer/Footer'
 
 export default function RootLayout({ children }) {
   return (
@@ -18,9 +19,19 @@ export default function RootLayout({ children }) {
           <div>
             <NavBar />
           </div>
-          <div>
-            {children}
-            <Analytics />
+          {/* El contenido ocupa al menos toda la pantalla, así el footer queda siempre abajo */}
+          <div
+            style={{
+              minHeight: '100vh',
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            <div style={{ flex: 1 }}>
+              {children}
+              <Analytics />
+            </div>
+            <Footer />
           </div>
         </SearchProvider>
       </body>
