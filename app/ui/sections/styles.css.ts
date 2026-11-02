@@ -4,10 +4,10 @@ import { style } from '@vanilla-extract/css'
 export const sectionItem = style({
   display: 'flex',
   flexDirection: 'column',
+  alignItems: 'center',
   width: 'fit-content',
-  ':hover': {
-    cursor: 'pointer',
-  },
+  textDecoration: 'none',
+  cursor: 'pointer',
 })
 
 export const sectionsContainer = style({
@@ -29,7 +29,7 @@ export const sectionTitle = style({
   fontWeight: 500,
   color: vars.color.primary.dark,
   textAlign: 'center',
-  marginTop: 4,
+  marginTop: 8,
 })
 
 export const sectionIlustration = style({
@@ -40,4 +40,13 @@ export const sectionIlustration = style({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
+  background: vars.color.white,
+  transition: 'transform .18s, box-shadow .18s, background .18s',
+  selectors: {
+    [`${sectionItem}:hover &`]: {
+      transform: 'translateY(-3px)',
+      boxShadow: '0 10px 22px -12px rgba(111, 143, 114, .6)',
+      background: vars.color.primary.light,
+    },
+  },
 })
