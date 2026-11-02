@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { TopLevelWrapper } from '../ui/topLevelWrapper/TopLevelWrapper'
 import { ChevronArrowBack } from '../ui/SVG'
 import sections from '../../public/data/sections.json'
-import { MARKERS } from './markers'
+import { MARKERS, type Point } from './markers'
 import { parseContent, deriveChips, derivePrice } from './content'
 import * as s from './styles.css'
 
@@ -16,7 +16,7 @@ export default function Page({ params }: { params: { section: string } }) {
 
   if (!section) return null
 
-  const markers = MARKERS[section.path] || {}
+  const markers: Record<string, Point> = MARKERS[section.path] || {}
   let counter = 0
   const cuts = section.sections.map((item) => {
     const pos = markers[item.header]

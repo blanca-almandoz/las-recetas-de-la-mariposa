@@ -5,6 +5,7 @@ import { Card } from '../ui/card/Card'
 import { TopLevelWrapper } from '../ui/topLevelWrapper/TopLevelWrapper'
 import { wrapperContent } from '../ui/topLevelWrapper/styles.css'
 import { stylesTitle } from '../ui/card/styles.css'
+import { Recipe } from '@/lib/types'
 
 export default function Page({
   searchParams,
@@ -14,7 +15,7 @@ export default function Page({
   }
 }) {
   const query = searchParams?.query || ''
-  const results = query ? searchRecipes(query, recipes) : []
+  const results: Recipe[] = query ? searchRecipes(query, recipes) : []
 
   return (
     <TopLevelWrapper>
@@ -33,7 +34,7 @@ export default function Page({
           : 'Escribe en el buscador para encontrar una receta.'}
       </p>
       <div className={wrapperContent}>
-        {results.map((recipe) => (
+        {results.map((recipe: Recipe) => (
           <Card
             key={recipe.id}
             id={recipe.id}

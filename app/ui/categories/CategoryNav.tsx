@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { strip, inner, item, itemActive } from './styles.css'
+import { strip, inner, item, itemActive } from './CategoryNav.styles.css'
 
 const CATEGORIES = [
   { path: 'starters', label: 'Tapas y aperitivos' },
