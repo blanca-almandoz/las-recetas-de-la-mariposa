@@ -38,7 +38,7 @@ export interface Recipe {
   image: string
   category: string
   author: string
-  portions: number
+  portions: string
   imageComment: string
 }
 export interface DetailsPageType {

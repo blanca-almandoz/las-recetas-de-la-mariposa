@@ -7,10 +7,25 @@ import { themeClass } from '@/theme.css'
 import clsx from 'clsx'
 import { montserrat } from './ui/fonts'
 import { SearchProvider } from './ui/search/useSearch'
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/lib/site'
+
+export const metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: SITE_NAME,
+    template: `%s · ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    siteName: SITE_NAME,
+    type: 'website',
+    locale: 'es_ES',
+  },
+}
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={clsx(themeClass, montserrat.className)}
         style={{

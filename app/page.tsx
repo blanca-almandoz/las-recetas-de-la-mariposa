@@ -1,4 +1,3 @@
-'use client'
 import recipes from '../public/data/recipes.json'
 import { searchRecipes } from '@/lib/utils'
 import { CategoriesWrapper } from './ui/categories/CategoriesWrapper'

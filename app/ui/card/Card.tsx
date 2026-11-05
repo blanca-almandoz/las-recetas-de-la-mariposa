@@ -12,12 +12,13 @@ import {
 import { Difficulty, Timer } from '../SVG.jsx'
 import { timeConvert } from '@/lib/utils'
 import { CardType } from '@/lib/types'
+import { BLUR_DATA_URL } from '@/lib/image'
 
 const Card = ({
   title,
   time,
   image,
-  difficulty = 'medio',
+  difficulty = 'Medio',
   pathname,
 }: CardType) => {
   return (
@@ -30,6 +31,8 @@ const Card = ({
             height={0}
             sizes="(max-width: 639px) 100vw, 400px"
             quality={90}
+            placeholder="blur"
+            blurDataURL={BLUR_DATA_URL}
             style={{
               width: '100%',
               height: '100%',

@@ -22,6 +22,7 @@ import { DetailsPageType, ListedItemsType } from '@/lib/types'
 import { Information } from './Information'
 import { useEffect, useRef, useState } from 'react'
 import { DetailsPageAnimations } from '../animations/DetailsPageAnimations'
+import { BLUR_DATA_URL } from '@/lib/image'
 
 type ListVariant = 'bullets' | 'steps'
 
@@ -82,6 +83,8 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
           height={0}
           sizes="(max-width: 887px) 100vw, 50vw"
           quality={90}
+          placeholder="blur"
+          blurDataURL={BLUR_DATA_URL}
           className={recipeImage}
           alt={title}
         />

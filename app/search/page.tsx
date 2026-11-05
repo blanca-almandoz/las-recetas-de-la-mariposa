@@ -1,4 +1,3 @@
-'use client'
 import recipes from '../../public/data/recipes.json'
 import { searchRecipes } from '@/lib/utils'
 import { Card } from '../ui/card/Card'
@@ -6,6 +5,10 @@ import { TopLevelWrapper } from '../ui/topLevelWrapper/TopLevelWrapper'
 import { wrapperContent } from '../ui/topLevelWrapper/styles.css'
 import { stylesTitle } from '../ui/card/styles.css'
 import { Recipe } from '@/lib/types'
+
+export const metadata = {
+  title: 'Buscar',
+}
 
 export default function Page({
   searchParams,

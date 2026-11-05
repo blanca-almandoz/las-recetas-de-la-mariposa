@@ -1748,7 +1748,7 @@
         "perejil"
       ]
     },
-    "difficulty": "Dificil",
+    "difficulty": "Difícil",
     "category": "main",
     "time": "240",
     "portions": "",
@@ -4774,7 +4774,7 @@
     "portions": "5",
     "image": "/images/recipes/lubina.webp",
     "date": "25/12/2025",
-    "author": "ChefJC",
+    "author": "Chef JC",
     "imageComment": ""
   },
   {
@@ -4840,7 +4840,7 @@
     "portions": "4",
     "image": "/images/recipes/salsa-zanahoria-manzana.webp",
     "date": "20/3/2026",
-    "author": "ChefJC",
+    "author": "Chef JC",
     "imageComment": ""
   },
   {
@@ -4947,7 +4947,7 @@
     "portions": "4",
     "image": "/images/recipes/pollo-grevenmacher.webp",
     "date": "27/5/2026",
-    "author": "ChefJC",
+    "author": "Chef JC",
     "imageComment": ""
   },
   {
@@ -5097,7 +5097,7 @@
     "portions": "6",
     "image": "/images/recipes/cabeza-cerdo.webp",
     "date": "24/8/2026",
-    "author": "ChefJC",
+    "author": "Chef JC",
     "imageComment": "Esto está tan rico como barato es. O sea, mucho."
   },
   {
@@ -5128,7 +5128,7 @@
     "portions": "4",
     "image": "/images/recipes/empanadillas.webp",
     "date": "24/8/2026",
-    "author": "ChefJC",
+    "author": "Chef JC",
     "imageComment": ""
   }
 ]

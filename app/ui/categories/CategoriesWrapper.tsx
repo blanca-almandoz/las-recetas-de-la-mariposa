@@ -5,21 +5,8 @@ import Link from 'next/link'
 import { TopLevelWrapper } from '../topLevelWrapper/TopLevelWrapper'
 import { stylesTitle } from '../card/styles.css'
 import { grid, tile, tileImg, tileLabel } from './styles.css'
-
-const CATEGORIES = [
-  {
-    path: 'starters',
-    label: 'Tapas y aperitivos',
-    image: '/images/recipes/crema-cabrales.webp',
-  },
-  { path: 'main', label: 'Principales', image: '/images/recipes/lubina.webp' },
-  { path: 'desserts', label: 'Postres', image: '/images/recipes/brownie.webp' },
-  {
-    path: 'siders',
-    label: 'Salsas y guarniciones',
-    image: '/images/recipes/patatas-al-horno.webp',
-  },
-]
+import { CATEGORIES } from '@/lib/categories'
+import { BLUR_DATA_URL } from '@/lib/image'
 
 const CategoriesWrapper = () => {
   return (
@@ -38,6 +25,8 @@ const CategoriesWrapper = () => {
                 alt={category.label}
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
+                placeholder="blur"
+                blurDataURL={BLUR_DATA_URL}
                 style={{ objectFit: 'cover' }}
               />
             </span>

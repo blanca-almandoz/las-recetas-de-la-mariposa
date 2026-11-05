@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
-import { useRouter } from 'next/navigation'
+import { useRouter, notFound } from 'next/navigation'
 import { TopLevelWrapper } from '../ui/topLevelWrapper/TopLevelWrapper'
 import { ChevronArrowBack } from '../ui/SVG'
 import sections from '../../public/data/sections.json'
@@ -14,7 +14,7 @@ export default function Page({ params }: { params: { section: string } }) {
   const [hot, setHot] = useState<number | null>(null)
   const section = sections.find((sec) => sec.path === params.section)
 
-  if (!section) return null
+  if (!section) notFound()
 
   const markers: Record<string, Point> = MARKERS[section.path] || {}
   let counter = 0
