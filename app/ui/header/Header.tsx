@@ -28,8 +28,6 @@ const Header = () => {
   const router = useRouter()
   const pathname = usePathname()
 
-  const showCategories = pathname !== '/'
-
   const handleChange = (term: string) => {
     setValue(term)
     router.replace(term ? `/search?query=${encodeURIComponent(term)}` : '/')
@@ -49,23 +47,21 @@ const Header = () => {
         </span>
       </Link>
 
-      {showCategories && (
-        <nav className={catNav}>
-          {CATEGORIES.map((category) => {
-            const href = `/recipes/${category.path}`
-            const active = pathname === href
-            return (
-              <Link
-                key={category.path}
-                href={href}
-                className={active ? `${catItem} ${catItemActive}` : catItem}
-              >
-                {category.label}
-              </Link>
-            )
-          })}
-        </nav>
-      )}
+      <nav className={catNav}>
+        {CATEGORIES.map((category) => {
+          const href = `/recipes/${category.path}`
+          const active = pathname === href
+          return (
+            <Link
+              key={category.path}
+              href={href}
+              className={active ? `${catItem} ${catItemActive}` : catItem}
+            >
+              {category.label}
+            </Link>
+          )
+        })}
+      </nav>
 
       <div className={searchBar}>
         <SearchIcon />
