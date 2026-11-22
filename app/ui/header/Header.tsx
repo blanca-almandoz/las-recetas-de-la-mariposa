@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
@@ -14,6 +14,7 @@ import {
   catItemActive,
   searchBar,
   searchInput,
+  clearButton,
 } from './styles.css'
 
 const CATEGORIES = [
@@ -25,12 +26,18 @@ const CATEGORIES = [
 
 const Header = () => {
   const [value, setValue] = useState('')
+  const inputRef = useRef<HTMLInputElement>(null)
   const router = useRouter()
   const pathname = usePathname()
 
   const handleChange = (term: string) => {
     setValue(term)
     router.replace(term ? `/search?query=${encodeURIComponent(term)}` : '/')
+  }
+
+  const clearSearch = () => {
+    handleChange('')
+    inputRef.current?.focus()
   }
 
   return (
@@ -66,12 +73,30 @@ const Header = () => {
       <div className={searchBar}>
         <SearchIcon />
         <input
+          ref={inputRef}
           type="text"
           className={searchInput}
           value={value}
           placeholder="Buscar recetas…"
           onChange={(e) => handleChange(e.target.value)}
         />
+        {value && (
+          <button
+            type="button"
+            className={clearButton}
+            onClick={clearSearch}
+            aria-label="Borrar búsqueda"
+          >
+            <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+              <path
+                d="M1 1l10 10M11 1L1 11"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+        )}
       </div>
     </header>
   )

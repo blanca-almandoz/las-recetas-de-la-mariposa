@@ -89,10 +89,39 @@ export const searchBar = style({
 
 export const searchInput = style({
   flex: 1,
+  minWidth: 0,
   border: 'none',
   outline: 'none',
   fontFamily: 'inherit',
-  fontSize: 14,
+  // 16px como mínimo: iOS hace zoom automático al enfocar un campo con letra menor.
+  fontSize: 16,
   color: vars.color.body,
   backgroundColor: 'transparent',
+})
+
+// Botón para borrar la búsqueda: solo en móvil.
+export const clearButton = style({
+  display: 'none',
+  flexShrink: 0,
+  alignItems: 'center',
+  justifyContent: 'center',
+  width: 28,
+  height: 28,
+  padding: 0,
+  border: 'none',
+  borderRadius: '50%',
+  backgroundColor: vars.color.utility[100],
+  color: vars.color.utility[500],
+  cursor: 'pointer',
+  '@media': {
+    'screen and (max-width: 639px)': {
+      display: 'flex',
+    },
+  },
+  selectors: {
+    '&:focus-visible': {
+      outline: `2px solid ${vars.color.primary.dark}`,
+      outlineOffset: 2,
+    },
+  },
 })

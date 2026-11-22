@@ -44,7 +44,8 @@ export default async function Page({ params }: { params: RouteParams }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <DetailsPage recipe={recipe} />
+      {/* key: al cambiar de receta se reinician los comensales */}
+      <DetailsPage key={recipe[0].id} recipe={recipe} />
     </TopLevelWrapper>
   )
 }

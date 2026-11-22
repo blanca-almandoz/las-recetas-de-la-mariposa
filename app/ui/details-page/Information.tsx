@@ -1,5 +1,6 @@
 import { timeConvert } from '@/lib/utils'
 import { DetailsPageType, IconKey, IconType } from '@/lib/types'
+import { parsePortions } from '@/lib/scaleIngredient'
 import { infoContent, infoWrapper, infoText } from './styles.css'
 import {
   CookHat,
@@ -10,12 +11,20 @@ import {
   Steps,
 } from '../SVG'
 
-export const Information = ({ recipe }: DetailsPageType) => {
+type InformationProps = DetailsPageType & {
+  /** Comensales elegidos por el usuario; si no se pasa, se muestran los de la receta. */
+  servings?: number
+}
+
+export const Information = ({ recipe, servings }: InformationProps) => {
   const { time, difficulty, author, portions } = recipe[0]
   const formatedTime = timeConvert(time)
   const headers = [
     { icon: 'timer', label: `${formatedTime}` },
-    { icon: 'portions', label: `${portions}` || '4' },
+    {
+      icon: 'portions',
+      label: `${servings ?? parsePortions(portions)}`,
+    },
     { icon: 'difficulty', label: difficulty },
     { icon: 'hat', label: author },
   ]

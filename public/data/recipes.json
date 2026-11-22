@@ -13,7 +13,7 @@
     },
     "ingredients": {
       "Ingredientes": [
-        "2-3 alcachofas por persona, depende del tamaño",
+        "2 alcachofas por persona, depende del tamaño",
         "Aceite"
       ]
     },
@@ -400,8 +400,8 @@
       "Ingredientes": [
         "Masa quebrada redonda de marca Buitoni o Casa Tarradellas o hecha en casa",
         "1 cebolleta",
-        "200 gr queso emmental o gruyère",
-        "250g lacón cocido cortado en trozos",
+        "200 g queso emmental o gruyère",
+        "250 g lacón cocido cortado en trozos",
         "2 huevos",
         "200 ml nata",
         "Pimienta",
@@ -1082,7 +1082,7 @@
     },
     "ingredients": {
       "Ingredientes": [
-        "Dos vasos de arroz",
+        "2 vasos de arroz",
         "6 plátanos",
         "6 huevos",
         "1 hoja de laurel",
@@ -1116,7 +1116,7 @@
       "Ingredientes": [
         "3 solomillos de vacuno",
         "1/2 cebolleta",
-        "Mostaza \"antigüa Maille en grano\" (2 cucharaditas de té)",
+        "2 cucharaditas de mostaza \"antigüa Maille en grano\"",
         "1 huevo",
         "Tabasco",
         "Pimienta",
@@ -5102,7 +5102,7 @@
   },
   {
     "id": "154",
-    "title": "Empanadillas",
+    "title": "Empanadillas de atún",
     "steps": {
       "Preparación": [
         "Cocer los huevos.",
@@ -5129,6 +5129,167 @@
     "image": "/images/recipes/empanadillas.webp",
     "date": "24/8/2026",
     "author": "Chef JC",
+    "imageComment": ""
+  },
+  {
+    "id": "155",
+    "title": "Galletas de mantequilla",
+    "steps": {
+      "Preparación": [
+        "Colocar en un bol la harina y la levadura. Agregar la mantequilla a punto de pomada (blanda y a temperatura ambiente), el huevo y el azúcar. Amasar. Vertir la leche poco a poco y continuar amasando hasta que quede una masa homogénea.",
+        "Envolver en film transparente y dejar enfriar en el frigorífico durante 1 hora.",
+        "Retirar el plástico y amasar nuevamente. Espolvorear la superficie de trabajo con un poco de harina y estirar la masa con un rodillo hasta dejarla de medio centímetro de grosor.",
+        "Con un molde de galletas, cortar las galletas y colocarlas sobre la placa de horno forrada con papel de hornear. Introducir en el horno (previamente calentado) y hornear a 175 grados durante 17 minutos."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "1/2 kg harina",
+        "170 g mantequilla",
+        "170 g azúcar",
+        "1 huevo",
+        "170 ml leche",
+        "8 g levadura en polvo (medio sobre)"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "desserts",
+    "time": "120",
+    "portions": "40",
+    "image": "/images/recipes/galletas-mantequilla.webp",
+    "date": "10/11/2026",
+    "author": "Blanca",
+    "imageComment": ""
+  },
+  {
+    "id": "156",
+    "title": "Tortilla de batata",
+    "steps": {
+      "Preparación": [
+        "Envolver el boniato en papel de cocina húmedo y meter en el microondas 5-6 minutos. Pinchar con un cuchillo para comprobar que está bien cocinado.",
+        "En un bowl mezclar el boniato pelado junto con los dos huevos. Añadir sal.",
+        "Cuajar en una sartén a fuego medio con un poco de aceite."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "1 boniato pequeño/mediano",
+        "2 huevos"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "starters",
+    "time": "15",
+    "portions": "2",
+    "image": "/images/recipes/tortilla-batata.webp",
+    "date": "13/11/2026",
+    "author": "Blanca",
+    "imageComment": ""
+  },
+  {
+    "id": "157",
+    "title": "Bizcocho de plátano con chocolate",
+    "steps": {
+      "Preparación": [
+        "Precalentar el horno a 180ºC.",
+        "En un bowl grande machacar los plátanos. Añadir los huevos, el aceite y el zumo de la naranja.",
+        "Triturar y tamizar la avena. Añadir al bowl junto con la levadura, la vainilla, la canela y las pepitas de chocolate.",
+        "Hornear durante 45 minutos."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "3 plátanos maduros",
+        "2 huevos",
+        "120 ml aceite de oliva",
+        "1 naranja",
+        "220 g avena molida",
+        "1 cucharadita de levadura",
+        "Pepitas de chocolate negro",
+        "Canela",
+        "Vainilla"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "desserts",
+    "time": "60",
+    "portions": "",
+    "image": "/images/recipes/bizcocho-platano-chocolate.webp",
+    "date": "21/11/2026",
+    "author": "Blanca",
+    "imageComment": ""
+  },
+  {
+    "id": "158",
+    "title": "Contramuslos de pollo en salsa",
+    "steps": {
+      "Preparación": [
+        "En un bowl mezclar los contramuslos de pollo con el pimentón, el ajo en polvo, las hierbas, pimienta, sal y un chorrito de aceite. Opcional dejar marinar en la nevera 30 minutos para que coja más sabor.",
+        "Sellar los contramuslos en una cazuela a fuego fuerte hasta que estén dorados. Retirar y reservar.",
+        "En la misma cazuela, añadir la cebolla picada muy fina. Cocinar hasta que esté pochada (10 minutos aprox).",
+        "Incorporar el vino blanco y dejar reducir hasta que el alcohol se haya evaporado. Añadir las mostazas y la miel y mezclar bien.",
+        "Añadir el caldo de pollo. Añadir la nata y dejar reducir la salsa si ha quedado muy líquida. Añadir los contramuslos y dejar 5-10 minutos a fuego suave."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "4 contramuslos de pollo limpios",
+        "1 cebolla grande",
+        "2 cucharadas de mostaza de Dijon",
+        "1 cucharada de mostaza a la antigua (con bolitas)",
+        "2 cucharadas de miel",
+        "60 ml de vino blanco",
+        "225 ml de caldo de pollo",
+        "100 ml de nata",
+        "1 cucharada de pimentón dulce",
+        "1 cucharita de hierbas",
+        "1 cucharita de ajo en polvo",
+        "Pimienta",
+        "Sal"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "main",
+    "time": "60",
+    "portions": "2",
+    "image": "/images/recipes/contramuslos-pollo.webp",
+    "date": "15/11/2026",
+    "author": "Blanca",
+    "imageComment": ""
+  },
+  {
+    "id": "159",
+    "title": "Empanadillas estilo Arguiñano",
+    "steps": {
+      "Preparación": [
+        "Pelar y picar en daditos los ajos y la cebolleta. Poner a rehogar en una sartén con un chorrito de aceite. Cortar el pimiento verde y agregar. Rehogar bien las verduras. Sazonar y reservar.",
+        "Poner agua a calentar en una cazuela. Cuando empiece a hervir, agregar 1 huevo (reserva el otro) y la patata. Retirar el huevo a los 10 minutos y dejar la patata durante 20 minutos más. Refrescar, pelar y picar el huevo en daditos. En un bowl, aplastar bien la patata previamente pelada. Añadir las verduras rehogadas, el huevo bien picado, las alcaparras (picadas), el atún y el tomate frito. Mezclar bien.",
+        "Extender las obleas sobre una superficie lisa y rellenar. Cerrar dándoles forma de media luna y sellar (para que el relleno no se salga) presionando los bordes con un tenedor.",
+        "Cubrir una bandeja de horno con papel de horno y colocar encima las empanadillas. Cascar y batir el otro huevo y con ayuda de una brocha untar las empanadillas. Hornear a 200º C durante 10-12 minutos."
+      ]
+    },
+    "ingredients": {
+      "Ingredientes": [
+        "16 obleas para empanadillas",
+        "2 huevos",
+        "150 g de atún en aceite",
+        "200 ml de tomate frito",
+        "1 patata pequeña",
+        "1 cebolleta",
+        "1/2 pimiento verde",
+        "1 diente de ajo",
+        "1 cucharada de alcaparras",
+        "Pimienta",
+        "Sal"
+      ]
+    },
+    "difficulty": "Fácil",
+    "category": "starters",
+    "time": "60",
+    "portions": "4",
+    "image": "/images/recipes/empanadillas-horno.webp",
+    "date": "14/11/2026",
+    "author": "Blanca",
     "imageComment": ""
   }
 ]

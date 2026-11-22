@@ -7,7 +7,7 @@ export const recipeWrapper = style({
   gap: 40,
   width: '100%',
   paddingBottom: 24,
-  marginTop: 32,
+  marginTop: 16,
   '@media': {
     'screen and (max-width: 768px)': {
       display: 'none',
@@ -22,6 +22,10 @@ export const recipeWrapperMobile = style({
   marginTop: 16,
   gap: 24,
   '@media': {
+    'screen and (max-width: 767px)': {
+      // Con el padding de 64 px del wrapper global, esto deja ~8 px entre la barra y "Atrás".
+      marginTop: -44,
+    },
     'screen and (min-width: 768px)': {
       display: 'none',
     },

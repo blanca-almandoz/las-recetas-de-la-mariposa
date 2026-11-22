@@ -20,9 +20,16 @@ import {
 } from './styles.css'
 import { DetailsPageType, ListedItemsType } from '@/lib/types'
 import { Information } from './Information'
-import { useEffect, useRef, useState } from 'react'
+import { PortionsControl } from './PortionsControl'
+import { BackButton } from './BackButton'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { DetailsPageAnimations } from '../animations/DetailsPageAnimations'
 import { BLUR_DATA_URL } from '@/lib/image'
+import {
+  parsePortions,
+  scaleIngredients,
+  supportsPortionScaling,
+} from '@/lib/scaleIngredient'
 
 type ListVariant = 'bullets' | 'steps'
 
@@ -60,7 +67,17 @@ const ListedItems = ({
 }
 
 const DetailsPage = ({ recipe }: DetailsPageType) => {
-  const { title, ingredients, steps, image, imageComment } = recipe[0]
+  const { title, ingredients, steps, image, imageComment, portions, category } =
+    recipe[0]
+
+  // El escalado no existe en postres, y solo se ofrece si la base es 2, 4, 6 u 8 comensales.
+  const basePortions = parsePortions(portions)
+  const canScale = supportsPortionScaling(category, basePortions)
+  const [servings, setServings] = useState(basePortions)
+  const scaledIngredients = useMemo(
+    () => (canScale ? scaleIngredients(ingredients, servings / basePortions) : ingredients),
+    [ingredients, servings, basePortions, canScale]
+  )
 
   const rightColumnRef = useRef<HTMLDivElement | null>(null)
   const [isRightColumnTallerThan100vh, setIsRightColumnTallerThan100vh] =
@@ -95,12 +112,21 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
     </div>
   )
 
+  // Elemento (no componente) para que no se remonte al cambiar comensales y no se pierda el foco.
+  const ingredientsBlock = (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+      {canScale && <PortionsControl value={servings} onChange={setServings} />}
+      <ListedItems items={scaledIngredients} />
+    </div>
+  )
+
   return (
     <>
       {/* DESKTOP */}
       <DetailsPageAnimations>
         <div className={recipeWrapper}>
           <div className={leftColumn}>
+            <BackButton fallbackHref={`/recipes/${category}`} />
             <div className={recipeTitle}>{title.toUpperCase()}</div>
             <div
               style={{
@@ -113,8 +139,8 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
                 gap: 24,
               }}
             >
-              <ListedItems items={ingredients} />
-              <Information recipe={recipe} />
+              {ingredientsBlock}
+              <Information recipe={recipe} servings={servings} />
             </div>
           </div>
           <div className={rightColumn} ref={rightColumnRef}>
@@ -128,16 +154,17 @@ const DetailsPage = ({ recipe }: DetailsPageType) => {
       <DetailsPageAnimations>
         <div className={recipeWrapperMobile}>
           <div className="px-6 md:px-8">
+            <BackButton fallbackHref={`/recipes/${category}`} />
             <div className={recipeTitle}>{title.toUpperCase()}</div>
           </div>
           <div>
             <ImageComponent />
           </div>
           <div className="px-6 md:px-8">
-            <Information recipe={recipe} />
+            <Information recipe={recipe} servings={servings} />
           </div>
           <div className="px-6 md:px-8">
-            <ListedItems items={ingredients} />
+            {ingredientsBlock}
           </div>
           <div className="px-6 md:px-8">
             <ListedItems items={steps} variant="steps" />
