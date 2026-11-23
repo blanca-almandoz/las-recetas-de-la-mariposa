@@ -15,9 +15,16 @@ import {
   bottomRow,
 } from './styles.css'
 
-const Footer = () => {
+interface FooterProps {
+  hasMargin?: boolean
+}
+
+const Footer = ({ hasMargin = true }: FooterProps) => {
   return (
-    <footer className={footerWrapper}>
+    <footer
+      className={footerWrapper}
+      style={{ marginTop: hasMargin ? 20 : 1 }}
+    >
       <div className={footerContent}>
         <div className={footerTop}>
           <div className={brandCol}>
