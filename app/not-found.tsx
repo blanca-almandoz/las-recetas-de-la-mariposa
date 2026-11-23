@@ -14,8 +14,8 @@ export default function NotFound() {
           padding: '64px 24px',
         }}
       >
-        <h1 style={{ fontSize: 28, margin: 0 }}>Receta no encontrada</h1>
-        <p style={{ color: '#7F818F', fontSize: 15, margin: 0, maxWidth: 420 }}>
+        <h1 style={{ fontSize: 30, margin: 0 }}>Receta no encontrada</h1>
+        <p style={{ color: '#7F818F', fontSize: 16, margin: 0, maxWidth: 420 }}>
           No hemos encontrado lo que buscabas. Puede que la receta haya cambiado
           de sitio o que el enlace no sea correcto.
         </p>

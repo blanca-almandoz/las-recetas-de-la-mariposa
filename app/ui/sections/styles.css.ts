@@ -10,8 +10,6 @@ export const sectionsContainer = style({
     'screen and (max-width: 887px)': {
       overflowX: 'auto',
       WebkitOverflowScrolling: 'touch',
-      paddingLeft: 16,
-      paddingRight: 16,
       gap: 12,
     },
   },
@@ -49,7 +47,7 @@ export const sectionIlustration = style({
 })
 
 export const sectionTitle = style({
-  fontSize: 12,
+  fontSize: 14,
   fontWeight: 600,
   color: vars.color.body,
   textAlign: 'center',

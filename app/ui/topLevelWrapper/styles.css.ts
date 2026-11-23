@@ -10,6 +10,7 @@ export const wrapperStyled = style({
     'screen and (max-width: 639px)': {
       paddingRight: 0,
       paddingLeft: 0,
+      paddingTop: 24,
     },
   },
 })
@@ -29,11 +30,27 @@ export const wrapperContent = style({
 export const horizontalScroll = style({
   '@media': {
     'screen and (max-width: 1290px)': {
-      gridAutoFlow: 'column',
-      gridTemplateColumns: 'unset',
-      gridAutoColumns: '270px',
+      display: 'flex',
+      gap: 16,
       overflowX: 'auto',
       padding: '0 8px 8px 8px',
     },
+    'screen and (max-width: 639px)': {
+      paddingLeft: 0,
+      paddingRight: 0,
+    },
   },
+})
+
+export const mobileSidePadding = style({
+  '@media': {
+    'screen and (max-width: 639px)': {
+      paddingLeft: 8,
+      paddingRight: 8,
+    },
+  },
+})
+
+export const horizontalItem = style({
+  flex: '0 0 270px',
 })

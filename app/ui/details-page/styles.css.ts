@@ -26,6 +26,10 @@ export const recipeWrapperMobile = style({
       // Con el padding de 64 px del wrapper global, esto deja ~8 px entre la barra y "Atrás".
       marginTop: -44,
     },
+    // En móvil el wrapper global tiene 24 px de padding superior: 24 - 16 = 8 px.
+    'screen and (max-width: 639px)': {
+      marginTop: -16,
+    },
     'screen and (min-width: 768px)': {
       display: 'none',
     },
@@ -97,7 +101,7 @@ export const recipeWrapperImage = style({
 })
 
 export const recipeCommentImage = style({
-  fontSize: 13,
+  fontSize: 14,
   fontStyle: 'italic',
   color: vars.color.utility[500],
   marginTop: 8,
@@ -129,7 +133,7 @@ export const listGroups = style({
 })
 
 export const groupTitle = style({
-  fontSize: 13,
+  fontSize: 14,
   fontWeight: 700,
   letterSpacing: 1,
   textTransform: 'uppercase',
@@ -151,7 +155,7 @@ export const bulletList = style({
 export const bulletItem = style({
   position: 'relative',
   paddingLeft: 20,
-  fontSize: 15,
+  fontSize: 16,
   lineHeight: 1.5,
   color: vars.color.body,
   selectors: {
@@ -181,7 +185,7 @@ export const stepItem = style({
   display: 'flex',
   gap: 12,
   alignItems: 'flex-start',
-  fontSize: 15,
+  fontSize: 16,
   lineHeight: 1.55,
   color: vars.color.body,
 })
@@ -194,7 +198,7 @@ export const stepNum = style({
   background: vars.color.primary.light,
   color: vars.color.primary.dark,
   fontWeight: 700,
-  fontSize: 13,
+  fontSize: 14,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',

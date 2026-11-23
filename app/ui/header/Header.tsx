@@ -15,6 +15,7 @@ import {
   searchBar,
   searchInput,
   clearButton,
+  wordmarkHiddenOnMobile,
 } from './styles.css'
 
 const CATEGORIES = [
@@ -44,7 +45,11 @@ const Header = () => {
     <header className={bar}>
       <Link href="/" className={brand} aria-label="Inicio">
         <Image className={bfly} src="/logo.svg" width={40} height={40} alt="" />
-        <span className={wordmark}>
+        <span
+          className={
+            pathname === '/' ? wordmark : `${wordmark} ${wordmarkHiddenOnMobile}`
+          }
+        >
           <Image
             src="/page_name.svg"
             alt="Las recetas de la mariposa"

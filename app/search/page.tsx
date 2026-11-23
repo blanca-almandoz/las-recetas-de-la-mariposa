@@ -2,7 +2,7 @@ import recipes from '../../public/data/recipes.json'
 import { searchRecipes } from '@/lib/utils'
 import { Card } from '../ui/card/Card'
 import { TopLevelWrapper } from '../ui/topLevelWrapper/TopLevelWrapper'
-import { wrapperContent } from '../ui/topLevelWrapper/styles.css'
+import { wrapperContent, mobileSidePadding } from '../ui/topLevelWrapper/styles.css'
 import { stylesTitle } from '../ui/card/styles.css'
 import { Recipe } from '@/lib/types'
 
@@ -21,7 +21,8 @@ export default function Page({
   const results: Recipe[] = query ? searchRecipes(query, recipes) : []
 
   return (
-    <TopLevelWrapper>
+    <div className={mobileSidePadding}>
+      <TopLevelWrapper>
       <div className={stylesTitle}>Resultados</div>
       <p
         style={{
@@ -50,6 +51,7 @@ export default function Page({
           />
         ))}
       </div>
-    </TopLevelWrapper>
+      </TopLevelWrapper>
+    </div>
   )
 }

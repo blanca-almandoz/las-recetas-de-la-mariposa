@@ -49,7 +49,7 @@ export const searchInput = style({
   border: 'none',
   outline: 'none',
   fontFamily: 'inherit',
-  fontSize: 14,
+  fontSize: 16,
   color: vars.color.body,
   backgroundColor: 'transparent',
 })

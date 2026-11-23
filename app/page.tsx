@@ -4,6 +4,7 @@ import { CategoriesWrapper } from './ui/categories/CategoriesWrapper'
 import { SectionsWrapper } from './ui/sections/SectionsWrapper'
 import { CardContainer } from './ui/card/CardContainer'
 import { IntroContainer } from './(overview)/IntroContainer'
+import { mobileSidePadding } from './ui/topLevelWrapper/styles.css'
 
 interface DateItem {
   date: string
@@ -22,11 +23,11 @@ export default function Home() {
     .slice(0, 8)
 
   return (
-    <>
+    <div className={mobileSidePadding}>
       <CategoriesWrapper />
       <SectionsWrapper />
       <CardContainer recipes={recent} hasTitle hasHorizontalScroll />
       <IntroContainer />
-    </>
+    </div>
   )
 }

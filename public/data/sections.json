@@ -108,7 +108,7 @@
     "title": "Pollo y pavo",
     "path": "chicken",
     "image": "/images/animals/chicken.svg",
-    "introduction": "Carne económica, versátil y muy fácil de cocinar.Más sabroso y con mejor textura que el blanco. El pollo amarillo es un poco más caro pero suele compensar en sabor. El pavo es carne más magra y de sabor suave; es la opción clásica para Navidad o celebraciones especiales.",
+    "introduction": "Carne económica, versátil y muy fácil de cocinar. El pollo amarillo es un poco más caro pero suele compensar en sabor. El pavo es carne más magra y de sabor suave; es la opción clásica para Navidad o celebraciones especiales.",
     "sections": [
       {
         "header": "Alitas",
@@ -116,15 +116,15 @@
       },
       {
         "header": "Contramuslo",
-        "content": "La parte más jugosa del pollo.\n • Recomendación clara: pedirlo deshuesado. Es mucho más cómodo y el resultado es infinitamente más sabroso que la pechuga. Si lo pides cortado en trozos, es de lo más jugoso que puedes usar. Perfecto para:\n • Caldo: lo ideal es añadir 1 muslo y 1 contramuslo. Aportan más sabor que usar solo pechuga.\n • Pollo al curry\n • Guisos y arroces\n • Horno"
+        "content": "La parte más jugosa del pollo.\n • Pedirlo deshuesado. Es mucho más cómodo y el resultado es infinitamente más sabroso que la pechuga. Si lo pides cortado en trozos, es de lo más jugoso que puedes usar. Perfecto para:\n • Caldo: lo ideal es añadir 1 muslo y 1 contramuslo. Aportan más sabor que usar solo pechuga.\n • Pollo al curry\n • Guisos y arroces"
       },
       {
         "header": "Cuarto trasero",
-        "content": "Es la pieza completa formada por muslo + contramuslo. Muy buena opción para horno y asados. También puedes comprar:\n • Muslos sueltos\n • Contramuslos sueltos"
+        "content": "Es la pieza completa formada por muslo + contramuslo. Muy buena opción para horno y asados. También puedes comprar muslos sueltos o contramuslos sueltos"
       },
       {
         "header": "Patas y otras piezas",
-        "content": "En general no suelen merecer mucho la pena: son menos jugosas y menos versátiles que las de pollo."
+        "content": "En general no suelen merecer mucho la pena: son menos jugosas y menos versátiles."
       },
       {
         "header": "Pechuga",
@@ -137,7 +137,7 @@
       },
       {
         "header": "Solomillo de pollo",
-        "content": "Es una parte pequeña y más cara. No suele merecer la pena pagar el sobreprecio, ya que el contra muslo ofrece mejor resultado por menos dinero."
+        "content": "Es una parte pequeña y más cara. No suele merecer la pena pagar el sobreprecio, ya que el contramuslo ofrece mejor resultado por menos dinero."
       }
     ]
   }

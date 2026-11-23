@@ -28,14 +28,14 @@ export const backBtn = style({
 })
 
 export const title = style({
-  fontSize: 26,
+  fontSize: 30,
   fontWeight: 600,
   letterSpacing: 0.3,
   color: vars.color.body,
   margin: 0,
   '@media': {
     'screen and (max-width: 639px)': {
-      fontSize: 22,
+      fontSize: 24,
     },
   },
 })
@@ -88,7 +88,7 @@ export const figureCanvas = style({
 })
 
 export const figureHint = style({
-  fontSize: 12,
+  fontSize: 14,
   color: vars.color.utility[500],
   textAlign: 'center',
   margin: '12px 4px 0',
@@ -131,7 +131,7 @@ export const markerHot = style({
 export const content = style({})
 
 export const intro = style({
-  fontSize: 15.5,
+  fontSize: 16,
   lineHeight: 1.6,
   color: '#2F3441',
   margin: '0 0 24px',
@@ -192,7 +192,7 @@ export const badgeNone = style({
 })
 
 export const cutTitle = style({
-  fontSize: 17,
+  fontSize: 18,
   fontWeight: 600,
   lineHeight: 1.2,
   margin: 0,
@@ -211,7 +211,7 @@ export const chips = style({
 })
 
 export const chip = style({
-  fontSize: 12,
+  fontSize: 14,
   fontWeight: 600,
   color: vars.color.primary.dark,
   background: vars.color.primary.light,
@@ -225,7 +225,7 @@ export const chipPrice = style({
 })
 
 export const lead = style({
-  fontSize: 14.5,
+  fontSize: 16,
   lineHeight: 1.55,
   color: '#2F3441',
   margin: '12px 0 0',

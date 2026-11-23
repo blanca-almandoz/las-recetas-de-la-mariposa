@@ -53,12 +53,17 @@ export const catNav = style({
 export const catItem = style({
   color: vars.color.body,
   fontWeight: 500,
-  fontSize: 13.5,
+  fontSize: 16,
   textDecoration: 'none',
   whiteSpace: 'nowrap',
   paddingBottom: 3,
   borderBottom: '2px solid transparent',
   transition: 'color .15s, border-color .15s',
+  '@media': {
+    'screen and (max-width: 639px)': {
+      fontSize: 14,
+    },
+  },
   selectors: {
     '&:hover': {
       color: vars.color.primary.dark,
@@ -122,6 +127,15 @@ export const clearButton = style({
     '&:focus-visible': {
       outline: `2px solid ${vars.color.primary.dark}`,
       outlineOffset: 2,
+    },
+  },
+})
+
+// Solo en móvil: en las páginas que no son la principal se oculta el texto y queda solo la mariposa.
+export const wordmarkHiddenOnMobile = style({
+  '@media': {
+    'screen and (max-width: 639px)': {
+      display: 'none',
     },
   },
 })

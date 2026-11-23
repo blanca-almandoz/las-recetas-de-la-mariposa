@@ -29,7 +29,7 @@ export const item = style({
   flex: '0 0 auto',
   color: vars.color.body,
   fontWeight: 500,
-  fontSize: 13,
+  fontSize: 16,
   textDecoration: 'none',
   whiteSpace: 'nowrap',
   transition: 'color .15s',

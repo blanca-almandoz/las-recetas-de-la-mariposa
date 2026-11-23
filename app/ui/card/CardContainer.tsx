@@ -1,5 +1,9 @@
 import { Recipe } from '@/lib/types'
-import { wrapperContent, horizontalScroll } from '../topLevelWrapper/styles.css'
+import {
+  wrapperContent,
+  horizontalScroll,
+  horizontalItem,
+} from '../topLevelWrapper/styles.css'
 import { TopLevelWrapper } from '../topLevelWrapper/TopLevelWrapper'
 import { DetailsPageAnimations } from '../animations/DetailsPageAnimations'
 import { Card } from './Card'
@@ -29,7 +33,10 @@ const CardContainer = ({
         )}
       >
         {recipes.map((recipe: Recipe) => (
-          <div key={recipe.id}>
+          <div
+            key={recipe.id}
+            className={hasHorizontalScroll ? horizontalItem : undefined}
+          >
             <DetailsPageAnimations>
               <Card
                 key={recipe.id}

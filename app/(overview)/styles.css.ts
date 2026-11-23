@@ -34,7 +34,7 @@ export const headerText = style({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  fontSize: 15.5,
+  fontSize: 16,
   lineHeight: 1.8,
   color: vars.color.body,
 })
@@ -42,8 +42,6 @@ export const headerText = style({
 export const headerMobile = style({
   marginTop: 40,
   marginBottom: 40,
-  paddingLeft: 16,
-  paddingRight: 16,
   '@media': {
     'screen and (min-width: 887px)': {
       display: 'none',
@@ -68,7 +66,7 @@ export const mobileImage = style({
 })
 
 export const mobileText = style({
-  fontSize: 15,
+  fontSize: 16,
   lineHeight: 1.75,
   color: vars.color.body,
 })

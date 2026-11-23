@@ -7,9 +7,10 @@ import {
   cardInfo,
   cardTimer,
   cardTitle,
+  cardDifficulty,
+  cardDot,
 } from './styles.css'
 
-import { Difficulty, Timer } from '../SVG.jsx'
 import { timeConvert } from '@/lib/utils'
 import { CardType } from '@/lib/types'
 import { BLUR_DATA_URL } from '@/lib/image'
@@ -36,7 +37,7 @@ const Card = ({
             style={{
               width: '100%',
               height: '100%',
-              borderRadius: '4px 4px 0px 0px',
+              borderRadius: 14,
               objectFit: 'cover',
             }}
             alt={title}
@@ -46,10 +47,10 @@ const Card = ({
           <div className={cardTitle}>{title.toUpperCase()}</div>
           <div className={cardInfo}>
             <div className={cardTimer}>
-              <Timer />
               {timeConvert(time)}
             </div>
-            <Difficulty level={difficulty} />
+            <span className={cardDot} aria-hidden="true" />
+            <span className={cardDifficulty}>{difficulty}</span>
           </div>
         </div>
       </div>

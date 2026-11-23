@@ -49,7 +49,7 @@ export const tileLabel = style({
   maxWidth: '85%',
   color: vars.color.white,
   fontWeight: 700,
-  fontSize: 14,
+  fontSize: 16,
   lineHeight: 1.15,
   letterSpacing: 0.3,
 })

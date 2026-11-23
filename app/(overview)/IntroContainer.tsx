@@ -34,7 +34,7 @@ const introText = () => (
 
 const IntroContainer = () => {
   return (
-    <>
+    <div id="nuestra-historia">
       {/* DESKTOP DESIGN */}
       <div className={headerOuter}>
         <div className={header}>
@@ -66,7 +66,7 @@ const IntroContainer = () => {
           <div className={mobileText}>{introText()}</div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
